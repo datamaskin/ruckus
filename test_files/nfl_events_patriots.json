@@ -1,0 +1,121 @@
+{
+    "status": "OK",
+    "recordCount": 13,
+    "startTimestamp": "2014-05-21T18:32:23.2074263Z",
+    "endTimestamp": "2014-05-21T18:32:23.4418073Z",
+    "timeTaken": 0.23438099999999998,
+    "apiResults": [{
+        "sportId": 4,
+        "name": "Football",
+        "league": {
+            "leagueId": 8,
+            "name": "National Football League",
+            "abbreviation": "NFL",
+            "displayName": "National Football League",
+            "season": {
+                "season": 2013,
+                "name": "2013-2014 NFL Season",
+                "isActive": false,
+                "eventType": [{
+                    "eventTypeId": 1,
+                    "name": "Regular Season",
+                    "events": [{
+                        "eventId": 1321708,
+                        "startDate": [{
+                            "year": 2013,
+                            "month": 9,
+                            "date": 8,
+                            "hour": 13,
+                            "minute": 0,
+                            "full": "2013-09-08T13:00:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2013,
+                            "month": 9,
+                            "date": 8,
+                            "hour": 17,
+                            "minute": 0,
+                            "full": "2013-09-08T17:00:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "isActive": false,
+                            "name": "Final"
+                        },
+                        "venue": {
+                            "venueId": 506,
+                            "name": "Ralph Wilson Stadium",
+                            "city": "Orchard Park",
+                            "state": {
+                                "stateId": 32,
+                                "name": "New York",
+                                "abbreviation": "NY"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 275,
+                            "name": "CBS",
+                            "callLetters": "CBS",
+                            "networkType": {
+                                "networkTypeId": 1,
+                                "name": "National"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 324,
+                            "location": "Buffalo",
+                            "nickname": "Bills",
+                            "abbreviation": "Buf",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "record": {
+                                "wins": 0,
+                                "losses": 1,
+                                "ties": 0,
+                                "percentage": ".000"
+                            },
+                            "score": 21,
+                            "isWinner": false
+                        }, {
+                            "teamId": 348,
+                            "location": "New England",
+                            "nickname": "Patriots",
+                            "abbreviation": "NE",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "record": {
+                                "wins": 1,
+                                "losses": 0,
+                                "ties": 0,
+                                "percentage": "1.000"
+                            },
+                            "score": 23,
+                            "isWinner": true
+                        }],
+                        "week": 1,
+                        "coverageLevel": {}
+                    }]
+                }]
+            }
+        }
+    }]
+}

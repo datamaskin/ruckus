@@ -1,0 +1,150 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                                                       controllers.Application.index
+GET     /affiliate                                                              controllers.AffiliateController.fromAffiliate(code: Option[String])
+GET 	/app			                                                        controllers.Application.app
+GET	    /jasmine		                                                        controllers.Application.jasmine
+
+GET     /verifyUsername                                                         controllers.AuthenticationController.verifyUsername
+GET     /verifyPassword                                                         controllers.AuthenticationController.verifyPassword
+GET     /newSignUp                                                              controllers.LoginController.newSignUp
+POST    /newSignUp                                                              controllers.AuthenticationController.createNewSignUp
+GET     /confirmEmail/:tokenId                                                  controllers.AuthenticationController.confirmEmail(tokenId: String)
+POST    /sendResetPassword                                                      controllers.AuthenticationController.sendResetPassword
+GET     /resetPassword/:tokenId                                                 controllers.AuthenticationController.resetPassword(tokenId:String)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file                                                           controllers.ConfigurableAssets.at(file)
+
+# static-ish files
+GET     /contestfilter.js                                                       controllers.Application.contestFilter
+GET     /scoring.js                                                             controllers.Application.scoringRules
+GET     /lineupRules.js                                                         controllers.Application.lineupRules
+
+# dynamic data
+GET     /contestathletes                                                        controllers.Application.getAthletes
+GET     /contestentries                                                         controllers.Application.getContestEntries
+GET     /contestevents                                                          controllers.Application.getContestEvents
+GET     /contest                                                                controllers.Application.getContest
+GET     /contestsuggestions/:contestId/:lineupId/:status                        controllers.Application.getContestSuggestions(contestId: String, lineupId: Integer, status: Integer)
+
+# live data
+GET     /contestliveranks/:contestId                                            controllers.Application.getContestLiveRanks(contestId: String)
+GET     /contestlivelineups/:lineupId                                           controllers.Application.getContestLiveLineup(lineupId: String)
+GET     /contestliveoverview                                                    controllers.Application.getContestLiveOverview
+GET     /contestliveathletes/                                                   controllers.Application.getContestLiveAthletes(contestId ?= null, athleteSportEventInfoId ?= null)
+GET     /contestliveathletes/:contestId                                         controllers.Application.getContestLiveAthletes(contestId: String, athleteSportEventInfoId ?= null)
+GET     /contestliveathletes/:contestId/:athleteSportEventInfoId                controllers.Application.getContestLiveAthletes(contestId: String, athleteSportEventInfoId: String)
+GET     /contestliveteamfeed/:lineupId                                          controllers.Application.getContestLiveTeamFeed(lineupId: Integer)
+GET     /athleteexposure/:athleteSportEventInfoId                               controllers.Application.getAthleteExposure(athleteSportEventInfoId: String)
+GET     /athleteexposure                                                        controllers.Application.getAllAthleteExposure()
+GET     /athletecontestranks/:athleteSportEventInfoId                           controllers.Application.getAthleteContestRanks(athleteSportEventInfoId: String)
+GET     /athletepercentowned/:contestId/:athleteSportEventInfoId/:entryId       controllers.Application.getAthletePercentOwned(contestId: String, athleteSportEventInfoId: Integer, entryId: Integer)
+GET     /athletecompare/:contestId/:athleteSportEventInfoId                     controllers.Application.getAthleteComparison(contestId: String, athleteSportEventInfoId: Integer)
+
+# posts
+POST    /quickplay                                                              controllers.QuickPlay.create
+#POST    /lineupCreate                                                          controllers.Lineups.create
+POST    /lineupUpdate                                                           controllers.Lineups.update
+POST    /lineupEnter                                                            controllers.Lineups.enter
+POST    /lineupEnterQuick                                                       controllers.Lineups.quickEnter
+
+# gets
+GET     /quicklineups/:contestId                                                controllers.Lineups.getQuickLineups(contestId: String)
+GET     /livelineups                                                            controllers.Lineups.getLiveLineups
+GET     /lineupremove/:lineupId/:contestId                                      controllers.Lineups.remove(lineupId: Integer, contestId: String)
+GET     /timestamp                                                              controllers.Application.getTimestamp
+
+POST    /contestEntryGet                                                        controllers.ContestEntryController.contestEntryGet
+POST    /contestEntryCreate                                                     controllers.ContestEntryController.contestEntryCreate
+POST    /contestEntryDelete                                                     controllers.ContestEntryController.contestEntryDelete
+
+# auth
+->      /auth                                                                   securesocial.Routes
+GET     /login                                                                  controllers.Application.login
+GET     /username                                                               controllers.Application.username
+POST    /handleUsername                                                         controllers.Application.handleUsername
+GET     /logout                                                                 controllers.Application.logout
+
+# payments
+GET     /wallet                                                                 controllers.WalletController.getWallet
+GET     /wallet/staticData                                                      controllers.WalletController.staticData
+
+GET     /wallet/getUserProfiles                                                 controllers.CamsController.getUserProfiles
+POST    /wallet/deleteCreditCard                                                controllers.CamsController.deleteCreditCard
+POST    /wallet/authorizeDeposit                                                controllers.CamsController.authorizeDeposit
+POST    /wallet/removeBillingAddress                                            controllers.CamsController.removeBillingAddress
+GET     /wallet/camsRedirect                                                    controllers.CamsController.camsRedirect
+GET     /wallet/getCamsForm                                                     controllers.CamsController.getCamsForm
+POST    /wallet/postFirstVerify                                                 controllers.CamsController.postFirstVerify
+
+GET     /wallet/getBitcoinButton                                                controllers.CoinBaseController.getBitcoinButton
+POST    /wallet/bitcoinReceive                                                  controllers.CoinBaseController.bitcoinReceive
+POST    /wallet/bitcoinWithdrawal                                               controllers.CoinBaseController.bitcoinWithdrawal
+
+POST    /paypal/start                                                           controllers.PayPalController.start
+GET     /paypal/confirm                                                         controllers.PayPalController.confirm
+
+####################################
+# Admin only routes
+####################################
+
+GET     /admin                                                                  controllers.AdminController.index
+GET     /admin/devops                                                           controllers.AdminController.devops
+GET     /admin/mgmt                                                             controllers.AdminController.mgmt
+GET     /admin/cs                                                               controllers.AdminController.cs
+
+GET     /admin/mgmt/contestCreator                                              controllers.admin.mgmt.ContestCreatorController.index
+POST    /admin/mgmt/createSingleContest                                         controllers.admin.mgmt.ContestCreatorController.createSingleContest
+POST    /admin/mgmt/createSportEventGrouping                                    controllers.admin.mgmt.ContestCreatorController.createSportEventGrouping
+POST    /admin/mgmt/createStandardContests                                      controllers.admin.mgmt.ContestCreatorController.createStandardContests
+POST    /admin/mgmt/cancelNonTerminalContests                                   controllers.admin.mgmt.ContestCancelController.cancelNonTerminalContests
+GET     /admin/mgmt/contestCancel                                               controllers.admin.mgmt.ContestCancelController.index
+GET     /admin/mgmt/contestChangeName                                           controllers.admin.mgmt.ContestNameChangeController.index
+POST    /admin/mgmt/changeContestName                                           controllers.admin.mgmt.ContestNameChangeController.changeContestName
+GET     /admin/mgmt/changeContestState                                          controllers.admin.mgmt.ContestStateController.index
+POST    /admin/mgmt/contestChangeState                                          controllers.admin.mgmt.ContestStateController.contestChangeState
+
+GET     /admin/mgmt/stats                                                       controllers.admin.mgmt.StatsController.index
+GET     /admin/mgmt/updateNflPredictions                                        controllers.admin.mgmt.StatsController.updateNflPredictions
+GET     /admin/mgmt/updateNflGameLogs                                           controllers.admin.mgmt.StatsController.updateNflGameLogs
+GET     /admin/mgmt/updateNflGameOdds                                           controllers.admin.mgmt.StatsController.updateNflGameOdds
+
+GET     /admin/mgmt/statsMod                                                    controllers.admin.mgmt.StatsModController.index
+POST    /admin/mgmt/statsMod/upload                                             controllers.admin.mgmt.StatsModController.statsModUpload
+
+GET     /admin/devops/hazelCastInfo                                             controllers.admin.devops.DevOpsController.getHazelcastInfo
+GET     /admin/devops/updateInjuries                                            controllers.admin.devops.DevOpsController.updateInjuries
+GET     /admin/devops/nflPredictionCount                                        controllers.admin.devops.DevOpsController.getNflPredictionCount
+GET     /admin/devops/flushAllCaches                                            controllers.admin.devops.DevOpsController.flushAllCaches
+GET     /admin/devops/version                                                   controllers.admin.devops.DevOpsController.version
+GET     /admin/devops/updateUserRoles                                           controllers.admin.devops.DevOpsController.updateUserRoles
+POST    /admin/devops/searchUser                                                controllers.admin.devops.DevOpsController.searchUser
+POST    /admin/devops/updateUser                                                controllers.admin.devops.DevOpsController.updateUser
+
+GET     /admin/devops/clearPredictionTables                                     controllers.admin.devops.DevOpsController.clearPredictionTables
+GET     /admin/devops/clearStatsTables                                          controllers.admin.devops.DevOpsController.clearStatsTables
+
+GET     /admin/affiliates/affiliatePlans                                        controllers.AffiliateController.affiliatePlans
+GET     /admin/affiliates/affiliateCodes                                        controllers.AffiliateController.affiliateCodes
+GET     /admin/affiliates/userAffiliateCodes                                    controllers.AffiliateController.userAffiliateCodes(userId: Option[Long])
+
+# Contest Simulation
+#GET     /admin/createtestcontest/:leagueAbbreviation/:date                     controllers.UtilityController.createTestContest(leagueAbbreviation: String, date: String)
+#GET     /admin/stopsimulator/:sportEventId                                     controllers.UtilityController.stopSimulator(sportEventId: Integer)
+
+
+
+# Public pages
+GET     /landing                                                                controllers.PublicController.landing
+GET     /how-it-works                                                           controllers.PublicController.howitworks
+GET     /about                                                                  controllers.PublicController.about
+GET     /affiliates                                                             controllers.PublicController.affiliates
+GET     /legal                                                                  controllers.PublicController.legal
+GET     /privacy                                                                controllers.PublicController.privacy
+GET     /promos                                                                 controllers.PublicController.promos
+GET     /support                                                                controllers.PublicController.support
+GET     /termsofuse                                                             controllers.PublicController.termsofuse

@@ -1,0 +1,48 @@
+@(contests: List[models.contest.Contest])
+@adminMain("Contest cancel"){
+<script type="text/javascript">
+    var checkflag = "false";
+    function check(field) {
+        if (checkflag == "false") {
+            for (i = 0; i < field.length; i++) {
+                field[i].checked = true;
+            }
+            checkflag = "true";
+            return "Uncheck All";
+        } else {
+            for (i = 0; i < field.length; i++) {
+                field[i].checked = false;
+            }
+            checkflag = "false";
+            return "Check All";
+        }
+    }
+
+</script>
+
+<form method="POST" action="/admin/mgmt/cancelNonTerminalContests">
+    <input type=button value="Check All" onClick="this.value=check(this.form.contestIds)">
+    <div style="height:400px; overflow-y:scroll; border: 1px solid grey">
+        <table>
+            @for((contest, index) <- contests.view.zipWithIndex){
+            <tr>
+                <td><input type="checkbox" name="contestIds" value="@contest.getId()"/></td>
+                <td>@contest.getUrlId()</td>
+                <td>@contest.getContestType().getName()</td>
+                <td>@contest.getLeague().getName()</td>
+                <td>@contest.getCapacity()</td>
+                <td>@contest.isPublic()</td>
+                <td>@contest.getEntryFee()</td>
+                <td>@contest.getAllowedEntries()</td>
+                <td>@contest.getSalaryCap()</td>
+                <td>@contest.getSportEventGrouping.getEventDate()</td>
+                <td>@contest.getStartTime()</td>
+            </tr>
+            }
+        </table>
+    </div>
+    <input type="submit"/>
+</form>
+<hr/>
+<h2>Cancel contests</h2>
+}

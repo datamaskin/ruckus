@@ -1,0 +1,2258 @@
+{
+    "status": "OK",
+    "recordCount": 1,
+    "startTimestamp": "2014-07-22T19:48:19.1163493Z",
+    "endTimestamp": "2014-07-22T19:48:19.2413309Z",
+    "timeTaken": 0.1249816,
+    "apiResults": [{
+        "sportId": 4,
+        "name": "Football",
+        "league": {
+            "leagueId": 8,
+            "name": "National Football League",
+            "abbreviation": "NFL",
+            "displayName": "National Football League",
+            "players": [{
+                "playerId": 177862,
+                "firstName": "Stephen",
+                "lastName": "Gostkowski",
+                "seasons": [{
+                    "season": 2013,
+                    "name": "2013-2014 NFL Season",
+                    "isActive": false,
+                    "eventType": [{
+                        "eventTypeId": 1,
+                        "name": "Regular Season",
+                        "splits": [{
+                            "splitId": -1,
+                            "name": "Official Stats",
+                            "events": [{
+                                "eventId": 1321708,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 6,
+                                        "endZone": null,
+                                        "touchbackPercentage": "83.3",
+                                        "yards": 412,
+                                        "average": "68.7",
+                                        "returns": 1,
+                                        "returnYards": 19,
+                                        "returnAverage": "19.0",
+                                        "touchbacks": 5
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "50+"
+                                        }, {
+                                            "made": 3,
+                                            "attempts": 3,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 48,
+                                        "points": 11
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 11,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 2,
+                                        "fieldGoals": 3,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 11
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 8,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-09-08T13:00:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 8,
+                                    "hour": 17,
+                                    "minute": 0,
+                                    "full": "2013-09-08T17:00:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 8,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-09-08T13:00:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 324,
+                                    "location": "Buffalo",
+                                    "nickname": "Bills",
+                                    "abbreviation": "Buf",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 23,
+                                    "opponentTeamScore": 21
+                                }
+                            }, {
+                                "eventId": 1321857,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 4,
+                                        "endZone": null,
+                                        "touchbackPercentage": "100.0",
+                                        "yards": 260,
+                                        "average": "65.0",
+                                        "returns": 0,
+                                        "returnYards": 0,
+                                        "touchbacks": 4
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "0.0",
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "50+"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 3,
+                                            "blocked": 0,
+                                            "percentage": "66.7",
+                                            "range": "overall"
+                                        }],
+                                        "long": 30,
+                                        "points": 7
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 7,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 1,
+                                        "fieldGoals": 2,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 8
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 12,
+                                    "hour": 20,
+                                    "minute": 25,
+                                    "full": "2013-09-12T20:25:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 13,
+                                    "hour": 0,
+                                    "minute": 25,
+                                    "full": "2013-09-13T00:25:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 12,
+                                    "hour": 20,
+                                    "minute": 25,
+                                    "full": "2013-09-12T20:25:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 352,
+                                    "location": "New York",
+                                    "nickname": "Jets",
+                                    "abbreviation": "NYJ",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 13,
+                                    "opponentTeamScore": 10
+                                }
+                            }, {
+                                "eventId": 1321761,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 5,
+                                        "endZone": null,
+                                        "touchbackPercentage": "100.0",
+                                        "yards": 325,
+                                        "average": "65.0",
+                                        "returns": 0,
+                                        "returnYards": 0,
+                                        "touchbacks": 5
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "50+"
+                                        }, {
+                                            "made": 3,
+                                            "attempts": 3,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 53,
+                                        "points": 11
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 11,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 2,
+                                        "fieldGoals": 3,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 10
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 22,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-09-22T13:00:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 22,
+                                    "hour": 17,
+                                    "minute": 0,
+                                    "full": "2013-09-22T17:00:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 22,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-09-22T13:00:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 362,
+                                    "location": "Tampa Bay",
+                                    "nickname": "Buccaneers",
+                                    "abbreviation": "TB",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 23,
+                                    "opponentTeamScore": 3
+                                }
+                            }, {
+                                "eventId": 1321916,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 7,
+                                        "endZone": null,
+                                        "touchbackPercentage": "85.7",
+                                        "yards": 458,
+                                        "average": "65.4",
+                                        "returns": 1,
+                                        "returnYards": 29,
+                                        "returnAverage": "29.0",
+                                        "touchbacks": 6
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 3,
+                                            "attempts": 3,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "50+"
+                                        }, {
+                                            "made": 3,
+                                            "attempts": 3,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 49,
+                                        "points": 12
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 12,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 3,
+                                        "fieldGoals": 3,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 13
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 29,
+                                    "hour": 20,
+                                    "minute": 30,
+                                    "full": "2013-09-29T20:30:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 30,
+                                    "hour": 0,
+                                    "minute": 30,
+                                    "full": "2013-09-30T00:30:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 29,
+                                    "hour": 20,
+                                    "minute": 30,
+                                    "full": "2013-09-29T20:30:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 323,
+                                    "location": "Atlanta",
+                                    "nickname": "Falcons",
+                                    "abbreviation": "Atl",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 30,
+                                    "opponentTeamScore": 23
+                                }
+                            }, {
+                                "eventId": 1321735,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 3,
+                                        "endZone": null,
+                                        "touchbackPercentage": "66.7",
+                                        "yards": 196,
+                                        "average": "65.3",
+                                        "returns": 1,
+                                        "returnYards": 29,
+                                        "returnAverage": "29.0",
+                                        "touchbacks": 2
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": 0,
+                                            "percentage": null
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "50+"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 42,
+                                        "points": 6
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 6,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 0,
+                                        "fieldGoals": 2,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 5
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 6,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-10-06T13:00:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 6,
+                                    "hour": 17,
+                                    "minute": 0,
+                                    "full": "2013-10-06T17:00:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 6,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-10-06T13:00:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 327,
+                                    "location": "Cincinnati",
+                                    "nickname": "Bengals",
+                                    "abbreviation": "Cin",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 0,
+                                    "name": "Loss",
+                                    "teamScore": 6,
+                                    "opponentTeamScore": 13
+                                }
+                            }, {
+                                "eventId": 1321891,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 7,
+                                        "endZone": null,
+                                        "touchbackPercentage": "57.1",
+                                        "yards": 459,
+                                        "average": "65.6",
+                                        "returns": 3,
+                                        "returnYards": 53,
+                                        "returnAverage": "17.7",
+                                        "touchbacks": 4
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 3,
+                                            "attempts": 3,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "50+"
+                                        }, {
+                                            "made": 3,
+                                            "attempts": 3,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 54,
+                                        "points": 12
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 12,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 3,
+                                        "fieldGoals": 3,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 13
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 13,
+                                    "hour": 16,
+                                    "minute": 25,
+                                    "full": "2013-10-13T16:25:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 13,
+                                    "hour": 20,
+                                    "minute": 25,
+                                    "full": "2013-10-13T20:25:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 13,
+                                    "hour": 16,
+                                    "minute": 25,
+                                    "full": "2013-10-13T16:25:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 350,
+                                    "location": "New Orleans",
+                                    "nickname": "Saints",
+                                    "abbreviation": "NO",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 30,
+                                    "opponentTeamScore": 27
+                                }
+                            }, {
+                                "eventId": 1321739,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 6,
+                                        "endZone": null,
+                                        "touchbackPercentage": "83.3",
+                                        "yards": 392,
+                                        "average": "65.3",
+                                        "returns": 1,
+                                        "returnYards": 17,
+                                        "returnAverage": "17.0",
+                                        "touchbacks": 5
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 3,
+                                            "attempts": 3,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "50+"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 44,
+                                        "points": 9
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 9,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 3,
+                                        "fieldGoals": 2,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 11
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 20,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-10-20T13:00:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 20,
+                                    "hour": 17,
+                                    "minute": 0,
+                                    "full": "2013-10-20T17:00:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 20,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-10-20T13:00:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 352,
+                                    "location": "New York",
+                                    "nickname": "Jets",
+                                    "abbreviation": "NYJ",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 0,
+                                    "name": "Loss",
+                                    "teamScore": 27,
+                                    "opponentTeamScore": 30
+                                }
+                            }, {
+                                "eventId": 1321804,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 6,
+                                        "endZone": null,
+                                        "touchbackPercentage": "50.0",
+                                        "yards": 390,
+                                        "average": "65.0",
+                                        "returns": 3,
+                                        "returnYards": 52,
+                                        "returnAverage": "17.3",
+                                        "touchbacks": 3
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 3,
+                                            "attempts": 3,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "50+"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 48,
+                                        "points": 9
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 9,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 3,
+                                        "fieldGoals": 2,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 11
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 27,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-10-27T13:00:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 27,
+                                    "hour": 17,
+                                    "minute": 0,
+                                    "full": "2013-10-27T17:00:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 27,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-10-27T13:00:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 345,
+                                    "location": "Miami",
+                                    "nickname": "Dolphins",
+                                    "abbreviation": "Mia",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 27,
+                                    "opponentTeamScore": 17
+                                }
+                            }, {
+                                "eventId": 1321786,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 10,
+                                        "endZone": null,
+                                        "touchbackPercentage": "40.0",
+                                        "yards": 614,
+                                        "average": "61.4",
+                                        "returns": 6,
+                                        "returnYards": 129,
+                                        "returnAverage": "21.5",
+                                        "touchbacks": 4
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 7,
+                                            "attempts": 7,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "50+"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 32,
+                                        "points": 13
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 13,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 7,
+                                        "fieldGoals": 2,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 19
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 11,
+                                    "date": 3,
+                                    "hour": 16,
+                                    "minute": 25,
+                                    "full": "2013-11-03T16:25:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 11,
+                                    "date": 3,
+                                    "hour": 21,
+                                    "minute": 25,
+                                    "full": "2013-11-03T21:25:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 11,
+                                    "date": 3,
+                                    "hour": 16,
+                                    "minute": 25,
+                                    "full": "2013-11-03T16:25:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 356,
+                                    "location": "Pittsburgh",
+                                    "nickname": "Steelers",
+                                    "abbreviation": "Pit",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 55,
+                                    "opponentTeamScore": 31
+                                }
+                            }, {
+                                "eventId": 1321940,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 5,
+                                        "endZone": null,
+                                        "touchbackPercentage": "40.0",
+                                        "yards": 331,
+                                        "average": "66.2",
+                                        "returns": 3,
+                                        "returnYards": 53,
+                                        "returnAverage": "17.7",
+                                        "touchbacks": 2
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "50+"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 42,
+                                        "points": 8
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 8,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 2,
+                                        "fieldGoals": 2,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 9
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 11,
+                                    "date": 18,
+                                    "hour": 20,
+                                    "minute": 40,
+                                    "full": "2013-11-18T20:40:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 11,
+                                    "date": 19,
+                                    "hour": 1,
+                                    "minute": 40,
+                                    "full": "2013-11-19T01:40:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 11,
+                                    "date": 18,
+                                    "hour": 20,
+                                    "minute": 40,
+                                    "full": "2013-11-18T20:40:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 364,
+                                    "location": "Carolina",
+                                    "nickname": "Panthers",
+                                    "abbreviation": "Car",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 0,
+                                    "name": "Loss",
+                                    "teamScore": 20,
+                                    "opponentTeamScore": 24
+                                }
+                            }, {
+                                "eventId": 1321969,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 7,
+                                        "endZone": null,
+                                        "touchbackPercentage": "57.1",
+                                        "yards": 432,
+                                        "average": "61.7",
+                                        "returns": 3,
+                                        "returnYards": 36,
+                                        "returnAverage": "12.0",
+                                        "touchbacks": 4
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 4,
+                                            "attempts": 4,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "50+"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 31,
+                                        "points": 10
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 10,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 4,
+                                        "fieldGoals": 2,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 13
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 11,
+                                    "date": 24,
+                                    "hour": 20,
+                                    "minute": 30,
+                                    "full": "2013-11-24T20:30:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 11,
+                                    "date": 25,
+                                    "hour": 1,
+                                    "minute": 30,
+                                    "full": "2013-11-25T01:30:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 11,
+                                    "date": 24,
+                                    "hour": 20,
+                                    "minute": 30,
+                                    "full": "2013-11-24T20:30:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 332,
+                                    "location": "Denver",
+                                    "nickname": "Broncos",
+                                    "abbreviation": "Den",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 34,
+                                    "opponentTeamScore": 31
+                                }
+                            }, {
+                                "eventId": 1321789,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 7,
+                                        "endZone": null,
+                                        "touchbackPercentage": "71.4",
+                                        "yards": 487,
+                                        "average": "69.6",
+                                        "returns": 2,
+                                        "returnYards": 71,
+                                        "returnAverage": "35.5",
+                                        "touchbacks": 5
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 4,
+                                            "attempts": 4,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 3,
+                                            "blocked": null,
+                                            "percentage": "66.7",
+                                            "range": "50+"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 3,
+                                            "blocked": 0,
+                                            "percentage": "66.7",
+                                            "range": "overall"
+                                        }],
+                                        "long": 53,
+                                        "points": 10
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 10,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": 0,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 4,
+                                        "fieldGoals": 2,
+                                        "safeties": 0
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 14
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 1,
+                                    "hour": 12,
+                                    "minute": 0,
+                                    "full": "2013-12-01T12:00:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 1,
+                                    "hour": 18,
+                                    "minute": 0,
+                                    "full": "2013-12-01T18:00:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 1,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-12-01T13:00:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 325,
+                                    "location": "Houston",
+                                    "nickname": "Texans",
+                                    "abbreviation": "Hou",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 34,
+                                    "opponentTeamScore": 31
+                                }
+                            }, {
+                                "eventId": 1321865,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 5,
+                                        "endZone": null,
+                                        "touchbackPercentage": "40.0",
+                                        "yards": 323,
+                                        "average": "64.6",
+                                        "returns": 3,
+                                        "returnYards": 62,
+                                        "returnAverage": "20.7",
+                                        "touchbacks": 2
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "50+"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 50,
+                                        "points": 7
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 7,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 1,
+                                        "fieldGoals": 2,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 9
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 8,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-12-08T13:00:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 8,
+                                    "hour": 18,
+                                    "minute": 0,
+                                    "full": "2013-12-08T18:00:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 8,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-12-08T13:00:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 329,
+                                    "location": "Cleveland",
+                                    "nickname": "Browns",
+                                    "abbreviation": "Cle",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 27,
+                                    "opponentTeamScore": 26
+                                }
+                            }, {
+                                "eventId": 1321942,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 5,
+                                        "endZone": null,
+                                        "touchbackPercentage": "40.0",
+                                        "yards": 315,
+                                        "average": "63.0",
+                                        "returns": 2,
+                                        "returnYards": 25,
+                                        "returnAverage": "12.5",
+                                        "touchbacks": 2
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "0.0",
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "50+"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 3,
+                                            "blocked": 0,
+                                            "percentage": "66.7",
+                                            "range": "overall"
+                                        }],
+                                        "long": 23,
+                                        "points": 8
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 8,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 2,
+                                        "fieldGoals": 2,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 10
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 15,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-12-15T13:00:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 15,
+                                    "hour": 18,
+                                    "minute": 0,
+                                    "full": "2013-12-15T18:00:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 15,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-12-15T13:00:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 345,
+                                    "location": "Miami",
+                                    "nickname": "Dolphins",
+                                    "abbreviation": "Mia",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 0,
+                                    "name": "Loss",
+                                    "teamScore": 20,
+                                    "opponentTeamScore": 24
+                                }
+                            }, {
+                                "eventId": 1321813,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 8,
+                                        "endZone": null,
+                                        "touchbackPercentage": "75.0",
+                                        "yards": 541,
+                                        "average": "67.6",
+                                        "returns": 2,
+                                        "returnYards": 61,
+                                        "returnAverage": "30.5",
+                                        "touchbacks": 6
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 5,
+                                            "attempts": 5,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "50+"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 45,
+                                        "points": 11
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 11,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 5,
+                                        "fieldGoals": 2,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 15
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 22,
+                                    "hour": 16,
+                                    "minute": 25,
+                                    "full": "2013-12-22T16:25:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 22,
+                                    "hour": 21,
+                                    "minute": 25,
+                                    "full": "2013-12-22T21:25:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 22,
+                                    "hour": 16,
+                                    "minute": 25,
+                                    "full": "2013-12-22T16:25:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 366,
+                                    "location": "Baltimore",
+                                    "nickname": "Ravens",
+                                    "abbreviation": "Bal",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 41,
+                                    "opponentTeamScore": 7
+                                }
+                            }, {
+                                "eventId": 1321909,
+                                "playerStats": {
+                                    "kickoffs": {
+                                        "number": 7,
+                                        "endZone": null,
+                                        "touchbackPercentage": "85.7",
+                                        "yards": 453,
+                                        "average": "64.7",
+                                        "returns": 1,
+                                        "returnYards": 28,
+                                        "returnAverage": "28.0",
+                                        "touchbacks": 6
+                                    },
+                                    "kicking": {
+                                        "extraPoints": {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": 0,
+                                            "percentage": "100.0"
+                                        },
+                                        "fieldGoals": [{
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "0-19"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "20-29"
+                                        }, {
+                                            "made": 2,
+                                            "attempts": 2,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "30-39"
+                                        }, {
+                                            "made": 1,
+                                            "attempts": 1,
+                                            "blocked": null,
+                                            "percentage": "100.0",
+                                            "range": "40-49"
+                                        }, {
+                                            "made": 0,
+                                            "attempts": 0,
+                                            "blocked": null,
+                                            "percentage": null,
+                                            "range": "50+"
+                                        }, {
+                                            "made": 4,
+                                            "attempts": 4,
+                                            "blocked": 0,
+                                            "percentage": "100.0",
+                                            "range": "overall"
+                                        }],
+                                        "long": 43,
+                                        "points": 14
+                                    },
+                                    "scoring": {
+                                        "totalPoints": 14,
+                                        "touchdowns": {
+                                            "total": 0,
+                                            "passing": null,
+                                            "rushing": null,
+                                            "receiving": null,
+                                            "interceptionReturn": null,
+                                            "ownFumbleReturn": null,
+                                            "opponentFumbleReturn": null,
+                                            "kickoffReturn": null,
+                                            "puntReturn": null,
+                                            "missedFieldGoalReturn": 0,
+                                            "blockedPuntReturn": 0,
+                                            "blockedFieldGoalReturn": 0
+                                        },
+                                        "twoPointConversions": 0,
+                                        "extraPoints": 2,
+                                        "fieldGoals": 4,
+                                        "safeties": null
+                                    },
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 13
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 29,
+                                    "hour": 16,
+                                    "minute": 25,
+                                    "full": "2013-12-29T16:25:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 29,
+                                    "hour": 21,
+                                    "minute": 25,
+                                    "full": "2013-12-29T21:25:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 29,
+                                    "hour": 16,
+                                    "minute": 25,
+                                    "full": "2013-12-29T16:25:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 348,
+                                    "location": "New England",
+                                    "nickname": "Patriots",
+                                    "abbreviation": "NE",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 324,
+                                    "location": "Buffalo",
+                                    "nickname": "Bills",
+                                    "abbreviation": "Buf",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 34,
+                                    "opponentTeamScore": 20
+                                }
+                            }]
+                        }]
+                    }]
+                }]
+            }]
+        }
+    }]
+}

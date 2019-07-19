@@ -1,0 +1,131 @@
+@(user: models.user.User, wallet: models.wallet.UserWallet)
+@import views.html.pub.components._
+
+@google.render(user)
+
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@@playvictiv">
+    <meta name="twitter:title" content="VICTIV | Daily Fantasy Sports for Real Money">
+    <meta name="twitter:description" content="Play at the most exciting Daily Fantasy Sports site around. Up to $1,000 deposit bonus, win cash daily, and experience an interactive real-time dashboard.">
+    <meta name="twitter:creator" content="@@playvictiv">
+    <!-- Twitter Summary card images must be at least 200x200px -->
+    <meta name="twitter:image" content="https://www.victiv.com/assets/images/twitterMeta.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="VICTIV | Daily Fantasy Sports for Real Money" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.victiv.com/" />
+    <!-- Facebook images should be at least 600x600px -->
+    <meta property="og:image" content="https://www.victiv.com/assets/images/facebookMeta.png" />
+    <meta property="og:description" content="Play at the most exciting Daily Fantasy Sports site around. Up to $1,000 deposit bonus, win cash daily, and experience an interactive real-time dashboard." /> 
+    <meta property="og:site_name" content="VICTIV Daily Fantasy Sports" />
+
+
+    <meta name="description" content="Play at the most exciting Daily Fantasy Sports site around. Up to $1,000 deposit bonus, win cash daily, and experience an interactive real-time dashboard.">
+    <meta name="Keywords" content="Daily Fantasy Sports, Fantasy Football, Fantasy Basketball, Fantasy Baseball, Fantasy Hockey, Fantasy Golf, Real Money, VICTIV, Deposit Bonus">
+    <meta name="viewport" content="width=1200, initial-scale=.6">
+    <meta name="somemeta" content="">
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/libraries/bootstrap.min.css")" />
+    <link rel="stylesheet" media="screen" href="@routes.ConfigurableAssets.at("css/icon.css")" />
+    <link rel="stylesheet" media="screen" href="@routes.ConfigurableAssets.at("css/main.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/pagecontrols/staticpages.css")" />
+    <script src="@routes.ConfigurableAssets.at("/js/libraries/jquery.min.js")" type="text/javascript"></script>
+    <script src="@routes.ConfigurableAssets.at("/js/libraries/underscore-min.js")" type="text/javascript"></script>
+    <script src="@routes.ConfigurableAssets.at("/js/libraries/bootstrap.min.js")" type="text/javascript"></script>
+    <script>
+    $(document).ready(function() {
+        $("#walletAmountUsd").html(formatMoney(@wallet.getUsd()));
+    });
+
+    var formatMoney = function (val) {
+                var out = val / 100;
+                if (out % 1 === 0) {
+                        //FIXME:  Learn how to regex.
+                        out  = out.toString() + ".";
+                        out = "$" + out.replace(/\d(?=(\d{3})+\.)/g, '$&,');
+                        return out.substring(0, out.length - 1);
+                }
+                else {
+                        return "$" + out.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
+                }
+        };
+        </script>
+
+    <link rel="icon" type="image/png" href="/assets/favicon.ico" />
+</head>
+<body>
+<div id="parentcontainer" class="container parentcontainer preLogin">
+    <div id="header" class="row pagecontrolhighlight">
+        <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-top">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-top">
+            <ul class="nav navbar-nav">
+                <li id="gamesdropdownlink" class="dropdown">
+                    <a href="/#lobby">Lobby</a>
+                </li>
+                <li id="dashboarddropdownlink" class="dropdown">
+                    <a href="#dashboard" class="dropdown-toggle" data-toggle="dropdown">Dashboard</a>
+                     <ul class="dropdown-menu">
+                        <li id="dashboardlink"><a href="/#dashboard">
+
+                <div class="col-xs-1 icons iconscontest_light dbddIcon"></div>
+
+                            Contests</a></li>
+                        <li id="dashboardathleteslink"><a href="/#dashboardathletes">
+
+                <div class="col-xs-1 icons iconsathletes_light dbddIcon"></div>
+
+                            Athletes</a></li>
+                        <li id="dashboardlineupslink"><a href="/#dashboardlineups">
+
+                <div class="col-xs-1 icons iconslineups_light dbddIcon"></div>
+
+                            Rosters</a></li>
+                        <li id="dashboardhistorylink"><a href="/#dashboardhistory">
+
+                <div class="col-xs-1 icons iconshistory_light dbddIcon"></div>
+                            History</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li id="balancedepositlink"><a href="">
+                <div class="money" id="walletAmountUsd"></div>
+                    </a></li>
+                <li id="userdropdownlink" class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" style="width:132px;padding-left:0;padding-top:56px;">
+                        <div class="username ellipsis" id="application_username">@user.getUserName()</div>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li id="depositlink" class="noLink"><a href="/#deposit">Deposit</a></li>
+                        <li id="withdrawllink" class="noLink"><a href="/#withdrawl">Withdrawal</a></li>
+                        <li id="transactionhistorylink" class="noLink"><a href="/#transactions">Transactions</a></li>
+                        <li class="divider"></li>
+                        <li id="referafriendlink" class="noLink"><a href="/#referafriend">Refer A Friend</a></li>
+                        <li id="loyaltybonuslink" class="noLink"><a href="/#loyaltybonus">Loyalty Bonus</a></li>
+                        <li class="divider"></li>
+                        <li id="settingslink" class="noLink"><a href="/#settings">Settings</a></li>
+                        <li id="logoutlink"><a href="/auth/logout">Log Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+    </div>
+    <div id="main" class="row">

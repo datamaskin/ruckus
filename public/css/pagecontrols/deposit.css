@@ -1,0 +1,319 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+
+.ruckus-pc-deposit h1 {
+	 
+	font-size: 24px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+}
+
+.ruckus-pc-deposit h2 {
+	 
+	font-size: 18px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+}
+
+.ruckus-pc-deposit p {
+	font-size:14px;
+	font-weight:100;
+	color:#474747;
+}
+
+.ruckus-pc-deposit a {
+	
+	color: #999999;
+	font-size: 11px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	text-decoration:none;
+	-webkit-transition: color .5s ease;
+	-moz-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease;
+}
+
+.ruckus-pc-deposit a:hover {
+	
+	color: #474747;
+	font-size: 11px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.ruckus-pc-deposit .vdivide {
+	margin:80px 0 0 18px;
+	float:left;
+	background:#cccccc;
+	width:1px;
+	height:400px;
+}
+
+.ruckus-pc-deposit .col-xs-8{
+	padding-left: 0px;
+}
+
+.ruckus-pc-deposit .col-xs-11 {
+	margin: 50px 0;
+	min-height: 450px;
+}
+
+.ruckus-pc-deposit .col-xs-12:first-child {
+	border-right: 1px solid #cccccc;
+}
+
+.ruckus-pc-deposit p.headText {
+	width:300px;
+	margin:25px 0 50px;
+}
+
+.ruckus-pc-deposit ul.inline {
+	display:inline-block;
+	padding:0;
+}
+
+.ruckus-pc-deposit .inline li {
+    width:25%;
+    text-align: left;
+}
+
+.ruckus-pc-deposit .inline li:first-child  + li{
+	width:18%;
+}
+
+.ruckus-pc-deposit .moneyBox {
+	text-align: center;
+	width:135px;
+	color:#474747;
+}
+
+.ruckus-pc-deposit .amount {
+	 
+	font-size: 24px;
+	border:1px solid #cccccc;
+	padding:8px 15px;
+}
+
+.ruckus-pc-deposit .moneyBox:hover .amount {
+	border-top:2px solid #7cdfa4;
+	border-left:2px solid #7cdfa4;
+	border-right:2px solid #7cdfa4;
+}
+
+.ruckus-pc-deposit .amount > input {
+	width:100%;
+	border: 1px solid #cccccc;
+}
+
+.ruckus-pc-deposit .desc {
+	font-size:16px;
+	font-weight:200;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	padding: 20px 35px;
+}
+
+.ruckus-pc-deposit .moneyBox:hover .desc {
+	border-left:2px solid #7cdfa4;
+	border-right:2px solid #7cdfa4;
+}
+
+.ruckus-pc-deposit .button {
+	background:#7cdfa4;
+	color:#ffffff;
+	padding: 5px 20px;
+	border: 1px solid #98DFC0;
+}
+
+.ruckus-pc-deposit .moneyBox:hover .button {
+	background:#98DFC0;	
+}
+
+.ruckus-pc-deposit .circleSelect {
+	float:left;
+	margin: 2px 10px 0 0;
+	height: 15px;
+	width: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: #cccccc;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition:background-color .5s ease;
+	-moz-transition:background-color .5s ease;
+	-o-transition:background-color .5s ease;
+	transition:background-color .5s ease;
+}
+
+.ruckus-pc-deposit .selected .circleSelect,
+.ruckus-pc-deposit .selected .circleSelect:hover {
+	background-color: #7cdfa4;
+	color: #ffffff;
+}
+
+.ruckus-pc-deposit .circleSelect:hover {
+	background-color: #999999;
+	color: #ffffff;
+}
+
+/*--- credit card form ---*/
+.ruckus-pc-deposit .address {
+	width:50%;
+}
+
+.ruckus-pc-deposit .card {
+	width:45%;
+	float:right;
+}
+
+.ruckus-pc-deposit .btn {
+    height: 30px;
+    background-color: #707070;
+    color: #FFFFFF;
+    font-size: 16px;
+     
+    border-radius: 3px;
+    box-shadow: inset 0 0 1px #E0E0E0;
+    border: 1px solid #494949;
+    margin: 0;
+    padding: 2px 20px;
+    text-shadow: 0 1px 1px #474747;
+    text-align: center;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    opacity:1;
+    letter-spacing: 2px;
+    -webkit-transition:background-color .5s ease;
+	-moz-transition:background-color .5s ease;
+	-o-transition:background-color .5s ease;
+	transition:background-color .5s ease;
+}
+
+.ruckus-pc-deposit .btn:hover {
+    background-color: #474747;
+    cursor:pointer;
+     color: #FFFFFF;
+    font-size: 16px;
+    font-weight:100;
+}
+
+
+.ruckus-pc-deposit .btnA {
+    background-color: transparent;
+    color: #ff8593;
+    font-size: 12px;
+     
+    border-radius: 3px;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-shadow: none;
+    text-align: left;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    opacity:1;
+    letter-spacing: 2px;
+    -webkit-transition:color .5s ease;
+	-moz-transition:color .5s ease;
+	-o-transition:color .5s ease;
+	transition:color .5s ease;
+}
+
+.ruckus-pc-deposit .btnA:hover {
+    cursor:pointer;
+     color: #999999;
+}
+
+.ruckus-pc-deposit .paymentCC .btn {
+	margin-top: 15px;
+}
+
+.ruckus-pc-deposit .paymentCC input[type=text]:-webkit-autofill, 
+.ruckus-pc-deposit .paymentCC textarea:-webkit-autofill, 
+.ruckus-pc-deposit .paymentCC select:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px white inset;
+    -webkit-text-fill-color: #333;
+}
+
+.ruckus-pc-deposit .paymentCC input[type=text]:-webkit-autofill:focus, 
+.ruckus-pc-deposit .paymentCC textarea:-webkit-autofill:focus, 
+.ruckus-pc-deposit .paymentCC select:-webkit-autofill:focus, :focus {
+	outline:none;
+
+}
+
+.ruckus-pc-deposit .payment .select {
+	margin-top: 15px;
+}
+
+.ruckus-pc-deposit .payment .select input[type=text] {
+	margin-top: 0px;
+	width:31%;
+	height: 22px;
+	margin-left:10px;
+}
+
+.ruckus-pc-deposit .paymentCC .select>div {
+	 
+	letter-spacing:2px;
+	color:#c1c1c1;
+}
+
+.ruckus-pc-deposit .paymentCC input[type=text] {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	
+	margin-top: 10px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	border: 0;
+	border-bottom:1px solid #cccccc;
+	height: 30px;
+	width: 100%;
+	-webkit-transition:border-color 1s ease;
+	-moz-transition:border-color 1s ease;
+	-o-transition:border-color 1s ease;
+	transition:border-color 1s ease;
+}
+
+.ruckus-pc-deposit .paymentCC input[type=text]:focus {
+	border-bottom:1px solid #474747;
+}
+
+.ruckus-pc-deposit [placeholder]::-webkit-input-placeholder {
+	 
+	letter-spacing:2px;
+	color:#c1c1c1;
+	position:relative;
+	right:0px;
+	opacity:1;
+	-webkit-transition:right .5s ease, opacity .5s ease;
+	-moz-transition:right .5s ease, opacity .5s ease;
+	-o-transition:right .5s ease, opacity .5s ease;
+	transition:right .5s ease, opacity .5s ease;
+}
+
+.ruckus-pc-deposit [placeholder]:focus::-webkit-input-placeholder {
+	letter-spacing:1px;
+	opacity:0;
+	right:-60px;
+}
+
+.ruckus-pc-deposit .sexyLine {
+  display:block;
+  border:none;
+  color:white;
+  margin:10px 0 0 0;
+  height:1px;
+  background:#cccccc;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 60, from(#cccccc), to(#fff));
+}
+
+.ruckus-pc-deposit .payment .select input[type=text] {
+	margin-top: 0px;
+}
+
+
+
+

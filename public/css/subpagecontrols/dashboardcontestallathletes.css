@@ -1,0 +1,293 @@
+/* -- Authored by Andrew Antar -- */
+
+.ruckus-pc-dashboardathletes .dashNav {
+  margin-top:10px;
+  margin-bottom:20px;
+  margin-left:28px;
+}
+
+.ellipsis {
+    float: left;
+    overflow: hidden;
+    -moz-binding: url('/css/xml/ellipsis.xml#ellipsis');
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.ruckus-pc-dashboardathletes .playercont .col-xs-14,
+.ruckus-pc-dashboardathletes .playercont .col-xs-8 {
+	padding-right:0;
+}
+
+.ruckus-pc-dashboardathletes .athleteContainer {
+	height: 380px;
+	margin-bottom: 20px;
+}
+
+.ruckus-pc-dashboardathletes .listContainer {
+	position: fixed;
+	height: 80vh;
+	width: 170px;
+	margin-top: -30px;
+}
+
+.ruckus-pc-dashboardathletes .athleteBox {
+	border: 1px solid #cccccc;
+	width: 200px;
+
+}
+
+.ruckus-pc-dashboardathletes .topRows {
+	height: 70px;
+	background-color: #555;
+	color: #FFF;
+}
+
+.ruckus-pc-dashboardathletes .name {
+	padding-top: 8px;
+	font-size: 14px;
+}
+
+.ruckus-pc-dashboardathletes .position {
+	font-size: 12px;
+}
+
+.ruckus-pc-dashboardathletes .infoBar {
+	height: 70px;
+	line-height: 70px;
+	background-color: #ffffff;
+}
+
+.ruckus-pc-dashboardathletes .points {
+	font-size: 18px;
+	color: #474747;
+	margin-top: -10px;
+	height: 70px;
+	padding-left: 15px;
+	padding-right: 0;
+	height: 30px;
+}
+
+.ruckus-pc-dashboardathletes .pointsText {
+	font-size: 12px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+.ruckus-pc-dashboardathletes .matchup {
+	line-height: 70px;
+	height: 70px;
+	 
+	font-size: 11px;
+	color: #474747;
+}
+
+.ruckus-pc-dashboardathletes .matchup + div div:first-child {
+	margin-bottom:5px;
+}
+
+.ruckus-pc-dashboardathletes .matchup div:first-child {
+	margin-bottom:5px;
+}
+
+.ruckus-pc-dashboardathletes .indicator {
+	margin-top: 30px;
+	padding: 0;
+	margin-left: 15px;
+}
+
+
+.ruckus-pc-dashboardathletes .athleteImage {
+  z-index: 1;
+}
+.ruckus-pc-dashboardathletes .allAthletesTeamLogo {
+   position: absolute;
+    top: 0;
+    z-index: 0;
+    opacity: 0.3;
+}
+
+.ruckus-pc-dashboardathletes .allAthletesTeamLogo .highRes {
+    display:none;
+}
+
+@media
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-moz-min-device-pixel-ratio: 1.5),
+screen and (min-device-pixel-ratio: 1.5) {
+	.ruckus-pc-dashboardathletes .allAthletesTeamLogo .highRes {
+	    display:block;
+	    height:70px;
+	}
+	.ruckus-pc-dashboardathletes .allAthletesTeamLogo .loRes {
+	    display:none;
+	}
+}
+
+.ruckus-pc-dashboardathletes .player_progress_bar {
+  background-color: #7cdfa4;
+  height: 3px;
+}
+
+.ruckus-pc-dashboardathletes .nav {
+	height: 50px;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	font-size: 10px;
+	padding: 0;
+	margin-left: -15px;
+	width: 198px;
+	background-color: #ffffff;
+}
+
+.ruckus-pc-dashboardathletes .tab {
+	border-left: 1px solid #cccccc;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 30px;
+	line-height: 28px;
+	text-align: center;
+	color: #474747;
+	width: 50px;
+}
+
+.ruckus-pc-dashboardathletes .tab:first-child {
+	border-left: 1px solid #ffffff;
+}
+
+.ruckus-pc-dashboardathletes .tabSelected {
+	color: #ffffff;
+	background-color: #474747;
+	text-align: center;
+	padding: 16px;
+	height: 48px;
+	width: 48px;
+	 -moz-animation: select4Tabs 0.3s ease;
+  -webkit-animation: select4Tabs 0.3s ease;
+  animation: select4Tabs 0.3s ease;
+}
+
+@-moz-keyframes select4Tabs{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+@-webkit-keyframes select4Tabs{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+@keyframes select4Tabs{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.ruckus-pc-dashboardathletes .tabSelected +.tab {
+	border-left:none;
+}
+
+.ruckus-pc-dashboardathletes .tabSelected .icons, .ruckus-pc-dashboardathletes .tab .icons  {
+	display: none;
+}
+
+.ruckus-pc-dashboardathletes .tabSelected .iconsplayer_light,
+ .ruckus-pc-dashboardathletes .tabSelected .iconsexposure_light,
+  .ruckus-pc-dashboardathletes .tabSelected .iconsvs_light,
+   .ruckus-pc-dashboardathletes .tabSelected .iconsstats_light   {
+	display: block;
+}
+
+.ruckus-pc-dashboardathletes .tab .iconsplayer_dark,
+ .ruckus-pc-dashboardathletes .tab .iconsexposure_dark,
+  .ruckus-pc-dashboardathletes .tab .iconsvs_dark,
+   .ruckus-pc-dashboardathletes .tab .iconsstats_dark   {
+	display: block;
+}
+
+.ruckus-pc-dashboardathletes .fpchange {
+  color: #7cdfa4;
+  height: 60px;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+.ruckus-pc-dashboardathletes .description {
+  font-size: 10px;
+  color: #ffffff;
+  padding: 15px 10px 15px 10px;
+}
+
+.ruckus-pc-dashboardathletes .timestamp {
+  border-top: 1px dashed #999999;
+  color: #ff8593;
+  font-size: 9px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.ruckus-pc-dashboardathletes .timestamp div.col-xs-24 {
+  margin-top: -8px;
+  padding-right: 0px;
+}
+
+.ruckus-pc-dashboardathletes .timestamp div.col-xs-24 span {
+  background-color: #474747;
+  padding: 2px 6px 2px 10px;
+}
+
+.ruckus-pc-dashboardathletes .topRow {
+	height: 30px;
+	color: #ffffff;
+	background-color: #474747;
+	margin-top: 10px;
+	padding: 0;
+}
+
+.ruckus-pc-dashboardathletes .amount {
+	font-size: 14px;
+	text-align: right;
+	padding: 0;
+}
+
+.ruckus-pc-dashboardathletes .text {
+	font-size: 10px;
+	 
+	padding-top: 5px;
+}
+
+.ruckus-pc-dashboardathletes .tableHead {
+	 
+	font-size: 9px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #999999;
+	background-color: #474747;
+	width: 198px;
+	padding-top: 5px;
+	z-index: 9999;
+  color:#b2b2b2;
+}
+
+.ruckus-pc-dashboardathletes .tableRow {
+	height: 30px;
+	line-height: 30px;
+	 
+	font-size: 11px;
+	color: #ffffff;
+	padding: 0;
+}
+
+.ruckus-pc-dashboardathletes .tableRow:nth-child(odd) {
+	background-color: #555555;
+}
+
+.ruckus-pc-dashboardathletes .tableGreen {
+	color:#7cdfa4;
+}
+
+.ruckus-pc-dashboardathletes .tableData {
+
+}
+
+.ruckus-pc-dashboardathletes .tableBold {
+	font-weight: 500;
+}

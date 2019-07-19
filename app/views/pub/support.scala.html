@@ -1,0 +1,229 @@
+@(user: models.user.User, wallet: models.wallet.UserWallet)
+@import views.html.pub.components._
+
+@imports.render(user)
+<title>VICTIV | Support </title>
+
+@if(user != null){
+    @headerAuth.render(user, wallet)
+} else {
+    @header.render(user)
+}
+<div class="col-xs-24 suppport light">
+	<div class="row section">
+		<div class="mainHeader center">SUPPORT / FAQ</div>
+	</div>
+</div>
+<div class="col-xs-24">
+	<div class="row section">
+		<div class="col-xs-3"></div>
+		<!--General questions section-->
+		<div class="col-xs-9">
+			<h2 class="faqSectionTitle">General</h2>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">What is Victiv?</div>
+			</div>
+			<div class="answer">
+				Victiv is a new type of fantasy sports that compresses traditional season long leagues into just one day or week.
+				Sports fans enter a fantasy sports contest for real money, select a winning roster, and earn cash when that roster does well.
+				On any given day, play as many contests as you want with as many different rosters as you want.
+				We offer or soon plan to offer NFL, NBA, MLB, NHL, PGA, and college football & basketball fantasy sports contests.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">How does it work?</div>
+			</div>
+			<div class="answer">
+				For a full description of how the site works, visit the <a href="how-it-works">how it works</a> page.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">Why should I join Victiv?</div>
+			</div>
+			<div class="answer">
+				We offer sports fans an opportunity to turn their knowledge of their favorite teams and players into real money.
+				Play any time&nbsp;&#45;&nbsp;we have new contests each and every day.
+				Play with real money, or for free, and win large cash prizes.
+				Play multiple sports, with multiple rosters, without any season-long commitments&nbsp;&#45;&nbsp;games only last a day!
+				Enjoy great product features that no other site offers.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">Is Victiv legal?</div>
+			</div>
+			<div class="answer">
+				Yes! Our competitions are skill-based games, which operate 100% legally under U.S. federal law.  Our offices are headquartered in Austin, Texas and allow participants from every U.S. state other than Arizona, Louisiana, Montana, and Washington.
+				Based on participants using their sports knowledge and skill in choosing a roster of athletes, fantasy sports received a specific exemption from the 2006 Unlawful Internet Gambling Enforcement Act (UIGEA), which makes it different than poker and sports betting.
+				We&#39;ve engaged with one of the best gaming regulatory law firms in the U.S. and are happy to answer any additional questions you might have on the topic.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">Who can play?</div>
+			</div>
+			<div class="answer">
+				All U.S. residents 18 years and older (19 years of age in Alabama and Nebraska) are eligible to play on Victiv except for residents in Arizona, Louisiana, Montana, and Washington.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">Is my money and information safe?</div>
+			</div>
+			<div class="answer">
+				Yes. At Victiv we understand how vital it is to keep your deposits and personal information safe. We&#39;ve focused on enhancing your experience from day one, which is a key component of our corporate culture.
+				We use segregated accounts to ensure we don&#39;t mix your deposits with our operating accounts, and we utilize all necessary measures to ensure the safety and privacy of your personal information.
+			</div>
+		</div>
+		<!--Account questions section-->
+		<div class="col-xs-9">
+			<h2 class="faqSectionTitle">Account</h2>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">How do I create an account?</div>
+			</div>
+			<div class="answer">
+				To create an account, go to the Victiv homepage and enter the necessary information in the sign-up box or select either the Facebook or Google+ icon to register with your social media account.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">Can I change my username?</div>
+			</div>
+			<div class="answer">
+				No. Players can&#39;t change their usernames. Victiv reserves the right to change a screen name at our discretion. If you have any questions, please send an email to <a href="mailto:support&#64;victiv.com">support&#64;victiv.com</a>.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">Do I have to pay taxes on my winnings?</div>
+			</div>
+			<div class="answer">
+				We are required to issue a 1099-MISC tax form (an IRS tax form for reporting miscellaneous income) to all players who generate net winnings greater than $600 for the calendar year.
+				In order to ensure that we can issue you the required forms in a timely manner, we may need to ask a few necessary tax identification questions prior to the end of the year.
+				Please know that the $600 threshold is based on net winnings, not the amount withdrawn from your account.
+				An easy way to calculate net winnings is (withdrawals + ending account balance&nbsp;&#45;&nbsp;deposits&nbsp;&#45;&nbsp;beginning account balance).
+				Don&#39;t worry&nbsp;&#45;&nbsp;we&#39;ll track it for you, leaving you more time to focus on making money.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">How do I delete my account?</div>
+			</div>
+			<div class="answer">
+				While we&#39;d hate to see you go, please send a request to <a href="mailto:support&#64;victiv.com">support&#64;victiv.com</a> to close your account.
+			</div>
+		</div>
+		<div class="col-xs-3"></div>
+	</div>
+
+	<div class="row section" style="padding-top: 0;">
+		<div class="col-xs-3"></div>
+		<!--Deposits, withdrawls, and bonus questions section-->
+		<div class="col-xs-9">
+			<h2 class="faqSectionTitle">Deposits, Withdrawls, and Bonuses</h2>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">Can I play for free?</div>
+			</div>
+			<div class="answer">
+				Victiv offers free games, called freerolls. All you need to do is sign up for the site (no deposit required) and you can start entering into free contests immediately.
+				The best part? You can even win real money that can be used to enter other contests.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">How do I make a deposit?</div>
+			</div>
+			<div class="answer">
+				To make a deposit, log in and select the &#39;Deposit&#39; link located under your username. Choose one of the deposit methods we offer and enter the amount you&#39;d like to deposit.
+				The minimum deposit is $20 and the maximum deposit is $3,000 daily or $9,000 weekly.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">What are Victi?</div>
+			</div>
+			<div class="answer">
+				Victi is our loyalty rewards program used to award players for their participation on our website. You earn Victi every time you enter a real money contest, win or lose.
+				The number of Victi earned for each contest is displayed in the contest info page when entering a contest. You can use your Victi earned to enter new contests for real money.
+				For full details on how Victi are earned will be coming soon.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">What is a bonus?</div>
+			</div>
+			<div class="answer">
+				At certain times, players will be rewarded with a bonus for their participation on our website.
+				Bonuses are rewards that convert into cash based on various user actions and subject to certain restrictions. Bonuses are not real money and cannot be withdrawn until they are earned.
+				Players can earn their bonuses through entering and playing in real money competitions. Each bonus has different criteria attached to it, including expiration dates and redemption percentages.
+				For more information, visit the bonus section of your account.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">Why can&#39;t I play with my bonus immediately?</div>
+			</div>
+			<div class="answer">
+				Bonuses are not the equivalent of cash until they have been earned.  As you enter and play in real money competitions, your pending bonus will convert into real cash.
+				Once you&#39;ve converted portions of your bonus, you can enter competitions with that money or withdraw it from your account.
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">How do I use my game tickets?</div>
+			</div>
+			<div class="answer">
+				COMING SOON
+			</div>
+			<div class="row question">
+				<div class="col-xs-2">
+					<div class="faqTriangleRight"></div>
+				</div>
+				<div class="col-xs-22">How can I increase my deposit limit?</div>
+			</div>
+			<div class="answer">
+				If you are interested in depositing more than the set daily / weekly limit, please send an email to <a href="mailto:support&#64;victiv.com">support&#64;victiv.com</a>.
+			</div>
+		</div>
+		<!--Next questions section-->
+		<div class="col-xs-9">
+
+		</div>
+		<div class="col-xs-3"></div>
+	</div>
+</div>
+
+@footer.render(user)
+
+<script src="@routes.ConfigurableAssets.at("/js/libraries/jquery.min.js")" type="text/javascript"></script>
+<script type="text/javascript">
+
+	$('.question').bind("click", function() {
+		$(' + .answer', this).slideToggle();
+		$(this).find('.faqTriangleDown, .faqTriangleRight').toggleClass('faqTriangleRight faqTriangleDown');
+	});
+</script>

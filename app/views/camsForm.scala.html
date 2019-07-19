@@ -1,0 +1,128 @@
+@(isOldEnough: Boolean)
+<script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?libraries=places"></script>
+
+<form id="billingAddress">
+    <div><input id="autocomplete" name="address1" placeholder="Enter your address" style="width:333px;"/></div>
+    <div><input id="address2" name="address2" placeholder="ADDRESS #2"/></div>
+    <div><input id="city" name="city" placeholder="CITY"/></div>
+    <div><input id="state" name="state" placeholder="ADMIN"/></div>
+    <div><input id="postal_code" name="postal" placeholder="POSTAL"/></div>
+    <div><input type="hidden" id="country" name="country"/></div>
+</form>
+
+@if(isOldEnough){
+<form id="dob">
+    <div><input name="dobMonth" value="05" placeholder="DOB MONTH"/></div>
+    <div><input name="dobDay" value="07" placeholder="DOB DAY"/></div>
+    <div><input name="dobYear" value="1982" placeholder="DOB YEAR"/></div>
+</form>
+}
+
+<form method="POST" action="" autocomplete="off" id="payment_form">
+    <div>
+        <input autocomplete="off"
+               id="billing-cc-number"
+               name="billing-cc-number"
+               placeholder="CC NUMBER"
+               maxlength="19" />
+    </div>
+    <div>
+        <input autocomplete="off"
+               id="billingExpMonth"
+               maxlength="2"
+               placeholder="EXP MONTH" />
+    </div>
+    <div>
+        <input autocomplete="off"
+               id="billingExpYear"
+               maxlength="2"
+               placeholder="EXP YEAR" />
+    </div>
+    <div>
+        <input autocomplete="off"
+               name="billing-cc-cvv"
+               id="billing-cc-cvv"
+               maxlength="4"
+               placeholder="CCV"/>
+    </div>
+    <div>
+        <input id="billing-cc-exp"
+               name="billing-cc-exp"
+               maxlength="2"
+               type="hidden" />
+        <input type="submit" id="ccSubmit" value="Submit"/>
+    </div>
+</form>
+<div id="output"></div>
+<script type="application/javascript">
+    $(document).ready(function(){
+
+        var autocomplete = new google.maps.places.Autocomplete(
+            (document.getElementById('autocomplete')),
+            { types: ['geocode'] });
+
+        google.maps.event.addListener(autocomplete, 'place_changed', function() {
+            fillInAddress();
+        });
+
+        function fillInAddress() {
+            var place = autocomplete.getPlace();
+
+            $("#city").val("")
+            $("#country").val("")
+            $("#postal_code").val("")
+
+            for (var i = 0; i < place.address_components.length; i++) {
+                var addressType = place.address_components[i].types[0];
+
+                if(addressType == "locality"){
+                    $("#city").val(place.address_components[i]["long_name"])
+                }
+
+                if(addressType == "administrative_area_level_1"){
+                    $("#state").val(place.address_components[i]["short_name"])
+                }
+
+                if(addressType == "country"){
+                    $("#country").val(place.address_components[i]["short_name"])
+                }
+
+                if(addressType == "postal_code"){
+                    $("#postal_code").val(place.address_components[i]["long_name"])
+                }
+            }
+
+            $("#address2").focus();
+            var saved = $("#autocomplete").val();
+            $("#autocomplete").val(saved.split(",")[0])
+        }
+
+        function fillExp(){
+            var val = $("#billingExpMonth").val()+"-"+$("#billingExpYear").val();
+            $("#output").html(val)
+            $("#billing-cc-exp").val(val)
+        }
+
+        $("#billingExpMonth").keyup(function(){
+            fillExp();
+        });
+
+        $("#billingExpYear").keyup(function(){
+            fillExp();
+        });
+
+        $("#billing-cc-number").focusin(function(){
+            console.log($("#billingAddress").serializeArray())
+            $.ajax({
+                method: "POST",
+                url: "/wallet/postFirstVerify",
+                data: $("#billingAddress").serialize(),
+                success: function(data){
+                    $("#payment_form").attr("action", data)
+                }
+            });
+        });
+
+    });
+</script>

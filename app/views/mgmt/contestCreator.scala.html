@@ -1,0 +1,118 @@
+    @(contestTypes:List[models.contest.ContestType])(sportEventGroupingTypes: List[models.sports.SportEventGroupingType])(sportEventGroupings: List[models.sports.SportEventGrouping])(sportEvents: List[models.sports.SportEvent])
+@adminMain("Contest creator"){
+<h2>create sport event grouping</h2>
+<form method="POST" action="/admin/mgmt/createSportEventGrouping">
+    <div>
+        <select name="sportEventGroupingTypeId">
+            @for(sportEventGroupingType <- sportEventGroupingTypes){
+            <option value="@sportEventGroupingType.getId()">
+                @sportEventGroupingType.getName()
+                @for(dateCriteria <- sportEventGroupingType.getDateCriteria()){
+                    @dateCriteria.getStartDayOfWeek()
+                    @dateCriteria.getStartHourOfDay():@dateCriteria.getStartMinuteOfHour()
+
+                    @dateCriteria.getEndDayOfWeek()
+                    @dateCriteria.getEndHourOfDay():@dateCriteria.getEndMinuteOfHour()
+                }
+            </option>
+            }
+        </select>
+    </div>
+    <div style="height:400px; overflow-y:scroll; border: 1px solid grey">
+        <table>
+            @for((sportEvent, index) <- sportEvents.view.zipWithIndex){
+            <tr>
+                <td><input type="checkbox" name="sportEventIds[]" value="@sportEvent.getStatProviderId()"/></td>
+                <td>@sportEvent.getLeague().getAbbreviation()</td>
+                <td>@sportEvent.getStartTime()</td>
+                <td>@sportEvent.getShortDescription()</td>
+            </tr>
+            }
+        </table>
+    </div>
+    <input type="submit"/>
+</form>
+<hr/>
+<h2>create single contest</h2>
+<form method="POST" action="@controllers.admin.mgmt.routes.ContestCreatorController.createSingleContest">
+    <table>
+        <tr>
+            <td>contest type</td>
+            <td>
+                <select name="contestTypeId">
+                    @for(contestType <- contestTypes){<option value="@contestType.getId()">@contestType.getName()</option>}
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>sport event grouping</td>
+            <td>
+                <select name="sportEventGroupingId">
+                    @for(sportEventGrouping <- sportEventGroupings){
+                    <option value="@sportEventGrouping.getId()">
+                        @sportEventGrouping.getSportEventGroupingType().getName() -
+                        @sportEventGrouping.getEventDate()
+                    </option>
+                    }
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>display name</td>
+            <td>
+                <input name="displayName" /></td>
+            </td>
+        </tr>
+        <tr>
+            <td>capacity</td>
+            <td><input name="capacity" /></td>
+        </tr>
+        <tr>
+            <td>entry fee</td>
+            <td><input name="entryFee" /></td>
+        </tr>
+        <tr>
+            <td>allowed entries</td>
+            <td><input name="allowedEntries" /></td>
+        </tr>
+        <tr>
+            <td>salary cap</td>
+            <td><input name="salaryCap" /></td>
+        </tr>
+        <tr>
+            <td>move to open</td>
+            <td><input type="checkbox" name="isOpen" /></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>leading</td>
+            <td>trailing</td>
+            <td>payout</td>
+        </tr>
+        @for(index <- (0 to 9)){
+        <tr>
+            <td><input name="leadingPosition"/></td>
+            <td><input name="trailingPosition"/></td>
+            <td><input name="payoutAmount"/></td>
+        </tr>
+        }
+    </table>
+    </div>
+    <input type="submit"/>
+</form>
+<hr/>
+<h2>create standard contests</h2>
+<div>
+    @for(sportEventGrouping <- sportEventGroupings){
+        <div>@sportEventGrouping.getSportEventGroupingType().getName() - @sportEventGrouping.getEventDate()</div>
+        @for(sportEvent <- sportEventGrouping.getSportEvents()){
+            <div>@sportEvent.getStartTime() - @sportEvent.getDescription()</div>
+        }
+        <form method="POST" action="@controllers.admin.mgmt.routes.ContestCreatorController.createStandardContests">
+            <input type="hidden" name="sportEventGroupingId" value="@sportEventGrouping.getId()">
+            <input type="submit" value="Create standard contests"/>
+        </form>
+    }
+</div>
+}

@@ -1,0 +1,1291 @@
+
+@media (max-width: 1170px) {
+  .dboardbox {
+    width: 25%;/*--- was 30%, caused wrapping dasboard items ----*/
+	}
+}
+
+@media (max-width: 600px) {
+  .dboardbox {
+    width: 25%;/*--- was 100%, caused wrapping dasboard items ----*/
+	}
+}
+
+#dhcc_input_blink {
+
+    -webkit-animation: chat_ 1.5s infinite;
+}
+
+@-webkit-keyframes chat_ {
+    0% {color: #474747;}
+    50% {color: #ffffff;}
+    100% {color: #474747;}
+}
+
+.ellipsis {
+        float: left;
+        overflow: hidden;
+        -moz-binding: url('/css/xml/ellipsis.xml#ellipsis');
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+}
+
+.noContest {
+	padding-left: 240px;
+	padding-top: 70px;
+	padding-bottom: 210px;
+	font-size: 24px;
+	font-weight: 100;
+	padding-right: 240px;
+	text-align: center;
+	width: 100%;
+	margin-top: 0px!important;
+}
+
+.noContest + .col-xs-4 {
+	display: none;
+}
+
+.ruckus-pc-dashboardlineups .noContest {
+	padding-top:88px;
+}
+
+/* -- Dashboard Icons -- */
+
+.navRow .iconsathletes_dark {
+  margin-right:10px;
+}
+
+.navRow .iconscontest_dark,
+.navRow .iconslineups_dark,
+.navRow .iconshistory_dark {
+  margin-right:8px;
+}
+
+.navRow .iconscontest_dark,
+.navRow .iconsathletes_dark,
+.navRow .iconslineups_dark,
+.navRow .iconshistory_dark {
+  opacity:.25;
+  -webkit-transition: opacity .5s ease;
+  -moz-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+}
+
+.navRow .iconscontest_dark:hover,
+.navRow .iconsathletes_dark:hover,
+.navRow .iconslineups_dark:hover,
+.navRow .iconshistory_dark:hover,
+.navRow .iconscontest_dark.select,
+.ruckus-pc-dashboardathletes .navRow .iconsathletes_dark,
+.ruckus-pc-dashboardlineups .navRow .iconslineups_dark,
+.navRow .iconshistory_dark.select {
+  opacity:1;
+}
+
+/* -- Dashboard Module -- */
+
+.ruckus-pc-dashboardcontestgraph1 .lineComingSoon,
+.ruckus-pc-dashboardcontestgraph2 .bubbleComingSoon {
+  margin-top:-130px;
+  margin-left:30px;
+  margin-bottom:10px;
+}
+
+.ruckus-pc-dashboard .dshm_cell {
+  width: 220px;
+  margin-left: 15px;
+  border: 1px solid #cccccc;
+  opacity:1;
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-o-transition: all .2s ease;
+transition: all .2s ease;
+}
+
+.ruckus-pc-dashboard .dshm_cell:hover {
+  opacity:.95;
+  border: 1px solid #4e4e4e;
+}
+
+.ruckus-pc-dashboard .dboardbox .dshm_cell:hover {
+	opacity: 1;
+	border: 1px solid #bbbbbb;
+}
+
+
+.ruckus-pc-dashboard .dboardbox {
+	margin-bottom: 40px;
+}
+
+.ruckus-pc-dashboard .square:hover {
+	background-color: #fcfcfc;
+}
+
+.ruckus-pc-dashboardhistory .navRow {
+  margin-bottom:10px;
+  margin-top:30px;
+}
+
+.ruckus-pc-dashboardlineups .navRow {
+  margin-top:10px;
+}
+
+.ruckus-pc-dashboard .navRow {
+  margin-bottom:20px;
+  margin-top:30px;
+}
+
+.ruckus-pc-dashboardathletes .navRow {
+  margin-bottom:20px;
+  margin-top:10px;
+}
+
+.ruckus-pc-dashboard .bottom {
+	background-color: #474747;
+	color: #FFFFFF;
+}
+
+.ruckus-pc-dashboard .topHalf {
+	height: 140px;
+}
+
+.ruckus-pc-dashboard .upcoming {
+	color: #ffffff;
+	margin-top: 15px;
+	font-size: 14px;
+
+	text-align: center;
+}
+
+.ruckus-pc-dashboard .circle {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 28px;
+	color: #7cdfa4;
+
+}
+
+.ruckus-pc-dashboard .timeStampSubTitle {
+    font-size: 12px;
+
+    color: #dddddd;
+    text-align: center;
+}
+
+.ruckus-pc-dashboard .time {
+	margin-top: -48px;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+}
+
+.ruckus-pc-dashboard .timeText {
+	margin-top: 3px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.ruckus-pc-dashboard .timeBar {
+	height: 5px;
+	background-color: #7cdfa4;
+}
+
+.ruckus-pc-dashboard .timeBarFinished {
+background-color:#bfbfbf;
+}
+
+.ruckus-pc-dashboard .tournament {
+
+	margin-top: 28px;
+	margin-bottom: 28px;
+}
+
+.ruckus-pc-dashboard .points {
+	color: #c0bfbf;
+	font-size: 12px;
+	height: 140px;
+	-webkit-transition: background-color .5s ease, color .5s ease ;
+	-moz-transition: background-color .5s ease, color .5s ease;
+	-o-transition: background-color .5s ease, color .5s ease;
+	transition: background-color .5s ease, color .5s ease;
+}
+
+.ruckus-pc-dashboard .place {
+	color: #c0bfbf;
+	font-size: 12px;
+	height: 140px;
+	-webkit-transition: background-color .5s ease, color .5s ease ;
+	-moz-transition: background-color .5s ease, color .5s ease;
+	-o-transition: background-color .5s ease, color .5s ease;
+	transition: background-color .5s ease, color .5s ease;
+}
+
+.ruckus-pc-dashboard .pay {
+	color: #707070;
+	font-size: 11px;
+	border: 1px solid #cccccc;
+	border-radius: 0 0 100px 100px;
+	height: 40px;
+	position: absolute;
+	z-index: 10000;
+	margin-left: 74px;
+	background-color: #ffffff;
+	margin-top: -1px;
+	-webkit-transition: background-color .5s ease, color .5s ease ;
+	-moz-transition: background-color .5s ease, color .5s ease;
+	-o-transition: background-color .5s ease, color .5s ease;
+	transition: background-color .5s ease, color .5s ease;
+}
+
+.ruckus-pc-dashboard .projected {
+	color: #707070;
+	font-size: 11px;
+	border: 1px solid #cccccc;
+	border-radius: 100px 100px 0 0;
+	height: 40px;
+	position: absolute;
+	z-index: 10000;
+	margin-top: -40px;
+	margin-left: 74px;
+	background-color: #ffffff;
+	padding-top: 5px;
+	-webkit-transition: background-color .5s ease, color .5s ease ;
+	-moz-transition: background-color .5s ease, color .5s ease;
+	-o-transition: background-color .5s ease, color .5s ease;
+	transition: background-color .5s ease, color .5s ease;
+}
+
+.ruckus-pc-dashboard .position {
+	color: #474747;
+	font-size: 28px;
+
+	margin-top: 45px;
+	margin-bottom: -8px;
+}
+
+.ruckus-pc-dashboard .place.up .position,
+.ruckus-pc-dashboard .place.down .position {
+	color: #FFFFFF;
+	font-size: 28px;
+	margin-top: 45px;
+	margin-bottom: -8px;
+}
+
+.ruckus-pc-dashboard .fpp {
+	color: #474747;
+	font-size: 28px;
+	margin-top: 45px;
+	margin-bottom: -8px;
+}
+
+.ruckus-pc-dashboard .points.up .fpp,
+.ruckus-pc-dashboard .points.down .fpp {
+	color: #FFFFFF;
+	font-size: 28px;
+	margin-top: 45px;
+	margin-bottom: -8px;
+}
+
+.ruckus-pc-dashboard .projectText {
+	margin-left: -5px;
+	font-size: 11px;
+}
+
+.ruckus-pc-dashboard .down {
+	background-color: #ff8593;
+	color: #ffffff;
+
+}
+
+.ruckus-pc-dashboard .up {
+	background-color: #7cdfa4;
+	color: #ffffff;
+}
+
+
+.ruckus-pc-dashboard .place .iconsarrow_up_light {
+	display:block;
+	position: absolute;
+	top:96px;
+	left:11px;
+	opacity:0;
+	-webkit-animation-delay: -2s;
+    animation-delay: -2s;
+	-webkit-transition: top .5s ease, opacity 1s ease ;
+	-moz-transition: top .5s ease, opacity 1s ease;
+	-o-transition: top .5s ease, opacity 1s ease;
+	transition: top .5s ease, opacity 1s ease;
+}
+
+.ruckus-pc-dashboard .place.up .iconsarrow_up_light {
+	top:56px;
+	opacity:1;
+}
+
+
+.ruckus-pc-dashboard .place .iconsarrow_down_light {
+	display:block;
+	position: absolute;
+	top:16px;
+	left:6px;
+	opacity:0;
+	-webkit-animation-delay: -2s;
+    animation-delay: -2s;
+	-webkit-transition: top .5s ease, opacity 1s ease ;
+	-moz-transition: top .5s ease, opacity 1s ease;
+	-o-transition: top .5s ease, opacity 1s ease;
+	transition: top .5s ease, opacity 1s ease;
+}
+
+.ruckus-pc-dashboard .place.down .iconsarrow_down_light {
+	top:56px;
+	opacity:1;
+}
+
+.ruckus-pc-dashboard .points .plus {
+	display:block;
+	position: absolute;
+	top:47px;
+	left:7px;
+	opacity:0;
+	font-size: 25px;
+
+	transform: rotate(0deg);
+	-webkit-animation-delay: -2s;
+    animation-delay: -2s;
+	-webkit-transition: -webkit-transform .5s ease-out,opacity 1s ease;
+	-moz-transition:    -moz-transform .5s ease-out,opacity 1s ease;
+	-o-transition:      -o-transform .5s ease-out,opacity 1s ease;
+	-ms-transition:     -ms-transform .5s ease-out,opacity 1s ease;
+	transition:         transform .5s ease-out,opacity 1s ease;
+}
+
+.ruckus-pc-dashboard .points.up .plus {
+	opacity:1;
+	transform: rotate(720deg);
+}
+
+
+.ruckus-pc-dashboard .points .minus {
+	display:block;
+	position: absolute;
+	top:28px;
+	left:25px;
+	opacity:0;
+	font-size: 48px;
+
+	transform: rotate(0deg);
+	-webkit-animation-delay: -2s;
+    animation-delay: -2s;
+	-webkit-transition: -webkit-transform .5s ease-out,opacity 1s ease;
+	-moz-transition:    -moz-transform .5s ease-out,opacity 1s ease;
+	-o-transition:      -o-transform .5s ease-out,opacity 1s ease;
+	-ms-transition:     -ms-transform .5s ease-out,opacity 1s ease;
+	transition:         transform .5s ease-out,opacity 1s ease;
+}
+
+.ruckus-pc-dashboard .points.down .minus {
+	opacity:1;
+	transform: rotate(720deg);
+}
+
+/* -- Dashboard List on Drill in -- */
+
+.ruckus-pc-dashboardcontest .mainContainer {
+  margin-top:20px;
+  margin-bottom: 70px;
+  padding: 0px;
+  font-size: 10pt;
+}
+
+.ruckus-pc-dashboardcontest .navRow {
+  margin-bottom:20px;
+  margin-top:10px;
+}
+
+.ruckus-spc-dashboardcontestchat .contestChatInput {
+	background-color:#474747;
+	color:#FFF;
+	margin-top:3px;
+	font-size:14px;
+	padding: 5px;
+	border: none;
+	width: 188px;
+}
+
+.ruckus-spc-dashboardcontestchat .contestChatInput:focus {
+	outline: none;
+	border:1px solid #474747;
+}
+
+.ruckus-spc-dashboardcontestlist .item {
+margin-top:15px;
+margin-bottom:15px;
+margin-left:2px;
+cursor:pointer;
+text-align:center;
+background-color:#ffffff;
+cursor:pointer;
+height: 135px;
+width: 135px;
+border: 1px solid #c0bfbf;
+z-index: 7000;
+	-webkit-transition: -webkit-transform .5s ease,opacity .5s ease;
+	-moz-transition:    -moz-transform .5s ease,opacity .5s ease;
+	-o-transition:      -o-transform .5s ease,opacity .5s ease;
+	-ms-transition:     -ms-transform .5s ease,opacity .5s ease;
+	transition:         transform .5s ease,opacity .5s ease;
+
+}
+
+.ruckus-spc-dashboardcontestlist .item:hover {
+opacity: .8;
+}
+
+.ruckus-spc-dashboardcontestlist .listBox {
+	/*background-color: #ebebeb;*/
+	height: 855px;
+}
+
+.ruckus-spc-dashboardcontestlist .listContainer {
+	height: 855px;
+}
+
+.ruckus-spc-dashboardcontestlist .left {
+background-color: transparent;
+height: 70px;
+padding-top: 20px;
+	-webkit-transition: background-color .5s ease;
+	-moz-transition: background-color .5s ease;
+	-o-transition: background-color .5s ease;
+	transition: background-color .5s ease;
+}
+
+.ruckus-spc-dashboardcontestlist .right {
+background-color:transparent;
+height: 70px;
+padding-top: 20px;
+	-webkit-transition: background-color .5s ease;
+	-moz-transition: background-color .5s ease;
+	-o-transition: background-color .5s ease;
+	transition: background-color .5s ease;
+}
+
+.ruckus-spc-dashboardcontestlist .position,
+.ruckus-spc-dashboardcontestlist .fantasyPoints {
+color: #474747;
+font-size: 16px;
+	-webkit-transition: color .5s ease ;
+	-moz-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease;
+}
+
+.ruckus-spc-dashboardcontestlist .pts,
+.ruckus-spc-dashboardcontestlist .outOf  {
+color: #c0bfbf;
+font-size: 10px;
+	-webkit-transition: color .5s ease ;
+	-moz-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease;
+}
+
+.ruckus-spc-dashboardcontestlist .down {
+	background-color: #ff8593;
+	color: #ffffff;
+	height: 70px;
+	padding-top: 20px;
+}
+
+.ruckus-spc-dashboardcontestlist .up {
+	background-color: #7cdfa4;
+	color: #ffffff;
+	height: 70px;
+	padding-top: 20px;
+}
+
+.ruckus-spc-dashboardcontestlist .up .position,
+.ruckus-spc-dashboardcontestlist .down .position,
+.ruckus-spc-dashboardcontestlist .up .outOf,
+.ruckus-spc-dashboardcontestlist .down .outOf,
+.ruckus-spc-dashboardcontestlist .up .fantasyPoints,
+.ruckus-spc-dashboardcontestlist .down .fantasyPoints,
+.ruckus-spc-dashboardcontestlist .up .pts,
+.ruckus-spc-dashboardcontestlist .down .pts {
+	color: #ffffff;
+}
+
+
+.ruckus-spc-dashboardcontestlist .miniSelect {
+	background-color: #ebebeb;
+	z-index: 5000;
+}
+
+
+/* -- %Owned on Drill in -- */
+
+.ruckus-spc-dashboardcontestpercentowned .container {
+	border: 1px solid #cccccc;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .topBar {
+	color: #474747;
+	font-size: 18px;
+	margin-top: 22px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+
+.ruckus-pc-dashboardlineups .upcoming_row, 
+.ruckus-pc-dashboardlineups .active_row  {
+	min-height:86px;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .tabs {
+
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	font-size: 12px;
+	padding: 0;
+	width: 218px;
+	margin-left: 15px;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .tab {
+	border-left: 1px solid #cccccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #474747;
+	text-align: center;
+
+}
+
+.ruckus-spc-dashboardcontestpercentowned .tabSelected {
+	border-left: 1px solid #cccccc;
+	padding: 10px;
+	color: #FFFFFF;
+	background-color: #474747;
+	text-align: center;
+	box-shadow: inset 0 0 5px #474747;
+	-moz-animation: select3Tabs 0.3s ease;
+	-webkit-animation: select3Tabs 0.3s ease;
+	animation: select3Tabs 0.3s ease;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .tab {
+	position: relative;
+}
+.ruckus-spc-dashboardcontestpercentowned .tab:hover {
+    color: #000;
+    -webkit-transition:color .5s ease;
+    -moz-transition:color .5s ease;
+    -o-transition:color .5s ease;
+    transition:color .5s ease;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .tab:hover .mainTooltipContainer {
+	display: block;
+	-webkit-animation: tooltipFadeIn 1s;
+	animation: tooltipFadeIn 1s;
+
+}
+.ruckus-spc-dashboardcontestpercentowned .tab .mainTooltipContainer {
+	position: absolute;
+	top: 45px;
+	left: -65px;
+	padding: 0;
+	margin: 0;
+	display: none;
+	z-index: 1001;
+}
+.ruckus-spc-dashboardcontestpercentowned .tab .insideTooltipContainer {
+	padding: 15px;
+	/*border: 1px solid #898989;*/
+	box-shadow: 1px 1px 5px #888888;
+	-webkit-box-shadow: 1px 1px 5px #898989;
+	-moz-box-shadow: 1px 1px 5px #898989;
+	background-color: #474747;
+	color: #FFF;
+	font-size: 12px;
+	position: relative;
+	text-align: center;
+	width: 200px;
+	cursor: default;
+	z-index:1110;
+}
+.ruckus-spc-dashboardcontestpercentowned .tab .ttInsideTopTriangle {
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid #474747;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	position: absolute;
+	top: -9px;
+	left: 90px;
+}
+/*
+.ruckus-spc-dashboardcontestpercentowned  .tab .ttBorderTopTriangle {
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid #898989;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	top: -10px;
+	left: 90px;
+}*/
+
+.ruckus-spc-dashboardcontestpercentowned .tabSelected {
+	position: relative;
+}
+
+
+.ruckus-spc-dashboardcontestpercentowned .tabSelected:hover .mainTooltipContainer {
+	display: block;
+	-webkit-animation: tooltipFadeIn 1s;
+	animation: tooltipFadeIn 1s;
+
+}
+.ruckus-spc-dashboardcontestpercentowned .tabSelected .mainTooltipContainer {
+	position: absolute;
+	top: 45px;
+	left: -65px;;
+	padding: 0;
+	margin: 0;
+	display: none;
+	z-index: 1001;
+}
+.ruckus-spc-dashboardcontestpercentowned .tabSelected .insideTooltipContainer {
+	padding: 15px;
+	/*border: 1px solid #898989;*/
+	box-shadow: 1px 1px 5px #888888;
+	-webkit-box-shadow: 1px 1px 5px #898989;
+	-moz-box-shadow: 1px 1px 5px #898989;
+	background-color: #474747;
+	color: #FFF;
+	font-size: 12px;
+	position: relative;
+	text-align: center;
+	width: 200px;
+	cursor: default;
+}
+.ruckus-spc-dashboardcontestpercentowned .tabSelected .ttInsideTopTriangle {
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid #474747;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	position: absolute;
+	top: -9px;
+	left: 90px;
+}
+/*
+.ruckus-spc-dashboardcontestpercentowned  tabSelected .ttBorderTopTriangle {
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid #898989;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	top: -10px;
+	left: 90px;
+}
+*/
+@-moz-keyframes tooltipFadeIn {
+    from { opacity: 0; top: 55px; }
+    to { opacity: 0.99; top: 45px; }
+}
+@-webkit-keyframes tooltipFadeIn {
+    from { opacity: 0; top: 55px; }
+    to { opacity: 0.99; top: 45px; }
+}
+
+@keyframes tooltipFadeIn {
+    from { opacity: 0; top:55px; }
+      to { opacity: 0.99; top: 45px; }
+}
+
+@-moz-keyframes select3Tabs{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+@-webkit-keyframes select3Tabs{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+@keyframes select3Tabs{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+.ruckus-spc-dashboardcontestpercentowned .points {
+padding: 0;
+color: #474747;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .name {
+padding: 0;
+color: #474747;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .owned {
+padding: 0;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .ownedText {
+	font-size: 9px;
+	margin-top: -5px;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .ownedRow {
+	height: 40px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .ownedRow:nth-child(odd) {
+	background-color: #F5FAF9;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .ownedRow:hover {
+	background-color: #eaf3f9;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .container {
+	padding: 0;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .chat {
+	position:absolute;
+	bottom:0;
+	text-align: center;
+	color: #474747;
+	font-size: 14px;
+	padding: 10px;
+	margin-left: 15px;
+	border-top: 1px solid #cccccc;
+	background-color: #FFFFFF;
+	z-index: 100000;
+	height: 40px;
+}
+
+.ruckus-spc-dashboardcontestpercentowned .tableContainer {
+	overflow-y:auto;
+	height: 205px;
+	padding: 0;
+}
+
+
+/* -- Dashboard Lineups -- */
+
+.ruckus-pc-dashboardlineups .lineupsContainer {
+  margin-bottom:50px;
+}
+
+.ruckus-pc-dashboardlineups .cell {
+	background-color: #ffffff;
+	color: #474747;
+
+	padding: 0;
+	margin: 24px;
+	border: 1px solid #cccccc;
+}
+
+.ruckus-pc-dashboardlineups .topBar {
+	height: 70px;
+}
+
+.ruckus-pc-dashboardlineups .name {
+	padding: 25px;
+  padding-bottom:15px;
+	font-size: 24px;
+  font-weight:100;
+}
+
+.ruckus-pc-dashboardlineups .salary {
+padding-left: 25px;
+font-size: 20px;
+}
+
+.ruckus-pc-dashboardlineups .salaryText {
+color: #999999;
+font-size: 10px;
+padding-bottom: 20px;
+}
+
+.ruckus-pc-dashboardlineups .time {
+padding-right: 25px;
+font-size: 20px;
+text-align:right;
+}
+
+.ruckus-pc-dashboardlineups .timeText {
+color: #999999;
+font-size: 10px;
+padding-bottom: 20px;
+}
+
+.ruckus-pc-dashboardlineups .timeBar {
+height: 5px;
+background-color: #7cdfa4;
+}
+
+.ruckus-pc-dashboardlineups .fpp {
+  text-align: right;
+}
+
+.ruckus-pc-dashboardlineups .fppText {
+  padding-right: 6px;
+  padding-bottom: 10px;
+}
+
+.ruckus-pc-dashboardlineups .fppNumber {
+  font-size: 25px;
+  padding-right: 18px;
+}
+  
+.ruckus-pc-dashboardlineups .cell .tableHead {
+border-top: 1px solid #dbdbdb;
+border-bottom: 1px solid #dbdbdb;
+padding: 10px;
+font-size: 12px;
+color:#898989;
+}
+
+.ruckus-pc-dashboardlineups .cell .tableHead .fppg {
+  text-align:right;
+}
+
+.ruckus-pc-dashboardlineups .lineupEditRow {
+padding: 10px;
+font-size: 14px;
+}
+
+/*.ruckus-pc-dashboardlineups .lineupEditRow:hover,
+.ruckus-pc-dashboardlineups .lineupEditRow:nth-child(odd):hover {
+  background-color:#eaf3f9;
+}*/
+
+.ruckus-pc-dashboardlineups .lineupEditRow .points {
+  text-align:right;
+}
+
+.ruckus-pc-dashboardlineups .lineupEditRow .position {
+  color:#898989;
+}
+
+.ruckus-pc-dashboardlineups .lineupEditRow:nth-child(odd) {
+background-color: #F5FAF9;
+}
+
+.ruckus-pc-dashboardlineups .edit {
+height: 60px;
+border-top: 1px solid #dbdbdb;
+border-bottom: 1px solid #dbdbdb;
+}
+
+.ruckus-pc-dashboardlineups .editTab {
+margin-top: 8px;
+margin-bottom: 10px;
+padding-left: 50px;
+padding-top: 15px;
+}
+
+.ruckus-pc-dashboardlineups .editTab {
+	position: relative;
+}
+
+.ruckus-pc-dashboardlineups .editTab:hover .mainTooltipContainer {
+	display: block;
+	-webkit-animation: leTooltipFadeIn 1s;
+	animation: leTooltipFadeIn 1s;
+
+}
+.ruckus-pc-dashboardlineups .editTab .mainTooltipContainer {
+	position: absolute;
+	top: 60px;
+	left: -45px;
+	padding: 0;
+	margin: 0;
+	display: none;
+	z-index: 1001;
+}
+.ruckus-pc-dashboardlineups .editTab .insideTooltipContainer {
+	padding: 15px;
+	/*border: 1px solid #898989;*/
+	box-shadow: 1px 1px 5px #888888;
+	-webkit-box-shadow: 1px 1px 5px #898989;
+	-moz-box-shadow: 1px 1px 5px #898989;
+	background-color: #FFF;
+	color: #474747;
+	font-size: 12px;
+	position: relative;
+	text-align: center;
+	width: 200px;
+	cursor: default;
+	z-index:1110;
+}
+.ruckus-pc-dashboardlineups .editTab .ttInsideTopTriangle {
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid #FFF;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	position: absolute;
+	top: -9px;
+	left: 90px;
+}
+
+.ruckus-pc-dashboardlineups .editTab .ttBorderTopTriangle {
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid #898989;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	top: -10px;
+	left: 90px;
+}
+@-moz-keyframes leTooltipFadeIn {
+    from { opacity: 0; top: 70px; }
+    to { opacity: 0.99; top: 60px; }
+}
+@-webkit-keyframes leTooltipFadeIn {
+    from { opacity: 0; top: 70px; }
+    to { opacity: 0.99; top: 60px; }
+}
+
+@keyframes leTooltipFadeIn {
+    from { opacity: 0; top:70px; }
+      to { opacity: 0.99; top: 60px; }
+}
+
+
+.ruckus-pc-dashboardlineups .darkHead {
+	background-color: #474747;
+	border-bottom: 1px solid #ebebeb;
+	height: 70px;
+	padding:15px;
+}
+
+.ruckus-pc-dashboardlineups .contests {
+color: #7cdfa4;
+font-size: 18px;
+text-align:center;
+}
+
+.ruckus-pc-dashboardlineups .contestsText {
+color: #ffffff;
+font-size: 10px;
+}
+
+.ruckus-pc-dashboardlineups .fees {
+color: #7cdfa4;
+font-size: 18px;
+text-align:center;
+}
+
+.ruckus-pc-dashboardlineups .feesText {
+color: #ffffff;
+font-size: 10px;
+}
+
+.ruckus-pc-dashboardlineups .contestTable {
+	height: 175px;
+	width: 339px;
+	background-color: #474747;
+	margin-left: -15px;
+}
+
+.ruckus-pc-dashboardlineups .contestRow {
+color: #ffffff;
+background-color: #474747;
+height: 35px;
+padding-top: 8px;
+padding-left: 15px;
+padding-right: 15px;
+margin:0;
+}
+
+.ruckus-pc-dashboardlineups .contestRow .leave {
+  text-align:right;
+  color:#7cdfa4;
+}
+
+.ruckus-pc-dashboardlineups .contestRow:nth-child(even) {
+	background-color: #555555;
+}
+
+.icons.iconslock_white.floatRight {
+  margin-left:45px;
+}
+
+/*.ruckus-pc-dashboardlineups .contestRow:hover,
+.ruckus-pc-dashboardlineups .contestRow:nth-child(even):hover {
+  background-color:#646464;
+}*/
+
+.ruckus-pc-dashboardlineups .contestName {
+
+}
+
+.ruckus-pc-dashboardlineups .remove {
+
+}
+
+
+.ruckus-pc-dashboardlineups .editHead {
+	height: 100px;
+	background-color: #ffffff;
+	color: #474747;
+
+	padding: 20px;
+	margin: 0;
+	border-top: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+.ruckus-pc-dashboardlineups .editTitle {
+	font-size: 24px;
+	padding: 15px;
+}
+
+.ruckus-pc-dashboardlineups .steps {
+padding: 15px;
+}
+
+.ruckus-pc-dashboardlineups .stepSelected {
+	border-radius: 100px;
+	height: 30px;
+	width: 30px;
+	background-color: #7cdfa4;
+	border: 1px solid #7cdfa4;
+	color: #ffffff;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.ruckus-pc-dashboardlineups .step {
+	border-radius: 100px;
+	border: 1px solid #ebebeb;
+	height: 30px;
+	width: 30px;
+	background-color: #ffffff;
+	color: #ebebeb;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.ruckus-pc-dashboardlineups .stepTextSelected {
+	color: #474747;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+.ruckus-pc-dashboardlineups .stepText {
+	color: #ebebeb;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+.ruckus-pc-dashboardlineups .editX {
+	border-radius: 100px;
+	height: 30px;
+	width: 30px;
+	background-color: #ff8593;
+	border: 1px solid #ff8593;
+	color: #ffffff;
+	padding-top: 6px;
+	padding-left: 11px;
+	margin: 15px;
+	float: right;
+}
+
+.ruckus-pc-dashboardlineups .leftSide {
+	padding:0;
+	margin:0;
+	border:1px solid #cccccc;
+	height: 550px;
+}
+
+.ruckus-pc-dashboardlineups .rightSide {
+	height: 550px;
+	padding:0;
+	margin:0;
+	border-top:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+}
+
+.ruckus-pc-dashboardlineups .contestBox {
+	margin: 150px;
+}
+
+.ruckus-pc-dashboardlineups .topBarEntries {
+height: 70px;
+padding: 30px;
+font-size: 24px;
+color: #474747;
+
+margin: 20px;
+}
+
+
+.ruckus-pc-dashboardlineups .returnButton {
+height: 70px;
+width: 378px;
+padding: 30px;
+font-size: 18px;
+color: #474747;
+
+margin: 15px;
+border-top:1px solid #cccccc;
+}
+
+.ruckus-pc-dashboardlineups .checkcircle {
+height: 20px;
+width: 20px;
+border-radius:100px;
+border: 1px solid #ebebeb;
+margin: 0;
+}
+
+.ruckus-pc-dashboardlineups .checkcircleSelected {
+height: 20px;
+width: 20px;
+background-color: #7cdfa4;
+border-radius:100px;
+border: 1px solid #ebebeb;
+margin: 0;
+}
+
+.ruckus-pc-dashboardlineups .contestLine {
+height: 30px;
+font-size: 16px;
+color: #999999;
+
+}
+
+.ruckus-pc-dashboardlineups .lineupTable {
+	margin: 15px;
+}
+
+.ruckus-pc-dashboardlineups .submitButton {
+	width: 120px;
+	background-color: #707070;
+	color: #FFFFFF;
+	font-size: 12px;
+	border-radius: 3px;
+	box-shadow: inset 0 0 1px #E0E0E0;
+	border: 1px solid #494949;
+	margin: 5px;
+	padding: 5px;
+	text-shadow: 0 1px 1px #3c3c3c;
+	text-align: center;
+	cursor: pointer;
+	float: right;
+	margin-right: 80px;
+}
+
+
+/*-------History------*/
+
+.ruckus-pc-dashboard .finish {
+	font-size: 14px;
+	color: #474747;
+	padding-left: 30px;
+	padding-top: 15px;
+	height: 50px;
+
+}
+
+.ruckus-pc-dashboard .finishTime {
+	font-size: 11px;
+	color: #474747;
+	padding-top: 18px;
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+.ruckus-pc-dashboard .finishRow {
+
+}
+
+.ruckus-pc-dashboard .finishBox {
+	background-color: #474747;
+	color: #ffffff;
+	height: 130px;
+	border-bottom: 1px solid  #707070;
+}
+
+.ruckus-pc-dashboard .projectedHistory {
+	background-color: #ffffff;
+	color: #707070;
+	border: 1px solid #707070;
+}
+
+.ruckus-pc-dashboard .finishBox .position {
+	color: #ffffff;
+	margin-top: 30px;
+}
+
+.ruckus-pc-dashboard .finishBox .fpp {
+	color: #ffffff;
+	margin-top: 30px;
+}
+
+.ruckus-pc-dashboard .projectedHistory .projectText {
+	margin-left: 0;
+}
+
+.ruckus-pc-dashboard .finishBox .place {
+	height: 130px;
+}
+
+.ruckus-pc-dashboard .finishBox .points {
+	height: 130px;
+}
+
+.ruckus-pc-dashboard .dashNav {
+  margin-top:25px;
+  margin-bottom:20px;
+  margin-left:28px;
+}
+
+.ruckus-spc-dashboardhistoryheader .historyHead {
+	height: 60px;
+	background-color: #474747;
+	color: #ffffff;
+
+	margin-bottom: 20px;
+}
+
+.ruckus-spc-dashboardhistoryheader .finished {
+	font-size: 20px;
+	padding-top: 16px;
+}
+
+.ruckus-spc-dashboardhistoryheader .stat {
+	font-size: 20px;
+	margin-top: 16px;
+
+	padding: 0;
+	text-align: right;
+}
+
+.ruckus-spc-dashboardhistoryheader .desc {
+	font-size: 12px;
+	color: #999999;
+	margin-top: 25px;
+	padding: 0;
+	margin-left: 12px;
+}
+.ruckus-spc-dashboardhistoryheader .pay {
+	color: #7cdfa4;
+}

@@ -1,0 +1,226 @@
+{
+    "status": "OK",
+    "recordCount": 32,
+    "startTimestamp": "2014-05-29T23:28:43.5637105Z",
+    "endTimestamp": "2014-05-29T23:28:43.5949607Z",
+    "timeTaken": 0.0312502,
+    "apiResults": [{
+        "sportId": 2,
+        "name": "Baseball",
+        "league": {
+            "leagueId": 7,
+            "name": "Major League Baseball",
+            "abbreviation": "MLB",
+            "displayName": "Major League Baseball",
+            "season": {
+                "season": 2014,
+                "name": "2014 MLB Season",
+                "isActive": true,
+                "conferences": [{
+                    "conferenceId": 6,
+                    "name": "National League",
+                    "abbreviation": "NL",
+                    "divisions": [{
+                        "divisionId": 14,
+                        "name": "West Division",
+                        "abbreviation": "West",
+                        "teams": [{
+                            "teamId": 251,
+                            "location": "Colorado",
+                            "nickname": "Rockies",
+                            "abbreviation": "Col"
+                        }, {
+                            "teamId": 253,
+                            "location": "Arizona",
+                            "nickname": "Diamondbacks",
+                            "abbreviation": "Ari"
+                        }, {
+                            "teamId": 243,
+                            "location": "Los Angeles",
+                            "nickname": "Dodgers",
+                            "abbreviation": "LAD"
+                        }, {
+                            "teamId": 249,
+                            "location": "San Diego",
+                            "nickname": "Padres",
+                            "abbreviation": "SD"
+                        }, {
+                            "teamId": 250,
+                            "location": "San Francisco",
+                            "nickname": "Giants",
+                            "abbreviation": "SF"
+                        }]
+                    }, {
+                        "divisionId": 12,
+                        "name": "East Division",
+                        "abbreviation": "East",
+                        "teams": [{
+                            "teamId": 252,
+                            "location": "Miami",
+                            "nickname": "Marlins",
+                            "abbreviation": "Mia"
+                        }, {
+                            "teamId": 239,
+                            "location": "Atlanta",
+                            "nickname": "Braves",
+                            "abbreviation": "Atl"
+                        }, {
+                            "teamId": 244,
+                            "location": "Washington",
+                            "nickname": "Nationals",
+                            "abbreviation": "Was"
+                        }, {
+                            "teamId": 245,
+                            "location": "New York",
+                            "nickname": "Mets",
+                            "abbreviation": "NYM"
+                        }, {
+                            "teamId": 246,
+                            "location": "Philadelphia",
+                            "nickname": "Phillies",
+                            "abbreviation": "Phi"
+                        }]
+                    }, {
+                        "divisionId": 13,
+                        "name": "Central Division",
+                        "abbreviation": "Central",
+                        "teams": [{
+                            "teamId": 232,
+                            "location": "Milwaukee",
+                            "nickname": "Brewers",
+                            "abbreviation": "Mil"
+                        }, {
+                            "teamId": 240,
+                            "location": "Chicago",
+                            "nickname": "Cubs",
+                            "abbreviation": "ChC"
+                        }, {
+                            "teamId": 241,
+                            "location": "Cincinnati",
+                            "nickname": "Reds",
+                            "abbreviation": "Cin"
+                        }, {
+                            "teamId": 247,
+                            "location": "Pittsburgh",
+                            "nickname": "Pirates",
+                            "abbreviation": "Pit"
+                        }, {
+                            "teamId": 248,
+                            "location": "St. Louis",
+                            "nickname": "Cardinals",
+                            "abbreviation": "StL"
+                        }]
+                    }]
+                }, {
+                    "conferenceId": 5,
+                    "name": "American League",
+                    "abbreviation": "AL",
+                    "divisions": [{
+                        "divisionId": 12,
+                        "name": "East Division",
+                        "abbreviation": "East",
+                        "teams": [{
+                            "teamId": 254,
+                            "location": "Tampa Bay",
+                            "nickname": "Rays",
+                            "abbreviation": "TB"
+                        }, {
+                            "teamId": 225,
+                            "location": "Baltimore",
+                            "nickname": "Orioles",
+                            "abbreviation": "Bal"
+                        }, {
+                            "teamId": 226,
+                            "location": "Boston",
+                            "nickname": "Red Sox",
+                            "abbreviation": "Bos"
+                        }, {
+                            "teamId": 234,
+                            "location": "New York",
+                            "nickname": "Yankees",
+                            "abbreviation": "NYY"
+                        }, {
+                            "teamId": 238,
+                            "location": "Toronto",
+                            "nickname": "Blue Jays",
+                            "abbreviation": "Tor"
+                        }]
+                    }, {
+                        "divisionId": 14,
+                        "name": "West Division",
+                        "abbreviation": "West",
+                        "teams": [{
+                            "teamId": 227,
+                            "location": "Los Angeles",
+                            "nickname": "Angels",
+                            "abbreviation": "LAA"
+                        }, {
+                            "teamId": 235,
+                            "location": "Oakland",
+                            "nickname": "Athletics",
+                            "abbreviation": "Oak"
+                        }, {
+                            "teamId": 236,
+                            "location": "Seattle",
+                            "nickname": "Mariners",
+                            "abbreviation": "Sea"
+                        }, {
+                            "teamId": 237,
+                            "location": "Texas",
+                            "nickname": "Rangers",
+                            "abbreviation": "Tex"
+                        }, {
+                            "teamId": 242,
+                            "location": "Houston",
+                            "nickname": "Astros",
+                            "abbreviation": "Hou"
+                        }]
+                    }, {
+                        "divisionId": 13,
+                        "name": "Central Division",
+                        "abbreviation": "Central",
+                        "teams": [{
+                            "teamId": 228,
+                            "location": "Chicago",
+                            "nickname": "White Sox",
+                            "abbreviation": "CWS"
+                        }, {
+                            "teamId": 229,
+                            "location": "Cleveland",
+                            "nickname": "Indians",
+                            "abbreviation": "Cle"
+                        }, {
+                            "teamId": 230,
+                            "location": "Detroit",
+                            "nickname": "Tigers",
+                            "abbreviation": "Det"
+                        }, {
+                            "teamId": 231,
+                            "location": "Kansas City",
+                            "nickname": "Royals",
+                            "abbreviation": "KC"
+                        }, {
+                            "teamId": 233,
+                            "location": "Minnesota",
+                            "nickname": "Twins",
+                            "abbreviation": "Min"
+                        }]
+                    }]
+                }],
+                "allstar": {
+                    "teams": [{
+                        "teamId": 322,
+                        "location": "NL",
+                        "nickname": "All-Stars",
+                        "abbreviation": "NLS"
+                    }, {
+                        "teamId": 321,
+                        "location": "AL",
+                        "nickname": "All-Stars",
+                        "abbreviation": "ALS"
+                    }]
+                }
+            }
+        }
+    }]
+}

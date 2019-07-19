@@ -1,0 +1,51 @@
+/* force another update */
+.ruckus-spc-dashboardcontestteamfeed {
+  background-color: #474747;
+  border: 1px solid #cccccc;
+  height: 432px;
+}
+.ruckus-spc-dashboardcontestteamfeed .teamfeedtitle {
+  background-color: #fff;
+  color: #000;
+  height: 70px;
+  line-height: 70px;
+  padding-top: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+.ruckus-spc-dashboardcontestteamfeed .teamfeedbody {
+  height: 360px;
+  overflow-y: scroll;
+}
+
+.ruckus-spc-dashboardcontestteamfeed .fpchange {
+  color: #7cdfa4;
+  padding-top: 10px;
+  font-weight: 400;
+}
+.ruckus-spc-dashboardcontestteamfeed .fpdescription {
+  overflow-y: hidden;
+}
+.ruckus-spc-dashboardcontestteamfeed  .fpdescriptionname {
+  color: #fff;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.ruckus-spc-dashboardcontestteamfeed .fpdescriptiontext {
+  font-size: 10px;
+  color: #ffffff;
+}
+.ruckus-spc-dashboardcontestteamfeed .teamfeeddataitemtimestamp {
+  border-top: 1px dashed #999999;
+  color: #ff8593;
+  font-size: 9px;
+  text-align: right;
+  margin-top: 15px;
+  width: 65%;
+}
+
+.ruckus-spc-dashboardcontestteamfeed .teamfeeddataitemtimestamp div.col-xs-24 {
+  margin-left: 100px;
+  margin-top: -8px;
+}

@@ -1,0 +1,9 @@
+@adminMain("Stats Mod"){
+    <div class="alert alert-error">
+        @flash.get("error")
+    </div>
+    @helper.form(action = controllers.admin.mgmt.routes.StatsModController.statsModUpload, 'enctype -> "multipart/form-data") {
+        <input type="file" name="importFile">
+        <input type="submit">
+    }
+}

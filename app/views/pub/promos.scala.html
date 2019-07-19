@@ -1,0 +1,22 @@
+@(user: models.user.User, wallet: models.wallet.UserWallet)
+@import views.html.pub.components._
+
+@imports.render(user)
+<title>VICTIV | Daily Fantasy Sports Promotions</title>
+
+@if(user != null){
+    @headerAuth.render(user, wallet)
+} else {
+    @header.render(user)
+}
+<div class="col-xs-24 win">
+	<div class="row section callToAction">
+			<div class="col-xs-5"></div>
+			<div class="col-xs-14">
+				<div class="mainHeader center">PROMOTIONS</div>
+				<div class="descHeader center">Check back soon for our promotional offers. Until then, find us on <a target="_blank" href="https://www.facebook.com/playvictiv">facebook</a> and <a target="_blank" href="https://twitter.com/playvictiv">twitter</a></div>
+			</div>
+			<div class="col-xs-5"></div>
+	</div>
+</div>
+@footer.render(user)

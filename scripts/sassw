@@ -1,0 +1,2 @@
+#/usr/bin/sh
+sass -C -t expanded --watch ../rsrc/sass:../public/css/subpagecontrols

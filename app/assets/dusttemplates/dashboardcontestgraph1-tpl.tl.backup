@@ -1,0 +1,24 @@
+<div class="row">
+	<div class="col-xs-24">
+		<div class="row">
+			<div id="dshm_cell_{id}" class="col-xs-24 dshm_cell" style="background-color:#F8F8F8;margin-bottom:20px;cursor:pointer;">
+				<div class="row">
+					<div class="col-xs-24" style="height:300px;">
+						<div id="dshm_graph_{id}" class="row"></div>
+					</div>
+					<div id="dshm_block_{id}" style="position:absolute;opacity:.3;width:10px;background-color:#7cdfa4;margin-left:447px;background: linear-gradient(45deg, white 25%, #7cdfa4 25%, #7cdfa4 50%, white 50%, white 75%, #7cdfa4 75%); background-size:4px 4px;"></div>
+					<div id="dshm_block_proj_{id}" style="position:absolute;color:#aaaaaa;height:20px;width:20px;border-radius:5px;border-style:dotted;border-width:1px;border-color:#aaaaaa;margin-left:407px;font-size:6pt;text-align:center;padding-top:3px;margin-top:10px;">{formattedprojectedWinnings}</div>
+					<div id="dshm_block_1st_{id}" style="position:absolute;color:#7cdfa4;margin-left:432px;font-size:6pt;">1st</div>
+					<div id="dshm_block_dollar_{id}" style="position:absolute;color:#7cdfa4;margin-left:437px;font-size:6pt;">$</div>
+					<div id="dshm_line_{id}" style="position:absolute;width:1px;background-color:#666666;"></div>
+					<div id="dshm_line_current_{id}" style="position:absolute;color:#aaaaaa;height:20px;width:20px;border-radius:5px;border-style:dotted;border-width:1px;border-color:#aaaaaa;font-size:6pt;text-align:center;padding-top:3px;background-color:#ffffff;">{formattedcurrentWinnings}</div>
+					<div id="dshm_dot_{id}" style="position:absolute;">
+						<div style="float:left;width:25px;margin-top:-5px;font-size:8pt;text-align:center;">{currentPoints}</div>
+						<div style="float:left;height:5px;width:5px;background-color:#000000;border-radius:3px;"></div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

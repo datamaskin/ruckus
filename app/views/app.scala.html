@@ -1,0 +1,88 @@
+@(user: models.user.User)
+@import views.html.pub.components._
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=1200, initial-scale=.6">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+    <meta name="viewport" content="width=1024, initial-scale=0, maximum-scale=5.0, user-scalable=1">-->
+
+    <title>VICTIV | Daily Fantasy Sports for Real Money</title>
+   <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@@playvictiv">
+    <meta name="twitter:title" content="VICTIV | Daily Fantasy Sports for Real Money">
+    <meta name="twitter:description" content="Play at the most exciting Daily Fantasy Sports site around. Up to $1,000 deposit bonus, win cash daily, and experience an interactive real-time dashboard.">
+    <meta name="twitter:creator" content="@@playvictiv">
+    <!-- Twitter Summary card images must be at least 200x200px -->
+    <meta name="twitter:image" content="https://www.victiv.com/assets/images/twitterMeta.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="VICTIV | Daily Fantasy Sports for Real Money" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.victiv.com/" />
+    <!-- Facebook images should be at least 600x600px -->
+    <meta property="og:image" content="https://www.victiv.com/assets/images/facebookMeta.png" />
+    <meta property="og:description" content="Play at the most exciting Daily Fantasy Sports site around. Up to $1,000 deposit bonus, win cash daily, and experience an interactive real-time dashboard." /> 
+    <meta property="og:site_name" content="VICTIV Daily Fantasy Sports" />
+
+
+
+    <link rel="icon" type="image/png" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/libraries/bootstrap.min.css")" />
+
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/subpagecontrols/contestfilter.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/subpagecontrols/contestresults.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/pagecontrols/dashboard.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/pagecontrols/contestentry.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/subpagecontrols/dashboardcontestathletes.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/icon.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/pagecontrols/staticpages.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/pagecontrols/deposit.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/pagecontrols/weather-icons.css")" />
+    <!--<link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/subpagecontrols/contestrow.css")" />-->
+
+	<!-- exploratory ... possibly remove -->
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/htmlcontrols/textbox.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/htmlcontrols/dropdown.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/htmlcontrols/checkbox.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/htmlcontrols/radioGroup.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/htmlcontrols/tooltip.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/htmlcontrols/toggle.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/htmlcontrols/button.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/libraries/dhtmlxslider/dhtmlxslider.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/libraries/nouislider/jquery.nouislider.css")" />
+	<link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/libraries/jquery-ui/jquery-ui-1.10.4.custom.min.css")" />
+<!--	<link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/libraries/bootstrap-slider/slider.css")" /> -->
+	<link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/libraries/ionrangeslider/normalize.min.css")" />
+	<link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/libraries/ionrangeslider/ion.rangeSlider.css")" />
+	<link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/libraries/ionrangeslider/ion.rangeSlider.skinNice.css")" />
+
+        <!-- shouldn't be required here, but avoid issue when optimizing requirejs code of "Module name "underscore" has not been loaded yet for context: _." -->
+    <script src="@routes.ConfigurableAssets.at("js/libraries/underscore-min.js")" type="text/javascript"></script>
+
+    <script data-main="@routes.ConfigurableAssets.at("js/main.js")" src="@routes.ConfigurableAssets.at("js/libraries/require.js")"></script>
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/main.css")" />
+
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/subpagecontrols/dashboardcontestranks.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/subpagecontrols/dashboardcontestteamfeed.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/subpagecontrols/dashboardcontestathletedetail.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/subpagecontrols/dashboardcontestallathletes.css")" />
+
+    @google.render(user)
+
+</head>
+<body>
+        <div id="parentcontainer" class="container parentcontainer">
+            <div id="header" class="row"></div>
+            <div id="main" class="row"></div>
+            <div id="footer" class="row"></div>
+        </div>
+</body>
+</html>
+<script language="javascript">
+	var ruckusVersion = '1001';
+</script>

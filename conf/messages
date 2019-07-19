@@ -1,0 +1,142 @@
+# App name
+ruckus.appName=VICTIV
+
+# Login page
+securesocial.login.title=SIGN IN
+securesocial.login.instructions=Social
+securesocial.login.accessDenied=You denied access to your account. Please grant it to log in.
+securesocial.login.errorLoggingIn=An error occurred while logging you in. Please try again.
+securesocial.login.useEmailAndPassword=Account
+securesocial.login.useEmailAndPasswordOnly=Login using a username and password.
+securesocial.login.signUp=
+securesocial.login.here=New to the game?
+securesocial.login.invalidCredentials=The credentials you entered are not valid.
+securesocial.login.forgotPassword=Did you forget your password?
+securesocial.login.or=or
+securesocial.login.bodyTextTitle=Welcome beta testers!
+securesocial.login.bodyText=
+
+
+# Sign up page
+securesocial.signup.title=Sign Up
+securesocial.signup.username=Username
+securesocial.signup.firstName=First Name
+securesocial.signup.lastName=Last Name
+securesocial.signup.email1=Email
+securesocial.signup.email2=Email confirmation
+securesocial.signup.password1=Password
+securesocial.signup.password2=Password confirmation
+securesocial.signup.createAccount=Create Account
+securesocial.signup.cancel=Cancel
+securesocial.signup.userNameAlreadyTaken=Username already taken
+securesocial.signup.passwordsDoNotMatch=Passwords do not match
+securesocial.signup.thankYouCheckEmail=Thank you. Please check your email for further instructions
+securesocial.signup.invalidLink=The link you followed is invalid
+securesocial.signup.signUpDone=Thank you for signing up.  You can log in now
+securesocial.signup.invalidPassword=Enter at least {0} characters
+securesocial.signup.secureAccount=
+
+# Password reset
+securesocial.password.title=Reset Password
+securesocial.password.passwordUpdated=Your password was updated successfully
+securesocial.password.reset=Reset Password
+securesocial.password.error=There was a problem changing your password. Please try again
+
+# Password change
+securesocial.passwordChange.title=Change Password
+securesocial.passwordChange.currentPassword=Current Password
+securesocial.passwordChange.newPassword1=New Password
+securesocial.passwordChange.newPassword2=New Password Confirmation
+securesocial.passwordChange.changeButton=Change
+securesocial.passwordChange.invalidPassword=Invalid password
+securesocial.passwordChange.ok=Your password was changed successfully
+securesocial.passwordChange.okButton=Ok
+
+# Not authorized page
+securesocial.notAuthorized.title=Not Authorized
+securesocial.notAuthorized.message=You are not authorized to access that page
+
+#
+securesocial.loginRequired=You need to log in to access that page.
+
+# Mails
+#
+mails.sendAlreadyRegisteredEmail.subject=Sign up instructions
+mails.sendSignUpEmail.subject=Sign up instructions
+mails.welcomeEmail.subject=Welcome
+mails.passwordResetEmail.subject=Password reset instructions
+mails.unknownEmail.subject=Password reset request
+mails.passwordResetOk.subject=Password change confirmation
+
+#
+# Link accounts
+#
+securesocial.link.accessDenied=Your account was not linked because you denied access to it
+securesocial.link.error=There was an error while trying to link your account. Please try again.
+
+# 
+# CAMS Transaction Result Messages
+#
+wallet.cams.result.100=Transaction was Approved
+wallet.cams.result.200=Transaction was Declined by Processor
+wallet.cams.result.201=Do Not Honor
+wallet.cams.result.202=Insufficient Funds
+wallet.cams.result.203=Over Limit
+wallet.cams.result.204=Transaction not allowed
+wallet.cams.result.220=Incorrect payment Data
+wallet.cams.result.221=No Such Card Issuer
+wallet.cams.result.222=No Card Number on file with Issuer
+wallet.cams.result.223=Expired Card
+wallet.cams.result.224=Invalid Expiration Date
+wallet.cams.result.225=Invalid Card Security Code
+wallet.cams.result.226=Invalid PIN
+wallet.cams.result.240=Call Issuer for Further Information
+wallet.cams.result.250=Pick Up Card
+wallet.cams.result.251=Lost Card
+wallet.cams.result.252=Stolen Card
+wallet.cams.result.253=Fraudulent Card
+wallet.cams.result.260=Declined With further Instructions Available (see response text,
+wallet.cams.result.261=Declined - Stop All Recurring Payments
+wallet.cams.result.262=Declined - Stop this Recurring Program
+wallet.cams.result.263=Declined - Update Cardholder Data Available
+wallet.cams.result.264=Declined - Retry in a few days
+wallet.cams.result.300=Transaction was Rejected by Gateway
+wallet.cams.result.400=Transaction Error Returned by Processor
+wallet.cams.result.410=Invalid Merchant Configuration
+wallet.cams.result.411=Merchant Account is Inactive
+wallet.cams.result.420=Communication Error
+wallet.cams.result.421=Communication Error with Issuer
+wallet.cams.result.430=Duplicate Transaction at Processor
+wallet.cams.result.440=Processor Format Error
+wallet.cams.result.441=Invalid Transaction Information
+wallet.cams.result.460=Processor Feature Not Available
+wallet.cams.result.461=Unsupported Card Type
+wallet.cams.result.801=Rule Match
+wallet.cams.result.811=BIN Match – Private
+wallet.cams.result.812=BIN Match – Global
+wallet.cams.result.813=Account Number Match – Private
+wallet.cams.result.814=Account Number Match – Global
+wallet.cams.result.815=Email Domain Match – Private
+wallet.cams.result.816=Email Domain Match – Global
+wallet.cams.result.817=Email Address Match – Private
+wallet.cams.result.818=Email Address Match – Global
+wallet.cams.result.819=IP Address Match – Private
+wallet.cams.result.820=IP Address Match – Global
+wallet.cams.result.821=IP Address Wildcard Match – Private
+wallet.cams.result.822=IP Address Wildcard Match – Global
+wallet.cams.result.823=Configuration Error - No Merchant Account
+wallet.cams.result.824=No Active Merchant Accounts
+wallet.cams.result.881=Refund Transaction Mismatch
+wallet.cams.result.882=Refund Transaction Not Found
+wallet.cams.result.883=Refund Exceeds Transaction Balance
+wallet.cams.result.884=Max Monthly Limit Exceeded
+wallet.cams.result.885=Max Daily Limit Exceeded
+wallet.cams.result.886=Max Ticket Limit Exceeded
+wallet.cams.result.887=Configuration Error – No Product Group
+wallet.cams.result.888=All Merchant Account Limits Exceeded
+wallet.cams.result.889=Card Type Not Supported
+wallet.cams.result.890=Merchant Account Limit Exceeded on Sticky Transactions
+wallet.cams.result.891=AVS Match
+wallet.cams.result.892=CVV Match
+wallet.cams.result.893=Score Match
+wallet.cams.result.894=User Not Authorized to Submit Transaction"

@@ -1,0 +1,23 @@
+/* Author: Scott Gay */
+.ruckus .cbox {
+	cursor			: pointer;
+}
+
+.ruckus .checkboxlabel {
+	font-size		: 10pt;
+	color			: #333333;
+	margin-left		: 5px;
+	margin-top		: 8px;
+}
+
+.ruckus .cbox.checked {
+	background-image	: url(/assets/images/checkbox/checkbox_checked.png);
+	height			: 25px;
+	width			: 25px;
+}
+
+.ruckus .cbox.unchecked {
+	background-image	: url(/assets/images/checkbox/checkbox_unchecked.png);
+	height			: 25px;
+	width			: 25px;
+}

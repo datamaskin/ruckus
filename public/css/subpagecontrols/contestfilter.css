@@ -1,0 +1,263 @@
+/* -- Authored by Andrew Antar -- */
+
+/* -- Filter Main -- */
+
+.ruckus-spc-contestfilter .filtercontainer {
+	margin-top: 50px;
+	padding: 0;
+	border-radius: 3px 3px 0 0;
+	background-color: #474747;
+	color:#999;
+}
+
+.ruckus-spc-contestfilter .top {
+	margin-top: 40px;
+	padding: 0;
+}
+
+.ruckus-spc-contestfilter .divider {
+	height: 100px;
+	width: 1px;
+	padding: 0;
+	margin-top: -40px;
+}
+
+
+/* -- Filter Buy in Slider -- */
+
+.ruckus-spc-contestfilter .slider {
+	margin-top: -20px;
+}
+
+.ruckus-spc-contestfilter .sliderText {
+	margin-top: 15px;
+	font-size: 10px;
+	margin-left: 5px;
+}
+
+.ruckus-spc-contestfilter .sliderText .low:hover,
+.ruckus-spc-contestfilter .sliderText .med:hover,
+.ruckus-spc-contestfilter .sliderText .high:hover {
+	color:#fff;
+}
+
+.ruckus-spc-contestfilter .sliderEntry {
+	color: #ffffff;
+	margin-bottom: 11px;
+	font-size: 11px;
+}
+
+.ruckus-spc-contestfilter .buyIn {
+	margin-top: 0px;
+	padding: 0;
+}
+
+.ruckus-spc-contestfilter .ui-widget-content {
+	background: #474747;
+}
+
+.ruckus-spc-contestfilter .ui-widget-content .ui-slider-range {
+	background: #7cdfa4;
+}
+
+.ruckus-spc-contestfilter .ui-widget-content .ui-state-default {
+	background: #474747;
+	border-radius: 15px;
+}
+
+.ruckus-spc-contestfilter .ui-widget-content .ui-state-default:focus {
+	outline: none;
+}
+
+/* -- Filter Size --*/
+
+.ruckus-spc-contestfilter .size {
+	margin-top: -13px;
+	margin-left: -20px;
+}
+
+.ruckus-spc-contestfilter .sizecircle {
+	height: 15px;
+	width: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: #ffffff;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition:background-color .5s ease;
+	-moz-transition:background-color .5s ease;
+	-o-transition:background-color .5s ease;
+	transition:background-color .5s ease;
+}
+
+.ruckus-spc-contestfilter .sizename {
+	position: absolute;
+	float: left;
+	margin-top: -18px;
+	margin-left: 25px;
+}
+
+.ruckus-spc-contestfilter .sportselected .sizecircle,
+.ruckus-spc-contestfilter .sportselected .sizecircle:hover {
+	background-color	: #7cdfa4;
+	color			: #ffffff;
+}
+
+.ruckus-spc-contestfilter .sizecircle:hover {
+	background-color	: #999999;
+	color			: #ffffff;
+}
+
+
+/* -- Filter Sport -- */
+
+.ruckus-spc-contestfilter .sportcircle {
+	height: 15px;
+	width: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: #ffffff;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition:background-color .5s ease;
+	-moz-transition:background-color .5s ease;
+	-o-transition:background-color .5s ease;
+	transition:background-color .5s ease;
+}
+
+.ruckus-spc-contestfilter .sportname {
+	position: absolute;
+	float: left;
+	margin-top: -17px;
+	margin-left: 25px;
+	font-size: 13px;
+
+}
+
+.ruckus-spc-contestfilter .sportselected {
+	background-color	: #474747;
+	color: #ffffff;
+
+}
+
+.ruckus-spc-contestfilter .sportselected .sportcircle,
+.ruckus-spc-contestfilter .sportselected .sportcircle:hover {
+	background-color	: #7cdfa4;
+	color: #ffffff;
+}
+
+.ruckus-spc-contestfilter .sportcircle:hover {
+	background-color	: #999999;
+	color: #ffffff;
+}
+
+.ruckus-spc-contestfilter .sport {
+	margin-top: 2px;
+}
+
+.ruckus-spc-contestfilter .sport .sportbox {
+	margin-right: 43px;
+	margin-bottom: 15px;
+	padding: 0;
+}
+
+.ruckus-spc-contestfilter .sportbox {
+	margin-right: 35px;
+	margin-bottom: 15px;
+	padding: 0;
+}
+
+.ruckus-spc-contestfilter .sportboxinactive {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	color: #dddddd;
+	text-align: center;
+}
+
+.ruckus-spc-contestfilter .sport_header {
+	color: #fff;
+	text-align: center;
+	padding: 0;
+
+}
+
+
+/* -- Filter Misc -- */
+
+.ruckus-spc-contestfilter .clearlink {
+	cursor: pointer;
+	float: left;
+	font-size: 10px;
+	margin-left: 60px;
+	margin-top: -60px;
+}
+
+.ruckus-spc-contestfilter .clearlink:hover {
+	color:#fff;
+}
+
+.ruckus-spc-contestfilter .advancedbutton {
+	cursor: pointer;
+	text-decoration		: underline;
+	font-size: 10pt;
+}
+
+.ruckus-spc-contestfilter .quickplaydisabled {
+	width: 90px;
+	background-color: #fff;
+	color: #cccccc;
+	font-size: 11px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	margin: 5px;
+	padding: 4px;
+	text-align: center;
+	margin-top: 70px;
+	z-index: 1000;
+	margin-left: 30px;
+}
+
+.ruckus-spc-contestfilter .quickplayenabled {
+	width: 90px;
+	background-color: #fff;
+	color: #474747;
+	font-size: 11px;
+	border-radius: 3px;
+	border: 1px solid #474747;
+	margin: 5px;
+	padding: 4px;
+	text-align: center;
+	margin-top: 70px;
+	margin-left: 30px;
+	z-index: 1000;
+	cursor: pointer;
+	-webkit-transition:background-color .5s ease;
+	-moz-transition:background-color .5s ease;
+	-o-transition:background-color .5s ease;
+	transition:background-color .5s ease;
+	-webkit-transition:color .5s ease;
+	-moz-transition:color .5s ease;
+	-o-transition:color .5s ease;
+	transition:color .5s ease;
+}
+
+.ruckus-spc-contestfilter .quickplayenabled:hover {
+	width: 90px;
+	background-color: #474747;
+	color: #fff;
+	font-size: 11px;
+	border-radius: 3px;
+	border: 1px solid #474747;
+	margin: 5px;
+	padding: 4px;
+	text-align: center;
+	margin-top: 70px;
+	margin-left: 30px;
+	z-index: 1000;
+	cursor: pointer;
+}

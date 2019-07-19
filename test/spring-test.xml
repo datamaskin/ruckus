@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="ContestListManager" class="service.ContestListService">
+        <constructor-arg ref="ContestAthletesManager"/>
+    </bean>
+    <bean id="ContestEventsManager" class="service.ContestEventsService" scope="singleton" />
+    <bean id="ContestEntriesManager" class="service.ContestEntriesService" scope="singleton" />
+    <bean id="ContestAthletesManager" class="service.ContestAthletesService" scope="singleton">
+        <constructor-arg ref="timeService"></constructor-arg>
+    </bean>
+    <bean id="ContestSuggestionManager" class="service.ContestSuggestionService" scope="singleton">
+        <constructor-arg ref="contestDao"></constructor-arg>
+    </bean>
+    <bean id="ScoringRulesManager" class="service.ScoringRulesService" scope="singleton" />
+    <bean id="ContestFilterManager" class="service.ContestFilterService" scope="singleton" />
+    <bean id="LineupRulesManager" class="service.LineupRulesService" scope="singleton" />
+    <bean id="LineupManager" class="service.LineupService" scope="singleton">
+        <constructor-arg ref="sportsDao"></constructor-arg>
+        <constructor-arg ref="contestDao"></constructor-arg>
+        <constructor-arg ref="ContestListManager"></constructor-arg>
+        <constructor-arg ref="timeService"></constructor-arg>
+    </bean>
+    <bean id="ContestLiveRanksManager" class="service.ContestLiveRanksService" scope="singleton" />
+    <bean id="ContestLiveLineupManager" class="service.ContestLiveLineupService" scope="singleton" />
+    <bean id="ContestLiveOverviewManager" class="service.ContestLiveOverviewService" scope="singleton">
+        <constructor-arg ref="timeService"></constructor-arg>
+    </bean>
+    <bean id="ContestLiveAthleteManager" class="service.ContestLiveAthleteService" scope="singleton" />
+    <bean id="ContestLiveTimelineManager" class="service.ContestLiveTimelineService" scope="singleton" />
+    <bean id="ContestLiveDrillinManager" class="service.ContestLiveDrillinService" scope="singleton" />
+    <bean id="ContestLiveProjectionGraphManager" class="service.ContestLiveProjectionGraphService" scope="singleton" />
+    <bean id="AthleteExposureManager" class="service.AthleteExposureService" scope="singleton" />
+    <bean id="AthleteContestRankManager" class="service.AthleteContestRankService" scope="singleton" />
+    <bean id="AthletePercentOwnedManager" class="service.AthletePercentOwnedService" scope="singleton" />
+    <bean id="AthleteCompareManager" class="service.AthleteCompareService" scope="singleton">
+        <constructor-arg ref="sportsDao"></constructor-arg>
+        <constructor-arg ref="AthletePercentOwnedManager"></constructor-arg>
+        <constructor-arg ref="timeService"></constructor-arg>
+    </bean>
+    <bean id="ChatManager" class="service.ChatService" scope="singleton" />
+
+    <!-- End Caching -->
+    <bean id="StatsMlbEventManager" class="stats.manager.mlb.MlbEventManager" scope="singleton">
+        <constructor-arg ref="MLBFantasyPointTranslator"></constructor-arg>
+    </bean>
+    <bean id="StatsNflEventManager" class="stats.manager.nfl.AthleteManager" scope="singleton"/>
+    <bean id="StatsNflGameOddsManager" class="stats.manager.nfl.GameOddsManager" scope="singleton"/>
+    <bean id="MlbDefenseVsPositionManager" class="stats.manager.mlb.DefenseVsPositionManager" scope="singleton">
+        <constructor-arg ref="MLBFantasyPointTranslator"></constructor-arg>
+    </bean>
+    <bean id="NflDefenseVsPositionManager" class="stats.manager.nfl.DefenseVsPositionManager" scope="singleton">
+        <constructor-arg ref="timeService"></constructor-arg>
+    </bean>
+    <bean id="MLBFantasyPointTranslator" class="stats.translator.mlb.FantasyPointTranslator" scope="singleton">
+        <constructor-arg ref="ScoringRulesManager"></constructor-arg>
+    </bean>
+    <bean id="NFLFantasyPointTranslator" class="stats.translator.nfl.FantasyPointTranslator" scope="singleton">
+        <constructor-arg ref="ScoringRulesManager"></constructor-arg>
+    </bean>
+
+    <bean id="MLBStatsUpdateProcessor" class="stats.updateprocessor.mlb.UpdateProcessor" scope="singleton">
+        <constructor-arg ref="ScoringRulesManager"></constructor-arg>
+        <constructor-arg ref="statsDao"></constructor-arg>
+        <constructor-arg ref="sportsDao"></constructor-arg>
+        <constructor-arg ref="MLBFantasyPointTranslator"></constructor-arg>
+        <constructor-arg ref="timeService"></constructor-arg>
+    </bean>
+
+    <bean id="NFLStatsUpdateProcessor" class="stats.updateprocessor.nfl.UpdateProcessor" scope="singleton">
+        <constructor-arg ref="ScoringRulesManager"></constructor-arg>
+        <constructor-arg ref="statsDao"></constructor-arg>
+        <constructor-arg ref="sportsDao"></constructor-arg>
+        <constructor-arg ref="NFLFantasyPointTranslator"></constructor-arg>
+        <constructor-arg ref="timeService"></constructor-arg>
+    </bean>
+
+    <bean id="userDao" class="dao.UserDao"></bean>
+
+    <bean id="sportsDao" class="dao.SportsDao"></bean>
+
+    <bean id="contestIdGenerator" class="utils.ContestIdGeneratorImpl"></bean>
+
+    <bean id="contestDao" class="dao.ContestDao">
+        <constructor-arg ref="contestIdGenerator"></constructor-arg>
+    </bean>
+
+    <bean id="statsDao" class="dao.StatsDao"></bean>
+
+    <bean id="timeService" class="utils.TimeService"></bean>
+
+</beans>

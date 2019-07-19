@@ -1,0 +1,258 @@
+.ruckus-spc-dashboardcontestathletedetail .athleteDetailImage {
+  z-index: 1;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .athleteDetailTeamLogo {
+   position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.3;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .athleteDetailTeamLogo .highRes {
+    display:none;
+}
+
+@media
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-moz-min-device-pixel-ratio: 1.5),
+screen and (min-device-pixel-ratio: 1.5) {
+
+	.ruckus-spc-dashboardcontestathletedetail .athleteDetailTeamLogo .highRes {
+	    display:block;
+      height:70px;
+	}
+	.ruckus-spc-dashboardcontestathletedetail .athleteDetailTeamLogo .loRes {
+	    display:none;
+	}
+}
+
+.ruckus-spc-dashboardcontestathletedetail {
+  border: 1px solid #cccccc;
+  height: 432px;
+  min-height: 432px;
+  background-color: #ffffff;
+}
+.ruckus-spc-dashboardcontestathletedetail .player_data {
+  height: 70px;
+  padding: 0;
+}
+.ruckus-spc-dashboardcontestathletedetail .player_data .fname {
+  margin-top: 8px;
+  z-index: 1;
+}
+.ruckus-spc-dashboardcontestathletedetail .player_data .player_name {
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.1em;
+  padding: 0;
+  z-index: 1;
+}
+.ruckus-spc-dashboardcontestathletedetail .player_data .player_pos {
+  font-size: 1em;
+  line-height: 2em;
+  color: #ffffff;
+  z-index: 1;
+}
+.ruckus-spc-dashboardcontestathletedetail .player_points {
+  height: 70px;
+  font-size: .85em;
+  background-color: #FFF;
+}
+.ruckus-spc-dashboardcontestathletedetail .player_points .fpp_points {
+  color:#474747;
+}
+.ruckus-spc-dashboardcontestathletedetail .player_points .center_fpp_points {
+  text-align: left;
+}
+.ruckus-spc-dashboardcontestathletedetail .player_points .center_fpp_points div {
+  margin-left:0px;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .player_points .center_fpp_points .fpp_points {
+  font-size: 1.4em;
+  margin-top: 1em;
+}
+.ruckus-spc-dashboardcontestathletedetail .player_points .matchup {
+  margin-top: 17px;
+  text-align: left;
+  font-size: 11px;
+  font-weight:100;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .player_points .matchupPts {
+  font-size: 10pt;
+  margin-top:-1px;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .player_points .matchup div:first-child {
+  margin-bottom: 5px;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .player_points .active_status {
+  height: 70px;
+  padding-top: 26px;
+  padding-left: 14px;
+  text-align: center;
+}
+.ruckus-spc-dashboardcontestathletedetail .player_progress_bar {
+  background-color: #7cdfa4;
+  height: 3px;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .player_2tabs {
+  cursor: pointer;
+  /*font-size: 0.75em;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #FFF;*/
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .player_2tabs div {
+  border-right: 1px solid #cccccc;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .tabSelected {
+  background-color: #474747;
+  -moz-animation: select2Tabs 0.3s ease;
+  -webkit-animation: select2Tabs 0.3s ease;
+  animation: select2Tabs 0.3s ease;
+}
+@-moz-keyframes select2Tabs{
+  from{opacity: 0.5;}
+  to{opacity: 1;}
+}
+@-webkit-keyframes select2Tabs{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+@keyframes select2Tabs{
+  from{opacity: 0.5;}
+  to{opacity: 1;}
+}
+.ruckus-spc-dashboardcontestathletedetail .tabSelected +.tab {
+  border:none;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .tab .icons, .ruckus-spc-dashboardcontestathletedetail .tabSelected .icons
+  {
+  display: none;
+}
+
+
+.ruckus-spc-dashboardcontestathletedetail .tabSelected .iconsplayer_light,
+.ruckus-spc-dashboardcontestathletedetail .tabSelected .iconsstats_light
+  {
+  display: block;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .tab .iconsplayer_dark,
+.ruckus-spc-dashboardcontestathletedetail .tab .iconsstats_dark
+  {
+  display: block;
+}
+
+
+
+
+
+.ruckus-spc-dashboardcontestathletedetail .player_2tabs div:last-child {
+  border-right: none;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .playerfeed {
+  background-color: #474747;
+  clear: both;
+  font-size: .85em;
+  height: 200px;
+  min-height: 200px;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .playerfeed .playerfeed_item .playerfeed_fpchange {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+  color: #7cdfa4;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .playerfeed .playerfeed_item .playerfeed_fpdescription div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .playerfeed .playerfeed_item_timestamp {
+  border-top: 1px dashed #dddddd;
+  color: #ff8593;
+  font-size: 10px;
+  text-align: right;
+}
+.ruckus-spc-dashboardcontestathletedetail .playerfeed .playerfeed_item_timestamp div.col-xs-24 {
+  margin-top: -8px;
+  padding-right: 0px;
+}
+.ruckus-spc-dashboardcontestathletedetail .playerfeed .playerfeed_item_timestamp div.col-xs-24 span {
+  background-color: #474747;
+  padding: 2px 6px 2px 24px;
+}
+.ruckus-spc-dashboardcontestathletedetail .playerstats {
+  background-color: #474747;
+  clear: both;
+  font-size: 11px;
+  height: 200px;
+  min-height: 200px;
+  overflow-x: hidden;
+
+}
+.ruckus-spc-dashboardcontestathletedetail .playerstats .playerstatsheader {
+  border-bottom: 1px solid #999999;
+  height: 25px;
+  font-size: 9px;
+  padding-top: 6px;
+  color:#999999;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .playerstatsrows {
+  overflow-y: scroll;
+  height: 175px;
+  padding-left:0;
+  padding-right: 0;
+	overflow-x: hidden;
+}
+
+.ruckus-spc-dashboardcontestathletedetail .playerstats .playerstatsrow {
+  height: 30px;
+  line-height: 30px;
+  background-color: #474747;
+  color: #ffffff;
+   margin-right: -15px;
+  margin-left: 0;
+}
+
+
+.ruckus-spc-dashboardcontestathletedetail .playerstats .playerstatsrows .row:nth-child(odd) {
+  background-color: #555555;
+}
+.ruckus-spc-dashboardcontestathletedetail .playerstats .col-xs-6, .ruckus-spc-dashboardcontestathletedetail .playerstats .col-xs-12 {
+  /*padding-left: 15px;
+  padding-right: 7px;*/
+}
+.ruckus-spc-dashboardcontestathletedetail .playerstats .col-xs-6 {
+  text-align: center;
+}
+.ruckus-spc-dashboardcontestathletedetail .teamfeedbutton {
+  background-color: #ffffff;
+  border-top: 1px solid #cccccc;
+  color: #474747;
+  cursor: pointer;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}

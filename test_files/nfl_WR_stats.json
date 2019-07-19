@@ -1,0 +1,1746 @@
+{
+  "status": "OK",
+  "recordCount": 1,
+  "startTimestamp": "2014-07-23T00:33:35.6493892Z",
+  "endTimestamp": "2014-07-23T00:33:36.5712642Z",
+  "timeTaken": 0.921875,
+  "apiResults": [
+    {
+      "sportId": 4,
+      "name": "Football",
+      "league": {
+        "leagueId": 8,
+        "name": "National Football League",
+        "abbreviation": "NFL",
+        "displayName": "National Football League",
+        "players": [
+          {
+            "playerId": 334733,
+            "firstName": "Julian",
+            "lastName": "Edelman",
+            "seasons": [
+              {
+                "season": 2013,
+                "name": "2013-2014 NFL Season",
+                "isActive": false,
+                "eventType": [
+                  {
+                    "eventTypeId": 1,
+                    "name": "Regular Season",
+                    "splits": [
+                      {
+                        "splitId": -1,
+                        "name": "Official Stats",
+                        "events": [
+                          {
+                            "eventId": 1321708,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 4,
+                                "rushing": 0,
+                                "passing": 0,
+                                "receiving": 4,
+                                "penalty": 0
+                              },
+                              "receiving": {
+                                "receptions": 7,
+                                "yards": 79,
+                                "average": "11.3",
+                                "long": 35,
+                                "isLongTouchdown": false,
+                                "touchdowns": 2,
+                                "targets": 9,
+                                "yardsAtCatch": 36,
+                                "yardsAtCatchAverage": "5.1",
+                                "yardsAfterCatch": 43,
+                                "yardsAfterCatchAverage": "6.1"
+                              },
+                              "puntReturning": {
+                                "returns": 3,
+                                "yards": 32,
+                                "average": "10.7",
+                                "fairCatches": 2,
+                                "touchdowns": 0,
+                                "long": 16,
+                                "isLongTouchdown": false
+                              },
+                              "scoring": {
+                                "totalPoints": 12,
+                                "touchdowns": {
+                                  "total": 2,
+                                  "passing": 0,
+                                  "rushing": 0,
+                                  "receiving": 2,
+                                  "interceptionReturn": null,
+                                  "ownFumbleReturn": null,
+                                  "opponentFumbleReturn": null,
+                                  "kickoffReturn": 0,
+                                  "puntReturn": 0,
+                                  "missedFieldGoalReturn": 0,
+                                  "blockedPuntReturn": 0,
+                                  "blockedFieldGoalReturn": 0
+                                },
+                                "twoPointConversions": 0,
+                                "extraPoints": null,
+                                "fieldGoals": null,
+                                "safeties": null
+                              },
+                              "participation": {
+                                "offense": 81,
+                                "defense": 0,
+                                "specialTeams": 14
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 9,
+                                "date": 8,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-09-08T13:00:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 9,
+                                "date": 8,
+                                "hour": 17,
+                                "minute": 0,
+                                "full": "2013-09-08T17:00:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 9,
+                                "date": 8,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-09-08T13:00:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 324,
+                              "location": "Buffalo",
+                              "nickname": "Bills",
+                              "abbreviation": "Buf",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 23,
+                              "opponentTeamScore": 21
+                            }
+                          },
+                          {
+                            "eventId": 1321857,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 4,
+                                "rushing": 1,
+                                "passing": 0,
+                                "receiving": 3,
+                                "penalty": 0
+                              },
+                              "rushing": {
+                                "attempts": 1,
+                                "yards": 4,
+                                "average": "4.0",
+                                "long": 4,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "stuffed": 0,
+                                "stuffedYardsLost": 0,
+                                "stuffedPercentage": "0.0"
+                              },
+                              "receiving": {
+                                "receptions": 13,
+                                "yards": 78,
+                                "average": "6.0",
+                                "long": 10,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 18,
+                                "yardsAtCatch": 25,
+                                "yardsAtCatchAverage": "1.9",
+                                "yardsAfterCatch": 53,
+                                "yardsAfterCatchAverage": "4.1"
+                              },
+                              "puntReturning": {
+                                "returns": 6,
+                                "yards": 72,
+                                "average": "12.0",
+                                "fairCatches": 1,
+                                "touchdowns": 0,
+                                "long": 17,
+                                "isLongTouchdown": false
+                              },
+                              "fumbles": {
+                                "total": 1,
+                                "pass": 0,
+                                "rush": 0,
+                                "specialTeams": null,
+                                "receiving": 0,
+                                "defense": null,
+                                "misc": 1
+                              },
+                              "fumblesRecovered": {
+                                "total": 1,
+                                "pass": null,
+                                "rush": null,
+                                "specialTeams": 1,
+                                "receiving": null,
+                                "defense": 0,
+                                "misc": 0
+                              },
+                              "participation": {
+                                "offense": 63,
+                                "defense": 0,
+                                "specialTeams": 9
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 9,
+                                "date": 12,
+                                "hour": 20,
+                                "minute": 25,
+                                "full": "2013-09-12T20:25:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 9,
+                                "date": 13,
+                                "hour": 0,
+                                "minute": 25,
+                                "full": "2013-09-13T00:25:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 9,
+                                "date": 12,
+                                "hour": 20,
+                                "minute": 25,
+                                "full": "2013-09-12T20:25:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 352,
+                              "location": "New York",
+                              "nickname": "Jets",
+                              "abbreviation": "NYJ",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 13,
+                              "opponentTeamScore": 10
+                            }
+                          },
+                          {
+                            "eventId": 1321761,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 2,
+                                "rushing": 0,
+                                "passing": 0,
+                                "receiving": 2,
+                                "penalty": 0
+                              },
+                              "receiving": {
+                                "receptions": 7,
+                                "yards": 44,
+                                "average": "6.3",
+                                "long": 12,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 7,
+                                "yardsAtCatch": 21,
+                                "yardsAtCatchAverage": "3.0",
+                                "yardsAfterCatch": 23,
+                                "yardsAfterCatchAverage": "3.3"
+                              },
+                              "puntReturning": {
+                                "returns": 2,
+                                "yards": 29,
+                                "average": "14.5",
+                                "fairCatches": 1,
+                                "touchdowns": 0,
+                                "long": 16,
+                                "isLongTouchdown": false
+                              },
+                              "participation": {
+                                "offense": 66,
+                                "defense": 0,
+                                "specialTeams": 3
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 9,
+                                "date": 22,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-09-22T13:00:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 9,
+                                "date": 22,
+                                "hour": 17,
+                                "minute": 0,
+                                "full": "2013-09-22T17:00:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 9,
+                                "date": 22,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-09-22T13:00:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 362,
+                              "location": "Tampa Bay",
+                              "nickname": "Buccaneers",
+                              "abbreviation": "TB",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 23,
+                              "opponentTeamScore": 3
+                            }
+                          },
+                          {
+                            "eventId": 1321916,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 5,
+                                "rushing": 0,
+                                "passing": 0,
+                                "receiving": 5,
+                                "penalty": 0
+                              },
+                              "receiving": {
+                                "receptions": 7,
+                                "yards": 118,
+                                "average": "16.9",
+                                "long": 44,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 9,
+                                "yardsAtCatch": 55,
+                                "yardsAtCatchAverage": "7.9",
+                                "yardsAfterCatch": 63,
+                                "yardsAfterCatchAverage": "9.0"
+                              },
+                              "penalties": {
+                                "number": 1,
+                                "yards": 5,
+                                "falseStart": 0,
+                                "holding": 0
+                              },
+                              "participation": {
+                                "offense": 64,
+                                "defense": 0,
+                                "specialTeams": 5
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 9,
+                                "date": 29,
+                                "hour": 20,
+                                "minute": 30,
+                                "full": "2013-09-29T20:30:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 9,
+                                "date": 30,
+                                "hour": 0,
+                                "minute": 30,
+                                "full": "2013-09-30T00:30:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 9,
+                                "date": 29,
+                                "hour": 20,
+                                "minute": 30,
+                                "full": "2013-09-29T20:30:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 323,
+                              "location": "Atlanta",
+                              "nickname": "Falcons",
+                              "abbreviation": "Atl",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 30,
+                              "opponentTeamScore": 23
+                            }
+                          },
+                          {
+                            "eventId": 1321735,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 3,
+                                "rushing": 1,
+                                "passing": 0,
+                                "receiving": 2,
+                                "penalty": 0
+                              },
+                              "rushing": {
+                                "attempts": 1,
+                                "yards": 7,
+                                "average": "7.0",
+                                "long": 7,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "stuffed": 0,
+                                "stuffedYardsLost": 0,
+                                "stuffedPercentage": "0.0"
+                              },
+                              "receiving": {
+                                "receptions": 2,
+                                "yards": 35,
+                                "average": "17.5",
+                                "long": 18,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 7,
+                                "yardsAtCatch": 33,
+                                "yardsAtCatchAverage": "16.5",
+                                "yardsAfterCatch": 2,
+                                "yardsAfterCatchAverage": "1.0"
+                              },
+                              "puntReturning": {
+                                "returns": 4,
+                                "yards": 43,
+                                "average": "10.8",
+                                "fairCatches": 1,
+                                "touchdowns": 0,
+                                "long": 24,
+                                "isLongTouchdown": false
+                              },
+                              "fumbles": {
+                                "total": 1,
+                                "pass": 0,
+                                "rush": 0,
+                                "specialTeams": null,
+                                "receiving": 0,
+                                "defense": null,
+                                "misc": 1
+                              },
+                              "fumblesRecovered": {
+                                "total": 1,
+                                "pass": null,
+                                "rush": null,
+                                "specialTeams": 1,
+                                "receiving": null,
+                                "defense": 0,
+                                "misc": 0
+                              },
+                              "participation": {
+                                "offense": 60,
+                                "defense": 0,
+                                "specialTeams": 6
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 10,
+                                "date": 6,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-10-06T13:00:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 10,
+                                "date": 6,
+                                "hour": 17,
+                                "minute": 0,
+                                "full": "2013-10-06T17:00:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 10,
+                                "date": 6,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-10-06T13:00:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 327,
+                              "location": "Cincinnati",
+                              "nickname": "Bengals",
+                              "abbreviation": "Cin",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 0,
+                              "name": "Loss",
+                              "teamScore": 6,
+                              "opponentTeamScore": 13
+                            }
+                          },
+                          {
+                            "eventId": 1321891,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 3,
+                                "rushing": 0,
+                                "passing": 0,
+                                "receiving": 3,
+                                "penalty": 0
+                              },
+                              "receiving": {
+                                "receptions": 5,
+                                "yards": 57,
+                                "average": "11.4",
+                                "long": 23,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 11,
+                                "yardsAtCatch": 35,
+                                "yardsAtCatchAverage": "7.0",
+                                "yardsAfterCatch": 22,
+                                "yardsAfterCatchAverage": "4.4"
+                              },
+                              "puntReturning": {
+                                "returns": 3,
+                                "yards": 9,
+                                "average": "3.0",
+                                "fairCatches": 2,
+                                "touchdowns": 0,
+                                "long": 12,
+                                "isLongTouchdown": false
+                              },
+                              "fumbles": {
+                                "total": 1,
+                                "pass": 0,
+                                "rush": 0,
+                                "specialTeams": null,
+                                "receiving": 0,
+                                "defense": null,
+                                "misc": 1
+                              },
+                              "participation": {
+                                "offense": 42,
+                                "defense": 0,
+                                "specialTeams": 6
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 10,
+                                "date": 13,
+                                "hour": 16,
+                                "minute": 25,
+                                "full": "2013-10-13T16:25:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 10,
+                                "date": 13,
+                                "hour": 20,
+                                "minute": 25,
+                                "full": "2013-10-13T20:25:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 10,
+                                "date": 13,
+                                "hour": 16,
+                                "minute": 25,
+                                "full": "2013-10-13T16:25:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 350,
+                              "location": "New Orleans",
+                              "nickname": "Saints",
+                              "abbreviation": "NO",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 30,
+                              "opponentTeamScore": 27
+                            }
+                          },
+                          {
+                            "eventId": 1321739,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 2,
+                                "rushing": 0,
+                                "passing": 0,
+                                "receiving": 2,
+                                "penalty": 0
+                              },
+                              "receiving": {
+                                "receptions": 5,
+                                "yards": 44,
+                                "average": "8.8",
+                                "long": 19,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 7,
+                                "yardsAtCatch": 31,
+                                "yardsAtCatchAverage": "6.2",
+                                "yardsAfterCatch": 13,
+                                "yardsAfterCatchAverage": "2.6"
+                              },
+                              "puntReturning": {
+                                "returns": 3,
+                                "yards": 58,
+                                "average": "19.3",
+                                "fairCatches": 1,
+                                "touchdowns": 0,
+                                "long": 38,
+                                "isLongTouchdown": false
+                              },
+                              "penalties": {
+                                "number": 1,
+                                "yards": 10,
+                                "falseStart": 0,
+                                "holding": 1
+                              },
+                              "participation": {
+                                "offense": 70,
+                                "defense": 0,
+                                "specialTeams": 6
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 10,
+                                "date": 20,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-10-20T13:00:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 10,
+                                "date": 20,
+                                "hour": 17,
+                                "minute": 0,
+                                "full": "2013-10-20T17:00:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 10,
+                                "date": 20,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-10-20T13:00:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 352,
+                              "location": "New York",
+                              "nickname": "Jets",
+                              "abbreviation": "NYJ",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 0,
+                              "name": "Loss",
+                              "teamScore": 27,
+                              "opponentTeamScore": 30
+                            }
+                          },
+                          {
+                            "eventId": 1321804,
+                            "playerStats": {
+                              "receiving": {
+                                "receptions": 2,
+                                "yards": 7,
+                                "average": "3.5",
+                                "long": 7,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 2,
+                                "yardsAtCatch": 5,
+                                "yardsAtCatchAverage": "2.5",
+                                "yardsAfterCatch": 2,
+                                "yardsAfterCatchAverage": "1.0"
+                              },
+                              "puntReturning": {
+                                "returns": 3,
+                                "yards": 13,
+                                "average": "4.3",
+                                "fairCatches": 1,
+                                "touchdowns": 0,
+                                "long": 7,
+                                "isLongTouchdown": false
+                              },
+                              "penalties": {
+                                "number": 1,
+                                "yards": 5,
+                                "falseStart": 1,
+                                "holding": 0
+                              },
+                              "participation": {
+                                "offense": 32,
+                                "defense": 0,
+                                "specialTeams": 5
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 10,
+                                "date": 27,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-10-27T13:00:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 10,
+                                "date": 27,
+                                "hour": 17,
+                                "minute": 0,
+                                "full": "2013-10-27T17:00:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 10,
+                                "date": 27,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-10-27T13:00:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 345,
+                              "location": "Miami",
+                              "nickname": "Dolphins",
+                              "abbreviation": "Mia",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 27,
+                              "opponentTeamScore": 17
+                            }
+                          },
+                          {
+                            "eventId": 1321786,
+                            "playerStats": {
+                              "receiving": {
+                                "receptions": 1,
+                                "yards": 11,
+                                "average": "11.0",
+                                "long": 11,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 4,
+                                "yardsAtCatch": 11,
+                                "yardsAtCatchAverage": "11.0",
+                                "yardsAfterCatch": 0,
+                                "yardsAfterCatchAverage": "0.0"
+                              },
+                              "puntReturning": {
+                                "returns": 2,
+                                "yards": 43,
+                                "average": "21.5",
+                                "fairCatches": 1,
+                                "touchdowns": 0,
+                                "long": 43,
+                                "isLongTouchdown": false
+                              },
+                              "participation": {
+                                "offense": 52,
+                                "defense": 0,
+                                "specialTeams": 4
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 11,
+                                "date": 3,
+                                "hour": 16,
+                                "minute": 25,
+                                "full": "2013-11-03T16:25:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 11,
+                                "date": 3,
+                                "hour": 21,
+                                "minute": 25,
+                                "full": "2013-11-03T21:25:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 11,
+                                "date": 3,
+                                "hour": 16,
+                                "minute": 25,
+                                "full": "2013-11-03T16:25:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 356,
+                              "location": "Pittsburgh",
+                              "nickname": "Steelers",
+                              "abbreviation": "Pit",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 55,
+                              "opponentTeamScore": 31
+                            }
+                          },
+                          {
+                            "eventId": 1321940,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 1,
+                                "rushing": 0,
+                                "passing": 0,
+                                "receiving": 1,
+                                "penalty": 0
+                              },
+                              "receiving": {
+                                "receptions": 3,
+                                "yards": 27,
+                                "average": "9.0",
+                                "long": 14,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 4,
+                                "yardsAtCatch": -2,
+                                "yardsAtCatchAverage": "-0.7",
+                                "yardsAfterCatch": 29,
+                                "yardsAfterCatchAverage": "9.7"
+                              },
+                              "participation": {
+                                "offense": 59,
+                                "defense": 0,
+                                "specialTeams": 2
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 11,
+                                "date": 18,
+                                "hour": 20,
+                                "minute": 40,
+                                "full": "2013-11-18T20:40:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 11,
+                                "date": 19,
+                                "hour": 1,
+                                "minute": 40,
+                                "full": "2013-11-19T01:40:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 11,
+                                "date": 18,
+                                "hour": 20,
+                                "minute": 40,
+                                "full": "2013-11-18T20:40:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 364,
+                              "location": "Carolina",
+                              "nickname": "Panthers",
+                              "abbreviation": "Car",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 0,
+                              "name": "Loss",
+                              "teamScore": 20,
+                              "opponentTeamScore": 24
+                            }
+                          },
+                          {
+                            "eventId": 1321969,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 6,
+                                "rushing": 0,
+                                "passing": 0,
+                                "receiving": 6,
+                                "penalty": 0
+                              },
+                              "receiving": {
+                                "receptions": 9,
+                                "yards": 110,
+                                "average": "12.2",
+                                "long": 43,
+                                "isLongTouchdown": false,
+                                "touchdowns": 2,
+                                "targets": 11,
+                                "yardsAtCatch": 59,
+                                "yardsAtCatchAverage": "6.6",
+                                "yardsAfterCatch": 51,
+                                "yardsAfterCatchAverage": "5.7"
+                              },
+                              "puntReturning": {
+                                "returns": 3,
+                                "yards": 39,
+                                "average": "13.0",
+                                "fairCatches": 4,
+                                "touchdowns": 0,
+                                "long": 20,
+                                "isLongTouchdown": false
+                              },
+                              "fumbles": {
+                                "total": 2,
+                                "pass": 0,
+                                "rush": 0,
+                                "specialTeams": null,
+                                "receiving": 0,
+                                "defense": null,
+                                "misc": 2
+                              },
+                              "fumblesRecovered": {
+                                "total": 1,
+                                "pass": null,
+                                "rush": null,
+                                "specialTeams": 1,
+                                "receiving": null,
+                                "defense": 0,
+                                "misc": 0
+                              },
+                              "scoring": {
+                                "totalPoints": 12,
+                                "touchdowns": {
+                                  "total": 2,
+                                  "passing": 0,
+                                  "rushing": 0,
+                                  "receiving": 2,
+                                  "interceptionReturn": 0,
+                                  "ownFumbleReturn": 0,
+                                  "opponentFumbleReturn": 0,
+                                  "kickoffReturn": 0,
+                                  "puntReturn": 0,
+                                  "missedFieldGoalReturn": 0,
+                                  "blockedPuntReturn": 0,
+                                  "blockedFieldGoalReturn": 0
+                                },
+                                "twoPointConversions": 0,
+                                "extraPoints": null,
+                                "fieldGoals": null,
+                                "safeties": 0
+                              },
+                              "participation": {
+                                "offense": 74,
+                                "defense": 0,
+                                "specialTeams": 13
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 11,
+                                "date": 24,
+                                "hour": 20,
+                                "minute": 30,
+                                "full": "2013-11-24T20:30:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 11,
+                                "date": 25,
+                                "hour": 1,
+                                "minute": 30,
+                                "full": "2013-11-25T01:30:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 11,
+                                "date": 24,
+                                "hour": 20,
+                                "minute": 30,
+                                "full": "2013-11-24T20:30:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 332,
+                              "location": "Denver",
+                              "nickname": "Broncos",
+                              "abbreviation": "Den",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 34,
+                              "opponentTeamScore": 31
+                            }
+                          },
+                          {
+                            "eventId": 1321789,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 7,
+                                "rushing": 0,
+                                "passing": 0,
+                                "receiving": 7,
+                                "penalty": 0
+                              },
+                              "receiving": {
+                                "receptions": 9,
+                                "yards": 101,
+                                "average": "11.2",
+                                "long": 25,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 12,
+                                "yardsAtCatch": 80,
+                                "yardsAtCatchAverage": "8.9",
+                                "yardsAfterCatch": 21,
+                                "yardsAfterCatchAverage": "2.3"
+                              },
+                              "puntReturning": {
+                                "returns": 1,
+                                "yards": 11,
+                                "average": "11.0",
+                                "fairCatches": 1,
+                                "touchdowns": 0,
+                                "long": 11,
+                                "isLongTouchdown": false
+                              },
+                              "participation": {
+                                "offense": 62,
+                                "defense": 0,
+                                "specialTeams": 3
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 1,
+                                "hour": 12,
+                                "minute": 0,
+                                "full": "2013-12-01T12:00:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 1,
+                                "hour": 18,
+                                "minute": 0,
+                                "full": "2013-12-01T18:00:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 1,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-12-01T13:00:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 325,
+                              "location": "Houston",
+                              "nickname": "Texans",
+                              "abbreviation": "Hou",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 34,
+                              "opponentTeamScore": 31
+                            }
+                          },
+                          {
+                            "eventId": 1321865,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 4,
+                                "rushing": 0,
+                                "passing": 0,
+                                "receiving": 4,
+                                "penalty": 0
+                              },
+                              "receiving": {
+                                "receptions": 6,
+                                "yards": 64,
+                                "average": "10.7",
+                                "long": 23,
+                                "isLongTouchdown": false,
+                                "touchdowns": 1,
+                                "targets": 9,
+                                "yardsAtCatch": 47,
+                                "yardsAtCatchAverage": "7.8",
+                                "yardsAfterCatch": 17,
+                                "yardsAfterCatchAverage": "2.8"
+                              },
+                              "puntReturning": {
+                                "returns": 2,
+                                "yards": 7,
+                                "average": "3.5",
+                                "fairCatches": 3,
+                                "touchdowns": 0,
+                                "long": 8,
+                                "isLongTouchdown": false
+                              },
+                              "scoring": {
+                                "totalPoints": 8,
+                                "touchdowns": {
+                                  "total": 1,
+                                  "passing": 0,
+                                  "rushing": 0,
+                                  "receiving": 1,
+                                  "interceptionReturn": null,
+                                  "ownFumbleReturn": null,
+                                  "opponentFumbleReturn": null,
+                                  "kickoffReturn": 0,
+                                  "puntReturn": 0,
+                                  "missedFieldGoalReturn": 0,
+                                  "blockedPuntReturn": 0,
+                                  "blockedFieldGoalReturn": 0
+                                },
+                                "twoPointConversions": 1,
+                                "extraPoints": null,
+                                "fieldGoals": null,
+                                "safeties": null
+                              },
+                              "twoPointConversions": {
+                                "made": 1,
+                                "attempts": 1,
+                                "passes": 0
+                              },
+                              "participation": {
+                                "offense": 83,
+                                "defense": 0,
+                                "specialTeams": 6
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 8,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-12-08T13:00:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 8,
+                                "hour": 18,
+                                "minute": 0,
+                                "full": "2013-12-08T18:00:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 8,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-12-08T13:00:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 329,
+                              "location": "Cleveland",
+                              "nickname": "Browns",
+                              "abbreviation": "Cle",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 27,
+                              "opponentTeamScore": 26
+                            }
+                          },
+                          {
+                            "eventId": 1321942,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 8,
+                                "rushing": 0,
+                                "passing": 0,
+                                "receiving": 8,
+                                "penalty": 0
+                              },
+                              "receiving": {
+                                "receptions": 13,
+                                "yards": 139,
+                                "average": "10.7",
+                                "long": 24,
+                                "isLongTouchdown": true,
+                                "touchdowns": 1,
+                                "targets": 19,
+                                "yardsAtCatch": 63,
+                                "yardsAtCatchAverage": "4.8",
+                                "yardsAfterCatch": 76,
+                                "yardsAfterCatchAverage": "5.8"
+                              },
+                              "scoring": {
+                                "totalPoints": 6,
+                                "touchdowns": {
+                                  "total": 1,
+                                  "passing": 0,
+                                  "rushing": 0,
+                                  "receiving": 1,
+                                  "interceptionReturn": null,
+                                  "ownFumbleReturn": null,
+                                  "opponentFumbleReturn": null,
+                                  "kickoffReturn": 0,
+                                  "puntReturn": 0,
+                                  "missedFieldGoalReturn": 0,
+                                  "blockedPuntReturn": 0,
+                                  "blockedFieldGoalReturn": 0
+                                },
+                                "twoPointConversions": 0,
+                                "extraPoints": null,
+                                "fieldGoals": null,
+                                "safeties": null
+                              },
+                              "participation": {
+                                "offense": 78,
+                                "defense": 0,
+                                "specialTeams": 4
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 15,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-12-15T13:00:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 15,
+                                "hour": 18,
+                                "minute": 0,
+                                "full": "2013-12-15T18:00:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 15,
+                                "hour": 13,
+                                "minute": 0,
+                                "full": "2013-12-15T13:00:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 345,
+                              "location": "Miami",
+                              "nickname": "Dolphins",
+                              "abbreviation": "Mia",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 0,
+                              "name": "Loss",
+                              "teamScore": 20,
+                              "opponentTeamScore": 24
+                            }
+                          },
+                          {
+                            "eventId": 1321813,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 5,
+                                "rushing": 0,
+                                "passing": 0,
+                                "receiving": 5,
+                                "penalty": 0
+                              },
+                              "receiving": {
+                                "receptions": 7,
+                                "yards": 77,
+                                "average": "11.0",
+                                "long": 19,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 11,
+                                "yardsAtCatch": 53,
+                                "yardsAtCatchAverage": "7.6",
+                                "yardsAfterCatch": 24,
+                                "yardsAfterCatchAverage": "3.4"
+                              },
+                              "puntReturning": {
+                                "returns": 1,
+                                "yards": 11,
+                                "average": "11.0",
+                                "fairCatches": 1,
+                                "touchdowns": 0,
+                                "long": 11,
+                                "isLongTouchdown": false
+                              },
+                              "participation": {
+                                "offense": 66,
+                                "defense": 0,
+                                "specialTeams": 6
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 22,
+                                "hour": 16,
+                                "minute": 25,
+                                "full": "2013-12-22T16:25:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 22,
+                                "hour": 21,
+                                "minute": 25,
+                                "full": "2013-12-22T21:25:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 22,
+                                "hour": 16,
+                                "minute": 25,
+                                "full": "2013-12-22T16:25:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 366,
+                              "location": "Baltimore",
+                              "nickname": "Ravens",
+                              "abbreviation": "Bal",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 41,
+                              "opponentTeamScore": 7
+                            }
+                          },
+                          {
+                            "eventId": 1321909,
+                            "playerStats": {
+                              "firstDowns": {
+                                "total": 2,
+                                "rushing": 0,
+                                "passing": 0,
+                                "receiving": 2,
+                                "penalty": 0
+                              },
+                              "receiving": {
+                                "receptions": 9,
+                                "yards": 65,
+                                "average": "7.2",
+                                "long": 14,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 11,
+                                "yardsAtCatch": 4,
+                                "yardsAtCatchAverage": "0.4",
+                                "yardsAfterCatch": 61,
+                                "yardsAfterCatchAverage": "6.8"
+                              },
+                              "puntReturning": {
+                                "returns": 2,
+                                "yards": 7,
+                                "average": "3.5",
+                                "fairCatches": 1,
+                                "touchdowns": 0,
+                                "long": 7,
+                                "isLongTouchdown": false
+                              },
+                              "fumbles": {
+                                "total": 1,
+                                "pass": 0,
+                                "rush": 0,
+                                "specialTeams": null,
+                                "receiving": 0,
+                                "defense": null,
+                                "misc": 1
+                              },
+                              "fumblesRecovered": {
+                                "total": 2,
+                                "pass": null,
+                                "rush": null,
+                                "specialTeams": 1,
+                                "receiving": null,
+                                "defense": 0,
+                                "misc": 1
+                              },
+                              "scoring": {
+                                "totalPoints": 2,
+                                "touchdowns": {
+                                  "total": 0,
+                                  "passing": 0,
+                                  "rushing": 0,
+                                  "receiving": 0,
+                                  "interceptionReturn": 0,
+                                  "ownFumbleReturn": 0,
+                                  "opponentFumbleReturn": 0,
+                                  "kickoffReturn": 0,
+                                  "puntReturn": 0,
+                                  "missedFieldGoalReturn": 0,
+                                  "blockedPuntReturn": 0,
+                                  "blockedFieldGoalReturn": 0
+                                },
+                                "twoPointConversions": 1,
+                                "extraPoints": null,
+                                "fieldGoals": null,
+                                "safeties": 0
+                              },
+                              "twoPointConversions": {
+                                "made": 1,
+                                "attempts": 1,
+                                "passes": 0
+                              },
+                              "participation": {
+                                "offense": 69,
+                                "defense": 0,
+                                "specialTeams": 5
+                              }
+                            },
+                            "startDate": [
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 29,
+                                "hour": 16,
+                                "minute": 25,
+                                "full": "2013-12-29T16:25:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 29,
+                                "hour": 21,
+                                "minute": 25,
+                                "full": "2013-12-29T21:25:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2013,
+                                "month": 12,
+                                "date": 29,
+                                "hour": 16,
+                                "minute": 25,
+                                "full": "2013-12-29T16:25:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 348,
+                              "location": "New England",
+                              "nickname": "Patriots",
+                              "abbreviation": "NE",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 324,
+                              "location": "Buffalo",
+                              "nickname": "Bills",
+                              "abbreviation": "Buf",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 34,
+                              "opponentTeamScore": 20
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

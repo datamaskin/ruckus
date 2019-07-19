@@ -1,0 +1,1166 @@
+<?xml version="1.0"?>
+<nfl-event>
+    <gamecode code="20140807033" global-id="1421520"/>
+    <coverage level="1"/>
+    <gamestate status="2" quarter="4" minutes="2" seconds="00" team-possession-id="33" team-possession-global-id="366" yards-from-goal="26" down="2" distance="10" segment-number="4" active-state="true" restart="true" under-review="false"/>
+    <play id="1.0000000000000001" sequence="1" quarter="1" time="15:00" down="" end-down="1" distance="0" end-distance="" away-score-before="0" home-score-before="0" away-score-after="0" home-score-after="0" yards-from-goal="" end-yards-from-goal="" possession="" possession-global-id="-1" end-possession="" end-possession-global-id="-1" event-type="62" continuation="false" details="Game Start San Francisco at Baltimore is underway."/>
+    <play id="35.0000000000000002" sequence="3" quarter="1" time="15:00" down="0" end-down="1" distance="0" end-distance="10" away-score-before="0" home-score-before="0" away-score-after="0" home-score-after="0" yards-from-goal="105" end-yards-from-goal="27" possession="33" possession-global-id="366" end-possession="25" end-possession-global-id="359" event-type="4" continuation="false" details="Justin Tucker kicks off. Bruce Ellington return for 32 yards to SF27. Tackled by John Simon.">
+        <stat-id id="27" description="Kick" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132"/>
+        <stat-id id="4" description="Kick Return" team-id="25" player-id="27634" global-team-id="359" global-player-id="604917" yards="32" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="26752" global-team-id="366" global-player-id="509112"/>
+    </play>
+    <play id="57.0000000000000001" sequence="5" quarter="1" time="15:00" down="1" end-down="2" distance="10" end-distance="3" away-score-before="0" home-score-before="0" away-score-after="0" home-score-after="0" yards-from-goal="73" end-yards-from-goal="66" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Carlos Hyde rush to the left for 7 yards to the SF34. Tackled by C.J. Mosley and Josh Bynes.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="27585" global-team-id="359" global-player-id="543825" yards="7" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27545" global-team-id="366" global-player-id="557173"/>
+        <stat-id id="20" description="Assist" team-id="33" player-id="25358" global-team-id="366" global-player-id="401769"/>
+    </play>
+    <play id="78.0000000000000003" sequence="7" quarter="1" time="14:25" down="2" end-down="1" distance="3" end-distance="10" away-score-before="0" home-score-before="0" away-score-after="0" home-score-after="0" yards-from-goal="66" end-yards-from-goal="51" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="15" continuation="false" details="Penalty: Roughing Passer on Baltimore (Pernell McPhee) 15 yards.">
+        <stat-id id="15" description="Penalty" team-id="33" player-id="24952" global-team-id="366" global-player-id="495524" yards="15" penalty-id="45" penalty-name="Roughing Passer"/>
+    </play>
+    <play id="111.0000000000000001" sequence="9" quarter="1" time="14:15" down="1" end-down="1" distance="10" end-distance="10" away-score-before="0" home-score-before="0" away-score-after="0" home-score-after="0" yards-from-goal="51" end-yards-from-goal="34" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Colin Kaepernick pass to the right to Vance McDonald for 17 yards to the Bal34. Tackled by Matt Elam.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="24823" global-team-id="359" global-player-id="323273" yards="17" direction="R" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="26678" global-team-id="359" global-player-id="494969" yards="17" direction="R" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="26655" global-team-id="366" global-player-id="542790"/>
+    </play>
+    <play id="135.0000000000000001" sequence="11" quarter="1" time="13:35" down="1" end-down="1" distance="10" end-distance="10" away-score-before="0" home-score-before="0" away-score-after="0" home-score-after="0" yards-from-goal="34" end-yards-from-goal="15" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Carlos Hyde rush to the left for 19 yards to the Bal15. Tackled by Matt Elam.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="27585" global-team-id="359" global-player-id="543825" yards="19" direction="L" points="0" rush-type-id="4" rush-type-name="Off Left End"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="26655" global-team-id="366" global-player-id="542790"/>
+    </play>
+    <play id="161.0000000000000001" sequence="13" quarter="1" time="13:05" down="1" end-down="2" distance="10" end-distance="2" away-score-before="0" home-score-before="0" away-score-after="0" home-score-after="0" yards-from-goal="15" end-yards-from-goal="7" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Carlos Hyde rush to the left for 8 yards to the Bal7. Tackled by C.J. Mosley.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="27585" global-team-id="359" global-player-id="543825" yards="8" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27545" global-team-id="366" global-player-id="557173"/>
+    </play>
+    <play id="182.0000000000000001" sequence="15" quarter="1" time="12:26" down="2" end-down="3" distance="2" end-distance="1" away-score-before="0" home-score-before="0" away-score-after="0" home-score-after="0" yards-from-goal="7" end-yards-from-goal="6" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Jewel Hampton rush to the right for 1 yard to the Bal6. Tackled by Darian Stewart.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="26255" global-team-id="359" global-player-id="464043" yards="1" direction="R" points="0" rush-type-id="10" rush-type-name="Off Right End"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="24590" global-team-id="366" global-player-id="332881"/>
+    </play>
+    <play id="203.0000000000000001" sequence="17" quarter="1" time="11:45" down="3" end-down="4" distance="1" end-distance="2" away-score-before="0" home-score-before="0" away-score-after="0" home-score-after="0" yards-from-goal="6" end-yards-from-goal="7" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Jewel Hampton rush to the left for a loss of 1 yard to the Bal7. Tackled by Brandon Williams.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="26255" global-team-id="359" global-player-id="464043" yards="-1" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="26717" global-team-id="366" global-player-id="694815"/>
+    </play>
+    <play id="224.0000000000000001" sequence="19" quarter="1" time="11:03" down="4" end-down="1" distance="2" end-distance="0" away-score-before="0" home-score-before="0" away-score-after="3" home-score-after="0" yards-from-goal="7" end-yards-from-goal="0" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="3" continuation="false" details="Phil Dawson 25 yard field goal attempt is GOOD. Holder: Andy Lee.">
+        <stat-id id="3" description="FGA" team-id="25" player-id="4269" global-team-id="359" global-player-id="24388" yards="25" points="3"/>
+        <stat-id id="34" description="Made FG" team-id="25" player-id="4269" global-team-id="359" global-player-id="24388" yards="25"/>
+        <stat-id id="35" description="Snapper" team-id="25" player-id="27214" global-team-id="359" global-player-id="464150"/>
+        <stat-id id="36" description="Holder" team-id="25" player-id="6947" global-team-id="359" global-player-id="246395"/>
+    </play>
+    <play id="243.0000000000000002" sequence="22" quarter="1" time="11:00" down="0" end-down="1" distance="0" end-distance="10" away-score-before="3" home-score-before="0" away-score-after="3" home-score-after="0" yards-from-goal="104" end-yards-from-goal="20" possession="25" possession-global-id="359" end-possession="33" end-possession-global-id="366" event-type="4" continuation="false" details="Phil Dawson kicks off. Asa Jackson return for 24 yards to Bal20. Tackled by Dontae Johnson.">
+        <stat-id id="27" description="Kick" team-id="25" player-id="4269" global-team-id="359" global-player-id="24388"/>
+        <stat-id id="4" description="Kick Return" team-id="33" player-id="25879" global-team-id="366" global-player-id="460024" yards="24" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27657" global-team-id="359" global-player-id="557337"/>
+    </play>
+    <play id="265.0000000000000001" sequence="24" quarter="1" time="11:00" down="1" end-down="2" distance="10" end-distance="4" away-score-before="3" home-score-before="0" away-score-after="3" home-score-after="0" yards-from-goal="80" end-yards-from-goal="74" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Ray Rice rush to the right for 6 yards to the Bal26. Tackled by Tony Jerod-Eddie and Michael Wilhoite.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="8832" global-team-id="366" global-player-id="300036" yards="6" direction="R" points="0" rush-type-id="9" rush-type-name="Off Right Tackle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26339" global-team-id="359" global-player-id="449187"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="25688" global-team-id="359" global-player-id="473663"/>
+    </play>
+    <play id="286.0000000000000001" sequence="26" quarter="1" time="10:17" down="2" end-down="1" distance="4" end-distance="10" away-score-before="3" home-score-before="0" away-score-after="3" home-score-after="0" yards-from-goal="74" end-yards-from-goal="60" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Joe Flacco pass to the left to Dennis Pitta for 14 yards to the Bal40. Tackled by Chris Culliver.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="8795" global-team-id="366" global-player-id="216342" yards="14" direction="L" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="24089" global-team-id="366" global-player-id="246928" yards="14" direction="L" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="24867" global-team-id="359" global-player-id="406193"/>
+    </play>
+    <play id="315.0000000000000001" sequence="28" quarter="1" time="9:44" down="1" end-down="2" distance="10" end-distance="10" away-score-before="3" home-score-before="0" away-score-after="3" home-score-after="0" yards-from-goal="60" end-yards-from-goal="60" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Joe Flacco incomplete pass to the middle intended for Torrey Smith.">
+        <stat-id id="18" description="Incomplete Pass" team-id="33" player-id="8795" global-team-id="366" global-player-id="216342" direction="M"/>
+    </play>
+    <play id="337.0000000000000001" sequence="30" quarter="1" time="9:43" down="2" end-down="3" distance="10" end-distance="5" away-score-before="3" home-score-before="0" away-score-after="3" home-score-after="0" yards-from-goal="60" end-yards-from-goal="55" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Ray Rice rush to the right for 5 yards to the Bal45. Tackled by Mike Purcell and Michael Wilhoite.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="8832" global-team-id="366" global-player-id="300036" yards="5" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27217" global-team-id="359" global-player-id="495939"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="25688" global-team-id="359" global-player-id="473663"/>
+    </play>
+    <play id="358.0000000000000001" sequence="32" quarter="1" time="9:11" down="3" end-down="1" distance="5" end-distance="10" away-score-before="3" home-score-before="0" away-score-after="3" home-score-after="0" yards-from-goal="55" end-yards-from-goal="43" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Joe Flacco pass to the middle to Jacoby Jones for 12 yards to the SF43. Tackled by Jimmie Ward.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="8795" global-team-id="366" global-player-id="216342" yards="12" direction="M" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="8327" global-team-id="366" global-player-id="329337" yards="12" direction="M" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27558" global-team-id="359" global-player-id="557470"/>
+    </play>
+    <play id="382.0000000000000001" sequence="34" quarter="1" time="8:41" down="1" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="0" away-score-after="3" home-score-after="0" yards-from-goal="43" end-yards-from-goal="26" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Joe Flacco pass to the middle to Kyle Juszczyk for 17 yards to the SF26. Tackled by Eric Reid.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="8795" global-team-id="366" global-player-id="216342" yards="17" direction="M" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="26753" global-team-id="366" global-player-id="501150" yards="17" direction="M" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26641" global-team-id="359" global-player-id="540523"/>
+    </play>
+    <play id="406.0000000000000001" sequence="36" quarter="1" time="8:11" down="1" end-down="2" distance="10" end-distance="3" away-score-before="3" home-score-before="0" away-score-after="3" home-score-after="0" yards-from-goal="26" end-yards-from-goal="19" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Bernard Pierce rush to the right for 7 yards to the SF19. Tackled by Michael Wilhoite.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="25794" global-team-id="366" global-player-id="513119" yards="7" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="25688" global-team-id="359" global-player-id="473663"/>
+    </play>
+    <play id="427.0000000000000001" sequence="38" quarter="1" time="7:42" down="2" end-down="1" distance="3" end-distance="10" away-score-before="3" home-score-before="0" away-score-after="3" home-score-after="0" yards-from-goal="19" end-yards-from-goal="10" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Joe Flacco pass to the middle to Steve Smith Sr. for 9 yards to the SF10. Tackled by Michael Wilhoite.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="8795" global-team-id="366" global-player-id="216342" yards="9" direction="M" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="5521" global-team-id="366" global-player-id="25640" yards="9" direction="M" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="25688" global-team-id="359" global-player-id="473663"/>
+    </play>
+    <play id="451.0000000000000001" sequence="40" quarter="1" time="7:04" down="1" end-down="2" distance="10" end-distance="4" away-score-before="3" home-score-before="0" away-score-after="3" home-score-after="0" yards-from-goal="10" end-yards-from-goal="4" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Ray Rice rush to the left for 6 yards to the SF4. Tackled by Mike Purcell and Chris Borland.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="8832" global-team-id="366" global-player-id="300036" yards="6" direction="L" points="0" rush-type-id="5" rush-type-name="Off Left Tackle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27217" global-team-id="359" global-player-id="495939"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="27605" global-team-id="359" global-player-id="500688"/>
+    </play>
+    <play id="472.0000000000000002" sequence="42" quarter="1" time="6:34" down="2" end-down="2" distance="4" end-distance="2" away-score-before="3" home-score-before="0" away-score-after="3" home-score-after="0" yards-from-goal="4" end-yards-from-goal="2" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="15" continuation="false" details="Penalty: Offside on San Francisco (Jimmie Ward) 2 yards.">
+        <stat-id id="15" description="Penalty" team-id="25" player-id="27558" global-team-id="359" global-player-id="557470" yards="2" penalty-id="38" penalty-name="Offside"/>
+    </play>
+    <play id="507.0000000000000001" sequence="44" quarter="1" time="6:08" down="2" end-down="1" distance="2" end-distance="0" away-score-before="3" home-score-before="0" away-score-after="3" home-score-after="6" yards-from-goal="2" end-yards-from-goal="0" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Bernard Pierce rush to the right for 2 yards for a TOUCHDOWN.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="25794" global-team-id="366" global-player-id="513119" yards="2" direction="R" points="6" rush-type-id="8" rush-type-name="Off Right Guard"/>
+    </play>
+    <play id="524.0000000000000001" sequence="46" quarter="1" time="6:01" down="" end-down="" distance="" end-distance="" away-score-before="3" home-score-before="6" away-score-after="3" home-score-after="7" yards-from-goal="15" end-yards-from-goal="15" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="12" continuation="false" details="Justin Tucker extra point is good.">
+        <stat-id id="12" description="PAT" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132" points="1"/>
+        <stat-id id="35" description="Snapper" team-id="33" player-id="24362" global-team-id="366" global-player-id="334132"/>
+        <stat-id id="36" description="Holder" team-id="33" player-id="7952" global-team-id="366" global-player-id="214953"/>
+    </play>
+    <play id="544.0000000000000002" sequence="49" quarter="1" time="6:01" down="0" end-down="1" distance="0" end-distance="10" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="97" end-yards-from-goal="33" possession="33" possession-global-id="366" end-possession="25" end-possession-global-id="359" event-type="4" continuation="false" details="Justin Tucker kicks off. Bruce Ellington return for 30 yards to SF33.">
+        <stat-id id="27" description="Kick" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132"/>
+        <stat-id id="4" description="Kick Return" team-id="25" player-id="27634" global-team-id="359" global-player-id="604917" yards="30" points="0"/>
+    </play>
+    <play id="544.0000000000000003" sequence="50" quarter="1" time="6:01" down="" end-down="" distance="" end-distance="" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="67" end-yards-from-goal="77" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="15" continuation="true" details="Penalty: Holding on San Francisco (Craig Dahl) -10 yards.">
+        <stat-id id="15" description="Penalty" team-id="25" player-id="8568" global-team-id="359" global-player-id="234818" yards="-10" penalty-id="12" penalty-name="Holding"/>
+    </play>
+    <play id="577.0000000000000003" sequence="52" quarter="1" time="5:54" down="" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="77" end-yards-from-goal="72" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="15" continuation="false" details="Penalty: Holding on Baltimore (Chykie Brown) 5 yards.">
+        <stat-id id="15" description="Penalty" team-id="33" player-id="24951" global-team-id="366" global-player-id="323080" yards="5" penalty-id="12" penalty-name="Holding"/>
+    </play>
+    <play id="611.0000000000000001" sequence="54" quarter="1" time="5:50" down="1" end-down="2" distance="10" end-distance="6" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="72" end-yards-from-goal="68" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Carlos Hyde rush to the right for 4 yards to the SF32. Tackled by Brandon Williams and Chris Canty.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="27585" global-team-id="359" global-player-id="543825" yards="4" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="26717" global-team-id="366" global-player-id="694815"/>
+        <stat-id id="20" description="Assist" team-id="33" player-id="7308" global-team-id="366" global-player-id="145214"/>
+    </play>
+    <play id="632.0000000000000001" sequence="56" quarter="1" time="5:16" down="2" end-down="3" distance="6" end-distance="5" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="68" end-yards-from-goal="67" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Carlos Hyde rush to the right for 1 yard to the SF33. Tackled by C.J. Mosley.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="27585" global-team-id="359" global-player-id="543825" yards="1" direction="R" points="0" rush-type-id="9" rush-type-name="Off Right Tackle"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27545" global-team-id="366" global-player-id="557173"/>
+    </play>
+    <play id="653.0000000000000001" sequence="58" quarter="1" time="4:40" down="3" end-down="1" distance="5" end-distance="10" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="67" end-yards-from-goal="61" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Blaine Gabbert pass to the left to Stevie Johnson for 6 yards to the SF39. Tackled by Jimmy Smith.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="24797" global-team-id="359" global-player-id="463393" yards="6" direction="L" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="9001" global-team-id="359" global-player-id="333980" yards="6" direction="L" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="24814" global-team-id="366" global-player-id="332611"/>
+    </play>
+    <play id="677.0000000000000001" sequence="60" quarter="1" time="3:56" down="1" end-down="2" distance="10" end-distance="10" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="61" end-yards-from-goal="61" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Blaine Gabbert incomplete pass to the left intended for Stevie Johnson.">
+        <stat-id id="18" description="Incomplete Pass" team-id="25" player-id="24797" global-team-id="359" global-player-id="463393" direction="L"/>
+    </play>
+    <play id="699.0000000000000001" sequence="62" quarter="1" time="3:52" down="2" end-down="3" distance="10" end-distance="3" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="61" end-yards-from-goal="54" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Blaine Gabbert pass to the right to Vance McDonald for 7 yards to the SF46. Tackled by C.J. Mosley and Chykie Brown.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="24797" global-team-id="359" global-player-id="463393" yards="7" direction="R" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="26678" global-team-id="359" global-player-id="494969" yards="7" direction="R" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27545" global-team-id="366" global-player-id="557173"/>
+        <stat-id id="20" description="Assist" team-id="33" player-id="24951" global-team-id="366" global-player-id="323080"/>
+    </play>
+    <play id="723.0000000000000001" sequence="64" quarter="1" time="3:12" down="3" end-down="4" distance="3" end-distance="3" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="54" end-yards-from-goal="54" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Blaine Gabbert incomplete pass to the left intended for Quinton Patton defensed by Asa Jackson.">
+        <stat-id id="18" description="Incomplete Pass" team-id="25" player-id="24797" global-team-id="359" global-player-id="463393" direction="L"/>
+        <stat-id id="28" description="Defended" team-id="33" player-id="25879" global-team-id="366" global-player-id="460024"/>
+    </play>
+    <play id="756.0000000000000002" sequence="67" quarter="1" time="3:06" down="4" end-down="1" distance="3" end-distance="10" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="54" end-yards-from-goal="19" possession="25" possession-global-id="359" end-possession="33" end-possession-global-id="366" event-type="5" continuation="false" details="Andy Lee punts for 39 yards. Asa Jackson return for 4 yards to Bal19. Tackled by Bubba Ventrone.">
+        <stat-id id="22" description="Punt" team-id="25" player-id="6947" global-team-id="359" global-player-id="246395" yards="39"/>
+        <stat-id id="5" description="Punt Return" team-id="33" player-id="25879" global-team-id="366" global-player-id="460024" yards="4" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="7626" global-team-id="359" global-player-id="165929"/>
+    </play>
+    <play id="781.0000000000000001" sequence="69" quarter="1" time="2:58" down="1" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="81" end-yards-from-goal="54" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Tyrod Taylor rush to the middle for 27 yards to the Bal46. Tackled by Craig Dahl.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="27" direction="M" points="0" rush-type-id="7" rush-type-name="Middle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="8568" global-team-id="359" global-player-id="234818"/>
+    </play>
+    <play id="811.0000000000000001" sequence="71" quarter="1" time="2:29" down="1" end-down="2" distance="10" end-distance="6" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="54" end-yards-from-goal="50" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Bernard Pierce rush to the right for 4 yards to the Bal50. Tackled by Mike Purcell and Michael Wilhoite.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="25794" global-team-id="366" global-player-id="513119" yards="4" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27217" global-team-id="359" global-player-id="495939"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="25688" global-team-id="359" global-player-id="473663"/>
+    </play>
+    <play id="832.0000000000000001" sequence="73" quarter="1" time="1:57" down="2" end-down="3" distance="6" end-distance="1" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="50" end-yards-from-goal="45" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Bernard Pierce rush to the right for 5 yards to the SF45. Tackled by Michael Wilhoite.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="25794" global-team-id="366" global-player-id="513119" yards="5" direction="R" points="0" rush-type-id="9" rush-type-name="Off Right Tackle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="25688" global-team-id="359" global-player-id="473663"/>
+    </play>
+    <play id="853.0000000000000001" sequence="75" quarter="1" time="1:21" down="3" end-down="1" distance="1" end-distance="10" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="45" end-yards-from-goal="43" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Tyrod Taylor rush to the middle for 2 yards to the SF43. Tackled by Mike Purcell and Corey Lemonier.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="2" direction="M" points="0" rush-type-id="7" rush-type-name="Middle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27217" global-team-id="359" global-player-id="495939"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="26711" global-team-id="359" global-player-id="557127"/>
+    </play>
+    <play id="874.0000000000000001" sequence="77" quarter="1" time="0:41" down="1" end-down="2" distance="10" end-distance="18" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="43" end-yards-from-goal="51" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor sacked at Bal49 for a loss of 8 yards by Tank Carradine.">
+        <stat-id id="21" description="Sack" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="-8"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26663" global-team-id="359" global-player-id="592911"/>
+    </play>
+    <play id="893.0000000000000001" sequence="79" quarter="1" time="0:00" down="2" end-down="2" distance="18" end-distance="18" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="51" end-yards-from-goal="51" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="40" continuation="false" details="End of 1st Quarter."/>
+    <play id="909.0000000000000001" sequence="80" quarter="2" time="15:00" down="" end-down="" distance="18" end-distance="18" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="51" end-yards-from-goal="51" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="62" continuation="false" details="Start of 2nd Quarter."/>
+    <play id="909.0000000000000002" sequence="81" quarter="2" time="15:00" down="2" end-down="3" distance="18" end-distance="1" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="51" end-yards-from-goal="34" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the middle to Kamar Aiken for 17 yards to the SF34. Tackled by Chris Cook.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="17" direction="M" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="25379" global-team-id="366" global-player-id="400317" yards="17" direction="M" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="24009" global-team-id="359" global-player-id="303597"/>
+    </play>
+    <play id="933.0000000000000001" sequence="83" quarter="2" time="14:24" down="3" end-down="1" distance="1" end-distance="10" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="34" end-yards-from-goal="32" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Bernard Pierce rush to the right for 2 yards to the SF32. Tackled by Tony Jerod-Eddie and Tank Carradine.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="25794" global-team-id="366" global-player-id="513119" yards="2" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26339" global-team-id="359" global-player-id="449187"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="26663" global-team-id="359" global-player-id="592911"/>
+    </play>
+    <play id="954.0000000000000001" sequence="85" quarter="2" time="13:48" down="1" end-down="2" distance="10" end-distance="4" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="32" end-yards-from-goal="26" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Justin Forsett rush to the right for 6 yards to the SF26. Tackled by Quinton Dial.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="9010" global-team-id="366" global-player-id="269215" yards="6" direction="R" points="0" rush-type-id="10" rush-type-name="Off Right End"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26780" global-team-id="359" global-player-id="593209"/>
+    </play>
+    <play id="975.0000000000000001" sequence="87" quarter="2" time="13:08" down="2" end-down="1" distance="4" end-distance="10" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="26" end-yards-from-goal="20" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the right to Owen Daniels for 6 yards to the SF20. Tackled by Quinton Dial.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="6" direction="R" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="7847" global-team-id="366" global-player-id="156817" yards="6" direction="R" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26780" global-team-id="359" global-player-id="593209"/>
+    </play>
+    <play id="999.0000000000000001" sequence="89" quarter="2" time="12:28" down="1" end-down="2" distance="10" end-distance="3" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="20" end-yards-from-goal="13" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Bernard Pierce rush to the left for 7 yards to the SF13. Tackled by Quinton Dial.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="25794" global-team-id="366" global-player-id="513119" yards="7" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26780" global-team-id="359" global-player-id="593209"/>
+    </play>
+    <play id="999.0000000000000003" sequence="91" quarter="2" time="12:28" down="1" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="13" end-yards-from-goal="13" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="7" continuation="true" details="Bernard Pierce fumbles. Fumble recovered by Bal (Bernard Pierce).">
+        <stat-id id="7" description="OFF Fumble" team-id="33" player-id="25794" global-team-id="366" global-player-id="513119"/>
+        <stat-id id="37" description="Forced Fumble" team-id="25" player-id="26780" global-team-id="359" global-player-id="593209"/>
+        <stat-id id="32" description="Fumble Recovery" team-id="33" player-id="25794" global-team-id="366" global-player-id="513119" yards="0" points="0"/>
+    </play>
+    <play id="1031.0000000000000001" sequence="93" quarter="2" time="11:51" down="2" end-down="3" distance="3" end-distance="7" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="13" end-yards-from-goal="17" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Bernard Pierce rush to the right for a loss of 4 yards to the SF17. Tackled by Jimmie Ward.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="25794" global-team-id="366" global-player-id="513119" yards="-4" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27558" global-team-id="359" global-player-id="557470"/>
+    </play>
+    <play id="1052.0000000000000001" sequence="95" quarter="2" time="11:14" down="3" end-down="4" distance="7" end-distance="14" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="7" yards-from-goal="17" end-yards-from-goal="24" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor sacked at SF24 for a loss of 7 yards by Michael Wilhoite.">
+        <stat-id id="21" description="Sack" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="-7"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="25688" global-team-id="359" global-player-id="473663"/>
+    </play>
+    <play id="1071.0000000000000001" sequence="97" quarter="2" time="10:37" down="4" end-down="1" distance="14" end-distance="0" away-score-before="3" home-score-before="7" away-score-after="3" home-score-after="10" yards-from-goal="24" end-yards-from-goal="0" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="3" continuation="false" details="Justin Tucker 42 yard field goal attempt is GOOD. Holder: Sam Koch.">
+        <stat-id id="3" description="FGA" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132" yards="42" points="3"/>
+        <stat-id id="34" description="Made FG" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132" yards="42"/>
+        <stat-id id="35" description="Snapper" team-id="33" player-id="24362" global-team-id="366" global-player-id="334132"/>
+        <stat-id id="36" description="Holder" team-id="33" player-id="7952" global-team-id="366" global-player-id="214953"/>
+    </play>
+    <play id="1090.0000000000000002" sequence="100" quarter="2" time="10:29" down="0" end-down="1" distance="0" end-distance="10" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="106" end-yards-from-goal="20" possession="33" possession-global-id="366" end-possession="25" end-possession-global-id="359" event-type="4" continuation="false" details="Justin Tucker kicks off. Devon Wylie return for 26 yards to SF20. Tackled by Shaun Chapas.">
+        <stat-id id="27" description="Kick" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132"/>
+        <stat-id id="4" description="Kick Return" team-id="25" player-id="25817" global-team-id="359" global-player-id="406248" yards="26" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="25007" global-team-id="366" global-player-id="332745"/>
+    </play>
+    <play id="1112.0000000000000001" sequence="102" quarter="2" time="10:24" down="1" end-down="2" distance="10" end-distance="10" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="80" end-yards-from-goal="80" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Blaine Gabbert incomplete pass to the right intended for Quinton Patton.">
+        <stat-id id="18" description="Incomplete Pass" team-id="25" player-id="24797" global-team-id="359" global-player-id="463393" direction="R"/>
+    </play>
+    <play id="1134.0000000000000001" sequence="104" quarter="2" time="10:24" down="2" end-down="2" distance="10" end-distance="15" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="80" end-yards-from-goal="85" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="15" continuation="false" details="Penalty: False Start on San Francisco (Jonathan Martin) -5 yards.">
+        <stat-id id="15" description="Penalty" team-id="25" player-id="25752" global-team-id="359" global-player-id="461178" yards="-5" penalty-id="11" penalty-name="False Start"/>
+    </play>
+    <play id="1157.0000000000000001" sequence="106" quarter="2" time="10:20" down="2" end-down="3" distance="15" end-distance="15" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="85" end-yards-from-goal="85" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Blaine Gabbert incomplete pass to the middle intended for Jewel Hampton.">
+        <stat-id id="18" description="Incomplete Pass" team-id="25" player-id="24797" global-team-id="359" global-player-id="463393" direction="M"/>
+    </play>
+    <play id="1186.0000000000000001" sequence="108" quarter="2" time="10:17" down="3" end-down="4" distance="15" end-distance="15" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="85" end-yards-from-goal="85" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Blaine Gabbert incomplete pass to the right intended for Quinton Patton.">
+        <stat-id id="18" description="Incomplete Pass" team-id="25" player-id="24797" global-team-id="359" global-player-id="463393" direction="R"/>
+    </play>
+    <play id="1208.0000000000000002" sequence="111" quarter="2" time="10:12" down="4" end-down="1" distance="15" end-distance="10" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="85" end-yards-from-goal="39" possession="25" possession-global-id="359" end-possession="33" end-possession-global-id="366" event-type="5" continuation="false" details="Andy Lee punts for 47 yards. Asa Jackson return for 1 yard to Bal39. Tackled by Chris Borland.">
+        <stat-id id="22" description="Punt" team-id="25" player-id="6947" global-team-id="359" global-player-id="246395" yards="47"/>
+        <stat-id id="5" description="Punt Return" team-id="33" player-id="25879" global-team-id="366" global-player-id="460024" yards="1" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27605" global-team-id="359" global-player-id="500688"/>
+    </play>
+    <play id="1233.0000000000000001" sequence="113" quarter="2" time="10:01" down="1" end-down="2" distance="10" end-distance="6" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="61" end-yards-from-goal="57" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Justin Forsett rush to the left for 4 yards to the Bal43. Tackled by Dan Skuta and Chris Cook.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="9010" global-team-id="366" global-player-id="269215" yards="4" direction="L" points="0" rush-type-id="5" rush-type-name="Off Left Tackle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="9567" global-team-id="359" global-player-id="458931"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="24009" global-team-id="359" global-player-id="303597"/>
+    </play>
+    <play id="1254.0000000000000001" sequence="115" quarter="2" time="9:32" down="2" end-down="3" distance="6" end-distance="2" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="57" end-yards-from-goal="53" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Justin Forsett rush to the right for 4 yards to the Bal47. Tackled by Quinton Dial.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="9010" global-team-id="366" global-player-id="269215" yards="4" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26780" global-team-id="359" global-player-id="593209"/>
+    </play>
+    <play id="1254.0000000000000003" sequence="117" quarter="2" time="9:32" down="2" end-down="1" distance="6" end-distance="10" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="47" end-yards-from-goal="47" possession="33" possession-global-id="366" end-possession="25" end-possession-global-id="359" event-type="8" continuation="true" details="Justin Forsett fumbles. Fumble recovered by SF (Perrish Cox). Tackled by Marlon Brown.">
+        <stat-id id="8" description="DEF Fumble" team-id="33" player-id="9010" global-team-id="366" global-player-id="269215"/>
+        <stat-id id="37" description="Forced Fumble" team-id="25" player-id="26780" global-team-id="359" global-player-id="593209"/>
+        <stat-id id="32" description="Fumble Recovery" team-id="25" player-id="24113" global-team-id="359" global-player-id="333346" yards="0" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27422" global-team-id="366" global-player-id="512103"/>
+    </play>
+    <play id="1296.0000000000000001" sequence="119" quarter="2" time="9:15" down="1" end-down="2" distance="10" end-distance="8" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="47" end-yards-from-goal="45" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Jewel Hampton rush to the left for 2 yards to the Bal45. Tackled by Courtney Upshaw.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="26255" global-team-id="359" global-player-id="464043" yards="2" direction="L" points="0" rush-type-id="4" rush-type-name="Off Left End"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="25745" global-team-id="366" global-player-id="465622"/>
+    </play>
+    <play id="1317.0000000000000002" sequence="122" quarter="2" time="8:49" down="2" end-down="1" distance="8" end-distance="10" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="45" end-yards-from-goal="24" possession="25" possession-global-id="359" end-possession="33" end-possession-global-id="366" event-type="6" continuation="false" details="Blaine Gabbert pass to to the left intercepted by Asa Jackson with no return. Tackled by Derek Carrier.">
+        <stat-id id="6" description="Pass Intercepted" team-id="25" player-id="24797" global-team-id="359" global-player-id="463393" direction="L"/>
+        <stat-id id="23" description="Interception Return" team-id="33" player-id="25879" global-team-id="366" global-player-id="460024" yards="0" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26416" global-team-id="359" global-player-id="654887"/>
+    </play>
+    <play id="1343.0000000000000001" sequence="124" quarter="2" time="8:42" down="1" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="76" end-yards-from-goal="61" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Tyrod Taylor rush to the right for 15 yards to the Bal39. Tackled by Craig Dahl.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="15" direction="R" points="0" rush-type-id="10" rush-type-name="Off Right End"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="8568" global-team-id="359" global-player-id="234818"/>
+    </play>
+    <play id="1364.0000000000000001" sequence="126" quarter="2" time="8:18" down="1" end-down="2" distance="10" end-distance="7" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="61" end-yards-from-goal="58" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Bernard Pierce rush to the right for 3 yards to the Bal42. Tackled by Mike Purcell and Quinton Dial.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="25794" global-team-id="366" global-player-id="513119" yards="3" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27217" global-team-id="359" global-player-id="495939"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="26780" global-team-id="359" global-player-id="593209"/>
+    </play>
+    <play id="1385.0000000000000001" sequence="128" quarter="2" time="7:46" down="2" end-down="3" distance="7" end-distance="3" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="58" end-yards-from-goal="54" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the middle to Kyle Juszczyk for 4 yards to the Bal46. Tackled by Chase Thomas.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="4" direction="M" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="26753" global-team-id="366" global-player-id="501150" yards="4" direction="M" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26959" global-team-id="359" global-player-id="461193"/>
+    </play>
+    <play id="1409.0000000000000001" sequence="130" quarter="2" time="7:11" down="3" end-down="1" distance="3" end-distance="10" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="54" end-yards-from-goal="50" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the right to Jacoby Jones for 4 yards to the Bal50. Tackled by Corey Lemonier and Dontae Johnson.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="4" direction="R" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="8327" global-team-id="366" global-player-id="329337" yards="4" direction="R" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26711" global-team-id="359" global-player-id="557127"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="27657" global-team-id="359" global-player-id="557337"/>
+    </play>
+    <play id="1433.0000000000000001" sequence="132" quarter="2" time="6:35" down="1" end-down="2" distance="10" end-distance="7" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="50" end-yards-from-goal="47" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Bernard Pierce rush to the right for 3 yards to the SF47. Tackled by Quinton Dial and Mike Purcell.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="25794" global-team-id="366" global-player-id="513119" yards="3" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26780" global-team-id="359" global-player-id="593209"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="27217" global-team-id="359" global-player-id="495939"/>
+    </play>
+    <play id="1454.0000000000000001" sequence="134" quarter="2" time="5:53" down="2" end-down="3" distance="7" end-distance="7" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="47" end-yards-from-goal="47" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor incomplete pass to the right.">
+        <stat-id id="18" description="Incomplete Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" direction="R"/>
+    </play>
+    <play id="1476.0000000000000001" sequence="136" quarter="2" time="5:45" down="3" end-down="4" distance="7" end-distance="7" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="47" end-yards-from-goal="47" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor incomplete pass to the middle intended for Jacoby Jones defensed by Jimmie Ward.">
+        <stat-id id="18" description="Incomplete Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" direction="M"/>
+        <stat-id id="28" description="Defended" team-id="25" player-id="27558" global-team-id="359" global-player-id="557470"/>
+    </play>
+    <play id="1498.0000000000000002" sequence="139" quarter="2" time="5:41" down="4" end-down="1" distance="7" end-distance="10" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="47" end-yards-from-goal="12" possession="33" possession-global-id="366" end-possession="25" end-possession-global-id="359" event-type="5" continuation="false" details="Sam Koch punts for 35 yards. No return.">
+        <stat-id id="22" description="Punt" team-id="33" player-id="7952" global-team-id="366" global-player-id="214953" yards="35"/>
+        <stat-id id="5" description="Punt Return" team-id="25" player-id="" global-team-id="359" global-player-id="" yards="0" points="0"/>
+    </play>
+    <play id="1517.0000000000000001" sequence="141" quarter="2" time="5:35" down="1" end-down="2" distance="10" end-distance="8" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="88" end-yards-from-goal="86" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Jewel Hampton rush to the left for 2 yards to the SF14. Tackled by Kapron Lewis-Moore and Albert McClellan.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="26255" global-team-id="359" global-player-id="464043" yards="2" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="26823" global-team-id="366" global-player-id="469206"/>
+        <stat-id id="20" description="Assist" team-id="33" player-id="24358" global-team-id="366" global-player-id="286877"/>
+    </play>
+    <play id="1538.0000000000000001" sequence="143" quarter="2" time="5:03" down="2" end-down="3" distance="8" end-distance="8" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="86" end-yards-from-goal="86" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Blaine Gabbert incomplete pass to the right.">
+        <stat-id id="18" description="Incomplete Pass" team-id="25" player-id="24797" global-team-id="359" global-player-id="463393" direction="R"/>
+    </play>
+    <play id="1560.0000000000000001" sequence="145" quarter="2" time="4:59" down="3" end-down="4" distance="8" end-distance="1" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="86" end-yards-from-goal="79" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Blaine Gabbert pass to the right to Chuck Jacobs for 7 yards to the SF21. Tackled by Chykie Brown.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="24797" global-team-id="359" global-player-id="463393" yards="7" direction="R" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="27284" global-team-id="359" global-player-id="607460" yards="7" direction="R" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="24951" global-team-id="366" global-player-id="323080"/>
+    </play>
+    <play id="1584.0000000000000002" sequence="148" quarter="2" time="4:37" down="4" end-down="1" distance="1" end-distance="10" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="79" end-yards-from-goal="46" possession="25" possession-global-id="359" end-possession="33" end-possession-global-id="366" event-type="5" continuation="false" details="Andy Lee punts for 41 yards. Asa Jackson return for 8 yards to Bal46. Tackled by Bruce Miller.">
+        <stat-id id="22" description="Punt" team-id="25" player-id="6947" global-team-id="359" global-player-id="246395" yards="41"/>
+        <stat-id id="5" description="Punt Return" team-id="33" player-id="25879" global-team-id="366" global-player-id="460024" yards="8" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="24998" global-team-id="359" global-player-id="324654"/>
+    </play>
+    <play id="1609.0000000000000001" sequence="150" quarter="2" time="4:26" down="1" end-down="2" distance="10" end-distance="3" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="54" end-yards-from-goal="47" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the left to Kamar Aiken for 7 yards to the SF47. Tackled by C.J. Spillman.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="7" direction="L" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="25379" global-team-id="366" global-player-id="400317" yards="7" direction="L" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="9561" global-team-id="359" global-player-id="286887"/>
+    </play>
+    <play id="1633.0000000000000001" sequence="152" quarter="2" time="3:55" down="2" end-down="1" distance="3" end-distance="10" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="47" end-yards-from-goal="39" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Bernard Pierce rush to the right for 8 yards to the SF39. Tackled by Nick Moody.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="25794" global-team-id="366" global-player-id="513119" yards="8" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26803" global-team-id="359" global-player-id="462033"/>
+    </play>
+    <play id="1654.0000000000000001" sequence="154" quarter="2" time="3:28" down="1" end-down="2" distance="10" end-distance="3" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="39" end-yards-from-goal="32" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the left to Kyle Juszczyk for 7 yards to the SF32. Tackled by C.J. Spillman.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="7" direction="L" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="26753" global-team-id="366" global-player-id="501150" yards="7" direction="L" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="9561" global-team-id="359" global-player-id="286887"/>
+    </play>
+    <play id="1678.0000000000000001" sequence="156" quarter="2" time="2:58" down="2" end-down="1" distance="3" end-distance="10" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="32" end-yards-from-goal="26" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Justin Forsett rush to the right for 6 yards to the SF26. Tackled by Craig Dahl.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="9010" global-team-id="366" global-player-id="269215" yards="6" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="8568" global-team-id="359" global-player-id="234818"/>
+    </play>
+    <play id="1699.0000000000000001" sequence="158" quarter="2" time="2:28" down="1" end-down="2" distance="10" end-distance="9" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="26" end-yards-from-goal="25" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Justin Forsett rush to the left for 1 yard to the SF25. Tackled by Nick Moody.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="9010" global-team-id="366" global-player-id="269215" yards="1" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26803" global-team-id="359" global-player-id="462033"/>
+    </play>
+    <play id="1720.0000000000000001" sequence="160" quarter="2" time="2:28" down="2" end-down="2" distance="9" end-distance="9" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="25" end-yards-from-goal="25" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="41" continuation="false" details="Two Minute Warning."/>
+    <play id="1737.0000000000000001" sequence="162" quarter="2" time="2:00" down="2" end-down="1" distance="9" end-distance="10" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="25" end-yards-from-goal="12" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the right to Justin Forsett for 13 yards to the SF12. Tackled by Craig Dahl.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="13" direction="R" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="9010" global-team-id="366" global-player-id="269215" yards="13" direction="R" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="8568" global-team-id="359" global-player-id="234818"/>
+    </play>
+    <play id="1761.0000000000000001" sequence="164" quarter="2" time="1:50" down="1" end-down="2" distance="10" end-distance="3" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="12" end-yards-from-goal="5" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Justin Forsett rush to the left for 7 yards to the SF5. Tackled by Chris Cook.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="9010" global-team-id="366" global-player-id="269215" yards="7" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="24009" global-team-id="359" global-player-id="303597"/>
+    </play>
+    <play id="1782.0000000000000001" sequence="166" quarter="2" time="1:09" down="2" end-down="2" distance="3" end-distance="3" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="5" end-yards-from-goal="5" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="57" continuation="false" details="Baltimore timeout."/>
+    <play id="1799.0000000000000001" sequence="168" quarter="2" time="1:09" down="2" end-down="3" distance="3" end-distance="2" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="5" end-yards-from-goal="4" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Justin Forsett rush to the left for 1 yard to the SF4. Tackled by Tank Carradine.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="9010" global-team-id="366" global-player-id="269215" yards="1" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26663" global-team-id="359" global-player-id="592911"/>
+    </play>
+    <play id="1820.0000000000000001" sequence="170" quarter="2" time="0:39" down="3" end-down="3" distance="2" end-distance="2" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="4" end-yards-from-goal="4" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="58" continuation="false" details="San Francisco timeout."/>
+    <play id="1837.0000000000000001" sequence="172" quarter="2" time="0:39" down="3" end-down="4" distance="2" end-distance="2" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="10" yards-from-goal="4" end-yards-from-goal="4" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor incomplete pass to the left intended for Deonte Thompson.">
+        <stat-id id="18" description="Incomplete Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" direction="L"/>
+    </play>
+    <play id="1859.0000000000000001" sequence="174" quarter="2" time="0:35" down="4" end-down="1" distance="2" end-distance="0" away-score-before="3" home-score-before="10" away-score-after="3" home-score-after="13" yards-from-goal="4" end-yards-from-goal="0" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="3" continuation="false" details="Justin Tucker 22 yard field goal attempt is GOOD. Holder: Sam Koch.">
+        <stat-id id="3" description="FGA" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132" yards="22" points="3"/>
+        <stat-id id="34" description="Made FG" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132" yards="22"/>
+        <stat-id id="35" description="Snapper" team-id="33" player-id="24362" global-team-id="366" global-player-id="334132"/>
+        <stat-id id="36" description="Holder" team-id="33" player-id="7952" global-team-id="366" global-player-id="214953"/>
+    </play>
+    <play id="1878.0000000000000002" sequence="177" quarter="2" time="0:31" down="" end-down="1" distance="" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="65" end-yards-from-goal="80" possession="33" possession-global-id="366" end-possession="25" end-possession-global-id="359" event-type="38" continuation="false" details="Justin Tucker kicks off. Touchback.">
+        <stat-id id="27" description="Kick" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132"/>
+        <stat-id id="4" description="Kick Return" team-id="25" player-id="" global-team-id="359" global-player-id="" yards="0" points="0"/>
+        <stat-id id="38" description="Touchback" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132"/>
+    </play>
+    <play id="1897.0000000000000001" sequence="179" quarter="2" time="0:31" down="1" end-down="2" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="80" end-yards-from-goal="80" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Blaine Gabbert incomplete pass.">
+        <stat-id id="18" description="Incomplete Pass" team-id="25" player-id="24797" global-team-id="359" global-player-id="463393" direction=""/>
+    </play>
+    <play id="1919.0000000000000001" sequence="181" quarter="2" time="0:27" down="2" end-down="3" distance="10" end-distance="17" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="80" end-yards-from-goal="87" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Blaine Gabbert sacked at SF13 for a loss of 7 yards by C.J. Mosley.">
+        <stat-id id="21" description="Sack" team-id="25" player-id="24797" global-team-id="359" global-player-id="463393" yards="-7"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27545" global-team-id="366" global-player-id="557173"/>
+    </play>
+    <play id="1938.0000000000000001" sequence="183" quarter="2" time="0:00" down="3" end-down="3" distance="17" end-distance="17" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="87" end-yards-from-goal="87" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="40" continuation="false" details="End of 1st Half."/>
+    <play id="1954.0000000000000001" sequence="184" quarter="3" time="15:00" down="" end-down="1" distance="0" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="65" end-yards-from-goal="65" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="62" continuation="false" details="Start of 2nd Half."/>
+    <play id="1954.0000000000000003" sequence="186" quarter="3" time="15:00" down="0" end-down="1" distance="0" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="99" end-yards-from-goal="21" possession="25" possession-global-id="359" end-possession="33" end-possession-global-id="366" event-type="4" continuation="false" details="Phil Dawson kicks off. Deonte Thompson return for 20 yards to Bal21. Tackled by Chris Cook.">
+        <stat-id id="27" description="Kick" team-id="25" player-id="4269" global-team-id="359" global-player-id="24388"/>
+        <stat-id id="4" description="Kick Return" team-id="33" player-id="26456" global-team-id="366" global-player-id="396571" yards="20" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="24009" global-team-id="359" global-player-id="303597"/>
+    </play>
+    <play id="1954.0000000000000004" sequence="187" quarter="3" time="15:00" down="" end-down="" distance="" end-distance="" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="79" end-yards-from-goal="89" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="15" continuation="true" details="Penalty: Holding on Baltimore (Shaun Chapas) -10 yards.">
+        <stat-id id="15" description="Penalty" team-id="33" player-id="25007" global-team-id="366" global-player-id="332745" yards="-10" penalty-id="12" penalty-name="Holding"/>
+    </play>
+    <play id="1987.0000000000000001" sequence="189" quarter="3" time="14:53" down="1" end-down="2" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="89" end-yards-from-goal="89" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor incomplete pass to the right.">
+        <stat-id id="18" description="Incomplete Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" direction="R"/>
+    </play>
+    <play id="2009.0000000000000001" sequence="191" quarter="3" time="14:50" down="2" end-down="3" distance="10" end-distance="3" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="89" end-yards-from-goal="82" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the left for 7 yards to the Bal18. Tackled by Nick Moody and Dontae Johnson.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="7" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26803" global-team-id="359" global-player-id="462033"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="27657" global-team-id="359" global-player-id="557337"/>
+    </play>
+    <play id="2030.0000000000000001" sequence="193" quarter="3" time="14:15" down="3" end-down="1" distance="3" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="82" end-yards-from-goal="67" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the right to Deonte Thompson for 15 yards to the Bal33.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="15" direction="R" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="26456" global-team-id="366" global-player-id="396571" yards="15" direction="R" points="0"/>
+    </play>
+    <play id="2116.0000000000000001" sequence="195" quarter="3" time="13:57" down="1" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="67" end-yards-from-goal="57" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the left for 10 yards to the Bal43. Tackled by Dontae Johnson and Derek Carrier.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="10" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27657" global-team-id="359" global-player-id="557337"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="26416" global-team-id="359" global-player-id="654887"/>
+    </play>
+    <play id="2142.0000000000000001" sequence="197" quarter="3" time="13:23" down="1" end-down="2" distance="10" end-distance="7" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="57" end-yards-from-goal="54" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the right for 3 yards to the Bal46. Tackled by Tank Carradine.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="3" direction="R" points="0" rush-type-id="10" rush-type-name="Off Right End"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26663" global-team-id="359" global-player-id="592911"/>
+    </play>
+    <play id="2163.0000000000000002" sequence="200" quarter="3" time="12:57" down="2" end-down="1" distance="7" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="54" end-yards-from-goal="40" possession="33" possession-global-id="366" end-possession="25" end-possession-global-id="359" event-type="6" continuation="false" details="Tyrod Taylor pass to to the left intercepted by Chris Cook and returned for a loss of 1 yard. Tackled by Marlon Brown.">
+        <stat-id id="6" description="Pass Intercepted" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" direction="L"/>
+        <stat-id id="23" description="Interception Return" team-id="25" player-id="24009" global-team-id="359" global-player-id="303597" yards="-1" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27422" global-team-id="366" global-player-id="512103"/>
+    </play>
+    <play id="2190.0000000000000001" sequence="202" quarter="3" time="12:52" down="1" end-down="2" distance="10" end-distance="1" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="60" end-yards-from-goal="51" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Jewel Hampton rush to the left for 9 yards to the SF49. Tackled by Asa Jackson.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="26255" global-team-id="359" global-player-id="464043" yards="9" direction="L" points="0" rush-type-id="4" rush-type-name="Off Left End"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="25879" global-team-id="366" global-player-id="460024"/>
+    </play>
+    <play id="2215.0000000000000001" sequence="204" quarter="3" time="12:25" down="2" end-down="1" distance="1" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="51" end-yards-from-goal="42" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Josh Johnson pass to the left to David Reed for 9 yards to the Bal42. Tackled by Brynden Trawick and Asa Jackson.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278" yards="9" direction="L" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="24132" global-team-id="359" global-player-id="463429" yards="9" direction="L" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27269" global-team-id="366" global-player-id="464273"/>
+        <stat-id id="20" description="Assist" team-id="33" player-id="25879" global-team-id="366" global-player-id="460024"/>
+    </play>
+    <play id="2239.0000000000000001" sequence="206" quarter="3" time="11:54" down="1" end-down="2" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="42" end-yards-from-goal="42" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Josh Johnson incomplete pass to the right defensed by Tramain Jacobs.">
+        <stat-id id="18" description="Incomplete Pass" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278" direction="R"/>
+        <stat-id id="28" description="Defended" team-id="33" player-id="27981" global-team-id="366" global-player-id="653635"/>
+    </play>
+    <play id="2261.0000000000000001" sequence="208" quarter="3" time="11:47" down="2" end-down="3" distance="10" end-distance="9" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="42" end-yards-from-goal="41" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Jewel Hampton rush to the right for 1 yard to the Bal41. Tackled by Jeromy Miles.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="26255" global-team-id="359" global-player-id="464043" yards="1" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="24329" global-team-id="366" global-player-id="344700"/>
+    </play>
+    <play id="2282.0000000000000001" sequence="210" quarter="3" time="11:07" down="3" end-down="4" distance="9" end-distance="9" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="41" end-yards-from-goal="41" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Josh Johnson incomplete pass to the middle intended for Derek Carrier.">
+        <stat-id id="18" description="Incomplete Pass" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278" direction="M"/>
+    </play>
+    <play id="2304.0000000000000002" sequence="213" quarter="3" time="11:02" down="4" end-down="1" distance="9" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="41" end-yards-from-goal="1" possession="25" possession-global-id="359" end-possession="33" end-possession-global-id="366" event-type="5" continuation="false" details="Colton Schmidt punts for 40 yards. No return.">
+        <stat-id id="22" description="Punt" team-id="25" player-id="27459" global-team-id="359" global-player-id="515262" yards="40"/>
+        <stat-id id="5" description="Punt Return" team-id="33" player-id="" global-team-id="366" global-player-id="" yards="0" points="0"/>
+    </play>
+    <play id="2323.0000000000000001" sequence="215" quarter="3" time="10:52" down="1" end-down="2" distance="10" end-distance="7" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="99" end-yards-from-goal="96" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the middle for 3 yards to the Bal4. Tackled by Mike Purcell and Tank Carradine.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="3" direction="M" points="0" rush-type-id="7" rush-type-name="Middle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27217" global-team-id="359" global-player-id="495939"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="26663" global-team-id="359" global-player-id="592911"/>
+    </play>
+    <play id="2344.0000000000000001" sequence="217" quarter="3" time="10:17" down="2" end-down="3" distance="7" end-distance="3" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="96" end-yards-from-goal="92" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the right for 4 yards to the Bal8. Tackled by C.J. Spillman.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="4" direction="R" points="0" rush-type-id="9" rush-type-name="Off Right Tackle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="9561" global-team-id="359" global-player-id="286887"/>
+    </play>
+    <play id="2365.0000000000000002" sequence="219" quarter="3" time="9:42" down="3" end-down="3" distance="3" end-distance="7" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="92" end-yards-from-goal="96" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="15" continuation="false" details="Penalty: Holding on Baltimore (James Hurst) -4 yards.">
+        <stat-id id="15" description="Penalty" team-id="33" player-id="27980" global-team-id="366" global-player-id="541489" yards="-4" penalty-id="12" penalty-name="Holding"/>
+    </play>
+    <play id="2397.0000000000000001" sequence="221" quarter="3" time="9:24" down="3" end-down="4" distance="7" end-distance="7" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="96" end-yards-from-goal="96" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor incomplete pass to the right intended for Deonte Thompson defensed by Dontae Johnson.">
+        <stat-id id="18" description="Incomplete Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" direction="R"/>
+        <stat-id id="28" description="Defended" team-id="25" player-id="27657" global-team-id="359" global-player-id="557337"/>
+    </play>
+    <play id="2419.0000000000000002" sequence="224" quarter="3" time="9:11" down="4" end-down="1" distance="7" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="96" end-yards-from-goal="40" possession="33" possession-global-id="366" end-possession="25" end-possession-global-id="359" event-type="5" continuation="false" details="Sam Koch punts for 56 yards. Bruce Ellington - no return. Tackled by Zach Orr.">
+        <stat-id id="22" description="Punt" team-id="33" player-id="7952" global-team-id="366" global-player-id="214953" yards="56"/>
+        <stat-id id="5" description="Punt Return" team-id="25" player-id="27634" global-team-id="359" global-player-id="604917" yards="0" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27986" global-team-id="366" global-player-id="559336"/>
+    </play>
+    <play id="2419.0000000000000003" sequence="225" quarter="3" time="9:11" down="4" end-down="4" distance="7" end-distance="17" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="60" end-yards-from-goal="70" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="15" continuation="true" details="Penalty: Holding on San Francisco (Shayne Skov) -10 yards.">
+        <stat-id id="15" description="Penalty" team-id="25" player-id="28070" global-team-id="359" global-player-id="503199" yards="-10" penalty-id="12" penalty-name="Holding"/>
+    </play>
+    <play id="2455.0000000000000001" sequence="227" quarter="3" time="9:05" down="1" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="70" end-yards-from-goal="55" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Josh Johnson pass to the right to Chuck Jacobs for 15 yards to the SF45. Tackled by Tramain Jacobs.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278" yards="15" direction="R" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="27284" global-team-id="359" global-player-id="607460" yards="15" direction="R" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27981" global-team-id="366" global-player-id="653635"/>
+    </play>
+    <play id="2479.0000000000000001" sequence="229" quarter="3" time="8:35" down="1" end-down="2" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="55" end-yards-from-goal="55" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Jewel Hampton rush to the right for no gain to the SF45. Tackled by Jeromy Miles.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="26255" global-team-id="359" global-player-id="464043" yards="0" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="24329" global-team-id="366" global-player-id="344700"/>
+    </play>
+    <play id="2500.0000000000000001" sequence="231" quarter="3" time="8:02" down="2" end-down="3" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="55" end-yards-from-goal="55" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Josh Johnson pass to the left to Derek Carrier for no gain to the SF45. Tackled by Brynden Trawick and Albert McClellan.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278" yards="0" direction="L" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="26416" global-team-id="359" global-player-id="654887" yards="0" direction="L" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27269" global-team-id="366" global-player-id="464273"/>
+        <stat-id id="20" description="Assist" team-id="33" player-id="24358" global-team-id="366" global-player-id="286877"/>
+    </play>
+    <play id="2500.0000000000000003" sequence="232" quarter="3" time="8:02" down="2" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="55" end-yards-from-goal="50" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="15" continuation="true" details="Penalty: Illegal Contact on Baltimore (Deji Olatoye) 5 yards.">
+        <stat-id id="15" description="Penalty" team-id="33" player-id="27985" global-team-id="366" global-player-id="500551" yards="5" penalty-id="15" penalty-name="Illegal Contact"/>
+    </play>
+    <play id="2535.0000000000000001" sequence="234" quarter="3" time="7:29" down="1" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="50" end-yards-from-goal="35" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Josh Johnson rush to the right for 15 yards to the Bal35.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278" yards="15" direction="R" points="0" rush-type-id="10" rush-type-name="Off Right End"/>
+    </play>
+    <play id="2562.0000000000000001" sequence="236" quarter="3" time="6:55" down="1" end-down="2" distance="10" end-distance="16" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="35" end-yards-from-goal="41" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Alfonso Smith rush to the left for a loss of 6 yards to the Bal41. Tackled by Arthur Brown.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="24287" global-team-id="359" global-player-id="298884" yards="-6" direction="L" points="0" rush-type-id="4" rush-type-name="Off Left End"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="26679" global-team-id="366" global-player-id="447300"/>
+    </play>
+    <play id="2583.0000000000000001" sequence="238" quarter="3" time="6:22" down="2" end-down="3" distance="16" end-distance="6" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="41" end-yards-from-goal="31" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Josh Johnson pass to the middle to Alfonso Smith for 10 yards to the Bal31. Tackled by Albert McClellan.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278" yards="10" direction="M" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="24287" global-team-id="359" global-player-id="298884" yards="10" direction="M" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="24358" global-team-id="366" global-player-id="286877"/>
+    </play>
+    <play id="2607.0000000000000001" sequence="240" quarter="3" time="5:47" down="3" end-down="1" distance="6" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="31" end-yards-from-goal="15" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Josh Johnson pass to the middle to Bruce Ellington for 16 yards to the Bal15.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278" yards="16" direction="M" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="27634" global-team-id="359" global-player-id="604917" yards="16" direction="M" points="0"/>
+    </play>
+    <play id="2631.0000000000000001" sequence="242" quarter="3" time="5:13" down="1" end-down="2" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="15" end-yards-from-goal="15" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Josh Johnson rush to the middle for no gain to the Bal15.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278" yards="0" direction="M" points="0" rush-type-id="19" rush-type-name="Aborted/Dropped Snap"/>
+    </play>
+    <play id="2631.0000000000000003" sequence="244" quarter="3" time="5:13" down="1" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="85" end-yards-from-goal="85" possession="25" possession-global-id="359" end-possession="33" end-possession-global-id="366" event-type="8" continuation="true" details="Josh Johnson fumbles. Fumble recovered by Bal (DeAngelo Tyson). Tackled by Carter Bykowski.">
+        <stat-id id="8" description="DEF Fumble" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278"/>
+        <stat-id id="32" description="Fumble Recovery" team-id="33" player-id="25946" global-team-id="366" global-player-id="465721" yards="0" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26869" global-team-id="359" global-player-id="462107"/>
+    </play>
+    <play id="2657.0000000000000001" sequence="246" quarter="3" time="5:07" down="1" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="77" end-yards-from-goal="60" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the middle to Kamar Aiken for 17 yards to the Bal40.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="17" direction="M" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="25379" global-team-id="366" global-player-id="400317" yards="17" direction="M" points="0"/>
+    </play>
+    <play id="2681.0000000000000001" sequence="248" quarter="3" time="4:27" down="1" end-down="2" distance="10" end-distance="5" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="60" end-yards-from-goal="55" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the middle to Kamar Aiken for 5 yards to the Bal45.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="5" direction="M" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="25379" global-team-id="366" global-player-id="400317" yards="5" direction="M" points="0"/>
+    </play>
+    <play id="2705.0000000000000001" sequence="250" quarter="3" time="3:57" down="2" end-down="1" distance="5" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="55" end-yards-from-goal="47" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the left for 8 yards to the SF47. Tackled by Derek Carrier and Nick Moody.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="8" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26416" global-team-id="359" global-player-id="654887"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="26803" global-team-id="359" global-player-id="462033"/>
+    </play>
+    <play id="2726.0000000000000001" sequence="252" quarter="3" time="3:17" down="1" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="47" end-yards-from-goal="37" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the right for 10 yards to the SF37. Tackled by Derek Carrier and Nick Moody.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="10" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26416" global-team-id="359" global-player-id="654887"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="26803" global-team-id="359" global-player-id="462033"/>
+    </play>
+    <play id="2747.0000000000000001" sequence="254" quarter="3" time="2:37" down="1" end-down="2" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="37" end-yards-from-goal="37" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Cierre Wood rush to the middle for no gain to the SF37. Tackled by Chase Thomas.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27313" global-team-id="366" global-player-id="509563" yards="0" direction="M" points="0" rush-type-id="7" rush-type-name="Middle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26959" global-team-id="359" global-player-id="461193"/>
+    </play>
+    <play id="2768.0000000000000001" sequence="256" quarter="3" time="2:31" down="2" end-down="3" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="37" end-yards-from-goal="37" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor incomplete pass to the left intended for Deonte Thompson.">
+        <stat-id id="18" description="Incomplete Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" direction="L"/>
+    </play>
+    <play id="2790.0000000000000001" sequence="258" quarter="3" time="2:26" down="3" end-down="4" distance="10" end-distance="10" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="13" yards-from-goal="37" end-yards-from-goal="37" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor incomplete pass to the left.">
+        <stat-id id="18" description="Incomplete Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" direction="L"/>
+    </play>
+    <play id="2812.0000000000000001" sequence="260" quarter="3" time="2:21" down="4" end-down="1" distance="10" end-distance="0" away-score-before="3" home-score-before="13" away-score-after="3" home-score-after="16" yards-from-goal="37" end-yards-from-goal="0" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="3" continuation="false" details="Justin Tucker 55 yard field goal attempt is GOOD. Holder: Sam Koch.">
+        <stat-id id="3" description="FGA" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132" yards="55" points="3"/>
+        <stat-id id="34" description="Made FG" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132" yards="55"/>
+        <stat-id id="35" description="Snapper" team-id="33" player-id="24362" global-team-id="366" global-player-id="334132"/>
+        <stat-id id="36" description="Holder" team-id="33" player-id="7952" global-team-id="366" global-player-id="214953"/>
+    </play>
+    <play id="2831.0000000000000002" sequence="263" quarter="3" time="2:17" down="0" end-down="1" distance="0" end-distance="10" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="105" end-yards-from-goal="24" possession="33" possession-global-id="366" end-possession="25" end-possession-global-id="359" event-type="4" continuation="false" details="Justin Tucker kicks off. Devon Wylie return for 29 yards to SF24. Tackled by Zach Orr.">
+        <stat-id id="27" description="Kick" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132"/>
+        <stat-id id="4" description="Kick Return" team-id="25" player-id="25817" global-team-id="359" global-player-id="406248" yards="29" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27986" global-team-id="366" global-player-id="559336"/>
+    </play>
+    <play id="2853.0000000000000001" sequence="265" quarter="3" time="2:11" down="1" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="76" end-yards-from-goal="66" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Josh Johnson pass to the left to David Reed for 10 yards to the SF34. Tackled by Deji Olatoye.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278" yards="10" direction="L" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="24132" global-team-id="359" global-player-id="463429" yards="10" direction="L" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27985" global-team-id="366" global-player-id="500551"/>
+    </play>
+    <play id="2877.0000000000000001" sequence="267" quarter="3" time="1:41" down="1" end-down="2" distance="10" end-distance="7" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="66" end-yards-from-goal="63" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Josh Johnson pass to the left to Jewel Hampton for 3 yards to the SF37. Tackled by Deji Olatoye.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278" yards="3" direction="L" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="26255" global-team-id="359" global-player-id="464043" yards="3" direction="L" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27985" global-team-id="366" global-player-id="500551"/>
+    </play>
+    <play id="2901.0000000000000001" sequence="269" quarter="3" time="1:14" down="2" end-down="3" distance="7" end-distance="3" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="63" end-yards-from-goal="59" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Jewel Hampton rush to the right for 4 yards to the SF41. Tackled by Kapron Lewis-Moore.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="26255" global-team-id="359" global-player-id="464043" yards="4" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="26823" global-team-id="366" global-player-id="469206"/>
+    </play>
+    <play id="2922.0000000000000001" sequence="271" quarter="3" time="0:44" down="3" end-down="4" distance="3" end-distance="6" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="59" end-yards-from-goal="62" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="Josh Johnson sacked at SF38 for a loss of 3 yards by Nicholas DiMarco.">
+        <stat-id id="21" description="Sack" team-id="25" player-id="8937" global-team-id="359" global-player-id="273278" yards="-3"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="28311" global-team-id="366" global-player-id="830198"/>
+    </play>
+    <play id="2941.0000000000000001" sequence="273" quarter="3" time="0:00" down="4" end-down="4" distance="6" end-distance="6" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="62" end-yards-from-goal="62" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="40" continuation="false" details="End of 3rd Quarter."/>
+    <play id="2961.0000000000000001" sequence="274" quarter="4" time="15:00" down="" end-down="" distance="6" end-distance="6" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="62" end-yards-from-goal="62" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="62" continuation="false" details="Start of 4th Quarter."/>
+    <play id="2961.0000000000000004" sequence="275" quarter="4" time="15:00" down="4" end-down="4" distance="6" end-distance="11" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="62" end-yards-from-goal="67" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="15" continuation="false" details="Penalty: Illegal Formation on San Francisco -5 yards."/>
+    <play id="2995.0000000000000002" sequence="278" quarter="4" time="15:00" down="4" end-down="1" distance="11" end-distance="10" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="67" end-yards-from-goal="10" possession="25" possession-global-id="359" end-possession="33" end-possession-global-id="366" event-type="5" continuation="false" details="Colton Schmidt punts for 57 yards. Michael Campanaro - no return. Tackled by Derek Carrier.">
+        <stat-id id="22" description="Punt" team-id="25" player-id="27459" global-team-id="359" global-player-id="515262" yards="57"/>
+        <stat-id id="5" description="Punt Return" team-id="33" player-id="27746" global-team-id="366" global-player-id="500653" yards="0" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26416" global-team-id="359" global-player-id="654887"/>
+    </play>
+    <play id="2995.0000000000000003" sequence="279" quarter="4" time="15:00" down="4" end-down="4" distance="11" end-distance="16" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="90" end-yards-from-goal="95" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="15" continuation="true" details="Penalty: Illegal Use of Hands on Baltimore (Sammy Seamster) -5 yards.">
+        <stat-id id="15" description="Penalty" team-id="33" player-id="27989" global-team-id="366" global-player-id="499511" yards="-5" penalty-id="33" penalty-name="Illegal Use of Hands"/>
+    </play>
+    <play id="3031.0000000000000001" sequence="281" quarter="4" time="14:39" down="1" end-down="2" distance="10" end-distance="6" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="95" end-yards-from-goal="91" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the right for 4 yards to the Bal9. Tackled by Tank Carradine and Nick Moody.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="4" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26663" global-team-id="359" global-player-id="592911"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="26803" global-team-id="359" global-player-id="462033"/>
+    </play>
+    <play id="3052.0000000000000001" sequence="283" quarter="4" time="14:00" down="2" end-down="1" distance="6" end-distance="10" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="91" end-yards-from-goal="79" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the right for 12 yards to the Bal21. Tackled by Bubba Ventrone and Darryl Morris.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="12" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="7626" global-team-id="359" global-player-id="165929"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="27215" global-team-id="359" global-player-id="470897"/>
+    </play>
+    <play id="3073.0000000000000001" sequence="285" quarter="4" time="13:21" down="1" end-down="2" distance="10" end-distance="7" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="79" end-yards-from-goal="76" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the right for 3 yards to the Bal24. Tackled by Nick Moody.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="3" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26803" global-team-id="359" global-player-id="462033"/>
+    </play>
+    <play id="3094.0000000000000001" sequence="287" quarter="4" time="12:47" down="2" end-down="3" distance="7" end-distance="3" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="76" end-yards-from-goal="72" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Tyrod Taylor rush to the left for 4 yards to the Bal28. Tackled by Bubba Ventrone.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="4" direction="L" points="0" rush-type-id="4" rush-type-name="Off Left End"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="7626" global-team-id="359" global-player-id="165929"/>
+    </play>
+    <play id="3115.0000000000000003" sequence="289" quarter="4" time="12:47" down="3" end-down="1" distance="3" end-distance="10" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="72" end-yards-from-goal="67" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="15" continuation="false" details="Penalty: Illegal Contact on San Francisco (Bubba Ventrone) 5 yards.">
+        <stat-id id="15" description="Penalty" team-id="25" player-id="7626" global-team-id="359" global-player-id="165929" yards="5" penalty-id="15" penalty-name="Illegal Contact"/>
+    </play>
+    <play id="3145.0000000000000001" sequence="291" quarter="4" time="11:44" down="1" end-down="2" distance="10" end-distance="6" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="67" end-yards-from-goal="63" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Cierre Wood rush to the left for 4 yards to the Bal37. Tackled by Quinton Dial.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27313" global-team-id="366" global-player-id="509563" yards="4" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26780" global-team-id="359" global-player-id="593209"/>
+    </play>
+    <play id="3166.0000000000000001" sequence="293" quarter="4" time="11:17" down="2" end-down="3" distance="6" end-distance="10" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="63" end-yards-from-goal="67" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor sacked at Bal33 for a loss of 4 yards by Corey Lemonier.">
+        <stat-id id="21" description="Sack" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="-4"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26711" global-team-id="359" global-player-id="557127"/>
+    </play>
+    <play id="3189.0000000000000001" sequence="295" quarter="4" time="10:55" down="3" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="67" end-yards-from-goal="56" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Tyrod Taylor rush to the middle for 11 yards to the Bal44. Tackled by Darryl Morris and Bubba Ventrone.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="11" direction="M" points="0" rush-type-id="7" rush-type-name="Middle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27215" global-team-id="359" global-player-id="470897"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="7626" global-team-id="359" global-player-id="165929"/>
+    </play>
+    <play id="3210.0000000000000001" sequence="297" quarter="4" time="10:17" down="1" end-down="2" distance="10" end-distance="6" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="56" end-yards-from-goal="52" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the right for 4 yards to the Bal48. Tackled by Quinton Dial and Derek Carrier.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="4" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26780" global-team-id="359" global-player-id="593209"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="26416" global-team-id="359" global-player-id="654887"/>
+    </play>
+    <play id="3231.0000000000000001" sequence="299" quarter="4" time="9:40" down="2" end-down="3" distance="6" end-distance="4" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="52" end-yards-from-goal="50" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the right for 2 yards to the Bal50. Tackled by Chase Thomas and Quinton Dial.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="2" direction="R" points="0" rush-type-id="9" rush-type-name="Off Right Tackle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26959" global-team-id="359" global-player-id="461193"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="26780" global-team-id="359" global-player-id="593209"/>
+    </play>
+    <play id="3252.0000000000000001" sequence="301" quarter="4" time="9:02" down="3" end-down="1" distance="4" end-distance="10" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="50" end-yards-from-goal="41" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the left to Jeremy Butler for 9 yards to the SF41. Tackled by Darryl Morris.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="9" direction="L" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="27976" global-team-id="366" global-player-id="607462" yards="9" direction="L" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27215" global-team-id="359" global-player-id="470897"/>
+    </play>
+    <play id="3276.0000000000000001" sequence="303" quarter="4" time="8:28" down="1" end-down="2" distance="10" end-distance="6" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="41" end-yards-from-goal="37" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Fitzgerald Toussaint rush to the right for 4 yards to the SF37. Tackled by Shayne Skov and Tank Carradine.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="28283" global-team-id="366" global-player-id="511496" yards="4" direction="R" points="0" rush-type-id="9" rush-type-name="Off Right Tackle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="28070" global-team-id="359" global-player-id="503199"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="26663" global-team-id="359" global-player-id="592911"/>
+    </play>
+    <play id="3297.0000000000000001" sequence="305" quarter="4" time="7:53" down="2" end-down="3" distance="6" end-distance="4" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="37" end-yards-from-goal="35" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Fitzgerald Toussaint rush to the left for 2 yards to the SF35. Tackled by Quinton Dial and Mike Purcell.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="28283" global-team-id="366" global-player-id="511496" yards="2" direction="L" points="0" rush-type-id="6" rush-type-name="Off Left Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="26780" global-team-id="359" global-player-id="593209"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="27217" global-team-id="359" global-player-id="495939"/>
+    </play>
+    <play id="3318.0000000000000001" sequence="307" quarter="4" time="7:12" down="3" end-down="1" distance="4" end-distance="10" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="35" end-yards-from-goal="30" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the left to Jace Davis for 5 yards to the SF30. Tackled by Darryl Morris.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="5" direction="L" points="0"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="27977" global-team-id="366" global-player-id="513903" yards="5" direction="L" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27215" global-team-id="359" global-player-id="470897"/>
+    </play>
+    <play id="3318.0000000000000003" sequence="308" quarter="4" time="7:12" down="3" end-down="1" distance="4" end-distance="10" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="30" end-yards-from-goal="15" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="15" continuation="true" details="Penalty: Unnecessary Roughness on San Francisco (James McCray) 15 yards.">
+        <stat-id id="15" description="Penalty" team-id="25" player-id="28148" global-team-id="359" global-player-id="826615" yards="15" penalty-id="52" penalty-name="Unnecessary Roughness"/>
+    </play>
+    <play id="3353.0000000000000001" sequence="310" quarter="4" time="6:48" down="1" end-down="2" distance="10" end-distance="3" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="15" end-yards-from-goal="8" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Fitzgerald Toussaint rush to the left for 7 yards to the SF8. Tackled by Bubba Ventrone.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="28283" global-team-id="366" global-player-id="511496" yards="7" direction="L" points="0" rush-type-id="4" rush-type-name="Off Left End"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="7626" global-team-id="359" global-player-id="165929"/>
+    </play>
+    <play id="3374.0000000000000001" sequence="312" quarter="4" time="6:12" down="2" end-down="3" distance="3" end-distance="2" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="16" yards-from-goal="8" end-yards-from-goal="7" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Lorenzo Taliaferro rush to the right for 1 yard to the SF7. Tackled by Mike Purcell.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27666" global-team-id="366" global-player-id="701522" yards="1" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="27217" global-team-id="359" global-player-id="495939"/>
+    </play>
+    <play id="3395.0000000000000001" sequence="314" quarter="4" time="5:32" down="3" end-down="1" distance="2" end-distance="0" away-score-before="3" home-score-before="16" away-score-after="3" home-score-after="22" yards-from-goal="7" end-yards-from-goal="0" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="2" continuation="false" details="Tyrod Taylor pass to the right to Jeremy Butler for 7 yards for a TOUCHDOWN.">
+        <stat-id id="2" description="Pass" team-id="33" player-id="24967" global-team-id="366" global-player-id="399579" yards="7" direction="R" points="6"/>
+        <stat-id id="17" description="Reception" team-id="33" player-id="27976" global-team-id="366" global-player-id="607462" yards="7" direction="R" points="6"/>
+    </play>
+    <play id="3415.0000000000000001" sequence="316" quarter="4" time="5:26" down="" end-down="" distance="" end-distance="" away-score-before="3" home-score-before="22" away-score-after="3" home-score-after="23" yards-from-goal="15" end-yards-from-goal="15" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="12" continuation="false" details="Justin Tucker extra point is good.">
+        <stat-id id="12" description="PAT" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132" points="1"/>
+        <stat-id id="35" description="Snapper" team-id="33" player-id="24362" global-team-id="366" global-player-id="334132"/>
+    </play>
+    <play id="3435.0000000000000002" sequence="319" quarter="4" time="5:26" down="0" end-down="1" distance="0" end-distance="10" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="103" end-yards-from-goal="37" possession="33" possession-global-id="366" end-possession="25" end-possession-global-id="359" event-type="4" continuation="false" details="Justin Tucker kicks off. Chuck Jacobs return for 40 yards to SF37. Tackled by Justin Tucker.">
+        <stat-id id="27" description="Kick" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132"/>
+        <stat-id id="4" description="Kick Return" team-id="25" player-id="27284" global-team-id="359" global-player-id="607460" yards="40" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="26534" global-team-id="366" global-player-id="448132"/>
+    </play>
+    <play id="3435.0000000000000003" sequence="320" quarter="4" time="5:26" down="" end-down="" distance="" end-distance="" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="63" end-yards-from-goal="78" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="15" continuation="true" details="Penalty: Face Mask on San Francisco (Chuck Jacobs) -15 yards.">
+        <stat-id id="15" description="Penalty" team-id="25" player-id="27284" global-team-id="359" global-player-id="607460" yards="-15" penalty-id="10" penalty-name="Face Mask"/>
+    </play>
+    <play id="3468.0000000000000001" sequence="322" quarter="4" time="5:26" down="1" end-down="2" distance="10" end-distance="5" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="78" end-yards-from-goal="73" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="1" continuation="false" details="Alfonso Smith rush to the right for 5 yards to the SF27. Tackled by D.J. Roberts and Austin Spitler.">
+        <stat-id id="1" description="Rush" team-id="25" player-id="24287" global-team-id="359" global-player-id="298884" yards="5" direction="R" points="0" rush-type-id="8" rush-type-name="Off Right Guard"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="28284" global-team-id="366" global-player-id="519908"/>
+        <stat-id id="20" description="Assist" team-id="33" player-id="24228" global-team-id="366" global-player-id="296925"/>
+    </play>
+    <play id="3493.0000000000000001" sequence="324" quarter="4" time="4:54" down="2" end-down="2" distance="5" end-distance="10" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="73" end-yards-from-goal="78" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="15" continuation="false" details="Penalty: False Start on San Francisco (Ryan Seymour) -5 yards.">
+        <stat-id id="15" description="Penalty" team-id="25" player-id="26843" global-team-id="359" global-player-id="465937" yards="-5" penalty-id="11" penalty-name="False Start"/>
+    </play>
+    <play id="3516.0000000000000001" sequence="326" quarter="4" time="4:54" down="2" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="78" end-yards-from-goal="67" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="McLeod Bethel-Thompson pass to the left to Bruce Ellington for 11 yards to the SF33. Tackled by Tramain Jacobs.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="25483" global-team-id="359" global-player-id="333425" yards="11" direction="L" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="27634" global-team-id="359" global-player-id="604917" yards="11" direction="L" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27981" global-team-id="366" global-player-id="653635"/>
+    </play>
+    <play id="3540.0000000000000001" sequence="328" quarter="4" time="4:30" down="1" end-down="2" distance="10" end-distance="2" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="67" end-yards-from-goal="59" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="McLeod Bethel-Thompson pass to the right to Bruce Ellington for 8 yards to the SF41. Tackled by Tramain Jacobs.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="25483" global-team-id="359" global-player-id="333425" yards="8" direction="R" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="27634" global-team-id="359" global-player-id="604917" yards="8" direction="R" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27981" global-team-id="366" global-player-id="653635"/>
+    </play>
+    <play id="3568.0000000000000001" sequence="330" quarter="4" time="4:05" down="2" end-down="3" distance="2" end-distance="2" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="59" end-yards-from-goal="59" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="McLeod Bethel-Thompson incomplete pass to the left defensed by Dominique Franks.">
+        <stat-id id="18" description="Incomplete Pass" team-id="25" player-id="25483" global-team-id="359" global-player-id="333425" direction="L"/>
+        <stat-id id="28" description="Defended" team-id="33" player-id="24111" global-team-id="366" global-player-id="333297"/>
+    </play>
+    <play id="3590.0000000000000001" sequence="332" quarter="4" time="4:02" down="3" end-down="4" distance="2" end-distance="2" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="59" end-yards-from-goal="59" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="McLeod Bethel-Thompson incomplete pass to the right.">
+        <stat-id id="18" description="Incomplete Pass" team-id="25" player-id="25483" global-team-id="359" global-player-id="333425" direction="R"/>
+    </play>
+    <play id="3612.0000000000000001" sequence="334" quarter="4" time="4:02" down="4" end-down="1" distance="2" end-distance="10" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="59" end-yards-from-goal="52" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="McLeod Bethel-Thompson pass to the right to David Reed for 7 yards to the SF48. Tackled by Tramain Jacobs.">
+        <stat-id id="2" description="Pass" team-id="25" player-id="25483" global-team-id="359" global-player-id="333425" yards="7" direction="R" points="0"/>
+        <stat-id id="17" description="Reception" team-id="25" player-id="24132" global-team-id="359" global-player-id="463429" yards="7" direction="R" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="33" player-id="27981" global-team-id="366" global-player-id="653635"/>
+    </play>
+    <play id="3636.0000000000000001" sequence="336" quarter="4" time="3:36" down="1" end-down="2" distance="10" end-distance="10" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="52" end-yards-from-goal="52" possession="25" possession-global-id="359" end-possession="25" end-possession-global-id="359" event-type="2" continuation="false" details="McLeod Bethel-Thompson incomplete pass to the right.">
+        <stat-id id="18" description="Incomplete Pass" team-id="25" player-id="25483" global-team-id="359" global-player-id="333425" direction="R"/>
+    </play>
+    <play id="3669.0000000000000002" sequence="339" quarter="4" time="3:32" down="2" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="52" end-yards-from-goal="64" possession="25" possession-global-id="359" end-possession="33" end-possession-global-id="366" event-type="6" continuation="false" details="McLeod Bethel-Thompson pass to intercepted by Dominique Franks and returned for 25 yards. Tackled by Michael Philipp.">
+        <stat-id id="6" description="Pass Intercepted" team-id="25" player-id="25483" global-team-id="359" global-player-id="333425" direction=""/>
+        <stat-id id="23" description="Interception Return" team-id="33" player-id="24111" global-team-id="366" global-player-id="333297" yards="25" points="0"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="28022" global-team-id="359" global-player-id="498178"/>
+    </play>
+    <play id="3695.0000000000000001" sequence="341" quarter="4" time="3:23" down="1" end-down="2" distance="10" end-distance="7" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="36" end-yards-from-goal="33" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Cierre Wood rush to the middle for 3 yards to the SF33. Tackled by Blake Costanzo and Shayne Skov.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27313" global-team-id="366" global-player-id="509563" yards="3" direction="M" points="0" rush-type-id="7" rush-type-name="Middle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="8727" global-team-id="359" global-player-id="220175"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="28070" global-team-id="359" global-player-id="503199"/>
+    </play>
+    <play id="3720.0000000000000001" sequence="343" quarter="4" time="2:39" down="2" end-down="1" distance="7" end-distance="10" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="33" end-yards-from-goal="26" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Fitzgerald Toussaint rush to the left for 7 yards to the SF26. Tackled by Blake Costanzo and Derek Carrier.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="28283" global-team-id="366" global-player-id="511496" yards="7" direction="L" points="0" rush-type-id="5" rush-type-name="Off Left Tackle"/>
+        <stat-id id="19" description="Tackle" team-id="25" player-id="8727" global-team-id="359" global-player-id="220175"/>
+        <stat-id id="20" description="Assist" team-id="25" player-id="26416" global-team-id="359" global-player-id="654887"/>
+    </play>
+    <play id="3741.0000000000000001" sequence="345" quarter="4" time="2:00" down="1" end-down="1" distance="10" end-distance="10" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="26" end-yards-from-goal="26" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="41" continuation="false" details="Two Minute Warning."/>
+    <play id="3758.0000000000000001" sequence="347" quarter="4" time="2:00" down="1" end-down="2" distance="10" end-distance="10" away-score-before="3" home-score-before="23" away-score-after="3" home-score-after="23" yards-from-goal="26" end-yards-from-goal="26" possession="33" possession-global-id="366" end-possession="33" end-possession-global-id="366" event-type="1" continuation="false" details="Keith Wenning rush to the middle for no gain to the SF26.">
+        <stat-id id="1" description="Rush" team-id="33" player-id="27722" global-team-id="366" global-player-id="542289" yards="0" direction="M" points="0" rush-type-id="21" rush-type-name="Kneel to Runout Clock"/>
+    </play>
+    <home-team>
+        <team-name name="Ravens" alias="Bal"/>
+        <team-city city="Baltimore"/>
+        <team-code id="33" global-id="366"/>
+        <linescore score="23" timeouts-left="3">
+            <quarter quarter="1" score="7"/>
+            <quarter quarter="2" score="6"/>
+            <quarter quarter="3" score="3"/>
+            <quarter quarter="4" score="7"/>
+        </linescore>
+        <first-downs number="27" rushing="13" passing="12" penalty="2"/>
+        <third-down-efficiency made="9" attempts="14" percent="64"/>
+        <fourth-down-efficiency made="0" attempts="0" percent="-"/>
+        <rushing attempts="46" yards="240" average="5.2" tds="1" long="27"/>
+        <passing completions="17" attempts="26" interceptions="1" net-yards="149" average="5.7" sacked="3" yards-lost="19" tds="1"/>
+        <punting punts="2" yards="91" average="45.5"/>
+        <return-totals yards="82" tds="0"/>
+        <punt-returns attempts="4" yards="13" tds="0" long="8" long-TD="false"/>
+        <kick-returns attempts="2" yards="44" tds="0" long="24" long-TD="false"/>
+        <interception-returns attempts="2" yards="25" tds="0" long="25" long-TD="false"/>
+        <defense tackles="23" assists="14" sacks="2" sack-yards="10" passes-defensed="5" forced-fumbles="0"/>
+        <penalties number="6" yards="44"/>
+        <fumbles number="2" lost="1" own-recovered="1" own-rec-yards="0" own-rec-tds="0"/>
+        <opponent-fumbles recovered="1" yards="0" tds="0"/>
+        <time-of-possession minutes="37" seconds="37"/>
+        <extra-points made="2" attempts="2" blocked="0" percent="100"/>
+        <field-goals made="3" attempts="3" blocked="0" long="55" percent="100"/>
+        <kickoffs number="6" end-zone="5" touchbacks="1"/>
+    </home-team>
+    <visiting-team>
+        <team-name name="49ers" alias="SF"/>
+        <team-city city="San Francisco"/>
+        <team-code id="25" global-id="359"/>
+        <linescore score="3" timeouts-left="3">
+            <quarter quarter="1" score="3"/>
+            <quarter quarter="2" score="0"/>
+            <quarter quarter="3" score="0"/>
+            <quarter quarter="4" score="0"/>
+        </linescore>
+        <first-downs number="13" rushing="2" passing="8" penalty="3"/>
+        <third-down-efficiency made="2" attempts="9" percent="22"/>
+        <fourth-down-efficiency made="1" attempts="1" percent="100"/>
+        <rushing attempts="17" yards="71" average="4.2" tds="0" long="19"/>
+        <passing completions="14" attempts="28" interceptions="2" net-yards="116" average="4.1" sacked="2" yards-lost="10" tds="0"/>
+        <punting punts="5" yards="224" average="44.8"/>
+        <return-totals yards="156" tds="0"/>
+        <punt-returns attempts="1" yards="0" tds="0" long="0" long-TD="false"/>
+        <kick-returns attempts="5" yards="157" tds="0" long="40" long-TD="false"/>
+        <interception-returns attempts="1" yards="-1" tds="0" long="-1" long-TD="false"/>
+        <defense tackles="36" assists="48" sacks="3" sack-yards="19" passes-defensed="3" forced-fumbles="2"/>
+        <penalties number="9" yards="72"/>
+        <fumbles number="1" lost="1" own-recovered="0" own-rec-yards="0" own-rec-tds="0"/>
+        <opponent-fumbles recovered="1" yards="0" tds="0"/>
+        <time-of-possession minutes="20" seconds="23"/>
+        <field-goals made="1" attempts="1" blocked="0" long="25" percent="100"/>
+        <kickoffs number="2" end-zone="1" touchbacks="0"/>
+    </visiting-team>
+    <home-player-stats>
+        <home-player>
+            <player-code global-id="25640" id="5521"/>
+            <receiving receptions="1" yards="9" long="9" long-td="false" tds="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="145214" id="7308"/>
+            <defense tackles="0" assists="1" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="156817" id="7847"/>
+            <receiving receptions="1" yards="6" long="6" long-td="false" tds="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="214953" id="7952"/>
+            <punting punts="2" yards="91" blocked="0" long="56" in20="1" touchbacks="0" returns="1" return-yards="0" average="45.5" net-average="45.5"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="216342" id="8795"/>
+            <passing completions="4" attempts="5" interceptions="0" yards="52" sacked="0" yards-lost="0" long="17" long-td="false" tds="0" rating="110.0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="246928" id="24089"/>
+            <receiving receptions="1" yards="14" long="14" long-td="false" tds="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="269215" id="9010"/>
+            <rushing attempts="7" yards="29" average="4.1" tds="0" long="7"/>
+            <receiving receptions="1" yards="13" long="13" long-td="false" tds="0"/>
+            <fumbles number="1" lost="1"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="286877" id="24358"/>
+            <defense tackles="1" assists="2" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="296925" id="24228"/>
+            <defense tackles="0" assists="1" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="300036" id="8832"/>
+            <rushing attempts="3" yards="17" average="5.7" tds="0" long="6"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="323080" id="24951"/>
+            <defense tackles="1" assists="1" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="329337" id="8327"/>
+            <receiving receptions="2" yards="16" long="12" long-td="false" tds="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="332611" id="24814"/>
+            <defense tackles="1" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="332745" id="25007"/>
+            <defense tackles="0" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="332881" id="24590"/>
+            <defense tackles="1" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="333297" id="24111"/>
+            <interception number="1" yards="25" long="25" long-td="false" tds="0"/>
+            <defense tackles="0" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="2"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="344700" id="24329"/>
+            <defense tackles="2" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="396571" id="26456"/>
+            <receiving receptions="1" yards="15" long="15" long-td="false" tds="0"/>
+            <kick-returning returns="1" yards="20" long="20" long-td="false" tds="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="399579" id="24967"/>
+            <rushing attempts="5" yards="59" average="11.8" tds="0" long="27"/>
+            <passing completions="13" attempts="21" interceptions="1" yards="116" sacked="3" yards-lost="19" long="17" long-td="false" tds="1" rating="72.7"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="400317" id="25379"/>
+            <receiving receptions="4" yards="46" long="17" long-td="false" tds="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="401769" id="25358"/>
+            <defense tackles="0" assists="1" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="447300" id="26679"/>
+            <defense tackles="1" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="448132" id="26534"/>
+            <defense tackles="0" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+            <field-goals made="3" attempts="3" blocked="0" long="55"/>
+            <PAT made="2" attempted="2" blocked="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="460024" id="25879"/>
+            <kick-returning returns="1" yards="24" long="24" long-td="false" tds="0"/>
+            <punt-returning returns="3" yards="13" long="8" long-td="false" tds="0"/>
+            <interception number="1" yards="0" long="0" long-td="false" tds="0"/>
+            <defense tackles="1" assists="1" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="2"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="464273" id="27269"/>
+            <defense tackles="0" assists="2" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="465622" id="25745"/>
+            <defense tackles="1" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="465721" id="25946"/>
+            <opp-fumbles-recovered number="1" yards="0" tds="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="469206" id="26823"/>
+            <defense tackles="1" assists="1" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="495524" id="24952"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="499511" id="27989"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="500551" id="27985"/>
+            <defense tackles="2" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="500653" id="27746"/>
+            <punt-returning returns="1" yards="0" long="0" long-td="false" tds="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="501150" id="26753"/>
+            <receiving receptions="3" yards="28" long="17" long-td="false" tds="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="509112" id="26752"/>
+            <defense tackles="0" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="509563" id="27313"/>
+            <rushing attempts="3" yards="7" average="2.3" tds="0" long="4"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="511496" id="28283"/>
+            <rushing attempts="4" yards="20" average="5.0" tds="0" long="7"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="512103" id="27422"/>
+            <defense tackles="0" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="513119" id="25794"/>
+            <rushing attempts="10" yards="37" average="3.7" tds="1" long="8"/>
+            <fumbles number="1" lost="0"/>
+            <own-fumbles-recovered number="1" yards="0" tds="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="513903" id="27977"/>
+            <receiving receptions="1" yards="5" long="5" long-td="false" tds="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="519908" id="28284"/>
+            <defense tackles="0" assists="1" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="541489" id="27980"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="542289" id="27722"/>
+            <rushing attempts="1" yards="0" average=".0" tds="0" long="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="542790" id="26655"/>
+            <defense tackles="2" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="557173" id="27545"/>
+            <defense tackles="3" assists="2" forced-fumbles="0" sacks="1" sack-yards="7" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="559336" id="27986"/>
+            <defense tackles="0" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="607462" id="27976"/>
+            <receiving receptions="2" yards="16" long="9" long-td="false" tds="1"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="653635" id="27981"/>
+            <defense tackles="4" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="1"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="694815" id="26717"/>
+            <defense tackles="1" assists="1" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="701522" id="27666"/>
+            <rushing attempts="13" yards="71" average="5.5" tds="0" long="12"/>
+        </home-player>
+        <home-player>
+            <player-code global-id="830198" id="28311"/>
+            <defense tackles="1" assists="0" forced-fumbles="0" sacks="1" sack-yards="3" passes-defensed="0"/>
+        </home-player>
+    </home-player-stats>
+    <visiting-player-stats>
+        <visiting-player>
+            <player-code global-id="24388" id="4269"/>
+            <field-goals made="1" attempts="1" blocked="0" long="25"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="165929" id="7626"/>
+            <defense tackles="2" assists="2" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="220175" id="8727"/>
+            <defense tackles="0" assists="2" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="234818" id="8568"/>
+            <defense tackles="4" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="246395" id="6947"/>
+            <punting punts="3" yards="127" blocked="0" long="47" in20="1" touchbacks="0" returns="3" return-yards="13" average="42.3" net-average="38.0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="273278" id="8937"/>
+            <rushing attempts="2" yards="15" average="7.5" tds="0" long="15"/>
+            <passing completions="7" attempts="9" interceptions="0" yards="63" sacked="1" yards-lost="3" long="16" long-td="false" tds="0" rating="95.8"/>
+            <fumbles number="1" lost="1"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="286887" id="9561"/>
+            <defense tackles="3" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="298884" id="24287"/>
+            <rushing attempts="2" yards="-1" average="-.5" tds="0" long="5"/>
+            <receiving receptions="1" yards="10" long="10" long-td="false" tds="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="303597" id="24009"/>
+            <interception number="1" yards="-1" long="-1" long-td="false" tds="0"/>
+            <defense tackles="2" assists="1" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="1"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="323273" id="24823"/>
+            <passing completions="1" attempts="1" interceptions="0" yards="17" sacked="0" yards-lost="0" long="17" long-td="false" tds="0" rating="118.8"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="324654" id="24998"/>
+            <defense tackles="0" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="333346" id="24113"/>
+            <opp-fumbles-recovered number="1" yards="0" tds="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="333425" id="25483"/>
+            <passing completions="3" attempts="7" interceptions="1" yards="26" sacked="0" yards-lost="0" long="11" long-td="false" tds="0" rating="13.7"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="333980" id="9001"/>
+            <receiving receptions="1" yards="6" long="6" long-td="false" tds="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="406193" id="24867"/>
+            <defense tackles="1" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="406248" id="25817"/>
+            <kick-returning returns="2" yards="55" long="29" long-td="false" tds="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="449187" id="26339"/>
+            <defense tackles="0" assists="2" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="458931" id="9567"/>
+            <defense tackles="0" assists="1" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="461178" id="25752"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="461193" id="26959"/>
+            <defense tackles="2" assists="1" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="462033" id="26803"/>
+            <defense tackles="3" assists="4" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="462107" id="26869"/>
+            <defense tackles="0" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="463393" id="24797"/>
+            <passing completions="3" attempts="11" interceptions="1" yards="20" sacked="1" yards-lost="7" long="7" long-td="false" tds="0" rating="1.7"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="463429" id="24132"/>
+            <receiving receptions="3" yards="26" long="10" long-td="false" tds="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="464043" id="26255"/>
+            <rushing attempts="8" yards="18" average="2.3" tds="0" long="9"/>
+            <receiving receptions="1" yards="3" long="3" long-td="false" tds="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="465937" id="26843"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="470897" id="27215"/>
+            <defense tackles="2" assists="2" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="473663" id="25688"/>
+            <defense tackles="4" assists="3" forced-fumbles="0" sacks="1" sack-yards="7" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="494969" id="26678"/>
+            <receiving receptions="2" yards="24" long="17" long-td="false" tds="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="495939" id="27217"/>
+            <defense tackles="1" assists="8" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="498178" id="28022"/>
+            <defense tackles="0" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="500688" id="27605"/>
+            <defense tackles="0" assists="1" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="503199" id="28070"/>
+            <defense tackles="0" assists="2" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="515262" id="27459"/>
+            <punting punts="2" yards="97" blocked="0" long="57" in20="2" touchbacks="0" returns="1" return-yards="0" average="48.5" net-average="48.5"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="540523" id="26641"/>
+            <defense tackles="1" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="543825" id="27585"/>
+            <rushing attempts="5" yards="39" average="7.8" tds="0" long="19"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="557127" id="26711"/>
+            <defense tackles="1" assists="2" forced-fumbles="0" sacks="1" sack-yards="4" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="557337" id="27657"/>
+            <defense tackles="0" assists="3" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="1"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="557470" id="27558"/>
+            <defense tackles="2" assists="0" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="1"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="592911" id="26663"/>
+            <defense tackles="3" assists="4" forced-fumbles="0" sacks="1" sack-yards="8" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="593209" id="26780"/>
+            <defense tackles="5" assists="5" forced-fumbles="2" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="604917" id="27634"/>
+            <receiving receptions="3" yards="35" long="16" long-td="false" tds="0"/>
+            <kick-returning returns="2" yards="62" long="32" long-td="false" tds="0"/>
+            <punt-returning returns="1" yards="0" long="0" long-td="false" tds="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="607460" id="27284"/>
+            <receiving receptions="2" yards="22" long="15" long-td="false" tds="0"/>
+            <kick-returning returns="1" yards="40" long="40" long-td="false" tds="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="654887" id="26416"/>
+            <receiving receptions="1" yards="0" long="0" long-td="false" tds="0"/>
+            <defense tackles="0" assists="5" forced-fumbles="0" sacks="0" sack-yards="0" passes-defensed="0"/>
+        </visiting-player>
+        <visiting-player>
+            <player-code global-id="826615" id="28148"/>
+        </visiting-player>
+    </visiting-player-stats>
+</nfl-event>

@@ -1,0 +1,810 @@
+{
+    "status": "OK",
+    "recordCount": 1,
+    "startTimestamp": "2014-07-30T13:16:31.9406859Z",
+    "endTimestamp": "2014-07-30T13:16:32.0188109Z",
+    "timeTaken": 0.078125,
+    "apiResults": [{
+        "sportId": 4,
+        "name": "Football",
+        "league": {
+            "leagueId": 8,
+            "name": "National Football League",
+            "abbreviation": "NFL",
+            "displayName": "National Football League",
+            "players": [{
+                "playerId": 403184,
+                "firstName": "Garrett",
+                "lastName": "Celek",
+                "seasons": [{
+                    "season": 2013,
+                    "name": "2013-2014 NFL Season",
+                    "isActive": false,
+                    "eventType": [{
+                        "eventTypeId": 1,
+                        "name": "Regular Season",
+                        "splits": [{
+                            "splitId": -1,
+                            "name": "Official Stats",
+                            "events": [{
+                                "eventId": 1321803,
+                                "playerStats": {
+                                    "participation": {
+                                        "offense": 5,
+                                        "defense": 0,
+                                        "specialTeams": 12
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 8,
+                                    "hour": 13,
+                                    "minute": 25,
+                                    "full": "2013-09-08T13:25:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 8,
+                                    "hour": 20,
+                                    "minute": 25,
+                                    "full": "2013-09-08T20:25:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 8,
+                                    "hour": 16,
+                                    "minute": 25,
+                                    "full": "2013-09-08T16:25:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 359,
+                                    "location": "San Francisco",
+                                    "nickname": "49ers",
+                                    "abbreviation": "SF",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 335,
+                                    "location": "Green Bay",
+                                    "nickname": "Packers",
+                                    "abbreviation": "GB",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 34,
+                                    "opponentTeamScore": 28
+                                }
+                            }, {
+                                "eventId": 1321936,
+                                "playerStats": {
+                                    "participation": {
+                                        "offense": 4,
+                                        "defense": 0,
+                                        "specialTeams": 1
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 15,
+                                    "hour": 17,
+                                    "minute": 30,
+                                    "full": "2013-09-15T17:30:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 16,
+                                    "hour": 0,
+                                    "minute": 30,
+                                    "full": "2013-09-16T00:30:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 15,
+                                    "hour": 20,
+                                    "minute": 30,
+                                    "full": "2013-09-15T20:30:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 359,
+                                    "location": "San Francisco",
+                                    "nickname": "49ers",
+                                    "abbreviation": "SF",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 361,
+                                    "location": "Seattle",
+                                    "nickname": "Seahawks",
+                                    "abbreviation": "Sea",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 0,
+                                    "name": "Loss",
+                                    "teamScore": 3,
+                                    "opponentTeamScore": 29
+                                }
+                            }, {
+                                "eventId": 1321791,
+                                "playerStats": {
+                                    "firstDowns": {
+                                        "total": 1,
+                                        "rushing": 0,
+                                        "passing": 0,
+                                        "receiving": 1,
+                                        "penalty": 0
+                                    },
+                                    "receiving": {
+                                        "receptions": 1,
+                                        "yards": 30,
+                                        "average": "30.0",
+                                        "long": 30,
+                                        "isLongTouchdown": false,
+                                        "touchdowns": 0,
+                                        "targets": 2,
+                                        "yardsAtCatch": 13,
+                                        "yardsAtCatchAverage": "13.0",
+                                        "yardsAfterCatch": 17,
+                                        "yardsAfterCatchAverage": "17.0"
+                                    },
+                                    "participation": {
+                                        "offense": 21,
+                                        "defense": 0,
+                                        "specialTeams": 7
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 22,
+                                    "hour": 13,
+                                    "minute": 25,
+                                    "full": "2013-09-22T13:25:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 22,
+                                    "hour": 20,
+                                    "minute": 25,
+                                    "full": "2013-09-22T20:25:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 22,
+                                    "hour": 16,
+                                    "minute": 25,
+                                    "full": "2013-09-22T16:25:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 359,
+                                    "location": "San Francisco",
+                                    "nickname": "49ers",
+                                    "abbreviation": "SF",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 338,
+                                    "location": "Indianapolis",
+                                    "nickname": "Colts",
+                                    "abbreviation": "Ind",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 0,
+                                    "name": "Loss",
+                                    "teamScore": 7,
+                                    "opponentTeamScore": 27
+                                }
+                            }, {
+                                "eventId": 1321827,
+                                "playerStats": {
+                                    "penalties": {
+                                        "number": 1,
+                                        "yards": 5,
+                                        "falseStart": 1,
+                                        "holding": 0
+                                    },
+                                    "participation": {
+                                        "offense": 15,
+                                        "defense": 0,
+                                        "specialTeams": 7
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 26,
+                                    "hour": 19,
+                                    "minute": 25,
+                                    "full": "2013-09-26T19:25:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 27,
+                                    "hour": 0,
+                                    "minute": 25,
+                                    "full": "2013-09-27T00:25:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 9,
+                                    "date": 26,
+                                    "hour": 20,
+                                    "minute": 25,
+                                    "full": "2013-09-26T20:25:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 359,
+                                    "location": "San Francisco",
+                                    "nickname": "49ers",
+                                    "abbreviation": "SF",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 343,
+                                    "location": "St. Louis",
+                                    "nickname": "Rams",
+                                    "abbreviation": "StL",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 35,
+                                    "opponentTeamScore": 11
+                                }
+                            }, {
+                                "eventId": 1321815,
+                                "playerStats": {
+                                    "participation": {
+                                        "offense": 12,
+                                        "defense": 0,
+                                        "specialTeams": 8
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 6,
+                                    "hour": 17,
+                                    "minute": 30,
+                                    "full": "2013-10-06T17:30:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 7,
+                                    "hour": 0,
+                                    "minute": 30,
+                                    "full": "2013-10-07T00:30:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 6,
+                                    "hour": 20,
+                                    "minute": 30,
+                                    "full": "2013-10-06T20:30:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 359,
+                                    "location": "San Francisco",
+                                    "nickname": "49ers",
+                                    "abbreviation": "SF",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 325,
+                                    "location": "Houston",
+                                    "nickname": "Texans",
+                                    "abbreviation": "Hou",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 34,
+                                    "opponentTeamScore": 3
+                                }
+                            }, {
+                                "eventId": 1321900,
+                                "playerStats": {
+                                    "penalties": {
+                                        "number": 1,
+                                        "yards": 10,
+                                        "falseStart": 0,
+                                        "holding": 1
+                                    },
+                                    "participation": {
+                                        "offense": 4,
+                                        "defense": 0,
+                                        "specialTeams": 9
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 13,
+                                    "hour": 13,
+                                    "minute": 25,
+                                    "full": "2013-10-13T13:25:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 13,
+                                    "hour": 20,
+                                    "minute": 25,
+                                    "full": "2013-10-13T20:25:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 13,
+                                    "hour": 16,
+                                    "minute": 25,
+                                    "full": "2013-10-13T16:25:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 359,
+                                    "location": "San Francisco",
+                                    "nickname": "49ers",
+                                    "abbreviation": "SF",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 355,
+                                    "location": "Arizona",
+                                    "nickname": "Cardinals",
+                                    "abbreviation": "Ari",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 32,
+                                    "opponentTeamScore": 20
+                                }
+                            }, {
+                                "eventId": 1321762,
+                                "playerStats": {
+                                    "participation": {
+                                        "offense": 12,
+                                        "defense": 0,
+                                        "specialTeams": 7
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 20,
+                                    "hour": 15,
+                                    "minute": 5,
+                                    "full": "2013-10-20T15:05:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 20,
+                                    "hour": 20,
+                                    "minute": 5,
+                                    "full": "2013-10-20T20:05:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 20,
+                                    "hour": 16,
+                                    "minute": 5,
+                                    "full": "2013-10-20T16:05:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 359,
+                                    "location": "San Francisco",
+                                    "nickname": "49ers",
+                                    "abbreviation": "SF",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 336,
+                                    "location": "Tennessee",
+                                    "nickname": "Titans",
+                                    "abbreviation": "Ten",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 31,
+                                    "opponentTeamScore": 17
+                                }
+                            }, {
+                                "eventId": 1321797,
+                                "playerStats": {
+                                    "participation": {
+                                        "offense": 10,
+                                        "defense": 0,
+                                        "specialTeams": 6
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 27,
+                                    "hour": 17,
+                                    "minute": 0,
+                                    "full": "2013-10-27T17:00:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 27,
+                                    "hour": 17,
+                                    "minute": 0,
+                                    "full": "2013-10-27T17:00:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 10,
+                                    "date": 27,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-10-27T13:00:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 359,
+                                    "location": "San Francisco",
+                                    "nickname": "49ers",
+                                    "abbreviation": "SF",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 365,
+                                    "location": "Jacksonville",
+                                    "nickname": "Jaguars",
+                                    "abbreviation": "Jax",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 42,
+                                    "opponentTeamScore": 10
+                                }
+                            }, {
+                                "eventId": 1321874,
+                                "playerStats": {
+                                    "participation": {
+                                        "offense": 0,
+                                        "defense": 0,
+                                        "specialTeams": 2
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 11,
+                                    "date": 10,
+                                    "hour": 13,
+                                    "minute": 5,
+                                    "full": "2013-11-10T13:05:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 11,
+                                    "date": 10,
+                                    "hour": 21,
+                                    "minute": 5,
+                                    "full": "2013-11-10T21:05:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 11,
+                                    "date": 10,
+                                    "hour": 16,
+                                    "minute": 5,
+                                    "full": "2013-11-10T16:05:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 359,
+                                    "location": "San Francisco",
+                                    "nickname": "49ers",
+                                    "abbreviation": "SF",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 364,
+                                    "location": "Carolina",
+                                    "nickname": "Panthers",
+                                    "abbreviation": "Car",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 0,
+                                    "name": "Loss",
+                                    "teamScore": 9,
+                                    "opponentTeamScore": 10
+                                }
+                            }, {
+                                "eventId": 1321931,
+                                "playerStats": {
+                                    "receiving": {
+                                        "receptions": 1,
+                                        "yards": 8,
+                                        "average": "8.0",
+                                        "long": 8,
+                                        "isLongTouchdown": false,
+                                        "touchdowns": 0,
+                                        "targets": 1,
+                                        "yardsAtCatch": 3,
+                                        "yardsAtCatchAverage": "3.0",
+                                        "yardsAfterCatch": 5,
+                                        "yardsAfterCatchAverage": "5.0"
+                                    },
+                                    "fumbles": {
+                                        "total": 1,
+                                        "pass": 0,
+                                        "rush": 0,
+                                        "specialTeams": null,
+                                        "receiving": 1,
+                                        "defense": null,
+                                        "misc": 0
+                                    },
+                                    "participation": {
+                                        "offense": 32,
+                                        "defense": 0,
+                                        "specialTeams": 7
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 15,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-12-15T13:00:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 15,
+                                    "hour": 18,
+                                    "minute": 0,
+                                    "full": "2013-12-15T18:00:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 15,
+                                    "hour": 13,
+                                    "minute": 0,
+                                    "full": "2013-12-15T13:00:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 359,
+                                    "location": "San Francisco",
+                                    "nickname": "49ers",
+                                    "abbreviation": "SF",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 362,
+                                    "location": "Tampa Bay",
+                                    "nickname": "Buccaneers",
+                                    "abbreviation": "TB",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 33,
+                                    "opponentTeamScore": 14
+                                }
+                            }, {
+                                "eventId": 1321823,
+                                "playerStats": {
+                                    "participation": {
+                                        "offense": 6,
+                                        "defense": 0,
+                                        "specialTeams": 7
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 23,
+                                    "hour": 17,
+                                    "minute": 40,
+                                    "full": "2013-12-23T17:40:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 24,
+                                    "hour": 1,
+                                    "minute": 40,
+                                    "full": "2013-12-24T01:40:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 23,
+                                    "hour": 20,
+                                    "minute": 40,
+                                    "full": "2013-12-23T20:40:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 359,
+                                    "location": "San Francisco",
+                                    "nickname": "49ers",
+                                    "abbreviation": "SF",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 323,
+                                    "location": "Atlanta",
+                                    "nickname": "Falcons",
+                                    "abbreviation": "Atl",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 34,
+                                    "opponentTeamScore": 24
+                                }
+                            }, {
+                                "eventId": 1321923,
+                                "playerStats": {
+                                    "participation": {
+                                        "offense": 2,
+                                        "defense": 0,
+                                        "specialTeams": 6
+                                    }
+                                },
+                                "startDate": [{
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 29,
+                                    "hour": 14,
+                                    "minute": 25,
+                                    "full": "2013-12-29T14:25:00",
+                                    "dateType": "Local"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 29,
+                                    "hour": 21,
+                                    "minute": 25,
+                                    "full": "2013-12-29T21:25:00",
+                                    "dateType": "UTC"
+                                }, {
+                                    "year": 2013,
+                                    "month": 12,
+                                    "date": 29,
+                                    "hour": 16,
+                                    "minute": 25,
+                                    "full": "2013-12-29T16:25:00",
+                                    "dateType": "Eastern"
+                                }],
+                                "team": {
+                                    "teamId": 359,
+                                    "location": "San Francisco",
+                                    "nickname": "49ers",
+                                    "abbreviation": "SF",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 2,
+                                        "name": "away"
+                                    }
+                                },
+                                "opponentTeam": {
+                                    "teamId": 355,
+                                    "location": "Arizona",
+                                    "nickname": "Cardinals",
+                                    "abbreviation": "Ari",
+                                    "teamLocationType": {
+                                        "teamLocationTypeId": 1,
+                                        "name": "home"
+                                    }
+                                },
+                                "outcome": {
+                                    "outcomeId": 2,
+                                    "name": "Win",
+                                    "teamScore": 23,
+                                    "opponentTeamScore": 20
+                                }
+                            }]
+                        }]
+                    }]
+                }]
+            }]
+        }
+    }]
+}

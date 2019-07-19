@@ -1,0 +1,142 @@
+@(user: models.user.User, wallet: models.wallet.UserWallet)
+@import views.html.pub.components._
+
+@imports.render(user)
+<title>VICTIV | Daily Fantasy Sports for Real Money</title>
+@if(user != null){
+    @headerAuth.render(user, wallet)
+} else {
+    @header.render(user)
+}
+<div class="col-xs-24 master dark football1">
+	<div class="row section hero">
+			<div class="col-xs-24 heroText">
+				<!--<div class="mainHeader">VICTIV</div>-->
+				<div class="col-xs-12 descHeader left">
+					<h1>VICTIV</h1>
+					<p>Daily fantasy sports, evolved.<p>
+					<ul>
+					<li>Play free or real money contests daily</li>
+					<li>Legal in the U.S.</li>
+					<li>Interactive, real-time dashboard</li>
+				</ul>
+				</div>
+				<div class="col-xs-12 descHeader">
+					<p>100% First Deposit Bonus up to $1,000</p>
+					<a href="/newSignUp" class="greenButton center">JOIN FOR FREE</a>
+				</div>
+			</div>
+			<!-- padding: 91px 60px 80px 282px; -->
+			<div class="col-xs-24 video">
+				<div class="computer">
+            <video preload="auto" autoplay poster="/assets/images/landingPoster.png" loop width="540">
+					<source src="https://dm63aeeijtc75.cloudfront.net/video/web_main-aug20.mp4" type="video/mp4">
+					<source src="https://dm63aeeijtc75.cloudfront.net/video/web_main.ogv" type="video/ogg">
+				</video>
+			</div>
+				<!--<video preload="auto" autoplay poster="/assets/images/landingPoster.png" loop width="600">
+					<source src="https://dm63aeeijtc75.cloudfront.net/video/web_main-aug20.mp4" type="video/mp4">
+					<source src="https://dm63aeeijtc75.cloudfront.net/video/web_main.ogv" type="video/ogg">
+				</video>-->
+	</div>
+</div>
+</div>
+<div class="col-xs-24 general light">
+	<div class="row section how">
+		<div class="col-xs-24">
+			<ul class="inline">
+				<li><img src="/assets/images/2_day.png">
+					<div class="descTitle">
+						Play Daily
+					</div>
+					<div class="descContent">
+						Different from your season-long fantasy league, VICTIV allows you to draft a brand new roster every day — no long-term commitment required.
+					</div>
+				</li>
+				<li><img src="/assets/images/2_team.png">
+					<div class="descTitle">
+						Draft a Roster
+					</div>
+					<div class="descContent">
+						Select a contest, pick your team while staying below the salary cap, and compete against your buddies or opponents from around the country.
+					</div>
+				</li>
+				<li><img src="/assets/images/2_payout.png">
+					<div class="descTitle">
+						Quick & Easy
+					</div>
+					<div class="descContent">
+						Play our daily free competitions, or enter fantasy sports contests for as little as $2 or as much as $200. Winners are paid out each day.
+					</div>
+				</li>
+			</ul>
+			<a href="/how-it-works" class="darkButton">HOW IT WORKS</a>
+		</div>
+	</div>
+</div>
+<div class="col-xs-24 gray">
+	<div class="row section howTo">
+		<div class="col-xs-24">
+			<div class="col-xs-14 join">
+				<div class="descHeader">Join Today — Swift, Safe, and Secure</div>
+				<ul class="textList">
+					<li>Sign up with Google+, Facebook, or email </li>
+					<li>Accept all major debit cards, credit cards and PayPal</li>
+					<li>256 bit encryption with the support of Amazon Web Servers</li>
+				</ul>
+				<a href="/newSignUp" class="greenButton">SIGN UP NOW</a>
+			</div>
+			<div class="col-xs-110">
+				<img src="/assets/images/security.png" height="350px" width="400px">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-xs-24 light features">
+	<div class="row section how">
+		<div class="col-xs-24">
+			<ul class="inline">
+				<li>
+					<img src="/assets/images/lightning.png">
+					<div class="descTitle">
+						Quick Lineups
+					</div>
+					<div class="descContent">
+						Quickly enter your previously built rosters directly from the daily draft lobby with our quick entry button — no import, no edit, no hassle.
+					</div>
+				</li>
+				<li>
+					<img src="/assets/images/SliderIcon.png">
+					<div class="descTitle">
+						#Victron
+					</div>
+					<div class="descContent">
+						Harness the power of advanced statistical analytics to build your next winning roster — move the VICTRON sliders until your roster is perfect.
+					</div>
+				</li>
+				<li>
+					<img src="/assets/images/DashIcon.png">
+					<div class="descTitle">
+						Dashboard
+					</div>
+					<div class="descContent">
+						The excitement shouldn't stop when the games start — watch all the action unfold in real-time with VICTIV's drilled-in dashboard features.
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="col-xs-24 gray">
+	<div class="row section textMe">
+		<div class="col-xs-24">
+				<div class="descHeader">Welcome to VICTIV Daily Fantasy Sports</div>
+				<div class="descContent">With world class software, a huge deposit bonus, and a great loyalty rewards program, VICTIV offers the most exciting daily fantasy sports experience. Draft now and cheer for your favorite fantasy football, fantasy basketball, fantasy baseball, fantasy golf, and fantasy hockey players. Play for free or compete for real money with as little as $2. Win cash daily — no season-long league commitment.</div>
+				<div class="descHeader">$1,000 Sign Up Bonus</div>
+				<div class="descContent">Our online daily fantasy sports site features a 100% First Deposit Bonus, where we match your first deposit dollar-for-dollar up to a maximum of $1,000. VICTIV offers one of the largest first deposit bonuses from any daily fantasy sports website. Join now and learn why daily fantasy sports (DFS) is better than season-long competitions — skill-based gaming, no commitments, and legal in the U.S.</div>
+				<div class="descHeader">All Major Fantasy Sports</div>
+				<div class="descContent">At Victiv, you can play all of the major fantasy sports leagues: NFL, NBA, MLB, NHL, PGA. Deposit using all major debit and credit cards, including VISA, MasterCard, Discover, and American Express, or deposit using our verified PayPal account. Victiv operates with a EV SSL Plus certificate from digicert. We use STATS LLC to provide real-time fantasy player rankings and scores for every game.</div>
+		</div>
+	</div>
+</div>
+@footer.render(user)

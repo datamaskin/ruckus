@@ -1,0 +1,2855 @@
+{
+    "status": "OK",
+    "recordCount": 15,
+    "startTimestamp": "2014-07-15T02:51:38.4901109Z",
+    "endTimestamp": "2014-07-15T02:51:38.9901109Z",
+    "timeTaken": 0.5,
+    "apiResults": [{
+        "sportId": 2,
+        "name": "Baseball",
+        "league": {
+            "leagueId": 7,
+            "name": "Major League Baseball",
+            "abbreviation": "MLB",
+            "displayName": "Major League Baseball",
+            "season": {
+                "season": 2014,
+                "name": "2014 MLB Season",
+                "isActive": true,
+                "eventType": [{
+                    "eventTypeId": 1,
+                    "name": "Regular Season",
+                    "events": [{
+                        "eventId": 1379173,
+                        "furlongs": 0,
+                        "seriesId": 244,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 13,
+                            "minute": 5,
+                            "full": "2014-07-13T13:05:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 17,
+                            "minute": 5,
+                            "full": "2014-07-13T17:05:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 396,
+                            "name": "Progressive Field",
+                            "abbreviation": null,
+                            "city": "Cleveland",
+                            "state": {
+                                "stateId": 35,
+                                "name": "Ohio",
+                                "abbreviation": "OH"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 562,
+                            "name": "WGN",
+                            "callLetters": "WGN",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 844,
+                            "name": "SportsTime Ohio",
+                            "callLetters": "STOh",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 229,
+                            "location": "Cleveland",
+                            "nickname": "Indians",
+                            "abbreviation": "Cle",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 455883,
+                                    "firstName": "Bryan",
+                                    "lastName": "Shaw"
+                                },
+                                "wins": 4,
+                                "losses": 1,
+                                "earnedRunAverage": "2.70"
+                            }, {
+                                "type": {
+                                    "typeId": 4,
+                                    "name": "save"
+                                },
+                                "player": {
+                                    "playerId": 549216,
+                                    "firstName": "Cody",
+                                    "lastName": "Allen"
+                                },
+                                "saves": 12,
+                                "earnedRunAverage": "2.16"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 3,
+                                "hits": 9,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 47,
+                                "losses": 47,
+                                "percentage": ".500"
+                            },
+                            "isWinner": true
+                        }, {
+                            "teamId": 228,
+                            "location": "Chicago",
+                            "nickname": "White Sox",
+                            "abbreviation": "CWS",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 254341,
+                                    "firstName": "Javy",
+                                    "lastName": "Guerra"
+                                },
+                                "wins": 0,
+                                "losses": 2,
+                                "earnedRunAverage": "3.32"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 2,
+                                "hits": 11,
+                                "errors": 1
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 45,
+                                "losses": 51,
+                                "percentage": ".469"
+                            },
+                            "isWinner": false
+                        }],
+                        "eventConference": {
+                            "conferenceId": 5,
+                            "name": "American League",
+                            "abbreviation": "AL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1380029,
+                        "furlongs": 0,
+                        "seriesId": 521,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 13,
+                            "minute": 10,
+                            "full": "2014-07-13T13:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 17,
+                            "minute": 10,
+                            "full": "2014-07-13T17:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 3454,
+                            "name": "Great American Ball Park",
+                            "abbreviation": null,
+                            "city": "Cincinnati",
+                            "state": {
+                                "stateId": 35,
+                                "name": "Ohio",
+                                "abbreviation": "OH"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 872,
+                            "name": "ROOT SPORTS",
+                            "callLetters": "ROOT",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 656,
+                            "name": "Fox Sports Ohio",
+                            "callLetters": "FSOH",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 241,
+                            "location": "Cincinnati",
+                            "nickname": "Reds",
+                            "abbreviation": "Cin",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 295352,
+                                    "firstName": "Johnny",
+                                    "lastName": "Cueto"
+                                },
+                                "wins": 10,
+                                "losses": 6,
+                                "earnedRunAverage": "2.13"
+                            }, {
+                                "type": {
+                                    "typeId": 4,
+                                    "name": "save"
+                                },
+                                "player": {
+                                    "playerId": 523977,
+                                    "firstName": "Aroldis",
+                                    "lastName": "Chapman"
+                                },
+                                "saves": 21,
+                                "earnedRunAverage": "2.12"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 6,
+                                "hits": 9,
+                                "errors": 2
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 51,
+                                "losses": 44,
+                                "percentage": ".537"
+                            },
+                            "isWinner": true
+                        }, {
+                            "teamId": 247,
+                            "location": "Pittsburgh",
+                            "nickname": "Pirates",
+                            "abbreviation": "Pit",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 200741,
+                                    "firstName": "Francisco",
+                                    "lastName": "Liriano"
+                                },
+                                "wins": 1,
+                                "losses": 7,
+                                "earnedRunAverage": "4.72"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 3,
+                                "hits": 5,
+                                "errors": 1
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 49,
+                                "losses": 46,
+                                "percentage": ".516"
+                            },
+                            "isWinner": false
+                        }],
+                        "eventConference": {
+                            "conferenceId": 6,
+                            "name": "National League",
+                            "abbreviation": "NL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1378846,
+                        "furlongs": 0,
+                        "seriesId": 141,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 13,
+                            "minute": 10,
+                            "full": "2014-07-13T13:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 17,
+                            "minute": 10,
+                            "full": "2014-07-13T17:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 7919,
+                            "name": "Citi Field",
+                            "abbreviation": null,
+                            "city": "Flushing",
+                            "state": {
+                                "stateId": 32,
+                                "name": "New York",
+                                "abbreviation": "NY"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 680,
+                            "name": "Fox Sports Florida",
+                            "callLetters": "FSFL",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 845,
+                            "name": "SportsNet New York",
+                            "callLetters": "SNY",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 245,
+                            "location": "New York",
+                            "nickname": "Mets",
+                            "abbreviation": "NYM",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 548447,
+                                    "firstName": "Jacob",
+                                    "lastName": "deGrom"
+                                },
+                                "wins": 3,
+                                "losses": 5,
+                                "earnedRunAverage": "3.18"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 9,
+                                "hits": 14,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 45,
+                                "losses": 50,
+                                "percentage": ".474"
+                            },
+                            "isWinner": true
+                        }, {
+                            "teamId": 252,
+                            "location": "Miami",
+                            "nickname": "Marlins",
+                            "abbreviation": "Mia",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 454426,
+                                    "firstName": "Brad",
+                                    "lastName": "Hand"
+                                },
+                                "wins": 0,
+                                "losses": 2,
+                                "earnedRunAverage": "5.26"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 1,
+                                "hits": 5,
+                                "errors": 1
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 44,
+                                "losses": 50,
+                                "percentage": ".468"
+                            },
+                            "isWinner": false
+                        }],
+                        "eventConference": {
+                            "conferenceId": 6,
+                            "name": "National League",
+                            "abbreviation": "NL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1378941,
+                        "furlongs": 0,
+                        "seriesId": 171,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 13,
+                            "minute": 35,
+                            "full": "2014-07-13T13:35:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 17,
+                            "minute": 35,
+                            "full": "2014-07-13T17:35:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 3569,
+                            "name": "Citizens Bank Park",
+                            "abbreviation": null,
+                            "city": "Philadelphia",
+                            "state": {
+                                "stateId": 38,
+                                "name": "Pennsylvania",
+                                "abbreviation": "PA"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 840,
+                            "name": "Mid-Atlantic Sports Network",
+                            "callLetters": "MASN",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 865,
+                            "name": "Comcast SportsNet-Philadelphia",
+                            "callLetters": "CSPh",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 246,
+                            "location": "Philadelphia",
+                            "nickname": "Phillies",
+                            "abbreviation": "Phi",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 244214,
+                                    "firstName": "Kyle",
+                                    "lastName": "Kendrick"
+                                },
+                                "wins": 4,
+                                "losses": 9,
+                                "earnedRunAverage": "4.62"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 3,
+                                "hits": 5,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 42,
+                                "losses": 53,
+                                "percentage": ".442"
+                            },
+                            "isWinner": false
+                        }, {
+                            "teamId": 244,
+                            "location": "Washington",
+                            "nickname": "Nationals",
+                            "abbreviation": "Was",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 454939,
+                                    "firstName": "Tanner",
+                                    "lastName": "Roark"
+                                },
+                                "wins": 8,
+                                "losses": 6,
+                                "earnedRunAverage": "3.01"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 10,
+                                "hits": 12,
+                                "errors": 1
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 51,
+                                "losses": 42,
+                                "percentage": ".548"
+                            },
+                            "isWinner": true
+                        }],
+                        "eventConference": {
+                            "conferenceId": 6,
+                            "name": "National League",
+                            "abbreviation": "NL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1380074,
+                        "furlongs": 0,
+                        "seriesId": 536,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 13,
+                            "minute": 40,
+                            "full": "2014-07-13T13:40:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 17,
+                            "minute": 40,
+                            "full": "2014-07-13T17:40:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 422,
+                            "name": "Tropicana Field",
+                            "abbreviation": null,
+                            "city": "St. Petersburg",
+                            "state": {
+                                "stateId": 9,
+                                "name": "Florida",
+                                "abbreviation": "FL"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 686,
+                            "name": "Rogers SportsNet",
+                            "callLetters": "RSN",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 2,
+                                "name": "Canada",
+                                "abbreviation": "CAN"
+                            }
+                        }, {
+                            "tvStationId": 596,
+                            "name": "Sun Sports",
+                            "callLetters": "SUN",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 254,
+                            "location": "Tampa Bay",
+                            "nickname": "Rays",
+                            "abbreviation": "TB",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 388363,
+                                    "firstName": "David",
+                                    "lastName": "Price"
+                                },
+                                "wins": 9,
+                                "losses": 7,
+                                "earnedRunAverage": "3.23"
+                            }, {
+                                "type": {
+                                    "typeId": 4,
+                                    "name": "save"
+                                },
+                                "player": {
+                                    "playerId": 253298,
+                                    "firstName": "Jake",
+                                    "lastName": "McGee"
+                                },
+                                "saves": 7,
+                                "earnedRunAverage": "1.52"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 3,
+                                "hits": 6,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 44,
+                                "losses": 53,
+                                "percentage": ".454"
+                            },
+                            "isWinner": true
+                        }, {
+                            "teamId": 238,
+                            "location": "Toronto",
+                            "nickname": "Blue Jays",
+                            "abbreviation": "Tor",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 8767,
+                                    "firstName": "R.A.",
+                                    "lastName": "Dickey"
+                                },
+                                "wins": 7,
+                                "losses": 9,
+                                "earnedRunAverage": "3.82"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 0,
+                                "hits": 5,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 49,
+                                "losses": 47,
+                                "percentage": ".510"
+                            },
+                            "isWinner": false
+                        }],
+                        "eventConference": {
+                            "conferenceId": 5,
+                            "name": "American League",
+                            "abbreviation": "AL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1379850,
+                        "furlongs": 0,
+                        "seriesId": 464,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 13,
+                            "minute": 10,
+                            "full": "2014-07-13T13:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 18,
+                            "minute": 10,
+                            "full": "2014-07-13T18:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 435,
+                            "name": "Minute Maid Park",
+                            "abbreviation": null,
+                            "city": "Houston",
+                            "state": {
+                                "stateId": 43,
+                                "name": "Texas",
+                                "abbreviation": "TX"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 576,
+                            "name": "NESN",
+                            "callLetters": "NESN",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 876,
+                            "name": "Comcast SportsNet - Houston",
+                            "callLetters": "CSNH",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 242,
+                            "location": "Houston",
+                            "nickname": "Astros",
+                            "abbreviation": "Hou",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 393232,
+                                    "firstName": "Brad",
+                                    "lastName": "Peacock"
+                                },
+                                "wins": 3,
+                                "losses": 6,
+                                "earnedRunAverage": "4.39"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 0,
+                                "hits": 3,
+                                "errors": 3
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 40,
+                                "losses": 56,
+                                "percentage": ".417"
+                            },
+                            "isWinner": false
+                        }, {
+                            "teamId": 226,
+                            "location": "Boston",
+                            "nickname": "Red Sox",
+                            "abbreviation": "Bos",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 294331,
+                                    "firstName": "Clay",
+                                    "lastName": "Buchholz"
+                                },
+                                "wins": 4,
+                                "losses": 5,
+                                "earnedRunAverage": "5.42"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 11,
+                                "hits": 16,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 43,
+                                "losses": 52,
+                                "percentage": ".453"
+                            },
+                            "isWinner": true
+                        }],
+                        "eventConference": {
+                            "conferenceId": 5,
+                            "name": "American League",
+                            "abbreviation": "AL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1379705,
+                        "furlongs": 0,
+                        "seriesId": 417,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 13,
+                            "minute": 10,
+                            "full": "2014-07-13T13:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 18,
+                            "minute": 10,
+                            "full": "2014-07-13T18:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 437,
+                            "name": "Miller Park",
+                            "abbreviation": null,
+                            "city": "Milwaukee",
+                            "state": {
+                                "stateId": 49,
+                                "name": "Wisconsin",
+                                "abbreviation": "WI"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 620,
+                            "name": "Fox Sports Midwest",
+                            "callLetters": "FSMW",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 854,
+                            "name": "Fox Sports North - Wisconsin",
+                            "callLetters": "FSWI",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 232,
+                            "location": "Milwaukee",
+                            "nickname": "Brewers",
+                            "abbreviation": "Mil",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 321735,
+                                    "firstName": "Wily",
+                                    "lastName": "Peralta"
+                                },
+                                "wins": 10,
+                                "losses": 6,
+                                "earnedRunAverage": "3.72"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 11,
+                                "hits": 19,
+                                "errors": 1
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 53,
+                                "losses": 43,
+                                "percentage": ".552"
+                            },
+                            "isWinner": true
+                        }, {
+                            "teamId": 248,
+                            "location": "St. Louis",
+                            "nickname": "Cardinals",
+                            "abbreviation": "StL",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 547784,
+                                    "firstName": "Carlos",
+                                    "lastName": "Martinez"
+                                },
+                                "wins": 2,
+                                "losses": 4,
+                                "earnedRunAverage": "4.43"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 2,
+                                "hits": 5,
+                                "errors": 1
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 52,
+                                "losses": 44,
+                                "percentage": ".542"
+                            },
+                            "isWinner": false
+                        }],
+                        "eventConference": {
+                            "conferenceId": 6,
+                            "name": "National League",
+                            "abbreviation": "NL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1379443,
+                        "furlongs": 0,
+                        "seriesId": 333,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 13,
+                            "minute": 10,
+                            "full": "2014-07-13T13:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 18,
+                            "minute": 10,
+                            "full": "2014-07-13T18:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 398,
+                            "name": "Ewing M. Kauffman Stadium",
+                            "abbreviation": null,
+                            "city": "Kansas City",
+                            "state": {
+                                "stateId": 25,
+                                "name": "Missouri",
+                                "abbreviation": "MO"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 647,
+                            "name": "Fox Sports Detroit",
+                            "callLetters": "FSDT",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 856,
+                            "name": "Fox Sports Kansas City",
+                            "callLetters": "FSKC",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 231,
+                            "location": "Kansas City",
+                            "nickname": "Royals",
+                            "abbreviation": "KC",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 506376,
+                                    "firstName": "Yordano",
+                                    "lastName": "Ventura"
+                                },
+                                "wins": 7,
+                                "losses": 7,
+                                "earnedRunAverage": "3.22"
+                            }, {
+                                "type": {
+                                    "typeId": 4,
+                                    "name": "save"
+                                },
+                                "player": {
+                                    "playerId": 389859,
+                                    "firstName": "Greg",
+                                    "lastName": "Holland"
+                                },
+                                "saves": 25,
+                                "earnedRunAverage": "1.82"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 5,
+                                "hits": 10,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 48,
+                                "losses": 46,
+                                "percentage": ".511"
+                            },
+                            "isWinner": true
+                        }, {
+                            "teamId": 230,
+                            "location": "Detroit",
+                            "nickname": "Tigers",
+                            "abbreviation": "Det",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 277705,
+                                    "firstName": "Justin",
+                                    "lastName": "Verlander"
+                                },
+                                "wins": 8,
+                                "losses": 8,
+                                "earnedRunAverage": "4.88"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 2,
+                                "hits": 9,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 53,
+                                "losses": 38,
+                                "percentage": ".582"
+                            },
+                            "isWinner": false
+                        }],
+                        "eventConference": {
+                            "conferenceId": 5,
+                            "name": "American League",
+                            "abbreviation": "AL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1379271,
+                        "furlongs": 0,
+                        "seriesId": 278,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 13,
+                            "minute": 20,
+                            "full": "2014-07-13T13:20:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 18,
+                            "minute": 20,
+                            "full": "2014-07-13T18:20:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 407,
+                            "name": "Wrigley Field",
+                            "abbreviation": null,
+                            "city": "Chicago",
+                            "state": {
+                                "stateId": 13,
+                                "name": "Illinois",
+                                "abbreviation": "IL"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 653,
+                            "name": "Fox Sports South",
+                            "callLetters": "FSSO",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 880,
+                            "name": "Comcast SportsNet - Chicago",
+                            "callLetters": "CSCh",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 240,
+                            "location": "Chicago",
+                            "nickname": "Cubs",
+                            "abbreviation": "ChC",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 291243,
+                                    "firstName": "Travis",
+                                    "lastName": "Wood"
+                                },
+                                "wins": 7,
+                                "losses": 8,
+                                "earnedRunAverage": "4.96"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 7,
+                                "hits": 9,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 40,
+                                "losses": 54,
+                                "percentage": ".426"
+                            },
+                            "isWinner": false
+                        }, {
+                            "teamId": 239,
+                            "location": "Atlanta",
+                            "nickname": "Braves",
+                            "abbreviation": "Atl",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 394370,
+                                    "firstName": "Julio",
+                                    "lastName": "Teheran"
+                                },
+                                "wins": 9,
+                                "losses": 6,
+                                "earnedRunAverage": "2.71"
+                            }, {
+                                "type": {
+                                    "typeId": 4,
+                                    "name": "save"
+                                },
+                                "player": {
+                                    "playerId": 454499,
+                                    "firstName": "Craig",
+                                    "lastName": "Kimbrel"
+                                },
+                                "saves": 29,
+                                "earnedRunAverage": "1.91"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 10,
+                                "hits": 11,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 52,
+                                "losses": 43,
+                                "percentage": ".547"
+                            },
+                            "isWinner": true
+                        }],
+                        "eventConference": {
+                            "conferenceId": 6,
+                            "name": "National League",
+                            "abbreviation": "NL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1380768,
+                        "furlongs": 0,
+                        "seriesId": 756,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 14,
+                            "minute": 5,
+                            "full": "2014-07-13T14:05:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 19,
+                            "minute": 5,
+                            "full": "2014-07-13T19:05:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 404,
+                            "name": "Globe Life Park in Arlington",
+                            "abbreviation": null,
+                            "city": "Arlington",
+                            "state": {
+                                "stateId": 43,
+                                "name": "Texas",
+                                "abbreviation": "TX"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 633,
+                            "name": "Fox Sports West",
+                            "callLetters": "FSW",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 636,
+                            "name": "Fox Sports Southwest",
+                            "callLetters": "FSSW",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 237,
+                            "location": "Texas",
+                            "nickname": "Rangers",
+                            "abbreviation": "Tex",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 226330,
+                                    "firstName": "Scott",
+                                    "lastName": "Baker"
+                                },
+                                "wins": 0,
+                                "losses": 3,
+                                "earnedRunAverage": "6.24"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 7,
+                                "hits": 10,
+                                "errors": 1
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 38,
+                                "losses": 57,
+                                "percentage": ".400"
+                            },
+                            "isWinner": false
+                        }, {
+                            "teamId": 227,
+                            "location": "Los Angeles",
+                            "nickname": "Angels",
+                            "abbreviation": "LAA",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 500787,
+                                    "firstName": "Tyler",
+                                    "lastName": "Skaggs"
+                                },
+                                "wins": 5,
+                                "losses": 5,
+                                "earnedRunAverage": "4.50"
+                            }, {
+                                "type": {
+                                    "typeId": 4,
+                                    "name": "save"
+                                },
+                                "player": {
+                                    "playerId": 326683,
+                                    "firstName": "Joe",
+                                    "lastName": "Smith"
+                                },
+                                "saves": 15,
+                                "earnedRunAverage": "2.32"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 10,
+                                "hits": 15,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 57,
+                                "losses": 37,
+                                "percentage": ".606"
+                            },
+                            "isWinner": true
+                        }],
+                        "eventConference": {
+                            "conferenceId": 5,
+                            "name": "American League",
+                            "abbreviation": "AL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1380364,
+                        "furlongs": 0,
+                        "seriesId": 626,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 13,
+                            "minute": 5,
+                            "full": "2014-07-13T13:05:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 20,
+                            "minute": 5,
+                            "full": "2014-07-13T20:05:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 434,
+                            "name": "AT&T Park",
+                            "abbreviation": null,
+                            "city": "San Francisco",
+                            "state": {
+                                "stateId": 5,
+                                "name": "California",
+                                "abbreviation": "CA"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 651,
+                            "name": "Fox Sports Arizona",
+                            "callLetters": "FSAZ",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 860,
+                            "name": "Comcast SportsNet - Bay Area",
+                            "callLetters": "CSBy",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 250,
+                            "location": "San Francisco",
+                            "nickname": "Giants",
+                            "abbreviation": "SF",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 388396,
+                                    "firstName": "Madison",
+                                    "lastName": "Bumgarner"
+                                },
+                                "wins": 10,
+                                "losses": 7,
+                                "earnedRunAverage": "3.47"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 8,
+                                "hits": 9,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 52,
+                                "losses": 43,
+                                "percentage": ".547"
+                            },
+                            "isWinner": true
+                        }, {
+                            "teamId": 253,
+                            "location": "Arizona",
+                            "nickname": "Diamondbacks",
+                            "abbreviation": "Ari",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 502887,
+                                    "firstName": "Vidal",
+                                    "lastName": "Nuno"
+                                },
+                                "wins": 0,
+                                "losses": 1,
+                                "earnedRunAverage": "3.00"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 4,
+                                "hits": 10,
+                                "errors": 2
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 40,
+                                "losses": 56,
+                                "percentage": ".417"
+                            },
+                            "isWinner": false
+                        }],
+                        "eventConference": {
+                            "conferenceId": 6,
+                            "name": "National League",
+                            "abbreviation": "NL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1380753,
+                        "furlongs": 0,
+                        "seriesId": 751,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 13,
+                            "minute": 10,
+                            "full": "2014-07-13T13:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 20,
+                            "minute": 10,
+                            "full": "2014-07-13T20:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 432,
+                            "name": "Safeco Field",
+                            "abbreviation": null,
+                            "city": "Seattle",
+                            "state": {
+                                "stateId": 47,
+                                "name": "Washington",
+                                "abbreviation": "WA"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 862,
+                            "name": "Comcast SportsNet - California",
+                            "callLetters": "CSCA",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 872,
+                            "name": "ROOT SPORTS",
+                            "callLetters": "ROOT",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 236,
+                            "location": "Seattle",
+                            "nickname": "Mariners",
+                            "abbreviation": "Sea",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 200969,
+                                    "firstName": "Chris",
+                                    "lastName": "Young"
+                                },
+                                "wins": 8,
+                                "losses": 6,
+                                "earnedRunAverage": "3.15"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 1,
+                                "hits": 6,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 51,
+                                "losses": 44,
+                                "percentage": ".537"
+                            },
+                            "isWinner": false
+                        }, {
+                            "teamId": 235,
+                            "location": "Oakland",
+                            "nickname": "Athletics",
+                            "abbreviation": "Oak",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 455516,
+                                    "firstName": "Sonny",
+                                    "lastName": "Gray"
+                                },
+                                "wins": 10,
+                                "losses": 3,
+                                "earnedRunAverage": "2.79"
+                            }, {
+                                "type": {
+                                    "typeId": 4,
+                                    "name": "save"
+                                },
+                                "player": {
+                                    "playerId": 389914,
+                                    "firstName": "Sean",
+                                    "lastName": "Doolittle"
+                                },
+                                "saves": 14,
+                                "earnedRunAverage": "2.89"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 4,
+                                "hits": 7,
+                                "errors": 1
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 59,
+                                "losses": 36,
+                                "percentage": ".621"
+                            },
+                            "isWinner": true
+                        }],
+                        "eventConference": {
+                            "conferenceId": 5,
+                            "name": "American League",
+                            "abbreviation": "AL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1379964,
+                        "furlongs": 0,
+                        "seriesId": 496,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 13,
+                            "minute": 10,
+                            "full": "2014-07-13T13:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 20,
+                            "minute": 10,
+                            "full": "2014-07-13T20:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 410,
+                            "name": "Dodger Stadium",
+                            "abbreviation": null,
+                            "city": "Los Angeles",
+                            "state": {
+                                "stateId": 5,
+                                "name": "California",
+                                "abbreviation": "CA"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 874,
+                            "name": "Fox Sports San Diego",
+                            "callLetters": "FSSD",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 879,
+                            "name": "Time Warner Cable SportsNet LA",
+                            "callLetters": "SNLA",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 243,
+                            "location": "Los Angeles",
+                            "nickname": "Dodgers",
+                            "abbreviation": "LAD",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 722329,
+                                    "firstName": "Hyun-jin",
+                                    "lastName": "Ryu"
+                                },
+                                "wins": 10,
+                                "losses": 5,
+                                "earnedRunAverage": "3.44"
+                            }, {
+                                "type": {
+                                    "typeId": 4,
+                                    "name": "save"
+                                },
+                                "player": {
+                                    "playerId": 295200,
+                                    "firstName": "Kenley",
+                                    "lastName": "Jansen"
+                                },
+                                "saves": 27,
+                                "earnedRunAverage": "3.49"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 1,
+                                "hits": 7,
+                                "errors": 1
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 54,
+                                "losses": 43,
+                                "percentage": ".557"
+                            },
+                            "isWinner": true
+                        }, {
+                            "teamId": 249,
+                            "location": "San Diego",
+                            "nickname": "Padres",
+                            "abbreviation": "SD",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 454432,
+                                    "firstName": "Tyson",
+                                    "lastName": "Ross"
+                                },
+                                "wins": 7,
+                                "losses": 10,
+                                "earnedRunAverage": "2.85"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 0,
+                                "hits": 4,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 41,
+                                "losses": 54,
+                                "percentage": ".432"
+                            },
+                            "isWinner": false
+                        }],
+                        "eventConference": {
+                            "conferenceId": 6,
+                            "name": "National League",
+                            "abbreviation": "NL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1379654,
+                        "furlongs": 0,
+                        "seriesId": 401,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 14,
+                            "minute": 10,
+                            "full": "2014-07-13T14:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 20,
+                            "minute": 10,
+                            "full": "2014-07-13T20:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 9,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 418,
+                            "name": "Coors Field",
+                            "abbreviation": null,
+                            "city": "Denver",
+                            "state": {
+                                "stateId": 6,
+                                "name": "Colorado",
+                                "abbreviation": "CO"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 755,
+                            "name": "Fox Sports North - Minnesota",
+                            "callLetters": "FSN",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 872,
+                            "name": "ROOT SPORTS",
+                            "callLetters": "ROOT",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 251,
+                            "location": "Colorado",
+                            "nickname": "Rockies",
+                            "abbreviation": "Col",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 326529,
+                                    "firstName": "Brett",
+                                    "lastName": "Anderson"
+                                },
+                                "wins": 0,
+                                "losses": 3,
+                                "earnedRunAverage": "4.95"
+                            }],
+                            "conference": {
+                                "conferenceId": 6,
+                                "name": "National League",
+                                "abbreviation": "NL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 5,
+                                "hits": 13,
+                                "errors": 1
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 40,
+                                "losses": 55,
+                                "percentage": ".421"
+                            },
+                            "isWinner": false
+                        }, {
+                            "teamId": 233,
+                            "location": "Minnesota",
+                            "nickname": "Twins",
+                            "abbreviation": "Min",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 254323,
+                                    "firstName": "Phil",
+                                    "lastName": "Hughes"
+                                },
+                                "wins": 10,
+                                "losses": 5,
+                                "earnedRunAverage": "3.92"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 13,
+                                "hits": 18,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 44,
+                                "losses": 50,
+                                "percentage": ".468"
+                            },
+                            "isWinner": true
+                        }],
+                        "eventConference": {
+                            "conferenceId": null,
+                            "name": null,
+                            "abbreviation": null,
+                            "isInterleague": true
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }, {
+                        "eventId": 1378392,
+                        "furlongs": 0,
+                        "seriesId": 16,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 13,
+                            "hour": 20,
+                            "minute": 5,
+                            "full": "2014-07-13T20:05:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 14,
+                            "hour": 0,
+                            "minute": 5,
+                            "full": "2014-07-14T00:05:00",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "balls": null,
+                            "strikes": null,
+                            "outs": null,
+                            "inning": 5,
+                            "inningDivision": null,
+                            "isActive": false,
+                            "name": "Final",
+                            "currentBatter": null,
+                            "runnersOnBase": []
+                        },
+                        "isDoubleheader": false,
+                        "venue": {
+                            "venueId": 392,
+                            "name": "Oriole Park at Camden Yards",
+                            "abbreviation": null,
+                            "city": "Baltimore",
+                            "state": {
+                                "stateId": 20,
+                                "name": "Maryland",
+                                "abbreviation": "MD"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 581,
+                            "name": "ESPN",
+                            "callLetters": "ESPN",
+                            "networkType": {
+                                "networkTypeId": 1,
+                                "name": "National"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 225,
+                            "location": "Baltimore",
+                            "nickname": "Orioles",
+                            "abbreviation": "Bal",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 2,
+                                    "name": "win"
+                                },
+                                "player": {
+                                    "playerId": 548347,
+                                    "firstName": "Kevin",
+                                    "lastName": "Gausman"
+                                },
+                                "wins": 4,
+                                "losses": 2,
+                                "earnedRunAverage": "3.29"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 3,
+                                "hits": 5,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": true
+                            },
+                            "record": {
+                                "wins": 52,
+                                "losses": 42,
+                                "percentage": ".553"
+                            },
+                            "isWinner": true
+                        }, {
+                            "teamId": 234,
+                            "location": "New York",
+                            "nickname": "Yankees",
+                            "abbreviation": "NYY",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "isSplitSquad": false,
+                            "pitchers": [{
+                                "type": {
+                                    "typeId": 3,
+                                    "name": "lose"
+                                },
+                                "player": {
+                                    "playerId": 549211,
+                                    "firstName": "Chase",
+                                    "lastName": "Whitley"
+                                },
+                                "wins": 4,
+                                "losses": 3,
+                                "earnedRunAverage": "5.10"
+                            }],
+                            "conference": {
+                                "conferenceId": 5,
+                                "name": "American League",
+                                "abbreviation": "AL"
+                            },
+                            "linescoreTotals": {
+                                "runs": 1,
+                                "hits": 4,
+                                "errors": 0
+                            },
+                            "liveState": {
+                                "currentPitcher": null,
+                                "nextUpBatters": [],
+                                "isDueUp": false
+                            },
+                            "record": {
+                                "wins": 47,
+                                "losses": 47,
+                                "percentage": ".500"
+                            },
+                            "isWinner": false
+                        }],
+                        "eventConference": {
+                            "conferenceId": 5,
+                            "name": "American League",
+                            "abbreviation": "AL",
+                            "isInterleague": false
+                        },
+                        "coverageLevel": {
+                            "coverageLevelId": 2,
+                            "details": "STATS Feed",
+                            "name": "Level 2"
+                        }
+                    }]
+                }]
+            }
+        }
+    }]
+}

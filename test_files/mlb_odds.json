@@ -1,0 +1,1343 @@
+{
+    "status": "OK",
+    "recordCount": 14,
+    "startTimestamp": "2014-07-04T17:00:42.9034909Z",
+    "endTimestamp": "2014-07-04T17:00:43.2472409Z",
+    "timeTaken": 0.34375,
+    "apiResults": [{
+        "sportId": 2,
+        "name": "Baseball",
+        "league": {
+            "leagueId": 7,
+            "name": "Major League Baseball",
+            "abbreviation": "MLB",
+            "displayName": "Major League Baseball",
+            "season": {
+                "season": 2014,
+                "name": "2014 MLB Season",
+                "isActive": true,
+                "eventType": [{
+                    "eventTypeId": 1,
+                    "name": "Regular Season",
+                    "lineEvents": [{
+                        "eventId": 1379100,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 11,
+                            "minute": 5,
+                            "full": "2014-07-04T11:05:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 15,
+                            "minute": 5,
+                            "full": "2014-07-04T15:05:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "T. Roark",
+                            "teamId": 244,
+                            "rotation": 952,
+                            "location": "Washington",
+                            "nickname": "Nationals",
+                            "abbreviation": "Was",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "J. Hammel",
+                            "teamId": 240,
+                            "rotation": 951,
+                            "location": "Chicago",
+                            "nickname": "Cubs",
+                            "abbreviation": "ChC",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 10,
+                                "minute": 5,
+                                "full": "2014-07-04T10:05:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 14,
+                                "minute": 5,
+                                "full": "2014-07-04T14:05:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 244,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+143",
+                                "underdogMoney": "-155",
+                                "homeMoney": "-163",
+                                "awayMoney": "+150",
+                                "total": 7.5,
+                                "overMoney": "-105",
+                                "underMoney": "-105"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 244,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+143",
+                                "underdogMoney": "-155",
+                                "homeMoney": "-153",
+                                "awayMoney": "+141",
+                                "total": 7.0,
+                                "overMoney": "-109",
+                                "underMoney": "-101"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1380340,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 14,
+                            "minute": 10,
+                            "full": "2014-07-04T14:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 19,
+                            "minute": 10,
+                            "full": "2014-07-04T19:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "K. Gibson",
+                            "teamId": 233,
+                            "rotation": 968,
+                            "location": "Minnesota",
+                            "nickname": "Twins",
+                            "abbreviation": "Min",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "C. Whitley",
+                            "teamId": 234,
+                            "rotation": 967,
+                            "location": "New York",
+                            "nickname": "Yankees",
+                            "abbreviation": "NYY",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 14,
+                                "minute": 10,
+                                "full": "2014-07-04T14:10:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 18,
+                                "minute": 10,
+                                "full": "2014-07-04T18:10:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 234,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+151",
+                                "underdogMoney": "-164",
+                                "homeMoney": "-104",
+                                "awayMoney": "-104",
+                                "total": 8.5,
+                                "overMoney": "-110",
+                                "underMoney": "+100"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 233,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+191",
+                                "underdogMoney": "-209",
+                                "homeMoney": "-104",
+                                "awayMoney": "-104",
+                                "total": 8.5,
+                                "overMoney": "+107",
+                                "underMoney": "-118"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1380688,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 13,
+                            "minute": 5,
+                            "full": "2014-07-04T13:05:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 20,
+                            "minute": 5,
+                            "full": "2014-07-04T20:05:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "T. Milone",
+                            "teamId": 235,
+                            "rotation": 970,
+                            "location": "Oakland",
+                            "nickname": "Athletics",
+                            "abbreviation": "Oak",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "M.  Stroman",
+                            "teamId": 238,
+                            "rotation": 969,
+                            "location": "Toronto",
+                            "nickname": "Blue Jays",
+                            "abbreviation": "Tor",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 15,
+                                "minute": 5,
+                                "full": "2014-07-04T15:05:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 19,
+                                "minute": 5,
+                                "full": "2014-07-04T19:05:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 235,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+154",
+                                "underdogMoney": "-167",
+                                "homeMoney": "-130",
+                                "awayMoney": "+120",
+                                "total": 8.5,
+                                "overMoney": "+106",
+                                "underMoney": "-117"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 235,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+167",
+                                "underdogMoney": "-182",
+                                "homeMoney": "-125",
+                                "awayMoney": "+115",
+                                "total": 8.0,
+                                "overMoney": "+100",
+                                "underMoney": "-110"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1379747,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 17,
+                            "minute": 5,
+                            "full": "2014-07-04T17:05:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 21,
+                            "minute": 5,
+                            "full": "2014-07-04T21:05:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "G. Cole",
+                            "teamId": 247,
+                            "rotation": 954,
+                            "location": "Pittsburgh",
+                            "nickname": "Pirates",
+                            "abbreviation": "Pit",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "R.  Hernandez",
+                            "teamId": 246,
+                            "rotation": 953,
+                            "location": "Philadelphia",
+                            "nickname": "Phillies",
+                            "abbreviation": "Phi",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 16,
+                                "minute": 5,
+                                "full": "2014-07-04T16:05:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 20,
+                                "minute": 5,
+                                "full": "2014-07-04T20:05:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 247,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+126",
+                                "underdogMoney": "-136",
+                                "homeMoney": "-164",
+                                "awayMoney": "+151",
+                                "total": 7.5,
+                                "overMoney": "-105",
+                                "underMoney": "-105"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 247,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+115",
+                                "underdogMoney": "-125",
+                                "homeMoney": "-192",
+                                "awayMoney": "+176",
+                                "total": 7.5,
+                                "overMoney": "-107",
+                                "underMoney": "-103"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1380176,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 15,
+                            "minute": 40,
+                            "full": "2014-07-04T15:40:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 22,
+                            "minute": 40,
+                            "full": "2014-07-04T22:40:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "E. Stults",
+                            "teamId": 249,
+                            "rotation": 956,
+                            "location": "San Diego",
+                            "nickname": "Padres",
+                            "abbreviation": "SD",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "M. Cain",
+                            "teamId": 250,
+                            "rotation": 955,
+                            "location": "San Francisco",
+                            "nickname": "Giants",
+                            "abbreviation": "SF",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 17,
+                                "minute": 40,
+                                "full": "2014-07-04T17:40:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 21,
+                                "minute": 40,
+                                "full": "2014-07-04T21:40:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 250,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+150",
+                                "underdogMoney": "-163",
+                                "homeMoney": "+100",
+                                "awayMoney": "-108",
+                                "total": 6.5,
+                                "overMoney": "-117",
+                                "underMoney": "+106"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 250,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+156",
+                                "underdogMoney": "-170",
+                                "homeMoney": "+105",
+                                "awayMoney": "-114",
+                                "total": 6.5,
+                                "overMoney": "-123",
+                                "underMoney": "+111"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1379161,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 19,
+                            "minute": 5,
+                            "full": "2014-07-04T19:05:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 23,
+                            "minute": 5,
+                            "full": "2014-07-04T23:05:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "J. Tomlin",
+                            "teamId": 229,
+                            "rotation": 974,
+                            "location": "Cleveland",
+                            "nickname": "Indians",
+                            "abbreviation": "Cle",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "Y. Ventura",
+                            "teamId": 231,
+                            "rotation": 973,
+                            "location": "Kansas City",
+                            "nickname": "Royals",
+                            "abbreviation": "KC",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 18,
+                                "minute": 5,
+                                "full": "2014-07-04T18:05:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 22,
+                                "minute": 5,
+                                "full": "2014-07-04T22:05:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 229,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+174",
+                                "underdogMoney": "-189",
+                                "homeMoney": "-110",
+                                "awayMoney": "+102",
+                                "total": 8.0,
+                                "overMoney": "-101",
+                                "underMoney": "-109"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 229,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+191",
+                                "underdogMoney": "-209",
+                                "homeMoney": "-104",
+                                "awayMoney": "-104",
+                                "total": 7.5,
+                                "overMoney": "+107",
+                                "underMoney": "-118"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1379347,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 19,
+                            "minute": 8,
+                            "full": "2014-07-04T19:08:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 23,
+                            "minute": 8,
+                            "full": "2014-07-04T23:08:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "D. Smyly",
+                            "teamId": 230,
+                            "rotation": 972,
+                            "location": "Detroit",
+                            "nickname": "Tigers",
+                            "abbreviation": "Det",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "A. Cobb",
+                            "teamId": 254,
+                            "rotation": 971,
+                            "location": "Tampa Bay",
+                            "nickname": "Rays",
+                            "abbreviation": "TB",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 18,
+                                "minute": 5,
+                                "full": "2014-07-04T18:05:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 22,
+                                "minute": 5,
+                                "full": "2014-07-04T22:05:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 230,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+175",
+                                "underdogMoney": "-191",
+                                "homeMoney": "-120",
+                                "awayMoney": "+111",
+                                "total": 8.0,
+                                "overMoney": "-117",
+                                "underMoney": "+106"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 230,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+168",
+                                "underdogMoney": "-183",
+                                "homeMoney": "-120",
+                                "awayMoney": "+111",
+                                "total": 8.5,
+                                "overMoney": "+106",
+                                "underMoney": "-117"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1379022,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 18,
+                            "minute": 10,
+                            "full": "2014-07-04T18:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 23,
+                            "minute": 10,
+                            "full": "2014-07-04T23:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "C. Sale",
+                            "teamId": 228,
+                            "rotation": 976,
+                            "location": "Chicago",
+                            "nickname": "White Sox",
+                            "abbreviation": "CWS",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "R. Elias",
+                            "teamId": 236,
+                            "rotation": 975,
+                            "location": "Seattle",
+                            "nickname": "Mariners",
+                            "abbreviation": "Sea",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 18,
+                                "minute": 10,
+                                "full": "2014-07-04T18:10:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 22,
+                                "minute": 10,
+                                "full": "2014-07-04T22:10:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 228,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+131",
+                                "underdogMoney": "-142",
+                                "homeMoney": "-164",
+                                "awayMoney": "+151",
+                                "total": 7.5,
+                                "overMoney": "+104",
+                                "underMoney": "-115"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 228,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+135",
+                                "underdogMoney": "-146",
+                                "homeMoney": "-159",
+                                "awayMoney": "+146",
+                                "total": 7.5,
+                                "overMoney": "+111",
+                                "underMoney": "-123"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1380012,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 19,
+                            "minute": 10,
+                            "full": "2014-07-04T19:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 23,
+                            "minute": 10,
+                            "full": "2014-07-04T23:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "A. Simon",
+                            "teamId": 241,
+                            "rotation": 958,
+                            "location": "Cincinnati",
+                            "nickname": "Reds",
+                            "abbreviation": "Cin",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "K. Lohse",
+                            "teamId": 232,
+                            "rotation": 957,
+                            "location": "Milwaukee",
+                            "nickname": "Brewers",
+                            "abbreviation": "Mil",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 18,
+                                "minute": 10,
+                                "full": "2014-07-04T18:10:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 22,
+                                "minute": 10,
+                                "full": "2014-07-04T22:10:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 241,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+181",
+                                "underdogMoney": "-197",
+                                "homeMoney": "-117",
+                                "awayMoney": "+108",
+                                "total": 8.0,
+                                "overMoney": "+106",
+                                "underMoney": "-117"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 241,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+187",
+                                "underdogMoney": "-204",
+                                "homeMoney": "-111",
+                                "awayMoney": "+103",
+                                "total": 7.5,
+                                "overMoney": "-102",
+                                "underMoney": "-108"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1378827,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 19,
+                            "minute": 10,
+                            "full": "2014-07-04T19:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 23,
+                            "minute": 10,
+                            "full": "2014-07-04T23:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "J. Niese",
+                            "teamId": 245,
+                            "rotation": 980,
+                            "location": "New York",
+                            "nickname": "Mets",
+                            "abbreviation": "NYM",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "Y. DARVISH",
+                            "teamId": 237,
+                            "rotation": 979,
+                            "location": "Texas",
+                            "nickname": "Rangers",
+                            "abbreviation": "Tex",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 18,
+                                "minute": 10,
+                                "full": "2014-07-04T18:10:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 22,
+                                "minute": 10,
+                                "full": "2014-07-04T22:10:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 237,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+133",
+                                "underdogMoney": "-144",
+                                "homeMoney": "-115",
+                                "awayMoney": "+106",
+                                "total": 6.5,
+                                "overMoney": "-110",
+                                "underMoney": "+100"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 237,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+136",
+                                "underdogMoney": "-148",
+                                "homeMoney": "+115",
+                                "awayMoney": "-125",
+                                "total": 6.5,
+                                "overMoney": "+104",
+                                "underMoney": "-115"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1380273,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 18,
+                            "minute": 15,
+                            "full": "2014-07-04T18:15:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 23,
+                            "minute": 15,
+                            "full": "2014-07-04T23:15:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "L. Lynn",
+                            "teamId": 248,
+                            "rotation": 960,
+                            "location": "St. Louis",
+                            "nickname": "Cardinals",
+                            "abbreviation": "StL",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "N. Eovaldi",
+                            "teamId": 252,
+                            "rotation": 959,
+                            "location": "Miami",
+                            "nickname": "Marlins",
+                            "abbreviation": "Mia",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 18,
+                                "minute": 15,
+                                "full": "2014-07-04T18:15:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 22,
+                                "minute": 15,
+                                "full": "2014-07-04T22:15:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 248,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+147",
+                                "underdogMoney": "-160",
+                                "homeMoney": "-148",
+                                "awayMoney": "+136",
+                                "total": 7.5,
+                                "overMoney": "-113",
+                                "underMoney": "+102"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 248,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+148",
+                                "underdogMoney": "-161",
+                                "homeMoney": "-146",
+                                "awayMoney": "+135",
+                                "total": 7.5,
+                                "overMoney": "-106",
+                                "underMoney": "-104"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1378610,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 19,
+                            "minute": 35,
+                            "full": "2014-07-04T19:35:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 23,
+                            "minute": 35,
+                            "full": "2014-07-04T23:35:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "E. Santana",
+                            "teamId": 239,
+                            "rotation": 962,
+                            "location": "Atlanta",
+                            "nickname": "Braves",
+                            "abbreviation": "Atl",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "J. Collmenter",
+                            "teamId": 253,
+                            "rotation": 961,
+                            "location": "Arizona",
+                            "nickname": "Diamondbacks",
+                            "abbreviation": "Ari",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 18,
+                                "minute": 35,
+                                "full": "2014-07-04T18:35:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 22,
+                                "minute": 35,
+                                "full": "2014-07-04T22:35:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 239,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+151",
+                                "underdogMoney": "-164",
+                                "homeMoney": "-141",
+                                "awayMoney": "+130",
+                                "total": 7.5,
+                                "overMoney": "+100",
+                                "underMoney": "-110"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 239,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+141",
+                                "underdogMoney": "-153",
+                                "homeMoney": "-163",
+                                "awayMoney": "+150",
+                                "total": 7.5,
+                                "overMoney": "+107",
+                                "underMoney": "-118"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1379641,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 18,
+                            "minute": 10,
+                            "full": "2014-07-04T18:10:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 5,
+                            "hour": 0,
+                            "minute": 10,
+                            "full": "2014-07-05T00:10:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "J. JURRJENS",
+                            "teamId": 251,
+                            "rotation": 964,
+                            "location": "Colorado",
+                            "nickname": "Rockies",
+                            "abbreviation": "Col",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "C. Kershaw",
+                            "teamId": 243,
+                            "rotation": 963,
+                            "location": "Los Angeles",
+                            "nickname": "Dodgers",
+                            "abbreviation": "LAD",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 19,
+                                "minute": 10,
+                                "full": "2014-07-04T19:10:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 23,
+                                "minute": 10,
+                                "full": "2014-07-04T23:10:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 243,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "-119",
+                                "underdogMoney": "+110",
+                                "homeMoney": "+151",
+                                "awayMoney": "-164",
+                                "total": 9.0,
+                                "overMoney": "-110",
+                                "underMoney": "+100"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 243,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "-120",
+                                "underdogMoney": "+111",
+                                "homeMoney": "+185",
+                                "awayMoney": "-202",
+                                "total": 9.0,
+                                "overMoney": "-124",
+                                "underMoney": "+112"
+                            }]
+                        }]
+                    }, {
+                        "eventId": 1378792,
+                        "startDate": [{
+                            "year": 2014,
+                            "month": 7,
+                            "date": 4,
+                            "hour": 18,
+                            "minute": 5,
+                            "full": "2014-07-04T18:05:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2014,
+                            "month": 7,
+                            "date": 5,
+                            "hour": 1,
+                            "minute": 5,
+                            "full": "2014-07-05T01:05:00",
+                            "dateType": "UTC"
+                        }],
+                        "teams": [{
+                            "startingPitcher": "C. Wilson",
+                            "teamId": 227,
+                            "rotation": 978,
+                            "location": "Los Angeles",
+                            "nickname": "Angels",
+                            "abbreviation": "LAA",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            }
+                        }, {
+                            "startingPitcher": "D. Keuchel",
+                            "teamId": 242,
+                            "rotation": 977,
+                            "location": "Houston",
+                            "nickname": "Astros",
+                            "abbreviation": "Hou",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            }
+                        }],
+                        "lines": [{
+                            "scope": {
+                                "scopeId": 1,
+                                "name": "Game"
+                            },
+                            "changeDate": [{
+                                "year": 2014,
+                                "month": 7,
+                                "date": 4,
+                                "hour": 20,
+                                "minute": 5,
+                                "full": "2014-07-04T20:05:00",
+                                "dateType": "Local"
+                            }, {
+                                "year": 2014,
+                                "month": 7,
+                                "date": 5,
+                                "hour": 0,
+                                "minute": 5,
+                                "full": "2014-07-05T00:05:00",
+                                "dateType": "UTC"
+                            }],
+                            "line": [{
+                                "lineType": {
+                                    "lineTypeId": 1,
+                                    "name": "opening"
+                                },
+                                "favoriteTeamId": 227,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+121",
+                                "underdogMoney": "-131",
+                                "homeMoney": "-170",
+                                "awayMoney": "+156",
+                                "total": 7.5,
+                                "overMoney": "-113",
+                                "underMoney": "+102"
+                            }, {
+                                "lineType": {
+                                    "lineTypeId": 2,
+                                    "name": "current"
+                                },
+                                "favoriteTeamId": 227,
+                                "favoritePoints": -1.5,
+                                "favoriteMoney": "+121",
+                                "underdogMoney": "-131",
+                                "homeMoney": "-180",
+                                "awayMoney": "+165",
+                                "total": 8.0,
+                                "overMoney": "-103",
+                                "underMoney": "-107"
+                            }]
+                        }]
+                    }]
+                }]
+            }
+        }
+    }]
+}

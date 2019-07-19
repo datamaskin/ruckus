@@ -1,0 +1,29 @@
+@(contests: List[models.contest.Contest])
+@adminMain("Contest name change"){
+<form method="POST" action="/admin/mgmt/changeContestName">
+    <div style="...">
+        <label for="contestname">Contest Name</label>
+        <input type="contestname" name="contestname" value="" width="80" id="contestname">
+    </div>
+    <div style="height:400px; overflow-y:scroll; border: 1px solid grey">
+        <table>
+            @for((contest, index) <- contests.view.zipWithIndex){
+            <tr>
+                <td><input type="checkbox" name="contestIds" value="@contest.getId()"/></td>
+                <td>@contest.getUrlId()</td>
+                <td>@contest.getContestType().getName()</td>
+                <td>@contest.getLeague().getName()</td>
+                <td>@contest.getCapacity()</td>
+                <td>@contest.isPublic()</td>
+                <td>@contest.getEntryFee()</td>
+                <td>@contest.getAllowedEntries()</td>
+                <td>@contest.getSalaryCap()</td>
+                <td>@contest.getSportEventGrouping.getEventDate()</td>
+                <td>@contest.getStartTime()</td>
+            </tr>
+            }
+        </table>
+    </div>
+    <input type="submit"/>
+</form>
+}

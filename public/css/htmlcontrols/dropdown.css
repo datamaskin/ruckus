@@ -1,0 +1,82 @@
+/* Author: Scott Gay */
+.ruckus .ddlBody {
+	height			: 30px;
+	border-radius		: 5px;
+	border-color		: #024F90;
+	border-style		: solid;
+	border-width		: 1px;
+	font-family		: arial;
+}
+
+.ruckus .ddlBody .ddlInput {
+	height			: 26px;
+	font-size		: 14pt;
+	padding-top		: 4px;
+	padding-left		: 5px;
+	overflow-x		: hidden;
+}
+
+.ruckus .ddlBody .ddlArrow {
+	cursor			: pointer;
+	background-color	: #aaaaaa;
+	height			: 30px;
+	width			: 30px;
+	background-image	: url(/assets/images/dropdown/arrowdown.png);
+}
+
+.ruckus .ddlBody .ddlRemove {
+	cursor			: pointer;
+	background-color	: #aaaaaa;
+	height			: 30px;
+	width			: 30px;
+	background-image	: url(/assets/images/dropdown/remove.png);
+}
+
+.ruckus .ddlBody .ddlDropdown {
+	max-height		: 250px;
+	overflow-y		: auto;
+	overflow-x		: hidden;
+	background-color	: #ffffff;
+	position		: absolute;
+	border-style		: solid;
+	border-left-width	: 1px;
+	border-right-width	: 1px;
+	border-bottom-width	: 1px;
+	border-top-width	: 1px;
+	margin-left		: 2px;
+	border-color		: #999999;
+	z-index			: 999;
+}
+
+.ruckus .ddlBody .ddlListItem {
+	cursor			: pointer;
+	border-bottom-width	: 0px;
+	border-top-width	: 0px;
+	border-left-width	: 0px;
+	border-right-width	: 0px;
+	border-style		: solid;
+	border-color		: #999999;
+	padding			: 5px;
+}
+
+.ruckus .ddlBody .ddlSelectedItem {
+	background-color	: #B7D2FF;
+}
+
+.ruckus .ddlBody .ddlListItem .ddlImage{
+	height			: 20px;
+	width			: 20px;
+	margin-right		: 10px;
+}
+
+.ruckus .placeholderdd {
+	position		: absolute;
+	padding			: 0px 3px 0px 3px;
+	font-size		: 8pt;
+	color			: #999999;
+	background-color	: #ffffff;
+	margin-top		: -38px;
+	margin-left		: 10px;
+}
+
+

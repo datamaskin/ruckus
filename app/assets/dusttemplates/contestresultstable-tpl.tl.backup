@@ -1,0 +1,36 @@
+<div class="col-xs-24" style="font-size:10pt;">
+	<div class="row">
+		<div class="col-xs-24">
+			<div class="table-responsive">
+				<table id="contestresultstable" class="table tablesorter table-condensed">
+					<thead>
+					<tr id="contestresultsheader">
+					<th style="cursor:pointer;">Contest</th>
+					<th style="cursor:pointer;">Entries</th>
+					<th style="cursor:pointer;">Size</th>
+					<th style="cursor:pointer;">Entry</th>
+					<th style="cursor:pointer;">Prizes</th>
+					<th style="cursor:pointer;">Starts</th>
+					<th style=""></th>
+					<th style=""></th>
+					</tr>
+					</thead>
+					<tbody> 
+					{#contests}
+						<tr id="contestresult_{id}" style="cursor:pointer;">
+							<td id="contestresultsport_{id}">{sport} {type}</td>
+							<td id="contestresultcurrententries_{id}" class="columnlink">{current_entries}</td>
+							<td id="contestresultsize_{id}" class="columnlink">{size}</td>
+							<td id="contestresultentryfee_{id}">${entry_fee}</td>
+							<td id="contestresultentrypool_{id}" class="columnlink">${entry_pool}</td>
+							<td id="contestresultstarttime_{id}">{start_time}</td>
+							<td id="contestresultquick_{id}" style="display:none;">Quick</td>
+							<td id="contestresultenter_{id}">Enter</td>
+						</tr>
+					{/contests}
+					</tbody>
+				</table>
+			</div>	
+		</div>
+	</div>
+</div>

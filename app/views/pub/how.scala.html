@@ -1,0 +1,116 @@
+@import models.wallet.UserWallet
+
+@(user: models.user.User, wallet: UserWallet)
+@import views.html.pub.components._
+
+@imports.render(user)
+<title>VICTIV | How to play fantasy sports </title>
+@if(user != null){
+    @headerAuth.render(user, wallet)
+} else {
+    @header.render(user)
+}
+<div class="col-xs-24 top football2">
+	<div class="row section howitworks">
+
+				<div class="mainHeader center">HOW IT WORKS</div>
+				<div class="descHeader center">
+				Victiv is an evolved version of fantasy sports that compresses traditional season long leagues into just one day or week.
+				</div>
+				<ul class="inline">
+				<li><img src="/assets/images/1_day.png">
+          <div class="descTitle">
+            Play Daily
+          </div>
+          <div class="descContent">
+            Different from your season-long fantasy league, VICTIV allows you to draft a brand new roster every day — no long-term commitment required.
+          </div>
+        </li>
+				<li><img src="/assets/images/1_team.png">
+          <div class="descTitle">
+            Draft a Roster
+          </div>
+          <div class="descContent">
+            Select a contest, pick your team while staying below the salary cap, and compete against your buddies or opponents from around the country.
+          </div>
+        </li>
+				<li><img src="/assets/images/1_payout.png">
+          <div class="descTitle">
+            Quick & Easy
+          </div>
+          <div class="descContent">
+            Play our daily free competitions, or enter fantasy sports contests for as little as $2 or as much as $200. Winners are paid out each day.
+          </div>
+        </li>
+			</ul>
+
+	</div>
+</div>
+<div class="col-xs-24 light">
+	<div class="row section choose center">
+        <div class="numbers">
+          <img src="/assets/images/1drk.png" height="50px">
+        </div>
+				<div class="mainHeader center">CHOOSE</div>
+				<div class="descHeader center">
+					In our lobby, scroll through the available contests and enter as many as you’d like. Alternatively, customize one that’s perfect for you by selecting a sport, buy-in amount, and the number of competitors you’d like to challenge.
+				</div>
+				<video preload="auto" autoplay poster="/assets/images/howLobby.png" loop width="750">
+					<source src="https://dm63aeeijtc75.cloudfront.net/video/web_lobby-aug20.mp4" type="video/mp4">
+					<source src="https://dm63aeeijtc75.cloudfront.net/video/web_lobby.ogv" type="video/ogg">
+				</video>
+	</div>
+</div>
+<div class="col-xs-24">
+	<div class="row section create center">
+        <div class="numbers">
+          <img src="/assets/images/2drk.png" height="50px">
+        </div>
+				<div class="mainHeader center">CREATE</div>
+				<div class="descHeader center">
+					You’ve chosen your contest — now pick your winning fantasy team.</br></br>
+					Each athlete has a designated salary based on expected performance. Your salary cap tells you how much you can spend. Select athletes manually or use the VICTRON to automatically fill your roster.
+				</div>
+
+				<video preload="auto" autoplay poster="/assets/images/howEnter.png" loop width="750">
+					<source src="https://dm63aeeijtc75.cloudfront.net/video/web_contest-aug20.mp4" type="video/mp4">
+					<source src="https://dm63aeeijtc75.cloudfront.net/video/web_contest.ogv" type="video/ogg">
+				</video>
+	</div>
+</div>
+<div class="col-xs-24 light">
+	<div class="row section experience center">
+        <div class="numbers">
+          <img src="/assets/images/3drk.png" height="50px">
+        </div>
+				<div class="mainHeader center">EXPERIENCE</div>
+				<div class="descHeader center">
+					Once the sporting events start, follow all the action from our real-time interactive dashboards. Monitor your contests, athletes, and lineups or drill-in for a detailed view of a specific competition.
+				</div>
+
+				<video preload="auto" autoplay poster="/assets/images/howOverview.png" loop width="750">
+					<source src="https://dm63aeeijtc75.cloudfront.net/video/web_dashboard-aug22.mp4" type="video/mp4">
+					<source src="https://dm63aeeijtc75.cloudfront.net/video/web_dashboard.ogv" type="video/ogg">
+				</video>
+	</div>
+</div>
+<div class="col-xs-24 win">
+	<div class="row section callToAction">
+			<div class="col-xs-5"></div>
+			<div class="col-xs-14">
+				<div class="mainHeader center">WIN</div>
+				<div class="descHeader center">
+					Score more fantasy points than your competition and win real cash prizes.
+				</div>
+				<a href="/login" class="greenButton">JOIN NOW</a>
+			</div>
+			<div class="col-xs-5"></div>
+	</div>
+</div>
+
+
+
+
+
+
+@footer.render(user)

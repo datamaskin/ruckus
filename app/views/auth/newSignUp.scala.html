@@ -1,0 +1,180 @@
+@(request: play.api.mvc.RequestHeader, lang: play.api.i18n.Lang, env:securesocial.core.RuntimeEnvironment[_])
+@import securesocial.core.providers.UsernamePasswordProvider.UsernamePassword
+
+@views.html.auth.main("SIGN UP", lang, env) {
+<script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<div class="topSpacer"></div>
+
+<div class="fifty top left"><p><span class="logincircle selected">1</span>Register</p></div><div class="fifty top right"><p class="loginCircleGrey"><span class="logincircle">2</span>Deposit or Try for Free</p></div>
+<div class="clearfix"></div>
+<div class="sexyLine"></div>
+
+<div class="fifty createAccount"><div>
+    <div class="page-header header">
+        <h1>Sign Up</h1>
+    </div>
+
+    @request.flash.get("error").map { msg =>
+    <div class="alert alert-error">
+        @msg
+    </div>
+    }
+    @defining( env.providers.values.filter( _.id != UsernamePassword) ) { externalProviders =>
+
+        @if( externalProviders.size > 0 ) {
+        <div class="clearfix">
+            <p>Sign Up with Social Network</p>
+            <p>
+                @for(p <- externalProviders) {
+                    @views.html.auth.provider(p.id, None, request, lang, env)
+                }
+            </p>
+        </div>
+        }
+        <p class="or"><span>@Messages("securesocial.login.or")</span></p>
+    }
+    <p>Sign Up with Email</p>
+<form method="POST" id="signupForm" action="/newSignUp">
+    <div class="control-group">
+        <div class="controls">
+            <input type="text" id="username" name="username" placeholder="Username" autocomplete="false"/>
+            <div class="icons iconsuser_dark"></div>
+            <div class="validateLogin icons" id="usernameValid"></div>
+        </div>
+    </div>
+    <div class="control-group">
+        <div class="controls">
+            <input type="text" id="email" name="email" placeholder="Email" autocomplete="false"/>
+            <div class="icons iconsemail_dark"></div>
+            <div class="validateLogin icons" id="emailValid"></div>
+        </div>
+    </div>
+    <div class="control-group">
+        <div class="controls">
+            <input type="password" id="password" name="password" placeholder="Password" autocomplete="false"/>
+            <div class="icons iconspassword_dark"></div>
+            <div class="validateLogin icons" id="passwordValid"></div>
+            <div class="bodyText">Password must be at least 8 characters, including 1 uppercase letter and 1 number.</div>
+        </div>
+    </div>
+    <div class="form-actions">
+        <input class="btn btn-primary" type="submit" id="submit" value="SUBMIT"/>
+    </div>
+    <script>
+        var pwRegex = new RegExp(/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z\ \!\@@\#\$\%\^\&\*\(\)\_\+\-\=\{\}\|\[\]\\\:\"\;\'\<\>\?\,\.\/]{8,}$/);
+        var emailRegex = new RegExp(/^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$/);
+
+        var usernameValid, emailValid, passwordValid;
+
+        function verifyUsername(){
+            $.get("/verifyUsername?u="+$("#username").val(), function(data){
+                var result = JSON.parse(data)
+                if(result.type == "OK"){
+                    $("#usernameValid").removeClass("iconsremove_red");
+                    $("#usernameValid").addClass("iconscheckmark_green");
+                    usernameValid = true;
+                } else {
+                    $("#usernameValid").removeClass("iconscheckmark_green");
+                    $("#usernameValid").addClass("iconsremove_red");
+                    usernameValid = false;
+                }
+            });
+        }
+
+        function verify(){
+            verifyEmail()
+            verifyPassword()
+        }
+
+        function verifyEmail(){
+            var email = $("#email").val();
+            if(email){
+                if(emailRegex.test(email)){
+                    $("#emailValid").addClass("iconscheckmark_green");
+                    $("#emailValid").removeClass("iconsremove_red");
+                    emailValid = true;
+                } else {
+                    $("#emailValid").addClass("iconsremove_red");
+                    $("#emailValid").removeClass("iconscheckmark_green");
+                    emailValid = false;
+                }
+            } else {
+                $("#emailValid").removeClass("iconsremove_red");
+                $("#emailValid").removeClass("iconscheckmark_green");
+                emailValid = false;
+            }
+        }
+
+        function verifyPassword(){
+            var password = $("#password").val();
+            if(password){
+                if(pwRegex.test(password)){
+                    $("#passwordValid").addClass("iconscheckmark_green");
+                    $("#passwordValid").removeClass("iconsremove_red");
+                    passwordValid = true;
+                } else {
+                    $("#passwordValid").addClass("iconsremove_red");
+                    $("#passwordValid").removeClass("iconscheckmark_green");
+                    passwordValid = false;
+                }
+            } else {
+                $("#passwordValid").removeClass("iconsremove_red");
+                $("#passwordValid").removeClass("iconscheckmark_green");
+                passwordValid = false;
+            }
+        }
+
+        function throttle(f, delay){
+            var timer = null
+            return function(){
+                var context = this, args = arguments
+                clearTimeout(timer)
+                timer = window.setTimeout(function(){
+                    f.apply(context, args)
+                },
+                delay || 500)
+            }
+        }
+
+        $("#username").keyup(throttle(function(){verifyUsername()}))
+        $("#password").keyup(function(){verify()})
+        $("#password").focus(function(){verify()})
+        $("#email").keyup(function(){verify()})
+
+        $("#signupForm").submit(function(event) {
+            if(usernameValid && emailValid && passwordValid){
+                $("#signupForm").submit();
+            } else {
+                event.preventDefault();
+            }
+        });
+    </script>
+</form>
+</div>
+</div>
+<div class="vdivide"></div>
+
+<div class="fifty"><div style="width:400px"><div class="page-header header">
+
+        <h1>@Messages("securesocial.login.bodyTextTitle")</h1>
+        <div class="bodyText"><!--@Messages("securesocial.login.bodyText")-->
+
+We’re happy to introduce you to the beta versions of victiv.com.  Please explore the website and provide as much feedback as possible, including:</br>
+<ul>
+ <li>bugs you find</li>
+ <li>elements you don’t understand</li>
+<li>future features you’d hope to enjoy</li>
+</ul>
+
+Our goal is to build the best possible daily fantasy sports experience, and your feedback is integral in making that happen.</br></br>
+
+When sending us your feedback, please provide as much detail as possible — which browser did you use (Chrome, Safari, Internet Explorer, etc.), PC or Mac, and any screen shots of issues.</br></br>
+
+Send us emails with your feedback to <a style="color:#000000; text-decoration:underline;" href="mailto:beta@@victiv.com" target="_top">beta@@victiv.com</a>.</div>
+</div>
+</div>
+</div>
+
+
+}

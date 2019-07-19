@@ -1,0 +1,36 @@
+@(contests: List[models.contest.Contest])(states: List[models.contest.ContestState])
+@adminMain("Contest state change"){
+<form method="post" action="/admin/mgmt/contestChangeState">
+    <div style="...">
+        <label for="conteststate>">Contest State</label>
+        <select name="contestState">
+            @for(state <- states){
+            <option value="@state.getId()">
+            @state.getName()
+            }
+            </option>
+        </select>
+    </div>
+    <div style="...">
+        <table>
+            @for((contest, index) <- contests.view.zipWithIndex){
+            <tr>
+                <td><input type="checkbox" name="contestIds" value="@contest.getId()"/></td>
+                <td>@contest.getUrlId()</td>
+                <td>@contest.getContestType().getName()</td>
+                <td>@contest.getLeague().getName()</td>
+                <td>@contest.getCapacity()</td>
+                <td>@contest.isPublic()</td>
+                <td>@contest.getEntryFee()</td>
+                <td>@contest.getAllowedEntries()</td>
+                <td>@contest.getSalaryCap()</td>
+                <td>@contest.getSportEventGrouping.getEventDate()</td>
+                <td>@contest.getStartTime()</td>
+                <td>@contest.getContestState.getName()</td>
+            </tr>
+            }
+        </table>
+    </div>
+    <input type="submit"/>
+</form>
+}

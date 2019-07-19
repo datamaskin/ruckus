@@ -1,0 +1,32 @@
+@(user: models.user.User)(userRoles: List[models.user.UserRole])
+@adminMain("Update User Roles") {
+<form method="post" action="/admin/devops/updateUser">
+    <div style="...">
+        <label for="username">User name:</label>
+        <input type="hidden" name="user" value="@user.getUserName()"/>
+        <div id="username" align="left">@user.getUserName()</div>
+        <div>
+            <ul>
+            <label for="userrole">Current Roles:</label>
+            @for(userrole <- user.getUserRoles()) {
+                <li>
+                    <input type="checkbox" name="userrole" value="@userrole.getName()" id="userrole" checked/>&nbsp;&nbsp;&nbsp;@userrole.getName()
+                </li>
+            }
+            </ul>
+            <div>
+                <hr/>
+                <label for="available">Available Roles:</label>
+            </div>
+            <ul id="available">
+                @for((userRole, index) <- userRoles.view.zipWithIndex){
+                    <li>
+                        <input type="checkbox" name="rolename" value="@userRole.getName()" id="userrole"/>&nbsp;&nbsp;@userRole.getName()
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+    <input type="submit"/>
+</form>
+}

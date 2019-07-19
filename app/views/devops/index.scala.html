@@ -1,0 +1,13 @@
+@adminMain("DevOps"){
+    <ul>
+        <li><a href="@controllers.admin.devops.routes.DevOpsController.flushAllCaches">Clear caches</a></li>
+        <li><a href="@controllers.admin.devops.routes.DevOpsController.getHazelcastInfo">Hazelcast information</a></li>
+        <li><a href="@controllers.admin.mgmt.routes.StatsController.updateNflPredictions">Update NFL Predictions</a></li>
+        <li><a href="/admin/mgmt/updateNflPredictions?updateStats=false&updateOdds=false">Update NFL Predictions (skip stats)</a></li>
+        <li><a href="@controllers.admin.devops.routes.DevOpsController.getNflPredictionCount">NFL Prediction Table Count</a></li>
+        <li><a href="@controllers.admin.devops.routes.DevOpsController.version">Current running app version</a></li>
+        <li><a href="">System internals</a></li>
+        <li><a href="@controllers.admin.mgmt.routes.StatsController.index">Stats feeds</a></li>
+        <li><a href="@controllers.admin.devops.routes.DevOpsController.updateUserRoles">User management</a></li>
+    </ul><!-- TODO need to migrate this page .et .al under view/admin-->
+}

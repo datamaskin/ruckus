@@ -1,0 +1,23 @@
+/* Author: Scott Gay */
+.ruckus .rucradio {
+	cursor			: pointer;
+}
+
+.ruckus .radiolabel {
+	font-size		: 10pt;
+	color			: #333333;
+	margin-left		: 5px;
+	margin-top		: 8px;
+}
+
+.ruckus .rucradio.checked {
+	background-image	: url(/assets/images/radioGroup/radio_checked.png);
+	height			: 25px;
+	width			: 25px;
+}
+
+.ruckus .rucradio.unchecked {
+	background-image	: url(/assets/images/radioGroup/radio_unchecked.png);
+	height			: 25px;
+	width			: 25px;
+}

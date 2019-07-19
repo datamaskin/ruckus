@@ -1,0 +1,51 @@
+@(user: models.user.User, wallet: models.wallet.UserWallet)
+@import views.html.pub.components._
+
+@imports.render(user)
+<title>VICTIV | 100% Legal Daily Fantasy Sports</title>
+
+@if(user != null){
+    @headerAuth.render(user, wallet)
+} else {
+    @header.render(user)
+}
+<div class="col-xs-24 light">
+	<div class="row section legalTop">
+		<div class="col-xs-14 legalText">
+			<div class="mainHeader">
+				Is Daily Fantasy Sports Legal?
+			</div>
+			<div class="descHeader">
+				Fantasy sports leagues are specifically defined by the United States Federal Government as games of skill. Because of this definition, participants can submit entry fees online to play in fantasy sports contests.
+		</div>
+	</div>
+		<div class="col-xs-10 legalCircle">
+				<img src="/assets/images/legal.png" height="350px" width="400px">
+		</div>
+	</div>
+</div>
+<div class="col-xs-24">
+	<div class="row section legalBottom">
+		<div class="descHeader">
+			Unlawful Internet Gambling Enforcement Act of 2006
+		</div>
+			<div class="descContent">
+				The Unlawful Internet Gambling Enforcement Act of 2006 (UIGEA) exempts fantasy sports from the UIGEA and allows Americans to participate in fantasy sports online for real money in season-long or daily fantasy sports leagues as long as:
+			</div>
+			<ul class="textList">
+				<li>Prizes are declared in advance of the contest</li>
+				<li>Value is not determined by the number of participants or the amount of any fees paid by those participants</li>
+				<li>Winning outcomes reflect the relative knowledge and skill of the participants and are determined by accumulated statistical results of the performance of athletes in multiple real-world sporting events </li>
+				<li>No winning outcome is based on
+					<ul>
+				<li>the score, point-spread, or any performance or performances of any single real-world team or any combination of such teams</li>
+				<li>any single performance of an individual athlete in any single real-world sporting or other event</li></ul></li>
+			</ul>
+			<div>
+				While the U.S. government allows citizens to participate in real money fantasy sports contests, individual states are allowed to make their own legislation. After careful review, our lawyers have determined that legal residents or people physically located in Arizona, Louisiana, Montana, and Washington may not play in real money fantasy sports contests on Victiv at this time.
+
+				Victiv does not condone illegal online gambling and actively adheres to the rules laid out in the UIGEA.
+			</div>
+	</div>
+</div>
+@footer.render(user)

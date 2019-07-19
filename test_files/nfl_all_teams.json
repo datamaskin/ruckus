@@ -1,0 +1,233 @@
+{
+    "status": "OK",
+    "recordCount": 32,
+    "startTimestamp": "2014-05-29T23:29:44.3140993Z",
+    "endTimestamp": "2014-05-29T23:29:44.3297244Z",
+    "timeTaken": 0.0156251,
+    "apiResults": [{
+        "sportId": 4,
+        "name": "Football",
+        "league": {
+            "leagueId": 8,
+            "name": "National Football League",
+            "abbreviation": "NFL",
+            "displayName": "National Football League",
+            "season": {
+                "season": 2014,
+                "name": "2014-2015 NFL Season",
+                "isActive": true,
+                "conferences": [{
+                    "conferenceId": 4,
+                    "name": "National Football Conference",
+                    "abbreviation": "NFC",
+                    "divisions": [{
+                        "divisionId": 5,
+                        "name": "South",
+                        "abbreviation": "South",
+                        "teams": [{
+                            "teamId": 323,
+                            "location": "Atlanta",
+                            "nickname": "Falcons",
+                            "abbreviation": "Atl"
+                        }, {
+                            "teamId": 350,
+                            "location": "New Orleans",
+                            "nickname": "Saints",
+                            "abbreviation": "NO"
+                        }, {
+                            "teamId": 362,
+                            "location": "Tampa Bay",
+                            "nickname": "Buccaneers",
+                            "abbreviation": "TB"
+                        }, {
+                            "teamId": 364,
+                            "location": "Carolina",
+                            "nickname": "Panthers",
+                            "abbreviation": "Car"
+                        }]
+                    }, {
+                        "divisionId": 4,
+                        "name": "North",
+                        "abbreviation": "North",
+                        "teams": [{
+                            "teamId": 326,
+                            "location": "Chicago",
+                            "nickname": "Bears",
+                            "abbreviation": "Chi"
+                        }, {
+                            "teamId": 334,
+                            "location": "Detroit",
+                            "nickname": "Lions",
+                            "abbreviation": "Det"
+                        }, {
+                            "teamId": 335,
+                            "location": "Green Bay",
+                            "nickname": "Packers",
+                            "abbreviation": "GB"
+                        }, {
+                            "teamId": 347,
+                            "location": "Minnesota",
+                            "nickname": "Vikings",
+                            "abbreviation": "Min"
+                        }]
+                    }, {
+                        "divisionId": 1,
+                        "name": "East",
+                        "abbreviation": "East",
+                        "teams": [{
+                            "teamId": 331,
+                            "location": "Dallas",
+                            "nickname": "Cowboys",
+                            "abbreviation": "Dal"
+                        }, {
+                            "teamId": 351,
+                            "location": "New York",
+                            "nickname": "Giants",
+                            "abbreviation": "NYG"
+                        }, {
+                            "teamId": 354,
+                            "location": "Philadelphia",
+                            "nickname": "Eagles",
+                            "abbreviation": "Phi"
+                        }, {
+                            "teamId": 363,
+                            "location": "Washington",
+                            "nickname": "Redskins",
+                            "abbreviation": "Was"
+                        }]
+                    }, {
+                        "divisionId": 3,
+                        "name": "West",
+                        "abbreviation": "West",
+                        "teams": [{
+                            "teamId": 343,
+                            "location": "St. Louis",
+                            "nickname": "Rams",
+                            "abbreviation": "StL"
+                        }, {
+                            "teamId": 355,
+                            "location": "Arizona",
+                            "nickname": "Cardinals",
+                            "abbreviation": "Ari"
+                        }, {
+                            "teamId": 359,
+                            "location": "San Francisco",
+                            "nickname": "49ers",
+                            "abbreviation": "SF"
+                        }, {
+                            "teamId": 361,
+                            "location": "Seattle",
+                            "nickname": "Seahawks",
+                            "abbreviation": "Sea"
+                        }]
+                    }]
+                }, {
+                    "conferenceId": 3,
+                    "name": "American Football Conference",
+                    "abbreviation": "AFC",
+                    "divisions": [{
+                        "divisionId": 1,
+                        "name": "East",
+                        "abbreviation": "East",
+                        "teams": [{
+                            "teamId": 324,
+                            "location": "Buffalo",
+                            "nickname": "Bills",
+                            "abbreviation": "Buf"
+                        }, {
+                            "teamId": 345,
+                            "location": "Miami",
+                            "nickname": "Dolphins",
+                            "abbreviation": "Mia"
+                        }, {
+                            "teamId": 348,
+                            "location": "New England",
+                            "nickname": "Patriots",
+                            "abbreviation": "NE"
+                        }, {
+                            "teamId": 352,
+                            "location": "New York",
+                            "nickname": "Jets",
+                            "abbreviation": "NYJ"
+                        }]
+                    }, {
+                        "divisionId": 5,
+                        "name": "South",
+                        "abbreviation": "South",
+                        "teams": [{
+                            "teamId": 325,
+                            "location": "Houston",
+                            "nickname": "Texans",
+                            "abbreviation": "Hou"
+                        }, {
+                            "teamId": 336,
+                            "location": "Tennessee",
+                            "nickname": "Titans",
+                            "abbreviation": "Ten"
+                        }, {
+                            "teamId": 338,
+                            "location": "Indianapolis",
+                            "nickname": "Colts",
+                            "abbreviation": "Ind"
+                        }, {
+                            "teamId": 365,
+                            "location": "Jacksonville",
+                            "nickname": "Jaguars",
+                            "abbreviation": "Jax"
+                        }]
+                    }, {
+                        "divisionId": 4,
+                        "name": "North",
+                        "abbreviation": "North",
+                        "teams": [{
+                            "teamId": 327,
+                            "location": "Cincinnati",
+                            "nickname": "Bengals",
+                            "abbreviation": "Cin"
+                        }, {
+                            "teamId": 329,
+                            "location": "Cleveland",
+                            "nickname": "Browns",
+                            "abbreviation": "Cle"
+                        }, {
+                            "teamId": 356,
+                            "location": "Pittsburgh",
+                            "nickname": "Steelers",
+                            "abbreviation": "Pit"
+                        }, {
+                            "teamId": 366,
+                            "location": "Baltimore",
+                            "nickname": "Ravens",
+                            "abbreviation": "Bal"
+                        }]
+                    }, {
+                        "divisionId": 3,
+                        "name": "West",
+                        "abbreviation": "West",
+                        "teams": [{
+                            "teamId": 332,
+                            "location": "Denver",
+                            "nickname": "Broncos",
+                            "abbreviation": "Den"
+                        }, {
+                            "teamId": 339,
+                            "location": "Kansas City",
+                            "nickname": "Chiefs",
+                            "abbreviation": "KC"
+                        }, {
+                            "teamId": 341,
+                            "location": "Oakland",
+                            "nickname": "Raiders",
+                            "abbreviation": "Oak"
+                        }, {
+                            "teamId": 357,
+                            "location": "San Diego",
+                            "nickname": "Chargers",
+                            "abbreviation": "SD"
+                        }]
+                    }]
+                }]
+            }
+        }
+    }]
+}

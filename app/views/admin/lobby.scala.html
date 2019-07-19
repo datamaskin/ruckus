@@ -1,0 +1,52 @@
+@(contestTypes: List[models.contest.ContestType])(sportEventGroupingTypes: List[models.sports.SportEventGroupingType])(sportEventGroupings: List[models.sports.SportEventGrouping])(sportEvents: List[models.sports.SportEvent])
+        <h2>update prediction data</h2>
+        <ul>
+            <li><a href="/admin/updateNflGamelogs">Update NFL game logs</a></li>
+            <li><a href="/admin/updateNflGameOdds">Update NFL game odds</a></li>
+            <li><a href="/admin/updateNflPredictions">Update NFL predictions</a></li>
+        </ul>
+
+        <hr/>
+
+        <h2>create single contest</h2>
+        <form method="POST" action="">
+            <div>
+                contest type:
+                <select name="contestTypeId">
+                @for(contestType <- contestTypes){<option value="@contestType.getId()">@contestType.getName()</option>}
+                </select>
+            </div>
+            <div>
+                sport event grouping
+                <select name="sportEventGroupingId">
+                    @for(sportEventGrouping <- sportEventGroupings){
+                    <option value="@sportEventGrouping.getId()">
+                        @sportEventGrouping.getSportEventGroupingType().getName() -
+                        @sportEventGrouping.getEventDate()
+                    </option>
+                    }
+                </select>
+            </div>
+            <div>capacity: <input name="capacity" /></div>
+            <div>entry fee: <input name="entryFee" /></div>
+            <div>allowed entries: <input name="allowedEntries" /></div>
+            <div>salary cap: <input name="salaryCap" /></div>
+            <div>
+                payouts
+                <table>
+                    <tr>
+                        <td>leading</td>
+                        <td>trailing</td>
+                        <td>payout</td>
+                    </tr>
+                    @for(index <- (1 to 10)){
+                    <tr>
+                        <td><input name="leadingPosition"/></td>
+                        <td><input name="trailingPosition"/></td>
+                        <td><input name="payoutAmount"/></td>
+                    </tr>
+                    }
+                </table>
+            </div>
+            <input type="submit"/>
+        </form>

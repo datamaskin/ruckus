@@ -1,0 +1,699 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+* {
+  font-weight: 300;
+}
+
+/* Disable header links for beta version */
+.preLogin .noLink {
+    cursor: default;
+    pointer-events: none;
+    background:#707070;
+}
+
+.dropdown-menu>li.noLink>a {
+  color:#c0c0c0!important;
+}
+
+.preLogin li.noLink:first-child:before {
+  content: "COMING SOON";
+width: 100px;
+font-weight: 400;
+color: #474747;
+position: absolute;
+text-align: center;
+left: 16px;
+top: 90px;
+font-size: 17px;
+}
+
+/*------- general styles -------*/
+.preLogin {
+    background:#fffeff;
+}
+
+.preLogin #main{
+    width:auto;
+}
+
+.preLogin #main>.col-xs-24{
+    padding:0;
+}
+
+.preLogin .greenButton {
+  width: 180px;
+  background-color: #7cdfa4;
+  color: #FFFFFF;
+  font-size: 12px;
+  border-radius: 3px;
+  box-shadow: inset 0 0 1px #bff6d5;
+  border: 1px solid #9bd1b1;
+  padding: 10px 6px;
+  text-shadow: 0 1px 1px #85b699;
+  text-align: center;
+  cursor: pointer;
+  margin:0;
+  display:block;
+  text-decoration:none;
+  font-weight:200;
+  font-size:16px;
+  -webkit-transition: background-color .5s ease, border-color .25s ease;
+  -moz-transition: background-color .5s ease, border-color .25s ease;
+  -o-transition: background-color .5s ease, border-color .25s ease;
+  transition: background-color .5s ease, border-color .25s ease;
+}
+
+.preLogin .greenButton:hover {
+ background-color: #72d098;
+ border:1px solid #79a98c;
+}
+
+.preLogin .whiteButton {
+  width: 180px;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 12px;
+  border-radius: 3px;
+  box-shadow: inset 0 0 1px #bff6d5;
+  border: 1px solid #fff;
+  padding: 10px 6px;
+  text-shadow: 0 1px 1px #85b699;
+  text-align: center;
+  cursor: pointer;
+  margin:0;
+  display:block;
+  text-decoration:none;
+  font-weight:200;
+  font-size:16px;
+  -webkit-transition: background-color .5s ease;
+  -moz-transition: background-color .5s ease;
+  -o-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+
+.preLogin .whiteButton:hover {
+  background-color:#232323;
+}
+
+.preLogin .darkButton {
+  width: 180px;
+  background-color: transparent;
+  color: #474747;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #474747;
+  padding: 10px 6px;
+  text-align: center;
+  cursor: pointer;
+  margin:0;
+  display:block;
+  text-decoration:none;
+  font-weight:200;
+  font-size:16px;
+  -webkit-transition: background-color .5s ease, color .5s ease;
+  -moz-transition: background-color .5s ease, color .5s ease;
+  -o-transition: background-color .5s ease, color .5s ease;
+  transition: background-color .5s ease, color .5s ease;
+}
+
+.preLogin .darkButton:hover {
+  background-color:#474747;
+  color:#fff;
+}
+
+
+ul.inline {
+  width:100%;
+  list-style:none;
+  display:inline-block;
+  padding-left: 0px;
+}
+
+.inline li {
+    background-color:transparent;
+    float:left;
+    margin-right:7px;
+    margin-left:7px;
+    width:18%;
+    text-align:center;
+}
+
+ul.textList {
+  padding:0 0 0 23px;
+}
+
+.textList li {
+  font-size:14px;
+  font-weight:200;
+  color:#474747;
+  line-height: 32px;
+}
+
+.preLogin #main>.col-xs-24.master {
+  margin-top:-70px;
+  padding-top:70px;
+}
+
+.dark {
+  color:#fff;
+}
+
+.football1 {
+  background-image: url('/assets/images/football1.png');
+  background-size: 1900px;
+  background-position: center center;
+}
+
+.football2 {
+  background-image: url('/assets/images/football1.png');
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.light {
+  border-bottom:1px solid #dbdbdb;
+  border-top:1px solid #dbdbdb;
+  color:#474747
+}
+
+.section {
+  width:1170px;
+  margin:0 auto;
+  padding:60px 0;
+}
+
+.sexyLine {
+  display:block;
+  border:none;
+  color:white;
+  height:1px;
+  background:#cccccc;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 580, from(#cccccc), to(#fff));
+}
+
+.section .mainHeader {
+  font-size:34px;
+  font-weight:100;
+  color:#474747;
+}
+
+.section .exploreVideo {
+  margin-top:105px;
+  margin-left:45px
+}
+
+.section .descHeader,
+.callToAction .descHeader {
+  margin-top:32px;
+  font-size:26px;
+  font-weight:100;
+}
+
+.section.textMe .descHeader:first-child {
+  margin-top:0;
+}
+
+.callToAction .descHeader {
+  font-size:20px;
+}
+
+.section .descContent,
+.callToAction .descContent {
+  padding-top:15px;
+  font-size:12px;
+  font-weight:200;
+  color:#474747;
+}
+
+.section .descContent.white  {
+  color:#fff;
+}
+
+.section.center, .section .mainHeader.center,
+.section .descContent.center,
+.callToAction .descContent.center,
+.section .descHeader.center,
+.callToAction .descHeader.center {
+  text-align: center;
+}
+
+.callToAction .enterButton {
+  width: 215px;
+  background-color: #707070;
+  color: #FFFFFF;
+  font-size: 12px;
+  border-radius: 3px;
+  box-shadow: inset 0 0 1px #E0E0E0;
+  border: 1px solid #494949;
+  margin: 5px;
+  padding: 6px;
+  text-shadow: 0 1px 1px #3c3c3c;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  -webkit-transition: background-color .5s ease;
+  -moz-transition: background-color .5s ease;
+  -o-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+
+.callToAction .enterButton:hover {
+ background-color: #474747;
+}
+
+.clearbtn {
+  font-size:11px;
+  border: 1px solid #ffffff;
+  padding:5px 20px 5px 20px;
+  border-radius:5px;
+  margin-top:10px;
+  background-color:transparent;
+  color:#ffffff;
+  -webkit-transition: background-color .5s ease;
+  -moz-transition: background-color .5s ease;
+  -o-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+
+.clearbtn:hover {
+  text-decoration:none;
+  border:1px solid #7cdfa4;
+  color:#fff;
+  opacity:1;
+  background-color:#7cdfa4;
+}
+
+.floatright {
+  float:right;
+  margin-top:25px;
+}
+
+.navbar .floatright .clearbtn:first-child {
+  margin-right:5px;
+}
+
+/*------ landing page ------*/
+
+.computer {
+  background-image:url(/assets/images/videobg.png);
+  background-size:1050px;
+  background-position:center top;
+  background-repeat: no-repeat;
+  padding: 96px 60px 80px 300px;
+}
+
+.section.hero .descHeader {
+  font-size: 18px;
+  padding:80px 315px 40px 90px;
+  margin:0px;
+}
+
+.gray {
+  background-color:#f2f2f2;
+}
+
+.howTo .join {
+  padding-left:60px;
+}
+
+.section.hero .signupCards {
+  padding:10px 0 10px 0;
+}
+
+.section.hero .descHeader.left {
+  font-size: 16px;
+  padding:10px 10px 60px 260px;
+  margin:0px;
+}
+
+.section.hero .descHeader.left h1 {
+  font-size: 30px;
+  margin:20px 0 20px 0;
+}
+
+.section.hero {
+  height:650px;
+  overflow:hidden;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.heroText {
+  padding:0;
+}
+
+.heroText .descHeader.left p {
+  font-size:20px;
+}
+
+.section.hero .mainHeader {
+  letter-spacing: 6px;
+  font-weight:100;
+  padding-top: 0px;
+}
+
+.section.hero .col-xs-14 {
+  text-align:center;
+}
+
+.section.hero .descHeader ul {
+  padding:0px 0 0px 20px;
+  margin-bottom:0;
+}
+
+.section.hero .heroText .descHeader {
+  font-size:18px;
+}
+
+.section.hero .descHeader li {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.section.howTo .textList {
+  padding-top: 40px;
+}
+
+.section.hero .textList li,
+.section.howTo .textList li,
+.section.LegalBottom .textList li {
+  line-height: 26px;
+}
+
+.section.how {
+  height:auto;
+  padding: 75px 0;
+}
+
+.how .descTitle {
+  font-size:16px;
+  font-weight:400;
+  color:#474747;
+}
+
+.features .how .descTitle {
+  font-size:16px;
+  font-weight:400;
+  color:#474747;
+}
+
+.section.how .inline li,
+.section.howitworks .inline li {
+    width:32%;
+    text-align:center;
+}
+
+.section.how .inline li div,
+.section.howitworks .inline li div {
+  padding:10px 50px 10px;
+}
+
+.section.how .inline li img,
+.section.howitworks .inline li img {
+  height:120px;
+}
+
+.section.how .darkButton,
+.section.how .greenButton,
+.section.callToAction .greenButton {
+  margin:50px auto 0;
+}
+
+.section.howTo .greenButton {
+  margin:40px 0 20px;
+}
+
+.section.howTo {
+  padding:120px 0;
+}
+
+.section.howTo {
+  padding:120px 0;
+}
+
+
+.section.textMe {
+  padding:100px 60px 100px 60px;
+}
+
+
+/*------ Howitworks page ------*/
+
+.numbers {
+  margin:35px;
+}
+
+.top {
+  border-bottom:1px solid #dbdbdb;
+}
+
+.win {
+}
+.top .row.section.howitworks .descHeader,
+.top .row.section.howitworks .mainHeader,
+.top .row.section.howitworks .descContent,
+.top .row.section.howitworks .descTitle  {
+  color:#fff;
+}
+
+.row.section.howitworks {
+  padding: 100px 0 100px;
+}
+
+.section.howitworks .descHeader {
+  font-size: 18px;
+  width:650px;
+  margin:20px auto 100px;
+}
+
+
+.section.choose .descHeader,
+.section.create .descHeader,
+.section.experience .descHeader {
+  font-size: 14px;
+  width:650px;
+  margin:50px auto 100px;
+}
+
+.section.choose,
+.section.create,
+.section.experience {
+  padding-bottom:0px;
+  padding-top: 50px;
+}
+
+.callToAction {
+  padding:100px;
+}
+
+/*------ legal page ------*/
+
+.legalTop, {
+  padding-bottom: 90px;
+}
+
+.legalTop .descHeader {
+  font-size:22px;
+}
+
+.legalText {
+  padding:60px 0 0 60px;
+}
+
+.legalBottom {
+  padding:60px 60px 90px 60px;
+}
+
+.legalBottom .descHeader, {
+  margin-bottom:20px;
+}
+
+.legalBottom .textList {
+  padding-top:10px;
+}
+
+/*** Terms of Use Page ***/
+
+ol.textHeadersList {
+  padding:0 0 0 23px;
+}
+ol.textHeadersList > li {
+  font-weight: bold;
+  margin-top:30px;
+}
+
+ol.textHeadersList > li h1 {
+  font-size:16px;
+}
+
+.privacy .row.section.body,
+.info .row.section.body {
+  padding:100px 60px 100px 60px;
+}
+
+ol.textHeadersList p {
+  margin: 10px 0 10px 0;
+  font-weight:200;
+}
+ul.tcBulletList > li {
+  font-weight:300;
+  margin-top:10px;
+}
+span.bold {
+  font-weight: 800;
+}
+span.italic {
+  font-style: italic;
+}
+.updateDate {
+  font-weight: 900;
+  font-style: italic;
+  margin-top:50px;
+}
+
+.preLogin #main>.col-xs-24.terms,
+.privacy .top {
+  border-bottom:1px solid #dbdbdb;
+  padding:50px 0 50px 0;
+}
+
+.terms .row.section .descHeader {
+  font-size:18px;
+}
+
+/*** Affiliates ***/
+
+.affiliateSign{
+  padding:150px 0 150px 0;
+}
+
+.affiliateSign .descheader.center {
+  padding:0 375px 0 375px;
+  font-size:16px;
+}
+
+.affiliateSign .descheader.center,
+.affiliateSign .mainheader.center {
+  color:#fff;
+}
+
+.affiliateSign .greenButton {
+  margin:50px auto 0;
+}
+
+.payments .greenButton {
+  margin:50px auto 0;
+}
+
+.preLogin #main .intro,
+.preLogin #main .commission,
+.preLogin #main .promotions,
+.preLogin #main .payments {
+  padding:75px 0 75px 0;
+}
+
+.intro .row.section,
+.commission .row.section,
+.promotions .row.section,
+.payments .row.section {
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.affiliates .descContent {
+  padding:60px;
+  font-size:14px;
+}
+
+.affiliates .payments .descContent.pay {
+  padding-bottom:0px;
+}
+
+.affiliates .descContent .descTitle,
+.affiliates .descContent .descBody {
+  padding:10px 0 10px 0;
+}
+
+.affiliates .descContent .table {
+  padding:20px 0 20px 0;
+}
+
+.howitworks .descTitle,
+.affiliates .descContent .descTitle {
+  font-size:16px;
+  font-weight:400;
+}
+
+.commission,
+.promotions,
+.payments {
+  border-top:1px solid #dbdbdb;
+}
+
+.commission .row.section .descContent table {
+  margin-top:25px;
+}
+
+table {
+  border-collapse: collapse;
+  font-size:14px;
+  width:100%;
+}
+
+tr:nth-child(even) {
+  background-color:#fbfbfb;
+}
+
+th {
+  padding:8px;
+  background-color:none;
+  color:#898989;
+}
+
+td {
+  border: 1px solid #dbdbdb;
+  padding:8px;
+}
+
+/** Support Page **/
+.faqSectionTitle {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #474747;
+}
+.question {
+  padding: 15px 0 15px 0;
+  margin: 0 30px 15px 0;
+  background-color: #EBEBEB;
+  line-height: 1.25em;
+  color: #474747;
+  font-size: 14px;
+}
+.answer {
+  border: 1px solid #EBEBEB;
+  background-color: #FFF;
+  display: none;
+  padding: 15px;
+  margin: -15px 30px 15px 0;
+}
+.faqTriangleRight {
+  margin-top:2px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid #474747;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+}
+
+.faqTriangleDown {
+  width: 0;
+  height: 0;
+  border-top: 6px solid #474747;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+  margin-top: 5px;
+}

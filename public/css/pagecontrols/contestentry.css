@@ -1,0 +1,1214 @@
+/* -- Authored by Andrew Antar -- */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300);
+
+/*Import the weather fonts using font-face*/
+/*@font-face {
+  font-family: 'weathericons-regular';
+  src: url('https://dm63aeeijtc75.cloudfront.net/fonts/weathericons-regular.eot'); /* IE9 Compat Modes */
+  /*src: url('webfont.eot?#iefix') format('embedded-opentype'),*/ /*No support for IE6-IE8? */
+/*       url('https://dm63aeeijtc75.cloudfront.net/fonts/weathericons-regular.woff') format('woff'), /* Modern Browsers */
+/*       url('https://dm63aeeijtc75.cloudfront.net/fonts/weathericons-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+/*       url('https://dm63aeeijtc75.cloudfront.net/fonts/weathericons-regular.svg#svgWeatherIcons-Regular') format('svg'); /* Legacy iOS */
+/*       url('https://dm63aeeijtc75.cloudfront.net/fonts/WeatherIcons-Regular.otf') format('otf');
+}*/
+
+body {
+	overflow-x:hidden;
+}
+
+.ellipsis {
+	float: left;
+	overflow: hidden;
+	-moz-binding: url('/css/xml/ellipsis.xml#ellipsis');
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+
+ .enterButton {
+	width: 120px;
+	background-color: #838383;
+	color: #FFFFFF;
+	font-size: 12px;
+	border-radius: 3px;
+	box-shadow: inset 0 0 1px #fff;
+	border: 1px solid #56a174;
+	margin: 5px;
+	padding: 5px;
+	text-shadow: 0 1px 1px #67ba89;
+	text-align: center;
+	cursor: pointer;
+	float: right;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-bottom: 30px;
+	-webkit-transition: background-color .5s ease;
+	-moz-transition: background-color .5s ease;
+	-o-transition: background-color .5s ease;
+	transition: background-color .5s ease;
+}
+
+.divider {
+	border-right: 1px solid #999999;
+	width: 1px;
+	height: 40px;
+	padding:0;
+	margin-left: 5px;
+}
+
+
+
+.contestEntryMessageContainer a.enterButton:hover {
+	text-decoration: none;
+	color:#fff;
+}
+
+.contestEntryMessageContainer a.enterButton {
+	float:none;
+	margin-left:265px;
+	text-decoration: none;
+	color:#fff;
+}
+
+.contestEntryMessageContainer a.enterButton.return {
+	float: right;
+	background-color: #979797;
+	border: 1px solid #8a8a8a;
+	margin-left:0px;
+	text-shadow:none;
+}
+
+.contestEntryMessageContainer a.enterButton.returnFunds {
+	float: left;
+	margin-left:265px;
+}
+
+.contestEntryMessageContainer a.enterButton.addFunds {
+	float: left;
+	margin-left:5px;
+}
+
+.contestEntryMessageContainer a.enterButton.return:hover {
+	background-color: #838383;
+	border: 1px solid #8a8a8a;
+	text-shadow:none;
+}
+
+.enterButton:hover {
+	background-color: #66C88D;
+	color: #ffffff;
+	text-shadow: 1px 1px #67ba89;
+}
+
+.enterRow .enterButton {
+	margin-right: 0px;
+}
+
+select {
+   background: #ffffff;
+   width: 45px;
+   border: 1px solid #e6e6e6;
+   border-radius: 3px;
+   color: #999999;
+}
+
+.error {
+    position:relative;
+    top:-110px;
+    width:535px;
+    padding: 20px 0 20px 0;
+    background-color:#FFF;
+    border-radius: 3px;
+    border: 1px solid #ff8593;
+    display:none;
+    margin-left:10px;
+    text-align: center;
+ }
+
+.errorText {
+	color:#ff8593;
+	font-weight:200;
+	font-size:12px;
+}
+
+.errorClear {
+    position: absolute;
+    top: 5px;
+    right: -10px;
+    cursor:pointer;
+}
+
+/* -- Success/Fail -- */
+.successIcon, .failedIcon {
+	position: absolute;
+	right: -41px;
+	margin-top:2px;
+	text-indent: 10px;
+	background:url("../../images/2x.png") top left no-repeat; background-size: 30px;
+}
+
+.ruckus-spc-contestentrysuccess .contestEnterSuccess,
+.ruckus-spc-contestentrysuccess .contestEnterFail {
+    width: 265px;
+    text-align: left;
+    right: -280px;
+}
+
+.ruckus-spc-contestentryfailed .contestEnterFail,
+.ruckus-spc-contestentryfailed .contestEnterSuccess {
+    width: 265px;
+    text-align: left;
+    right: -280px;
+}
+
+.ruckus-spc-contestentryfailed .successIcon, .ruckus-spc-contestentryfailed .failedIcon {
+	right: -263px;
+}
+
+.successIcon {
+    width:30px; height:30px; background-position:0 -1619px;
+    color: #7cdfa4;
+}
+
+.failedIcon {
+	width:30px; height:30px; background-position:0 -690px;
+	color: #ff8593;
+}
+
+.table {
+  /*height: 270px;*/
+  width: 670px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 70px;
+  background-color: #ffffff;
+  color:#3c3c3c;
+}
+
+.table:after {
+	 top:-1px;
+	 position:relative;
+	 content:"";
+	 height:1px;
+	 width:1170px;
+	 display:block;
+	 left:-270px;
+	 background:
+		-webkit-gradient(radial, 50% 50%, 0, 50% 50%, 580,
+			from(#ADADAD),
+			to(#fff))
+}
+
+.checkcircle {
+  height: 20px;
+  width: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #cccccc;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.checkcircle.selected, .checkcircle.selected:hover {
+	background-color: #7cdfa4;
+	border-color: #7cdfa4;
+}
+
+.checkcircle:hover {
+	background-color: #cccccc;
+	border-color: #cccccc;
+}
+
+.additionalHead {
+	height: 40px;
+	background-color: #ffffff;
+	padding-top: 15px;
+	font-size: 11px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.ruckus-spc-contestentryfailed .additionalHead {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.additionalRow {
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.wrapper {
+	border:1px solid #cccccc;
+}
+
+.additionalRow:nth-child(odd) {
+	background-color: #F5FAF9;
+}
+
+.successStripe {
+  /*height: 115px;*/
+    background-color: #7cdfa4;
+    color: #fff;
+    font-size: 30px;
+    font-weight:300;
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom:30px;
+    margin-bottom: 70px;
+    letter-spacing:2px;
+    position: relative;
+    box-shadow: -40rem 0 0 #7cdfa4, 40rem 0 0 #7cdfa4;
+}
+
+.errorStripe {
+  /*height: 115px;*/
+    background-color: #ff8593;
+    color: #fff;
+    font-size: 30px;
+    font-weight:300;
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+    letter-spacing:2px;
+    position: relative;
+    box-shadow: -40rem 0 0 #ff8593, 40rem 0 0 #ff8593;
+}
+
+.contestEntryMessageContainer {
+}
+
+
+.contestEntryMessageContainer .row.additionalRow, .contestEntryMessageContainer .row.additionalHead {
+	margin-left:0px;
+	margin-right:0px;
+	font-size:12px;
+}
+
+
+.contestEntryMessageContainer .enterButton {
+	margin-right: 0px;
+	border:1px solid #5d5d5d;
+	text-shadow:none;
+}
+
+.contestEntryMessageContainer .enterButton:hover {
+	margin-right: 0px;
+	background-color:#474747;
+	border:1px solid #373737;
+	text-shadow:none;
+}
+
+.contestEntryMessageContainer .border {
+border-left: 1px solid #E9EAEB;
+}
+
+p.contestEntryMessageBody {
+    padding-left:22.65%;
+    padding-right:21.65%;
+    font-weight:300;
+    color: #323232;
+    font-size: 13px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    line-height:19px;
+    margin-bottom:40px;
+}
+
+h1.contestEntryMessageHeader {
+	padding-left:22.65%;
+	font-weight:300;
+	font-size: 24px;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+
+
+
+/* -- StatHeader -- */
+
+.ruckus-spc-lineupbuilderavailableathletes .statHeader {
+  height:25px;
+  padding-bottom: 15px;
+
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .victronHeader {
+	background-color: #474747;
+	padding: 40px;
+
+	color: #ffffff;
+	margin-left: -15px;
+	width: 583px;
+}
+
+/* -- Popup Column Change -- */
+
+.ruckus-pc-lineupbuilderavailableathletespopup .popupDesc {
+  font-size:12px;
+  padding: 30px;
+  height:276px;
+  margin-left:65px;
+  cursor:auto;
+  font-weight:100;
+  background-color:#474747;
+  border-left: 1px solid #898989;
+}
+
+.ruckus-pc-dashboardlineups .popupDesc {
+ height:268px;
+}
+
+.ruckus-pc-lineupbuilderavailableathletespopup .popupColumn ,.popupColumnTop,.popupColumnBottom {
+  padding-left:5px;
+  padding:14px;
+  background-color:#5e5e5e;
+  border-right:1px solid #fff;
+  font-weight:200;
+}
+
+.ruckus-pc-lineupbuilderavailableathletespopup .popupColumnTop:hover {
+  background-color: #474747;
+  border-bottom:1px solid #fff;
+  border-right:1px solid #474747;
+}
+
+.ruckus-pc-lineupbuilderavailableathletespopup .popupColumnBottom:hover {
+  background-color: #474747;
+  border-top:1px solid #fff;
+  border-right:1px solid #474747;
+}
+
+.ruckus-pc-lineupbuilderavailableathletespopup .popupColumn:hover {
+  background-color: #474747;
+  border-bottom:1px solid #fff;
+  border-top:1px solid #fff;
+  border-right:1px solid #474747;
+}
+
+
+/* -- Game Overview Row --*/
+
+.ruckus-pc-contestentry .conr_details {
+	padding: 0;
+}
+
+.ruckus-pc-contestentry .details {
+	border-right: 1px solid #dbdbdb;
+}
+
+
+/* -- Daily Games & Weather -- */
+
+.ruckus-spc-contestgames .gamesContainer {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.ruckus-pc-contestentry .game {
+	float:left;
+	width:90px;
+	background-color:#ffffff;
+	cursor:pointer;
+	text-align:center;
+	height:90px;
+	border:1px solid #dbdbdb;
+	color: #898989;
+	padding-top:20px;
+	font-size: 11px;
+	font-family: helvetica neue, "weathericons", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'Roboto', Helvetica, Arial, sans-serif;
+	margin-bottom: 20px;
+	margin-right: 18px;
+	-webkit-transition: border .5s ease;
+	-moz-transition: border .5s ease;
+	-o-transition: border .5s ease;
+	transition: border .5s ease;
+}
+
+.ruckus-pc-contestentry .game:hover {
+	border:1px solid #898989;
+}
+
+.ruckus-pc-contestentry .allGames {
+	padding-top: 30px;
+	font-size: 11px;
+}
+
+.ruckus-pc-contestentry .gameSelected,
+.ruckus-pc-contestentry .gameSelected:hover  {
+	color:#474747;
+	border: 1px solid #474747;
+}
+
+
+/* -- Available Athletes -- */
+
+.ruckus-spc-lineupbuilderavailableathletes input {
+	border: 1px solid #dbdbdb;
+	border-radius:3px;
+	box-shadow: none;
+	height: 25px;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .x {
+	cursor: pointer;
+	color: #dbdbdb;
+	position: absolute;
+	font-size: 18px;
+	left: 205px;
+	top: 76px;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .exportAthletesCSV {
+	text-decoration: underline;
+	float: right;
+	margin-right: 20px;
+	font-size: 11px;
+	padding-top: 18px;
+	cursor: pointer;
+}
+
+/* remove underline and click ability for certain beta features */
+.ruckus-spc-lineupbuilderavailableathletes .noLink {
+    cursor: default;
+    text-decoration: none;
+    pointer-events: none;
+}
+.ruckus-spc-lineupbuilderavailableathletes .autoAdvance {
+	margin-bottom: 15px;
+	margin-left: 20px;
+	margin-top: 22px;
+	position: relative;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .autoAdvanceCheck {
+	height: 15px;
+	width: 15px;
+	border: 1px solid #dbdbdb;
+	border-radius: 100px;
+	position: absolute;
+	top: 5px;
+	left: 0;
+
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .autoAdvanceCheckSelected {
+	background-color: #7cdfa4;
+	border-color: #474747;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .autoAdvanceLabel {
+	margin-left: 5px;
+	font-size: 11px;
+	font-weight: normal;
+	position: absolute;
+	top: 5px;
+	left: 20px;
+
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .athleteContainer {
+	height: 690px;
+	background-color:#ffffff;
+	border-left: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .searchHeader {
+	color: #3c3c3c;
+	font-size: 20px;
+	margin: 20px 0 20px 0;
+
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .playerSearchBoxContainer {
+	margin-bottom: 30px;
+}
+.ruckus-spc-lineupbuilderavailableathletes .description {
+	margin-top: 15px;
+	font-size: 10px;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .tabs {
+	height: 30px;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .tab {
+	border-top: 1px solid #dbdbdb;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+	border-radius: 3px 3px 0 0;
+	color: #474747;
+	height: 30px;
+	margin-left: 7px;
+	text-align: center;
+	padding: 5px;
+	-webkit-transition: border .5s ease;
+	-moz-transition: border .5s ease;
+	-o-transition: border .5s ease;
+	transition: border .5s ease;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .tab:hover {
+	border-radius: 3px 3px 0 0;
+	border-top: 1px solid #474747;
+	border-left: 1px solid #474747;
+	border-right: 1px solid #474747;
+	height: 30px;
+	margin-left: 7px;
+	text-align: center;
+	padding: 5px;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .tabSelected,
+.ruckus-spc-lineupbuilderavailableathletes .tab .tabSelected:hover {
+	border-radius: 3px 3px 0 0;
+	color: #FFFFFF;
+	background-color: #474747;
+	height: 35px;
+	margin-left: 7px;
+	text-align: center;
+	padding: 6px;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .tableHead {
+	color: #FFFFFF;
+	background-color: #474747;
+	height: 30px;
+	padding: 5px;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .athleteRow {
+    color: #3c3c3c;
+    padding: 8px 0 8px 0;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .athleteRow:hover {
+    background-color: #eaf3f9;
+    cursor: pointer;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .athleteRowHighlight,
+.ruckus-spc-lineupbuilderavailableathletes .athleteRowHighlight:hover {
+    background-color: #BABABA;
+    color: #FFF;
+}
+
+
+.athleteRow .iconsinfo_dark {
+	margin-left: 24px;
+	opacity:.25;
+	height: 17px;
+	height: 17px;
+	margin-top: 2px;
+	-webkit-transition: opacity .5s ease;
+	-moz-transition: opacity .5s ease;
+	-o-transition: opacity .5s ease;
+	transition: opacity .5s ease;
+}
+
+.athleteRow .iconsinfo_dark:hover {
+	opacity:1;
+}
+
+.athleteRow .iconsinfo_white {
+	margin-left: 24px;
+	height: 17px;
+	height: 17px;
+	margin-top: 2px;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .plus {
+	font-size: 18px;
+	text-align: center;
+	color: #999999;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .plus:hover {
+	background-color: #7cdfa4;
+	text-align: center;
+	height: 30px;
+	width: 52px;
+	margin-top: -7px;
+	margin-left: -5px;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .ui-slider-horizontal {
+	height: 0.42em;
+}
+.ruckus-spc-lineupbuilderavailableathletes .ui-widget-content {
+	background: #EBEBEB;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 1px #DDD inset;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .ui-widget-content .ui-state-default {
+	background: #A3A3A3;
+	border-radius: 15px;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .ui-widget-content .ui-state-default:focus {
+	background: #898989;
+	outline: none;
+	box-shadow: 0 0 0 1px #898989;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes .ui-slider .ui-slider-handle {
+	height: 1.2em;
+	width: 1.2em;
+	top: -0.45em;
+	box-shadow: 0 0 0 1px #C2C2C2;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes #resetSlidersLink {
+	text-decoration:underline;
+}
+
+.ruckus-spc-lineupbuilderavailableathletes #resetSlidersLink:hover {
+	cursor: pointer;
+}
+/*
+.ruckus-spc-lineupbuilderavailableathletes .plus:hover > .icons {
+	width:30px;
+	height:30px;
+	background-position:0 -600px;
+}
+
+ */
+
+
+
+
+/* -- Selected Lineup -- */
+
+.ruckus-spc-lineupbuilderselectedathletes .title {
+	color: #3c3c3c;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+	padding-left: 40px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .remain {
+	margin-top: 24px;
+	color: #3c3c3c;
+	text-align: right;
+	font-size: 14px;
+	padding-right:0px;
+	font-weight:200;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .remainNumber {
+	margin-top: 20px;
+	font-size: 18px;
+	text-align: right;
+	padding-left:0px;
+	padding-right:35px;
+	color: #474747;
+	font-weight:200;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .avRemain {
+	color: #3c3c3c;
+	text-align: right;
+	font-size: 11px;
+	margin-top: 6px;
+	font-size: 12px;
+	padding-right:0px;
+	font-weight:200;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .avRemainNumber {
+	font-size: 16px;
+	margin-bottom: 15px;
+	text-align: right;
+	padding-left:0px;
+	padding-right:35px;
+	color: #474747;
+	font-weight:200;
+	margin-top: 2px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .rosterRow {
+	position:absolute;
+	height:40px;
+	width:40px;
+	margin-left:7px;
+	text-align:center;
+	padding:10px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .lineupRow {
+	height: 50px;
+	padding-top: 5px;
+	border: 1px solid transparent;
+}
+
+.listlarge {
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:40px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .rowData {
+	margin-top: 10px;
+	color: #3c3c3c;
+}
+
+
+
+.ruckus-spc-lineupbuilderselectedathletes .overlayRow {
+	height: 50px;
+	padding-top: 5px;
+	display:none;
+	cursor:pointer;
+	background-color:#DBDBDB;
+	border-radius: 3px;
+	cursor: pointer;
+	-webkit-transition:background-color .5s ease;
+	-moz-transition:background-color .5s ease;
+	-o-transition:background-color .5s ease;
+	transition:background-color .5s ease;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .overlayRow:hover {
+	background-color: #BBB;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .miniOverlay {
+
+	padding-left: 17px;
+	background-color:#DBDBDB;
+	cursor:pointer;
+	display:none;
+	border-radius: 3px;
+	-webkit-transition:background-color .5s ease;
+	-moz-transition:background-color .5s ease;
+	-o-transition:background-color .5s ease;
+	transition:background-color .5s ease;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .miniOverlay:hover {
+	background-color: #BBB;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes hr {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+.x2 {
+	color: #dbdbdb;
+	margin-top: 10px;
+	padding-left:15px;
+}
+
+ .ruckus-spc-lineupbuilderselectedathletes .clearAllLink {
+	cursor:pointer;
+	font-size:12px;
+	margin-top:26px;
+	margin-right: 15px;
+	text-decoration: underline;
+	-webkit-transition: color .5s ease;
+	-moz-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease;
+ }
+
+  .ruckus-spc-lineupbuilderselectedathletes .clearAllLink:hover {
+	color: #474747;
+ }
+
+ .ruckus-spc-lineupbuilderselectedathletes .enterRow {
+ 	margin-bottom: 40px;
+ 	padding-right:25px;
+ }
+
+ .ruckus-spc-lineupbuilderselectedathletes .enterRow .enterButton {
+	float: right;
+	height: 30px;
+	background-color: #7cdfa4;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .enterRow .enterButton:hover {
+	background-color:#67ba89;
+	border:1px solid #589F75;
+	-webkit-transition: background-color .5s ease;
+	-moz-transition: background-color .5s ease;
+	-o-transition: background-color .5s ease;
+	transition: background-color .5s ease;
+}
+
+
+.ruckus-spc-lineupbuilderselectedathletes .miniBox {
+	height:40px;
+	width:40px;
+	border: 1px dashed #dbdbdb;
+	text-align:center;
+	padding:10px;
+	margin-top: 25px;
+	position: absolute;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .miniImage {
+	margin-top: 12px;
+	margin-left: -15px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .mini {
+ 	color: #3c3c3c;
+ 	font-size: 8px;
+ 	text-align: center;
+ 	padding: 0;
+ 	margin-top: 2px;
+ }
+
+.ruckus-spc-lineupbuilderselectedathletes .miniLineup {
+	margin-left: 15px;
+	height: 120px;
+ }
+
+.ruckus-spc-lineupbuilderselectedathletes .miniLine {
+	margin-left: 12px;
+ }
+
+ /* -- Lock icons for Victron -- */
+.ruckus-spc-lineupbuilderselectedathletes .lbsa_lock {
+	margin-top: 10px;
+	margin-left:8px;
+	cursor: pointer;
+	display: none;
+}
+ /* -- Player Compare -- */
+
+.ruckus-spc-lineupbuilderselectedathletes .playerContainer {
+	font-size:10pt;
+	border: 1px solid #dbdbdb;
+	padding:0;
+	border-radius: 3px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .playerLeft {
+	padding-left: 40px;
+	padding-right: 20px;
+	z-index: 100;
+}
+
+
+.ruckus-spc-lineupbuilderselectedathletes .playerRight {
+	padding-left: 20px;
+	padding-right: 40px;
+	z-index: 100;
+}
+
+
+.ruckus-spc-lineupbuilderselectedathletes .topRow {
+	height: 100px;
+	background-color: #707070;
+	color: #ffffff;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .name {
+	padding: 15px;
+	font-size: 18px;
+	z-index: 1;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .position {
+	font-size: 14px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .image {
+	padding: 0;
+	z-index: 1;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .compareTeamLogo {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    opacity: 0.3;
+}
+.ruckus-spc-lineupbuilderselectedathletes .compareTeamLogo .highRes {
+    display:none;
+}
+
+@media
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-moz-min-device-pixel-ratio: 1.5),
+screen and (min-device-pixel-ratio: 1.5) {
+	.ruckus-spc-lineupbuilderselectedathletes .compareTeamLogo .highRes {
+	    display:block;
+	    height:100px;
+	}
+	.ruckus-spc-lineupbuilderselectedathletes .compareTeamLogo .loRes {
+	    display:none;
+	}
+}
+.ruckus-spc-lineupbuilderselectedathletes .salaryRow {
+	height: 70px;
+	padding: 15px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .status {
+	 margin-top: 15px;
+	 font-size: 12px;
+	 color: #999999;
+	 text-align: center;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .salary {
+	font-size: 18px;
+	color: #3c3c3c;
+	text-align: center;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .salaryText {
+	font-size: 10px;
+	color: #3c3c3c;
+	text-align: center;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .salaryScrollContainer {
+	opacity: 0.9;
+	border: 1px solid #CCC;
+	background-color:#FFF;
+	position: fixed;
+	top:71px;
+	width:585px;
+	z-index:999;
+	padding: 10px;
+	display: none;
+	font-size:14px;
+	box-shadow: 1px 1px 5px #EBEBEB;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .sscRemain {
+	text-align: right;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .sscAvRemain {
+	text-align: right;
+}
+.ruckus-spc-lineupbuilderselectedathletes .nav {
+	height: 40px;
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	background-color: #ffffff;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .tab {
+	border-left: 1px solid #dbdbdb;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #3c3c3c;
+}
+.ruckus-spc-lineupbuilderselectedathletes .tab:first-child {
+	border-left: none;
+
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .tabSelected {
+	color: #ffffff;
+	background-color: #3c3c3c;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .number {
+	font-size: 16px;
+	color: #3c3c3c;
+	text-align: center;
+	margin-top: 28px;
+}
+
+
+.ruckus-spc-lineupbuilderselectedathletes .text {
+	font-size: 12px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .compareOutline {
+	border: 1px dashed #DBDBDB;
+	width: 232px;
+	height: 468px;
+	top: 210px;
+	left: 312px;
+	position: absolute;
+	padding: 180px 50px 0 50px;
+	text-align: center;
+	z-index: 10;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .compareOutlineLeft {
+	top: 210px;
+	left: 40px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .compareOutlineText {
+	color: #999999;
+	line-height: 2.0;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .compareTextIcon {
+	margin-bottom: -15px;
+	margin-right: -15px;
+	display: inline-block;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .compareHeader  {
+	text-align: center;
+	margin-bottom: 10px;
+	color: #3c3c3c;
+}
+.ruckus-spc-lineupbuilderselectedathletes .compareVS {
+	position: absolute;
+	top: 440px;
+	left: 285px;
+	opacity: .4;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .selectContainer {
+	cursor: pointer;
+	border-left: none;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: #474747;
+	border: 1px solid #707070;
+	border-right:none;
+}
+.ruckus-spc-lineupbuilderselectedathletes .select {
+	margin-bottom: -14px;
+	margin-left: 38px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .selectContainer:hover {
+	background-color: #7cdfa4;
+	border-color: #7cdfa4;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .removeContainer {
+	cursor: pointer;
+	border: 1px solid #707070;
+	padding-top: 7px;
+	padding-bottom: 6px;
+	background-color: #474747;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .remove {
+	margin-bottom: -15px;
+	margin-left: 38px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .removeContainer:hover {
+	background-color: #ff8593;
+	border-color: #ff8593;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .averageTable {
+	padding: 0;
+	margin-left: -15px;
+	width: 230px;
+	height: 230px;
+	overflow-y: auto;
+	background-color: #3c3c3c;
+
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .avTitle {
+		height: 40px;
+		background-color: #3c3c3c;
+		text-align: center;
+		padding-top: 10px;
+		color: #ffffff;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .averageRow {
+	background-color: #555555;
+	color: #ffffff;
+	font-size: 12px;
+	height: 30px;
+	padding-top: 7px;
+	padding-left: 0;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .averageRow:nth-child(odd) {
+	background-color: #3c3c3c;
+}
+
+
+.ruckus-spc-lineupbuilderselectedathletes .avValue {
+	font-weight: bold;
+	text-align: right;
+}
+.ruckus-spc-lineupbuilderselectedathletes .twitterBackground {
+	background-image: url('../../images/twitterSample.png');
+	width: 230px;
+	height: 230px;
+	margin-left: -30px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .twitterComingSoon {
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 230px;
+	height: 230px;
+	margin-left: -15px;
+	padding-top: 95px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .comingSoonText {
+	color: #000;
+
+}
+.ruckus-spc-lineupbuilderselectedathletes .numberBox {
+	padding: 0 0 0 0;
+	margin-left: -15px;
+	width: 230px;
+	height: 230px;
+	background-color: #ffffff;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .replace {
+	color: #FFF;
+	background-color: #BABABA;
+	text-align: center;
+	padding: 12px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #FFF;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .replaceIcon {
+	margin: 40px 0 0 95px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .cancel {
+	color: #FFF;
+	background-color: #BABABA;
+	text-align: center;
+	padding: 11px;
+	padding-bottom: 50px;
+}
+
+.ruckus-spc-lineupbuilderselectedathletes .cancelIcon {
+	margin: 40px 0 0 95px;
+}
+
+/*--- coming soon style for friends and family ---*/
+
+.details .ruckus-spc-contestresultslineups {
+/*text-align: center;*/
+
+/*margin-top: 80px;*/
+font-size: 28px;
+color: #9C9C9C;
+}

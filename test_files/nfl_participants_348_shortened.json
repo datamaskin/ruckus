@@ -1,0 +1,374 @@
+{
+    "status": "OK",
+    "recordCount": 88,
+    "startTimestamp": "2014-05-21T19:36:36.2904377Z",
+    "endTimestamp": "2014-05-21T19:36:36.5560695Z",
+    "timeTaken": 0.2656318,
+    "apiResults": [{
+        "sportId": 4,
+        "name": "Football",
+        "league": {
+            "leagueId": 8,
+            "name": "National Football League",
+            "abbreviation": "NFL",
+            "displayName": "National Football League",
+            "players": [{
+                "hometown": {
+                    "city": "Foley",
+                    "state": {
+                        "stateId": 1,
+                        "name": "Alabama",
+                        "abbreviation": "AL"
+                    },
+                    "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                    }
+                },
+                "experience": {
+                    "yearFirst": 2011,
+                    "experience": 4
+                },
+                "isSuspended": "false",
+                "isInjured": "false",
+                "isPhysicallyUnable": "false",
+                "isPracticeSquad": "false",
+                "isNonFootballInjuryReserve": "false",
+                "draft": {
+                    "year": 2011,
+                    "round": 1,
+                    "roundPickNumber": 6,
+                    "isSupplemental": "false",
+                    "team": {
+                        "teamId": 323,
+                        "location": "Atlanta",
+                        "nickname": "Falcons",
+                        "abbreviation": "Atl"
+                    }
+                },
+                "team": {
+                    "teamId": 323,
+                    "location": "Atlanta",
+                    "nickname": "Falcons",
+                    "abbreviation": "Atl"
+                },
+                "playerId": 456614,
+                "firstName": "Julio",
+                "lastName": "Jones",
+                "displayId": 0,
+                "isActive": true,
+                "uniform": "11",
+                "height": {
+                    "centimeters": 190.0,
+                    "inches": 75.0
+                },
+                "weight": {
+                    "kilograms": 99.79,
+                    "pounds": 220
+                },
+                "birth": {
+                    "birthDate": {
+                        "year": 1989,
+                        "month": 2,
+                        "date": 3,
+                        "full": "1989-02-03"
+                    },
+                    "city": "Foley",
+                    "state": {
+                        "stateId": 1,
+                        "name": "Alabama",
+                        "abbreviation": "AL"
+                    },
+                    "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                    }
+                },
+                "positions": [{
+                    "positionId": 1,
+                    "name": "Wide Receiver",
+                    "abbreviation": "WR"
+                }],
+                "college": {
+                    "collegeId": 73,
+                    "commonName": "Alabama",
+                    "fullName": "University of Alabama",
+                    "team": {
+                        "teamId": 3478,
+                        "location": "Alabama",
+                        "nickname": "Crimson Tide",
+                        "abbreviation": "Ala"
+                    }
+                }
+            },{
+                "hometown": {
+                    "city": "Vancleave",
+                    "state": {
+                        "stateId": 24,
+                        "name": "Mississippi",
+                        "abbreviation": "MS"
+                    },
+                    "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                    }
+                },
+                "experience": {
+                    "yearFirst": 2011,
+                    "experience": 4
+                },
+                "isSuspended": "false",
+                "isInjured": "false",
+                "isPhysicallyUnable": "false",
+                "isPracticeSquad": "false",
+                "isNonFootballInjuryReserve": "false",
+                "draft": {
+                    "year": 2011,
+                    "round": 6,
+                    "roundPickNumber": 4,
+                    "isSupplemental": "false",
+                    "team": {
+                        "teamId": 324,
+                        "location": "Buffalo",
+                        "nickname": "Bills",
+                        "abbreviation": "Buf"
+                    }
+                },
+                "team": {
+                    "teamId": 348,
+                    "location": "New England",
+                    "nickname": "Patriots",
+                    "abbreviation": "NE"
+                },
+                "playerId": 495531,
+                "firstName": "Chris",
+                "lastName": "White",
+                "displayId": 0,
+                "isActive": true,
+                "uniform": "59",
+                "height": {
+                    "centimeters": 190.0,
+                    "inches": 75.0
+                },
+                "weight": {
+                    "kilograms": 107.95,
+                    "pounds": 238
+                },
+                "birth": {
+                    "birthDate": {
+                        "year": 1989,
+                        "month": 1,
+                        "date": 15,
+                        "full": "1989-01-15"
+                    },
+                    "city": "Mobile",
+                    "state": {
+                        "stateId": 1,
+                        "name": "Alabama",
+                        "abbreviation": "AL"
+                    },
+                    "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                    }
+                },
+                "positions": [{
+                    "positionId": 30,
+                    "name": "Linebacker",
+                    "abbreviation": "LB"
+                }],
+                "college": {
+                    "collegeId": 78,
+                    "commonName": "Mississippi State",
+                    "fullName": "Mississippi State University",
+                    "team": {
+                        "teamId": 3483,
+                        "location": "Mississippi State",
+                        "nickname": "Bulldogs",
+                        "abbreviation": "MissSt"
+                    }
+                }
+            },
+                {
+                "hometown": {
+                    "city": "Little Rock",
+                    "state": {
+                        "stateId": 4,
+                        "name": "Arkansas",
+                        "abbreviation": "AR"
+                    },
+                    "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                    }
+                },
+                "experience": {
+                    "yearFirst": 2014,
+                    "experience": 0
+                },
+                "isSuspended": "false",
+                "isInjured": "false",
+                "isPhysicallyUnable": "false",
+                "isPracticeSquad": "false",
+                "isNonFootballInjuryReserve": "false",
+                "draft": {
+                    "team": {
+                        "teamId": null
+                    }
+                },
+                "team": {
+                    "teamId": 348,
+                    "location": "New England",
+                    "nickname": "Patriots",
+                    "abbreviation": "NE"
+                },
+                "playerId": 609044,
+                "firstName": "Stephen",
+                "lastName": "Houston",
+                "displayId": 0,
+                "isActive": true,
+                "uniform": "36",
+                "height": {
+                    "centimeters": 182.0,
+                    "inches": 72.0
+                },
+                "weight": {
+                    "kilograms": 104.33,
+                    "pounds": 230
+                },
+                "birth": {
+                    "birthDate": {
+                        "year": 1991,
+                        "month": 10,
+                        "date": 28,
+                        "full": "1991-10-28"
+                    },
+                    "city": "Little Rock",
+                    "state": {
+                        "stateId": 4,
+                        "name": "Arkansas",
+                        "abbreviation": "AR"
+                    },
+                    "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                    }
+                },
+                "positions": [{
+                    "positionId": 9,
+                    "name": "Running Back",
+                    "abbreviation": "RB"
+                }],
+                "college": {
+                    "collegeId": 27,
+                    "commonName": "Indiana",
+                    "fullName": "Indiana University",
+                    "team": {
+                        "teamId": 3433,
+                        "location": "Indiana",
+                        "nickname": "Hoosiers",
+                        "abbreviation": "Ind"
+                    }
+                }
+            },
+                {
+                "hometown": {
+                    "city": "San Mateo",
+                    "state": {
+                        "stateId": 5,
+                        "name": "California",
+                        "abbreviation": "CA"
+                    },
+                    "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                    }
+                },
+                "experience": {
+                    "yearFirst": 2000,
+                    "experience": 15
+                },
+                "isSuspended": "false",
+                "isInjured": "false",
+                "isPhysicallyUnable": "false",
+                "isPracticeSquad": "false",
+                "isNonFootballInjuryReserve": "false",
+                "draft": {
+                    "year": 2000,
+                    "round": 6,
+                    "roundPickNumber": 33,
+                    "isSupplemental": "false",
+                    "team": {
+                        "teamId": 348,
+                        "location": "New England",
+                        "nickname": "Patriots",
+                        "abbreviation": "NE"
+                    }
+                },
+                "team": {
+                    "teamId": 348,
+                    "location": "New England",
+                    "nickname": "Patriots",
+                    "abbreviation": "NE"
+                },
+                "playerId": 25347,
+                "firstName": "Tom",
+                "lastName": "Brady",
+                "displayId": 0,
+                "isActive": true,
+                "uniform": "12",
+                "height": {
+                    "centimeters": 193.0,
+                    "inches": 76.0
+                },
+                "weight": {
+                    "kilograms": 102.06,
+                    "pounds": 225
+                },
+                "birth": {
+                    "birthDate": {
+                        "year": 1977,
+                        "month": 8,
+                        "date": 3,
+                        "full": "1977-08-03"
+                    },
+                    "city": "San Mateo",
+                    "state": {
+                        "stateId": 5,
+                        "name": "California",
+                        "abbreviation": "CA"
+                    },
+                    "country": {
+                        "countryId": 1,
+                        "name": "United States",
+                        "abbreviation": "USA"
+                    }
+                },
+                "positions": [{
+                    "positionId": 8,
+                    "name": "Quarterback",
+                    "abbreviation": "QB"
+                }],
+                "college": {
+                    "collegeId": 29,
+                    "commonName": "Michigan",
+                    "fullName": "University of Michigan",
+                    "team": {
+                        "teamId": 3435,
+                        "location": "Michigan",
+                        "nickname": "Wolverines",
+                        "abbreviation": "Mich"
+                    }
+                }
+            }
+            ]
+        }
+    }]
+}

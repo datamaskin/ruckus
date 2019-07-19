@@ -1,0 +1,66 @@
+@(lang: play.api.i18n.Lang, env:securesocial.core.RuntimeEnvironment[_])
+
+@import views.html.pub.components._
+
+@views.html.auth.main("Please choose a username", lang, env) {
+<div class="topSpacer"></div>
+
+<div class="fifty createAccount"><div>
+    <div class="page-header header">
+        <h1>Create Your Account</h1>
+    </div>
+<p>Enter your desired username.</p>
+<p>This username will be displayed publicly on the website. Choose wisely, it cannot be changed.</p></br></br></br>
+    @if(flash.contains("error")) {
+    <div class="alert alert-error">
+        @flash.get("error")
+    </div>
+    }
+
+        <form action="/handleUsername"
+              class="form-horizontal"
+              autocomplete= "off"
+              method="POST">
+            <fieldset>
+                <div class="control-group" id="username_field">
+                    <label class="control-label" for="username">Email</label>
+                    <div class="controls">
+
+                    <input type="text" id="username" name="username" value="" class="input-xlarge" placeholder="Username">
+                    <div class="icons iconsuser_dark"></div>
+                        <span class="help-block">Required</span>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+</div>
+</div>
+
+
+<div class="vdivide"></div>
+
+<div class="fifty"><div style="width:400px"><div class="page-header header">
+
+    <h1>@Messages("securesocial.login.bodyTextTitle")</h1>
+    <div class="bodyText"><!--@Messages("securesocial.login.bodyText")-->
+
+        We’re happy to introduce you to the beta versions of victiv.com.  Please explore the website and provide as much feedback as possible, including:</br>
+        <ul>
+            <li>bugs you find</li>
+            <li>elements you don’t understand</li>
+            <li>future features you’d hope to enjoy</li>
+        </ul>
+
+        Our goal is to build the best possible daily fantasy sports experience, and your feedback is integral in making that happen.</br></br>
+
+        When sending us your feedback, please provide as much detail as possible — which browser did you use (Chrome, Safari, Internet Explorer, etc.), PC or Mac, and any screen shots of issues.</br></br>
+
+        Send us emails with your feedback to <a style="color:#000000; text-decoration:underline;" href="mailto:beta@@victiv.com" target="_top">beta@@victiv.com</a>.</div>
+</div>
+</div>
+</div>
+
+}

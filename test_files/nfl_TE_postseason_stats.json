@@ -1,0 +1,267 @@
+{
+  "status": "OK",
+  "recordCount": 1,
+  "startTimestamp": "2014-07-30T13:08:34.7394192Z",
+  "endTimestamp": "2014-07-30T13:08:34.7862942Z",
+  "timeTaken": 0.046875,
+  "apiResults": [
+    {
+      "sportId": 4,
+      "name": "Football",
+      "league": {
+        "leagueId": 8,
+        "name": "National Football League",
+        "abbreviation": "NFL",
+        "displayName": "National Football League",
+        "players": [
+          {
+            "playerId": 403184,
+            "firstName": "Garrett",
+            "lastName": "Celek",
+            "seasons": [
+              {
+                "season": 2013,
+                "name": "2013-2014 NFL Season",
+                "isActive": false,
+                "eventType": [
+                  {
+                    "eventTypeId": 2,
+                    "name": "Postseason",
+                    "splits": [
+                      {
+                        "splitId": -1,
+                        "name": "Official Stats",
+                        "events": [
+                          {
+                            "eventId": 1321959,
+                            "playerStats": {
+                              "receiving": {
+                                "receptions": 1,
+                                "yards": 6,
+                                "average": "6.0",
+                                "long": 6,
+                                "isLongTouchdown": false,
+                                "touchdowns": 0,
+                                "targets": 1,
+                                "yardsAtCatch": 6,
+                                "yardsAtCatchAverage": "6.0",
+                                "yardsAfterCatch": 0,
+                                "yardsAfterCatchAverage": "0.0"
+                              },
+                              "participation": {
+                                "offense": 5,
+                                "defense": 0,
+                                "specialTeams": 5
+                              }
+                            },
+                            "eventRound": {
+                              "eventRoundId": 1,
+                              "name": "Wild Card Playoff"
+                            },
+                            "startDate": [
+                              {
+                                "year": 2014,
+                                "month": 1,
+                                "date": 5,
+                                "hour": 15,
+                                "minute": 40,
+                                "full": "2014-01-05T15:40:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2014,
+                                "month": 1,
+                                "date": 5,
+                                "hour": 21,
+                                "minute": 40,
+                                "full": "2014-01-05T21:40:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2014,
+                                "month": 1,
+                                "date": 5,
+                                "hour": 16,
+                                "minute": 40,
+                                "full": "2014-01-05T16:40:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 359,
+                              "location": "San Francisco",
+                              "nickname": "49ers",
+                              "abbreviation": "SF",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 335,
+                              "location": "Green Bay",
+                              "nickname": "Packers",
+                              "abbreviation": "GB",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 23,
+                              "opponentTeamScore": 20
+                            }
+                          },
+                          {
+                            "eventId": 1321968,
+                            "playerStats": {
+                              "participation": {
+                                "offense": 13,
+                                "defense": 0,
+                                "specialTeams": 5
+                              }
+                            },
+                            "eventRound": {
+                              "eventRoundId": 2,
+                              "name": "Divisional Playoff"
+                            },
+                            "startDate": [
+                              {
+                                "year": 2014,
+                                "month": 1,
+                                "date": 12,
+                                "hour": 13,
+                                "minute": 5,
+                                "full": "2014-01-12T13:05:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2014,
+                                "month": 1,
+                                "date": 12,
+                                "hour": 18,
+                                "minute": 5,
+                                "full": "2014-01-12T18:05:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2014,
+                                "month": 1,
+                                "date": 12,
+                                "hour": 13,
+                                "minute": 5,
+                                "full": "2014-01-12T13:05:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 359,
+                              "location": "San Francisco",
+                              "nickname": "49ers",
+                              "abbreviation": "SF",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 364,
+                              "location": "Carolina",
+                              "nickname": "Panthers",
+                              "abbreviation": "Car",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 2,
+                              "name": "Win",
+                              "teamScore": 23,
+                              "opponentTeamScore": 10
+                            }
+                          },
+                          {
+                            "eventId": 1321972,
+                            "playerStats": {
+                              "participation": {
+                                "offense": 6,
+                                "defense": 0,
+                                "specialTeams": 3
+                              }
+                            },
+                            "eventRound": {
+                              "eventRoundId": 3,
+                              "name": "Conference Championship"
+                            },
+                            "startDate": [
+                              {
+                                "year": 2014,
+                                "month": 1,
+                                "date": 19,
+                                "hour": 15,
+                                "minute": 30,
+                                "full": "2014-01-19T15:30:00",
+                                "dateType": "Local"
+                              },
+                              {
+                                "year": 2014,
+                                "month": 1,
+                                "date": 19,
+                                "hour": 23,
+                                "minute": 30,
+                                "full": "2014-01-19T23:30:00",
+                                "dateType": "UTC"
+                              },
+                              {
+                                "year": 2014,
+                                "month": 1,
+                                "date": 19,
+                                "hour": 18,
+                                "minute": 30,
+                                "full": "2014-01-19T18:30:00",
+                                "dateType": "Eastern"
+                              }
+                            ],
+                            "team": {
+                              "teamId": 359,
+                              "location": "San Francisco",
+                              "nickname": "49ers",
+                              "abbreviation": "SF",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                              }
+                            },
+                            "opponentTeam": {
+                              "teamId": 361,
+                              "location": "Seattle",
+                              "nickname": "Seahawks",
+                              "abbreviation": "Sea",
+                              "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                              }
+                            },
+                            "outcome": {
+                              "outcomeId": 0,
+                              "name": "Loss",
+                              "teamScore": 17,
+                              "opponentTeamScore": 23
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

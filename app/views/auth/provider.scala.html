@@ -1,0 +1,89 @@
+@(providerId: String, loginForm: Option[play.api.data.Form[(String, String)]] = None, request: play.api.mvc.RequestHeader, lang: play.api.i18n.Lang, env: securesocial.core.RuntimeEnvironment[_])
+
+@import securesocial.core.providers.UsernamePasswordProvider
+@import securesocial.core.AuthenticationMethod._
+@import play.api.Logger
+@import helper._
+@import play.api.Play
+
+@implicitFieldConstructor = @{ FieldConstructor(securesocial.views.html.inputFieldConstructor.f) }
+
+@env.providers.get(providerId).map { provider =>
+            @if( provider.authMethod == OAuth1 || provider.authMethod == OAuth2 ) {
+                @defining( "images/providers/%s.png".format(provider.id) ) { imageUrl =>
+                    <a class="icons" href="@env.routes.authenticationUrl(provider.id)"> <img src="@securesocial.controllers.routes.Assets.at(imageUrl)"/></a>
+                }
+            }
+
+            @if( provider.authMethod == UserPassword ) {
+                <form action = "@env.routes.authenticationUrl("userpass")"
+                      class="form-horizontal" autocomplete="off" method="POST">
+                    <fieldset>
+						<div class="control-group  " id="username_field">
+							<label class="control-label" for="username">Email</label>
+							<div class="controls">
+		
+							<input type="text" id="username" name="username" value="" class="input-xlarge" placeholder="Username">
+							<div class="icons iconsuser_dark"></div>
+	
+									<span class="help-block">Required</span>
+		
+							</div>
+						</div>
+						<div class="control-group" id="password_field">
+							<label class="control-label" for="password">Password</label>
+							<div class="controls">
+		
+							<input type="password" id="password" name="password" class="input-xlarge" placeholder="Password">
+							<div class="icons iconspassword_dark"></div>
+	
+									<span class="help-block">Required</span>
+		
+							</div>
+						</div>
+						
+						<!-- manually written above for flexibilty -->
+                        <!--/*@if( UsernamePasswordProvider.withUserNameSupport ) {
+                            @helper.inputText(
+                                loginForm.get("username"),
+                                '_label -> Messages("securesocial.signup.username"),
+                                'class -> "input-xlarge",
+                                'placeholder -> "Username"
+                            )
+                        } else {
+                            @helper.inputText(
+                                loginForm.get("username"),
+                                '_label -> Messages("securesocial.signup.email1"),
+                                'class -> "input-xlarge",
+                                'placeholder -> "Username"
+                            )
+                        }*/-->
+
+                        <!--/*<div class="icons passwordCont">@helper.inputPassword(
+                            loginForm.get("password"),
+                            '_label -> Messages("securesocial.signup.password1"),
+                            'class -> "input-xlarge",
+                            'placeholder -> "Password"
+                        )*/--></div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">@Messages("securesocial.login.title")</button>
+                        </div>
+                        <div class="clearfix">
+                            <a href="@env.routes.resetPasswordUrl">@Messages("securesocial.login.forgotPassword") </a>
+                        </div>
+                        @if(Play.current.configuration.getBoolean("securesocial.registrationEnabled").getOrElse(true) ){
+                        <div class="clearfix">
+                            <a href="/newSignUp">@Messages("securesocial.login.here")</a>
+                        </div>
+                            }
+                    </fieldset>
+                </form>
+            }
+}.getOrElse {
+    @*****************************************
+     * Todo: throw a runtime exception? this might need improvement
+     *****************************************@
+    @Logger.error("[securesocial] unknown provider '%s'. Can't render it.".format(providerId))
+    { throw new RuntimeException("Unknown provider '%s') }
+}

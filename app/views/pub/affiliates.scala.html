@@ -1,0 +1,177 @@
+@(user: models.user.User, wallet: models.wallet.UserWallet)
+@import views.html.pub.components._
+
+@imports.render(user)
+<title>VICTIV | Daily Fantasy Sports Affiliates</title>
+
+@if(user != null){
+    @headerAuth.render(user, wallet)
+} else {
+    @header.render(user)
+}
+<div class="affiliates">
+
+	<div class="col-xs-24 football2">
+		<div class="row section affiliateSign">
+			<div class="col-xs-24 center">
+					<img src="/assets/images/affiliate.png" height="100px" style="margin:0 auto 25px; display:block;">
+			</div>
+			<div class="col-xs-24 mainHeader center">
+				Victiv Affiliates
+			</div>
+			<div class="col-xs-24 descheader center">
+				Turn your website’s visitors directly into cash through the Victiv.com affiliate partners program.
+			</div>
+			<div class="col-xs-24 ">
+				<a href="/newSignUp" class="greenButton center">Sign Up</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-xs-24 intro">
+		<div class="row section">
+			<div class="col-xs-24 descHeader center">
+				<img src="/assets/images/program.png" height="25px" style="margin:0 10px 3px 0;">
+				Victiv Affiliates Program
+			</div>
+		</div>
+		<div class="col-xs-24">
+			<div class="row section">
+				<div class="col-xs-12 descContent">
+					<div class="col-xs-24 descTitle">
+						Affiliate vs. Banner Advertising
+					</div>
+					<div class="col-xs-24 descBody">
+						<p>Victiv.com affiliate program provides website owners a way to earn more money from their visitors than traditional click or impression based advertising. </p>
+						<p>By becoming an affiliate, you earn substantially more for each user referred to Victiv.com than through traditional banner advertising by sharing in the profits that Victiv.com makes from each of your referrals.</p>
+					</div>
+				</div>
+				<div class="col-xs-12 descContent">
+					<div class="col-xs-24 descTitle">
+						Monetize Your Traffic
+					</div>
+					<div class="col-xs-24 descBody">
+						Take advantage of your website traffic and the monetization of a real money gaming platform for increased conversion, higher margins, and larger payments per month.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-xs-24 commission">
+		<div class="row section">
+			<div class="col-xs-24 descHeader center">
+				<img src="/assets/images/commission.png" height="25px" style="margin:0 10px 3px 0;">
+				Commission Structure
+			</div>
+		</div>
+		<div class="col-xs-24">
+			<div class="row section">
+				<div class="col-xs-12 descContent">
+					<div class="col-xs-24 descTitle">
+						Top Rate Commission Structure
+					</div>
+					<div class="col-xs-24 descBody">
+						<p>We pay for each referral you or your website sends to Victiv.com through the most competitive payment commission plan in the industry.</p>
+						<p>In our Revenue Share Commission Plan, we share the money that your users generate on our website. You will receive up to 35% of the money that Victiv.com makes from your referred users.</p>
+					</div>
+				</div>
+				<div class="col-xs-12 descContent">
+					<table>
+					  <tr>
+					    <th>Rake</th>
+					    <th>Commission</th>
+					  </tr>
+					  <tr>
+					    <td>25%</td>
+					    <td>$0 - $2,000</td>
+					  </tr>
+					  <tr>
+					    <td>30%</td>
+					    <td>$2,001 - $5,000</td>
+					  </tr>
+						<tr>
+							<td>35%</td>
+							<td>$5,001+</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-xs-24 promotions">
+		<div class="row section">
+			<div class="col-xs-24 descHeader center">
+				<img src="/assets/images/launch.png" height="25px" style="margin:0 10px 3px 0;">
+				Launch Promotions
+			</div>
+		</div>
+		<div class="col-xs-24">
+			<div class="row section">
+				<div class="col-xs-12 descContent">
+					<div class="col-xs-24 descTitle">
+						50% Flat Commission
+					</div>
+					<div class="col-xs-24 descBody">
+						To celebrate our launch, Victiv.com will pay a flat 50% commission on the revenue your new players generate within their first 45-days of joining the website.
+					</div>
+					<div class="col-xs-24 table">
+						<table>
+							<tr>
+								<td>50%</td>
+								<td>Commission on first 45-days for all new referrals</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="col-xs-12 descContent">
+					<div class="col-xs-24 descTitle">
+						Payment Example
+					</div>
+					<div class="col-xs-24 descBody">
+						You refer 7 new players to Victiv.com in September. Those players generate $2,000 in revenue during their first 45 days. You are paid 50% * $2,000 = $1,000 in commission.
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-xs-24 payments">
+		<div class="row section">
+			<div class="col-xs-24 descHeader center">
+				<img src="/assets/images/payments.png" height="25px" style="margin:0 10px 3px 0;">
+				Payments
+			</div>
+		</div>
+		<div class="col-xs-24">
+			<div class="row section">
+				<div class="col-xs-12 descContent">
+					<div class="col-xs-24 descTitle">
+						Monthly Payments
+					</div>
+					<div class="col-xs-24 descBody">
+						Your commission will be calculated at the end of each calendar month.  Payment will be made as soon as possible thereafter and will be paid to your Victiv.com player wallet.
+					</div>
+				</div>
+				<div class="col-xs-12 descContent pay">
+					<div class="col-xs-24 descTitle">
+						Quick & Easy
+					</div>
+					<div class="col-xs-24 descBody">
+						You can access your Victiv.com player wallet via your player account.  From there, you will be able to withdraw through the cashout methods available to your account.
+					</div>
+					<div class="col-xs-24 descImage center">
+						<img src="/assets/images/cards.png" width="435">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-24 ">
+			<a href="/newSignUp" class="greenButton center">Get Started</a>
+		</div>
+	</div>
+
+</div>
+
+
+@footer.render(user)

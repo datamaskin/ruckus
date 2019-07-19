@@ -1,0 +1,22 @@
+@(user: models.user.User, wallet: models.wallet.UserWallet)
+@import views.html.pub.components._
+
+@imports.render(user)
+<title>About VICTIV | Daily Fantasy Sports for Real Money</title>
+
+@if(user != null){
+    @headerAuth.render(user, wallet)
+} else {
+    @header.render(user)
+}
+<div class="col-xs-24 win">
+	<div class="row section callToAction">
+			<div class="col-xs-3"></div>
+			<div class="col-xs-18">
+				<div class="mainHeader center">ABOUT VICTIV</div>
+				<div class="descHeader center">We are gamers with a love for sports, technology and design. It is our mission to provide a better product for Daily Fantasy Sports. <br/><br/> Find us on <a target="_blank" href="https://www.facebook.com/playvictiv">facebook</a> and <a target="_blank" href="https://twitter.com/playvictiv">twitter</a>.</div>
+			</div>
+			<div class="col-xs-3"></div>
+	</div>
+</div>
+@footer.render(user)

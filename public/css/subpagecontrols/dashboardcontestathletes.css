@@ -1,0 +1,268 @@
+/* -- Authored by Andrew Antar -- */
+
+#dshc_athletes {
+	padding: 0;
+	/*height: 380px;
+	overflow-y: auto;
+	overflow-x:hidden;*/
+}
+
+.ruckus-spc-dashboardcontestathletes .athleteContainer {
+border: 1px solid #cccccc;
+}
+
+.ruckus-spc-dashboardcontestathletes .ellipsis {
+    float: left;
+    overflow: hidden;
+    -moz-binding: url('/css/xml/ellipsis.xml#ellipsis');
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.ruckus-spc-dashboardcontestathletes .middle {
+position: absolute;
+background-color: #ffffff;
+height: 423px;
+width: 60px;
+margin-left: 188px;
+border-left: 1px solid #ebebeb;
+border-right: 1px solid #ebebeb;
+z-index: 3000;
+}
+
+.ruckus-spc-dashboardcontestathletes .line {
+	width: 468px;
+	height: 35px;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	margin-left: -15px;
+	z-index: 9000;
+}
+
+.ruckus-spc-dashboardcontestathletes  .topBar {
+	height: 70px;
+	font-size: 20px;
+	 
+	color: #474747;
+	background-color: #ffffff;
+}
+
+.ruckus-spc-dashboardcontestathletes .topLeft {
+	color: #474747;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.ruckus-spc-dashboardcontestathletes .topRight {
+	color: #474747;
+	font-size: 18px;
+	margin-top: 10px;
+	padding-left: 45px;
+}
+
+.ruckus-spc-dashboardcontestathletes .placeLeft {
+	color: #474747;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.ruckus-spc-dashboardcontestathletes .pointsLeft {
+	color: #474747;
+	font-size: 18px;
+}
+
+.ruckus-spc-dashboardcontestathletes .placeRight {
+	color: #474747;
+	margin-top: 5px;
+	font-size: 12px;
+	padding-left: 45px;
+	padding-right: 0;
+}
+
+.ruckus-spc-dashboardcontestathletes .pointsRight {
+	color: #474747;
+	font-size: 18px;
+}
+
+.ruckus-spc-dashboardcontestathletes .user {
+	margin-top: 22px;
+	margin-left:5px;
+}
+
+.ruckus-spc-dashboardcontestathletes .place {
+	margin-top: 22px;
+}
+
+.ruckus-spc-dashboardcontestathletes .points {
+	margin-top: 22px;
+	margin-left:-22px;
+	padding-right:4px;
+}
+
+.ruckus-spc-dashboardcontestathletes .position {
+	text-align: center;
+	margin-left: 2px;
+}
+
+.ruckus-spc-dashboardcontestathletes .pointsText {
+	font-size: 9px;
+	margin-top:-3px;
+}
+.ruckus-spc-dashboardcontestathletes .placeText {
+	font-size: 9px;
+	margin-top:-3px;
+}
+.ruckus-spc-dashboardcontestathletes .rowColor {
+	height: 35px;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.ruckus-spc-dashboardcontestathletes .timeBar {
+	margin-top: 2px;
+	background-color:#7cdfa4;
+	height:2px;
+}
+
+.ruckus-spc-dashboardcontestathletes .bigTimeBar {
+	background-color:#7cdfa4;
+	height:5px;
+}
+
+
+.ruckus-spc-dashboardcontestathletes .rowColor:nth-child(even) {
+	background-color: #F5FAF9;
+	z-index: 10000;
+}
+
+.ruckus-spc-dashboardcontestathletes .rowColor:hover {
+	background-color: #eaf3f9;
+}
+
+.ruckus-spc-dashboardcontestathletes .name {
+	color: #474747;
+	font-size: 13px;
+	padding-right: 0px;
+}
+
+.ruckus-spc-dashboardcontestathletes .playerPoints {
+	color: #474747;
+	font-size: 15px;
+	margin-bottom: 5px;
+	margin-top: -5px;
+	margin-left: -15px;
+	text-align: center;
+	padding-right: 0;
+}
+
+.ruckus-spc-dashboardcontestathletes .matchup {
+	color:#898989;
+	font-weight:200;
+	font-size:10px;
+	padding-right:0;
+}
+
+.ruckus-spc-dashboardcontestathletes .playerPointsDoubleLeft {
+	color: #474747;
+	font-size: 15px;
+	margin-top: -2px;
+	margin-left: -12px;
+	text-align: right;
+	padding: 0;
+}
+
+.ruckus-spc-dashboardcontestathletes .playerPointsDoubleRight {
+	color: #474747;
+	font-size: 15px;
+	margin-top: -2px;
+	margin-left: -28px;
+	text-align: right;
+	padding: 0;
+}
+
+.ruckus-spc-dashboardcontestathletes .desc {
+	font-size: 10px;
+	padding-right: 0px;
+	padding-left:6px;
+}
+
+
+.ruckus-spc-dashboardcontestathletes .sharedText {
+	color: #474747;
+	padding-top: 8px;
+	padding-bottom: 7px;
+	position: absolute;
+	z-index: 9000;
+	text-align: center;
+	margin-left: 150px;
+	width: 130px;
+	background-color: #ffffff;
+	margin-top: -35px;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.ruckus-spc-dashboardcontestathletes .legend {
+	border-top:1px solid #cccccc;
+	font-size:10px;
+	height:40px;
+	padding-top: 12px;
+	color: #898989;
+}
+
+.dot {
+	height: 8px;
+	width: 8px;
+	border-radius: 50px;
+	border: solid 1px #c3c3c3;
+	margin-top: 4px;
+	background-color: #ebebeb;
+}
+
+.dotPlay {
+	height: 8px;
+	width: 8px;
+	border-radius: 50px;
+	background-color: #7cdfa4;
+	border: solid 1px #7cdfa4;
+	margin-top: 4px;
+}
+
+.dotRedzone {
+	height: 8px;
+	width: 8px;
+	border-radius: 50px;
+	margin-top: 4px;
+    background: #ff8593;
+    -webkit-animation: redZone 1.5s infinite;
+    -moz-animation: redZone 1.5s infinite;
+    -o-animation: redZone 1.5s infinite;
+    animation: redZone 1.5s infinite;
+}
+
+
+@-webkit-keyframes redZone {
+    0% {background: #ff8593; border: solid 1px #ff8593;}
+    50% {background: #7cdfa4; border: solid 1px #7cdfa4;}
+    100% {background: #ff8593;	border: solid 1px #ff8593;}
+}
+
+@-moz-keyframes redZone {
+    0% {background: #ff8593; border: solid 1px #ff8593;}
+    50% {background: #7cdfa4; border: solid 1px #7cdfa4;}
+    100% {background: #ff8593;	border: solid 1px #ff8593;}
+}
+
+@-o-keyframes redZone {
+    0% {background: #ff8593; border: solid 1px #ff8593;}
+    50% {background: #7cdfa4; border: solid 1px #7cdfa4;}
+    100% {background: #ff8593;	border: solid 1px #ff8593;}
+}
+
+@keyframes redZone {
+    0% {background: #ff8593; border: solid 1px #ff8593;}
+    50% {background: #7cdfa4; border: solid 1px #7cdfa4;}
+    100% {background: #ff8593;	border: solid 1px #ff8593;}
+}

@@ -1,0 +1,61 @@
+@(user: models.user.User)
+@import views.html.pub.components._
+
+@google.render(user)
+   <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@@playvictiv">
+    <meta name="twitter:title" content="VICTIV | Daily Fantasy Sports for Real Money">
+    <meta name="twitter:description" content="Play at the most exciting Daily Fantasy Sports site around. Up to $1,000 deposit bonus, win cash daily, and experience an interactive real-time dashboard.">
+    <meta name="twitter:creator" content="@@playvictiv">
+    <!-- Twitter Summary card images must be at least 200x200px -->
+    <meta name="twitter:image" content="https://www.victiv.com/assets/images/twitterMeta.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="VICTIV | Daily Fantasy Sports for Real Money" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.victiv.com/" />
+    <!-- Facebook images should be at least 600x600px -->
+    <meta property="og:image" content="https://www.victiv.com/assets/images/facebookMeta.png" />
+    <meta property="og:description" content="Play at the most exciting Daily Fantasy Sports site around. Up to $1,000 deposit bonus, win cash daily, and experience an interactive real-time dashboard." /> 
+    <meta property="og:site_name" content="VICTIV Daily Fantasy Sports" />
+
+
+
+    <meta name="description" content="Play at the most exciting Daily Fantasy Sports site around. Up to $1,000 deposit bonus, win cash daily, and experience an interactive real-time dashboard.">
+    <meta name="Keywords" content="Daily Fantasy Sports, Fantasy Football, Fantasy Basketball, Fantasy Baseball, Fantasy Hockey, Fantasy Golf, Real Money, VICTIV, Deposit Bonus">
+    <meta name="viewport" content="width=1200, initial-scale=.6">
+    <meta name="somemeta" content="">
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/libraries/bootstrap.min.css")" />
+    <link rel="stylesheet" media="screen" href="@routes.ConfigurableAssets.at("css/icon.css")" />
+    <link rel="stylesheet" media="screen" href="@routes.ConfigurableAssets.at("css/main.css")" />
+    <link rel="stylesheet" href="@routes.ConfigurableAssets.at("css/pagecontrols/staticpages.css")" />
+    <link rel="icon" type="image/png" href="/assets/favicon.ico" />
+</head>
+<body>
+<div id="parentcontainer" class="container parentcontainer preLogin">
+    <div id="header" class="row pagecontrolhighlight">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/landing"></a>
+                </div>
+                <div class="floatRight">
+                <a class="clearbtn" href="/login">
+                  Login</a>
+                <a class="clearbtn" href="/newSignUp">
+                  Sign Up</a>
+              </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+    <div id="main" class="row">
